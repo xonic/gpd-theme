@@ -3,5 +3,5 @@
 *.sass-cache/
 plugins/
 upgrade/
-uploads/
+uploads/*
 !uploads/espresso/
