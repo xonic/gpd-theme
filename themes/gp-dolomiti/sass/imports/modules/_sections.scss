@@ -1,0 +1,111 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for the main sections
+//
+//  ---------------------------------------------------------------------------
+
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the shared styling for the main sections
+//
+//  ---------------------------------------------------------------------------
+	
+	.section--dark
+	{
+		background:$blackSand;
+		color:$white;
+
+		h1, h2
+		{
+			color:$white;
+		}
+	}
+
+	.section__title
+	{
+		text-align:center;
+		@include rem(letter-spacing, -.15);
+	}
+
+	.section__title--emphasized
+	{	
+		@include rem(margin, $doubleSpace 0 $doubleSpace * 2);
+		border:0 solid $sandDark;
+		@include rem(border-top-width, $borderMedium);
+		@include rem(border-bottom-width, $borderMedium);
+		text-transform:uppercase;
+	}
+
+	.section--has-img
+	{
+		@include at-breakpoint($large-width)
+		{
+			position:relative;
+			@include rem(height, $doubleSpace * 25);
+			background:url(../images/about__experience.jpg) center no-repeat transparent;
+			background-size:cover;
+			background-attachment:fixed;
+			border-bottom:0 solid $olive;
+			@include rem(border-bottom-width, $singleSpace);
+
+			// &:nth-child(odd)
+			// {
+			// 	background-attachment:scroll;
+			// }
+		}
+	}
+
+	.section--feel
+	{
+		@include at-breakpoint($large-width)
+		{
+			background-image:url(../images/feel.jpg);
+		}
+	}
+
+	.section--conquer
+	{
+		@include at-breakpoint($large-width)
+		{
+			background-image:url(../images/conquer.jpg);
+		}
+	}
+
+	.section--taste
+	{
+		@include at-breakpoint($large-width)
+		{
+			background-image:url(../images/taste.jpg);
+		}
+	}
+
+	.section--experience
+	{
+		@include at-breakpoint($large-width)
+		{
+			background-image:url(../images/experience.jpg);
+		}
+	}
+
+	.section__bd
+	{
+		@include at-breakpoint($large-width)
+		{
+			position:absolute;
+			@include rem(top, $doubleSpace * 2);
+			@include rem(padding, $doubleSpace * 2);
+			background:rgba($white, .8);
+			@include rem(width, $doubleSpace * 20);
+		}
+	}
+
+	.section__bd--is-right
+	{
+		@include at-breakpoint($large-width)
+		{
+			right:0;
+		}
+	}

@@ -1,0 +1,487 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines all variables.
+//
+//  ---------------------------------------------------------------------------
+
+	
+	// The url is relative to the document, not to the css file!
+    // Prefer absolute urls to avoid confusion.
+	$backgroundSizePolyfillUrl:	url(http://granpremiodolomiti.com/backgroundsize.min.htc);
+
+
+//  = GRAYS
+//  ---------------------------------------------------------------------------
+
+	$black: 				#292929; 	//  16% white
+	$grayVeryDark:			#4d4d4d; 	//  30% white
+	$grayDarker:			#585858; 	//  35% white
+	$grayDark:				#707070; 	//  44% white
+	$gray:					#949494; 	//  58% white
+	$grayLight:				#b8b8b8; 	//  72% white
+	$grayVeryLight:			#dbdbdb; 	//  86% white
+	
+	$whiteSmoke:			#f5f5f5;	//	96% white
+	$whiteSoft:				#fbfbfb;	//	98% white
+	$white: 				#fff; 		// 100% white
+
+	$olive:					#8b826a;
+
+	$sand:					#ebe7cf;
+	$sandLight:				lighten($sand, 5%);
+	$sandDark:				#d4cfb0;
+	$sandVeryDark:			darken($olive, 25%);
+
+	$blackSand:				#332e24;
+
+
+
+
+//  = ACCENT COLORS
+//  ---------------------------------------------------------------------------
+
+	$green:					#bfe05a;
+	$greenVeryLight:		desaturate(lighten($green, 36%), 3%);
+	
+	$red:					#cc4632;
+	$redLight:				desaturate(lighten($red, 25%), 3%);
+	$redDark:				#a73224;
+
+	$blue: 					#3295cc;
+	$blueVeryLight: 		desaturate(lighten($blue, 36%), 3%);
+	$blueLight: 			desaturate(lighten($blue, 30%), 3%);
+	$blueMedium:			darken($blue, 20%);
+	$blueDark:				darken($blue, 30%);
+	$blueVeryDark:			darken($blue, 45%);
+
+	$magenta:				#ea4c88;
+	$purple:				#939;
+	$cyan:					#6cc;
+	$yellow:				#fff2bf;
+	$orange:				#febb33;
+
+	$primaryAccent:			saturate(darken($orange, 10%), 5%);
+	$secondaryAccent:		$orange;
+
+
+// 	= GENERAL SETTINGS
+//	---------------------------------------------------------------------------
+
+	$borderRadius:			2px;
+
+//  = SCAFFOLDING
+//  ---------------------------------------------------------------------------
+
+	$bodyBackground:		$white;//lighten(#d9d4d2, 11%);
+	$textColor:				#4c4535;
+
+
+
+//  = LINKS
+//  ---------------------------------------------------------------------------
+
+	$linkColor:				$secondaryAccent;
+	$linkColorHover:		darken($linkColor, 8);
+	$linkColorVisited:		darken($linkColor, 16%);
+	$linkColorInvisible:	$textColor;	
+
+
+
+//  = TYPOGRAPHY
+//  ---------------------------------------------------------------------------
+
+	$sansFontFamily:        "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	$serifFontFamily:       "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
+	$monoFontFamily:        "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+
+	$htmlFontSize:          62.5%;	
+	$htmlLineHeight:        1;
+	$baseLineHeight:		1.2;
+	$bodyFontSize:          1.8;
+	$bodyLineHeight:        $baseLineHeight * 2;
+
+	$baseLineHeight--medium:		1.4;
+	$bodyFontSize--medium:			1.8;
+	$bodyLineHeight--medium:		$baseLineHeight--medium * 2;
+
+	$baseLineHeight--large:			1.6;
+	$bodyFontSize--large:			2;
+	$bodyLineHeight--large:			$baseLineHeight--large * 2;
+		
+	$baseLineHeight--huge:			1.8;
+	$bodyFontSize--huge:			2.2;
+	$bodyLineHeight--huge:			$baseLineHeight--huge * 2;
+		
+	$baseLineHeight--giant:			2;
+	$bodyFontSize--giant:			2.4;
+	$bodyLineHeight--giant:			$baseLineHeight--giant * 2;
+
+	$baseLineHeight--monstrous:		2.2;
+	$bodyFontSize--monstrous:		2.6;
+	$bodyLineHeight--monstrous:		$baseLineHeight--monstrous * 2;
+
+
+	$baseFontFamily:        $serifFontFamily;
+	$altFontFamily:         $sansFontFamily;
+
+	$smallFontSize:			$baseLineHeight - 0.2;
+
+	$normalFontWeight:			400;
+	$boldFontWeight:			700;
+
+	$headingsFontFamily:    $sansFontFamily; 	// empty to use BS default, $baseFontFamily
+	$headingsFontWeight:    $normalFontWeight;
+	$headingsColor:         $blackSand;			// empty to use BS default, $textColor
+
+	/* h1 Sizes */
+	$h1Size:				4.2;
+	$h1LineHeight:			4.4;
+
+	$h1Size--medium:		4.2;
+	$h1LineHeight--medium:	4.4;
+	
+	$h1Size--large:			4.8;
+	$h1LineHeight--large:	5.5;
+	
+	$h1Size--huge:			5.4;
+	$h1LineHeight--huge:	5.5;
+	
+	$h1Size--giant:			6;
+	$h1LineHeight--giant:	6.6;
+	
+	$h1Size--monstrous:		7.2;
+	$h1LineHeight--monstrous:7.7;
+
+	/* h2 Sizes */
+	$h2Size:				3.2;
+	$h2LineHeight:			3.3;
+	
+	$h2Size--medium:		3.2;
+	$h2LineHeight--medium:	3.3;
+	
+	$h2Size--large:			3.8;
+	$h2LineHeight--large:	4.4;
+	
+	$h2Size--huge:			4.4;
+	$h2LineHeight--huge:	4.4;
+	
+	$h2Size--giant:			5;
+	$h2LineHeight--giant:	5.5;
+	
+	$h2Size--monstrous:		5.6;
+	$h2LineHeight--monstrous:6.6;
+
+	/* h2 Sizes */
+	$h3Size:				2.6;
+	$h3LineHeight:			2.8;
+
+	$h4Size:				2.1;
+	$h4LineHeight:			2.8;
+
+
+
+//  = SPACING AND ALIGNMENT
+//  ---------------------------------------------------------------------------
+
+	$singleSpace:			$baseLineHeight;
+	$doubleSpace:			$singleSpace * 2;
+	$touchSize:				$doubleSpace * 2;
+
+
+
+//	= NAVIGATION
+//  ---------------------------------------------------------------------------
+
+	$navSize:						1.6;
+	$navLineHeight:					1.8;
+
+	$navHeight:						$doubleSpace * 2;
+	$navMainBackgroundColor:		$blue;
+	$navMainMobileBackgroundColor:	$blueMedium;
+	$navFontColor:					$white;
+
+	$navMainActiveBackgroundColor:	$blueDark;
+
+
+
+//  = INPUT FORMS & BUTTONS
+//  ---------------------------------------------------------------------------
+	
+	$inputHeightLarge:					$baseLineHeight * 4;
+	$inputHeight:						$baseLineHeight * 3;
+
+	$inputHeight--medium:				$bodyLineHeight--medium * 1.5;
+	$inputHeight--large:				$bodyLineHeight--large * 1.5;
+	$inputHeight--huge:					$bodyLineHeight--huge * 1.5;
+	$inputHeight--giant:				$bodyLineHeight--giant * 1.5;
+	$inputHeight--monstrous:			$bodyLineHeight--monstrous * 1.5;
+		
+	$btnFontSize:						$bodyFontSize;
+	$btnLargeFontSize:					$h4Size;
+	$btnHugeFontSize:					$h3Size;
+		
+	$formActionsBackground:				$green;
+			
+	$inputBackgroundColor:				$white;
+	$inputFocusColor:					$whiteSmoke;
+	$inputDisabledBackground:			$grayVeryLight;
+	$inputBorderColor:					$grayVeryLight;
+	$inputBorderRadius:					$borderRadius;
+	$inputFocusBorderColor:				$primaryAccent;
+
+	$inputRequiredColor:				$red;
+
+	$searchButtonHoverBackgroundColor:	$blue;
+	$searchButtonActiveBackgroundColor:	darken($blue, 10%);
+	$searchButtonHoverTextColor:		darken($blue, 40%);
+	
+	$placeholderTextColor:				$gray;
+	$disabledTextColor:					$grayVeryLight;
+		
+	$messageTextSize:					1.4;
+			
+	$warningTextColor:					$yellow;   
+	$warningBorderColor:				$yellow;  
+	$warningBackgroundColor:			lighten($warningBorderColor, 16%); 
+			
+	$errorTextColor:					$red; 
+	$errorBorderColor:					$red;  
+	$errorBackgroundColor:				lighten($errorBorderColor, 37%); 
+	$errorShadowColor:					transparentize(darken($red, 50%), .75);  
+	$errorIconColor:  					$red;  
+		
+		
+	$successTextColor:					$green;
+	$successBorderColor:				$green;           
+	$successBackgroundColor:			lighten($successBorderColor, 16%);
+	$successIconColor:					$green;
+		
+	$infoTextColor:						$blue;   
+	$infoBorderColor:					$blue;          
+   	$infoBackgroundColor:				lighten($infoBorderColor, 16%);  
+	$btnBorderRadius:					$borderRadius;
+		
+	// Generic button		
+	$btnColorLight:						$white;
+	$btnColorDark:						darken($btnColorLight, 2%);
+	$btnFontColor:						$textColor;
+	$btnBorderColor:      				$grayVeryLight;
+
+	// Primary button
+	$btnPrimaryColorLight:				$primaryAccent;
+	$btnPrimaryColorDark:				darken($btnPrimaryColorLight, 3%);
+	$btnPrimaryFontColor:				$white;
+	$btnPrimaryBorderColor: 			desaturate(darken($btnPrimaryColorDark, 3%), 3%);
+			
+	// Success button		
+	$btnSuccessColorLight:				$green;
+	$btnSuccessColorDark:				darken($btnSuccessColorLight, 3%);
+	$btnSuccessFontColor:				$black;
+	$btnSuccessBorderColor: 			desaturate(darken($btnSuccessColorDark, 3%), 3%);
+		
+	// Disabled button		
+	$btnDisabledColor:					$white;
+	$btnDisabledFontColor:				$grayLight;
+	$btnDisabledBorderColor: 			lighten($grayVeryLight, 3%);
+		
+   	$horizontalComponentOffset: 		$bodyLineHeight * 200;     
+
+
+
+//  = BORDERS
+//  ---------------------------------------------------------------------------
+
+	$borderThin:				.1;
+	$borderMedium:				.2;
+	$borderThick:				.4;
+	$borderVeryThick:			$baseLineHeight;
+
+	$pillBorderRadius:			999em;
+
+
+
+//  = BOXES
+//  ---------------------------------------------------------------------------
+
+	$boxBorderColor:			$grayVeryLight;
+	$boxBackgroundColor:		#f7f6f5;
+	$boxSelectedLightColor:		lighten($primaryAccent, 30%);
+	$boxSelectedDarkColor:		lighten($primaryAccent, 28%);
+	$boxSelectedBorderColor:	$primaryAccent;
+
+
+
+//  = SEPARATOR LINES
+//  ---------------------------------------------------------------------------
+
+	$separatorColor:			$primaryAccent;
+
+
+
+//	= ACCORDION
+//	---------------------------------------------------------------------------
+
+	$accordionLinkColor:				$textColor;
+	$accordionLinkHoverColor:			$primaryAccent;
+	$accordionDividerTopBorderColor:	$whiteSoft;
+	$accordionDividerBottomBorderColor:	$boxBorderColor;
+	$accordionInnerBackgroundColor:		$boxBackgroundColor;
+
+
+//	= CALENDAR
+//	---------------------------------------------------------------------------
+
+	$calBackgroundColor:			$white;
+	$calTextColor:					$textColor;
+
+	$calColHeadTextColor:			$grayLight;
+	$calRowHeadTextColor:			$grayLight;
+	$calRowBorderColor:				$whiteSmoke;
+
+	$calTitleBorderColor:			$primaryAccent;
+	$calEntryHoverColor:			$whiteSmoke;
+
+	$calCurrentTextColor:			$primaryAccent;
+	$calCurrentBackgroundColor:		$blueVeryLight;
+	$calCurrentHoverColor:			$blueLight;	
+
+	$calOutofdateTextColor:			$grayVeryLight;
+
+	$calLinkColor:					$linkColor;
+
+
+//	= PANEL
+//	---------------------------------------------------------------------------
+
+	$panelHeadTextColor:			$white;
+	$panelHeadBackgroundColor:		$primaryAccent;
+
+
+//	= PLACEHOLDERS
+//	---------------------------------------------------------------------------
+
+	$phTextBackgroundColor:		$grayVeryLight;
+	$phImgBackgroundColor:		$grayLight;
+
+
+//	= PROGRESS BAR
+//	---------------------------------------------------------------------------
+
+	$progessBackgroundColor:		$white;
+	$progressFillColor:				$blue;
+
+	$progress-delay: 			0;
+	$progress-duration: 		2s;
+	$progress-function: 		linear;
+	$progress-name: 			progress-bar-stripes;
+	$progress-count: 			infinite;
+
+
+//	= SPINNER
+//	---------------------------------------------------------------------------
+
+	$spinner-hole-color: 		transparent;
+	$spinner-size: 				46px;
+	$spinner-background:		$whiteSmoke;
+	$spinner-fill: 				$blue;
+	$spinner-function: 			linear;
+	$spinner-opacity: 			.8;
+	$spinner-duration: 			3s;
+	$spinner-count:				infinite;
+	$spinner-rotate-left:		spinner-rotate-left;
+	$spinner-rotate-right:		spinner-rotate-right;
+
+
+//	= TAB NAV
+//	---------------------------------------------------------------------------	
+
+	/* standard */
+	$tabBackgroundColor:			$white;
+	$tabBorderColor:				$whiteSmoke;
+	$tabTextColor:					$gray;
+	
+	$tabHoverBackgroundColor:		$whiteSmoke;
+	
+	$tabActiveTextColor:			$primaryAccent;
+	$tabActiveBorderColor:			$primaryAccent;
+	
+	/* sub */
+	$tabSubTextColor:				$primaryAccent;
+	$tabSubHoverBackgroundColor:	$primaryAccent;
+
+	$tabSubActiveBackgroundColor:	$primaryAccent;
+	$tabSubActiveTextColor:			$white;
+
+	/* alt */
+	$tabAltActiveBorderColor:		$primaryAccent;
+	$tabAltBackgroundColor:			$white;
+	$tabAltActiveTextColor:			$primaryAccent;
+
+//	= TAB NAV
+//	---------------------------------------------------------------------------	
+
+	$flyoutToggleBackgroundColor:		$primaryAccent;
+	$flyoutToggleTextColor:				$white;
+
+
+	$flyoutBorderColor:					$whiteSmoke;
+	$flyoutItemTextColor:				$primaryAccent;
+	$flyoutItemBorderColor:				$primaryAccent;
+	$flyoutItemHoverTextColor:			$white;
+	$flyoutItemHoverBackgroundColor:	$primaryAccent;
+	$flyoutItemHoverBorderColor:		$primaryAccent;
+
+//	= TABLE
+//	---------------------------------------------------------------------------		
+
+	$tableBorderColor:					$whiteSmoke;
+	$tableBackgroundColor:				$white;
+
+	$table2ndBorderColor:				$blueLight;
+	$table2ndBackgroundColor:			$blueVeryLight;
+	$table2ndHoverBackgroundColor:		$blueLight;
+
+	$tableDividerBorderColor:			$gray;
+
+	$tableLasteditedBackgroundColor:	$greenVeryLight;
+
+	$tableDisabledBackgroundColor:		$whiteSmoke;
+	$tableDisabledTextColor:			$grayLight;
+
+	$tableSelectedBorderColor:			$blueVeryLight;
+	$tableSelectedBackgroundColor:		$blueLight;
+	$tableSelectedShadowColor:			$blueDark;
+
+//	= WIZARD
+//	---------------------------------------------------------------------------		
+
+	/* horizontal */
+	$wizardTextColor:					$grayLight;
+	$wizardLineColor:					$grayVeryLight;
+	$wizardIconBackgroundColor:			$whiteSmoke;
+
+	$wizardPrevTextColor:				$black;
+	$wizardPrevIconBorderColor:			$whiteSmoke;
+	$wizardPrevIconBackgroundColor:		$white;
+
+	$wizardCurrentTextColor:			$black;
+	$wizardCurrentIconBackgroundColor:	$primaryAccent;
+	$wizardCurrentIconColor:			$white;
+
+	/* vertical */
+
+	$wizardVDividerColor:				$boxBorderColor;
+	$wizardVBackgroundColor:			$boxBackgroundColor;
+
+
+
+
+
+
+
+
+
+
+
+
+

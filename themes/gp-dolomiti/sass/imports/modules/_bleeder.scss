@@ -1,0 +1,25 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for program section
+//
+//  ---------------------------------------------------------------------------
+
+
+	.bleed
+	{
+		@include bleed;
+	}
+
+	.bleed--content-too
+	{
+		padding-right:0;
+		padding-left:0;
+	}
+
+	// .bleeder--on-all-breakpoints
+	// {
+	// 	@include at-breakpoint($medium-width)
+	// 	{
+	// 		@include bleed;
+	// 	}
+	// }

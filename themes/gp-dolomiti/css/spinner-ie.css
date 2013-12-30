@@ -1,0 +1,14 @@
+/* line 1, ../sass/spinner-old-ie.scss */
+.spinner {
+  background: url(../img/throbber.gif) no-repeat center center !important;
+  min-width: 32px;
+  min-height: 32px;
+}
+/* line 5, ../sass/spinner-old-ie.scss */
+.spinner:after {
+  display: none !important;
+}
+/* line 8, ../sass/spinner-old-ie.scss */
+.spinner .spinner__side {
+  display: none !important;
+}

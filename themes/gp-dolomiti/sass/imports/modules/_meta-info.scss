@@ -1,0 +1,39 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for the footer area.
+//
+//  ---------------------------------------------------------------------------
+
+.l-meta-info 
+{
+	@include rem(margin, 0 -$r-grid-padding);
+	clear:both;
+
+//  = LARGE SCREEN
+//  ---------------------------------------------------------------------------
+
+	// @include at-breakpoint($large-width)
+	// {
+	// 	@include prefix(2, $large-cols);
+	// 	@include span-columns(6, $large-cols);
+	// }
+	
+
+//  = HUGE SCREEN
+//  ---------------------------------------------------------------------------
+
+	// @include at-breakpoint($huge-width no-mq)
+	// {
+	// 	@include prefix(3, $huge-cols);
+	// 	@include span-columns(9, $huge-cols);
+	// }
+
+}
+
+
+.meta-info
+{
+	@include rem(padding, $doubleSpace $r-grid-padding);
+	background:darken($primaryAccent, 45%);
+	color:$white;
+}

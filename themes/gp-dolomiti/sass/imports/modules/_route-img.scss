@@ -1,0 +1,148 @@
+//  ---------------------------------------------------------------------------
+//
+//  Route images
+//
+//  ---------------------------------------------------------------------------
+
+	$ieBackgroundPosX: -204px;
+
+	.route-img
+	{
+		display:block;
+		background-image:url(../images/experiences.jpg);
+		background-size:1200% 100%;
+	}
+
+	#ie7 .route-img,
+	#ie8 .route-img
+	{
+   		-ms-behavior: $backgroundSizePolyfillUrl;
+	}
+
+	.route-img--2
+	{
+		background-position:-100% 0;
+	}
+
+	#ie7 .route-img--2,
+	#ie8 .route-img--2
+	{
+		background-position:$ieBackgroundPosX 0;
+	}
+
+	.route-img--3
+	{
+		background-position:-200% 0;
+	}
+
+	#ie7 .route-img--3,
+	#ie8 .route-img--3
+	{
+		background-position:$ieBackgroundPosX * 2 0;
+	}
+
+	.route-img--4
+	{
+		background-position:-300% 0;
+	}
+
+	#ie7 .route-img--4,
+	#ie8 .route-img--4
+	{
+		background-position:$ieBackgroundPosX * 3 0;
+	}
+
+	.route-img--5
+	{
+		background-position:-400% 0;
+	}
+
+	#ie7 .route-img--5,
+	#ie8 .route-img--5
+	{
+		background-position:$ieBackgroundPosX * 4 0;
+	}
+
+	.route-img--6
+	{
+		background-position:-500% 0;
+	}
+
+	#ie7 .route-img--6,
+	#ie8 .route-img--6
+	{
+		background-position:$ieBackgroundPosX * 5 0;
+	}
+
+	.route-img--7
+	{
+		background-position:-600% 0;
+	}
+
+	#ie7 .route-img--7,
+	#ie8 .route-img--7
+	{
+		background-position:$ieBackgroundPosX * 6 0;
+	}
+
+	.route-img--8
+	{
+		background-position:-700% 0;
+	}
+
+	#ie7 .route-img--8,
+	#ie8 .route-img--8
+	{
+		background-position:$ieBackgroundPosX * 7 0;
+	}
+
+	.route-img--9
+	{
+		background-position:-800% 0;
+	}
+
+	#ie7 .route-img--9,
+	#ie8 .route-img--9
+	{
+		background-position:$ieBackgroundPosX * 8 0;
+	}
+
+	.route-img--10
+	{
+		background-position:-900% 0;
+	}
+
+	#ie7 .route-img--10,
+	#ie8 .route-img--10
+	{
+		background-position:$ieBackgroundPosX * 9 0;
+	}
+
+	.route-img--11
+	{
+		background-position:-1000% 0;
+	}
+
+	#ie7 .route-img--11,
+	#ie8 .route-img--11
+	{
+		background-position:$ieBackgroundPosX * 10 0;
+	}
+
+	.route-img--12
+	{
+		background-position:-1100% 0;
+	}
+
+	#ie7 .route-img--12,
+	#ie8 .route-img--12
+	{
+		background-position:$ieBackgroundPosX * 11 0;
+	}
+
+
+
+
+
+
+

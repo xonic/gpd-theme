@@ -1,0 +1,12 @@
+.event-name
+{
+	width:230px;
+	height:120px;
+	background:url(../images/logo-ie.png) top left no-repeat transparent;
+}
+
+.event-name,
+.event-name small
+{
+	color:transparent;
+}

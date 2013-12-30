@@ -1,0 +1,25 @@
+
+//  ---------------------------------------------------------------------------
+//
+//  A tile that grows or shrinks in height according to its width
+//
+//  ---------------------------------------------------------------------------
+
+	.tile
+	{
+		position:relative;
+	}
+
+	.tile__helper
+	{
+		padding-top:65%;
+	}
+
+	.tile__content
+	{
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+	}

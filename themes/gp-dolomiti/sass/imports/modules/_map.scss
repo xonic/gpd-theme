@@ -1,0 +1,120 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for google maps
+//
+//  ---------------------------------------------------------------------------
+
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for google maps
+//
+//  ---------------------------------------------------------------------------
+
+	.map-container
+	{ 
+		position:relative;
+		@include rem(height, $doubleSpace * 10);
+		@include bleed;
+		padding:0;
+		overflow:hidden;
+
+		.map-canvas
+		{
+			@include rem(height, $doubleSpace * 10);			
+		}
+	}
+
+	.map-link
+	{
+		display:block;
+		background-image:url(../images/routes/routes--320.jpg);
+		background-size:400% 100%;
+		border:0 none;
+
+		&:after
+		{
+			content:"Google Maps Route";
+			position:absolute;
+			top:0;
+			right:0;
+			bottom:0;
+			left:0;
+			padding-top:25%;
+			background:rgba($black, .5);
+			font-family:$headingsFontFamily;
+			color:$white;
+			text-align:center;
+			text-shadow:0 1px 1px rgba($black, .8);
+			opacity:0;
+			@include transition(opacity .2s ease-in-out);
+		}
+
+		&:hover:after
+		{
+			opacity:1;
+		}
+	}
+
+	.touch .map-link:after
+	{
+		top:auto;
+		right:auto;
+		opacity:1;
+		@include rem(padding, .3 .5);
+	}
+
+	[lang*="en-"] .map-link:after
+	{
+		content:"View on Google Maps";
+	}
+
+	[lang*="de-"] .map-link:after
+	{
+		content:"Auf Google Maps anzeigen";
+	}
+
+	[lang*="it-"] .map-link:after
+	{
+		content:"Mostra su Google Maps";
+	}
+
+	[lang*="fr-"] .map-link:after
+	{
+		content:"Voir sur Google Maps";
+	}
+
+	.map-link--route-2
+	{
+		background-position:-100% 0;
+	}
+
+	.map-link--route-3
+	{
+		background-position:-200% 0;
+	}
+
+	.map-link--route-4
+	{
+		background-position:-300% 0;
+	}
+
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+	{
+		.map-link
+		{
+			background-image:url(../images/routes/routes--320--2x.jpg);
+		}
+	}
+
+
+
+
+
+
+
+
+
+

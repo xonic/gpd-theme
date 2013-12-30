@@ -1,0 +1,177 @@
+//  ---------------------------------------------------------------------------
+//
+//  Event Espresso form styles
+//
+//  ---------------------------------------------------------------------------
+	
+	.grid
+	{
+		#event_espresso_registration_form
+		{
+			margin:0;
+			padding:0;
+			font-family:$serifFontFamily;
+			@include setType($bodyFontSize, $bodyLineHeight);
+		}
+
+		form,
+		#event-reg-form-groups
+		{
+			margin:0 auto;
+			@include rem(max-width, 60);
+		}
+
+		.form-section
+		{
+			@include rem(margin, 0 0 $doubleSpace * 2);
+			@include rem(padding, 0 0 $doubleSpace * 2);
+			border-bottom:0 solid $sandDark;
+			@include rem(border-bottom-width, $borderMedium);
+		}
+
+		.reg-quest-title
+		{
+			@include rem(margin, $doubleSpace * 3 0 $doubleSpace);
+			@include setType($h3Size, $h3LineHeight);
+			font-weight:normal;
+
+			&:first-child
+			{
+				margin-top:0;
+			}
+		}
+
+		.event_form_field
+		{
+			margin:0;
+			
+			.ee-reg-page-text-input
+			{
+				display:inline-block;
+				width:100%;
+				@include rem(min-height, $touchSize);
+				@include rem(margin-bottom, $doubleSpace);
+				@include rem(padding, $singleSpace / 2 $singleSpace);
+				background-color: $inputBackgroundColor;
+				border: 1px solid $inputBorderColor;
+				border-radius:$inputBorderRadius;
+				border-top-color:darken($inputBorderColor, 10%);
+				color:$textColor;
+				-webkit-appearence:none;
+				@include transition(border linear .2s 0, box-shadow linear .2s 0, margin linear .2s 0);
+
+				&:hover
+				{
+					border-color:darken($inputBorderColor, 12%);
+					border-top-color:darken($inputBorderColor, 22%);
+					@include box-shadow(inset 0 1px 1px rgba(0,0,0,.1));
+				}
+
+				&:active,
+				&:focus 
+				{			
+					border-color:lighten($inputFocusBorderColor, 5%);
+					border-top-color:$inputFocusBorderColor;
+					@include box-shadow(inset 0 1px 2px rgba(0,0,0,.2));
+					//remove outline border in IE LTE9
+					outline:none;
+					ie-dummy:expression(this.hideFocus=true);
+				}
+
+				&.error 
+				{
+					@include rem(margin-bottom, $singleSpace);
+				}
+			}
+
+			select
+			{
+				width:100%;
+				@include rem(height, $touchSize);
+				@include rem(line-height, $touchSize);
+			}
+		}
+
+		.ee-reg-page-questions
+		{
+			display:block;
+			width:100%;
+			@include rem(min-height, $bodyLineHeight);
+			padding:0;
+			@include rem(margin-bottom, $singleSpace / 2);
+			text-align:left;
+			@include setType($bodyFontSize, $bodyLineHeight);
+		}
+
+		.event_form_submit
+		{
+			margin:0 auto;
+			padding:0;
+			@include rem(max-width, 60);
+		}
+
+		.event_form_field label.error
+		{
+			@include rem(margin, 0 0 $doubleSpace);
+			padding:0;
+			@include setType($bodyFontSize - .2, $bodyLineHeight);
+		}
+
+	}
+
+	.page form 
+	{
+		@include rem(padding, $doubleSpace $doubleSpace 0);
+		background:$white;
+		border:0 solid $sandDark;
+		@include rem(border-width, $borderThin);
+		// box-shadow:0 2px 3px rgba(0,0,0,.25);
+	}
+
+	.media__img--payment
+	{
+		display:block;
+		@include rem(margin-top, 1);
+	}
+
+	// .page form 
+	// {
+	// 	position:relative;
+
+	// 	&:before,
+	// 	&:after,
+	// 	> div
+	// 	{
+	// 		content:" ";
+	// 		position:absolute;
+	// 		top:0;
+	// 		left:0;
+	// 		width:100%;
+	// 		height:100%;
+	// 		background:$white;
+	// 		border:0 solid lighten($olive, 20%);
+	// 		@include rem(border-width, $borderThin);
+	// 		box-shadow:0 2px 3px rgba(0,0,0,.25);
+	// 	}
+
+	// 	&:before
+	// 	{
+	// 		@include transform(translate3d(5px, -4px, 0) rotateZ(-0.3deg));
+	// 		z-index:1;
+	// 	}
+
+	// 	&:after
+	// 	{
+	// 		@include transform(translate3d(-5px, -4px, 0) rotateZ(0.3deg));
+	// 		z-index:2;
+	// 	}
+
+	// 	> div
+	// 	{
+	// 		position:relative;
+	// 		@include rem(padding, $doubleSpace $doubleSpace 0);
+	// 		z-index:3;
+	// 	}
+	// }
+
+

@@ -1,0 +1,377 @@
+//  ---------------------------------------------------------------------------
+//
+//  Typography
+//	Headings, body text, lists, code, and more 
+//	for a versatile and durable typography system.
+//
+//	It is IMPORTANT to only apply margins on LEFT and BOTTOM of elements.
+//	The method of single direction margins helps keeping modules 
+//	location-independent.
+//
+//  ---------------------------------------------------------------------------
+
+
+
+//  = BOX SIZING
+//  ---------------------------------------------------------------------------
+
+	*
+	{
+		@include box-sizing(border-box);
+	}
+
+
+
+//  = VERTICAL RHYTHM
+//  ---------------------------------------------------------------------------
+
+	h1,h2,h3,h4,h5,h6,hgroup,
+	ul,ol,dd,
+	p,figure,
+	pre,table,fieldset,hr
+	{
+		margin:0;
+		@include rem(margin-bottom, $bodyLineHeight);
+	}
+
+
+
+//  = BODY TEXT
+//  ---------------------------------------------------------------------------
+	
+
+	html
+	{
+		font-family:$serifFontFamily;
+		font-size:$htmlFontSize;
+		line-height:$htmlLineHeight;
+	}
+
+	body
+	{
+		@include setType($bodyFontSize, $bodyLineHeight);
+		// @include hyphens(auto);
+		background-color:$bodyBackground;
+		// background-image:url(../img/vertical-rhythm-16.svg);
+		// background-size:100% 11px;
+		color:$textColor;
+
+
+		& > section
+		{
+			@include rem(padding, $doubleSpace 0);
+			border-bottom:0 solid $olive;
+			@include rem(border-bottom-width, $singleSpace);
+		}
+
+
+	//  = MEDIUM
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($medium-width $medium-cols)
+		{
+			@include setType($bodyFontSize--medium, $bodyLineHeight--medium);
+		}
+
+
+
+	//  = LARGE
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+			&:before
+			{
+				content:" ";
+				position:absolute;
+				top:0;
+				right:0;
+				left:0;
+				@include rem(height, $doubleSpace * 40);
+				background:url(../images/branding-bg-2.jpg) 50% 48px no-repeat;
+				background-size:100%;
+				background-attachment:fixed;
+			}
+		}
+
+
+
+	//  = HUGE
+	//  ---------------------------------------------------------------------------
+
+	// 	@include at-breakpoint($huge-width $huge-cols no-mq)
+	// 	{
+	// 		@include setType($bodyFontSize--huge, $bodyLineHeight--huge);
+	// 	}
+
+
+
+	// //  = GIANT
+	// //  ---------------------------------------------------------------------------
+
+	// 	@include at-breakpoint($giant-width $giant-cols)
+	// 	{
+	// 		@include setType($bodyFontSize--giant, $bodyLineHeight--giant);
+	// 	}
+
+
+
+	//  = MONSTROUS
+	//  ---------------------------------------------------------------------------
+
+		// @include at-breakpoint($monstrous-width $monstrous-cols)
+		// {
+		// 	@include setType($bodyFontSize--monstrous, $bodyLineHeight--monstrous);
+		// }
+	}
+
+	.page-template-timetable-php
+	{
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+			&:before
+			{
+				background-image:url(../images/branding-bg-program.jpg);
+			}
+		}
+	}
+
+	.page-template-packages-php
+	{
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+			&:before
+			{
+				background-image:url(../images/branding-bg-packages.jpg);
+			}
+		}
+	}
+
+	.page-template-regulations-php
+	{
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+			&:before
+			{
+				background-image:url(../images/branding-bg-regulations.jpg);
+			}
+		}
+	}
+
+	.page-template-contact-php
+	{
+		@include at-breakpoint($large-width $large-cols)
+		{
+			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+			&:before
+			{
+				background-image:url(../images/branding-bg-contact.jpg);
+			}
+		}
+	}
+
+	#ie7 body,
+	#ie8 body
+	{
+		background:url(../images/branding-bg-2.jpg) top center no-repeat;
+		background-size:100% auto;
+   		-ms-behavior: $backgroundSizePolyfillUrl;
+
+   		&:after
+   		{
+   			content:none;
+   		}
+	}
+
+	#ie7 .page-template-timetable-php,
+	#ie8 .page-template-timetable-php
+	{
+		background-image:url(../images/branding-bg-program.jpg);
+	}
+
+	#ie7 .page-template-packages-php,
+	#ie8 .page-template-packages-php
+	{
+		background-image:url(../images/branding-bg-packages.jpg);
+	}
+
+	#ie7 .page-template-regulations-php,
+	#ie8 .page-template-regulations-php
+	{
+		background-image:url(../images/branding-bg-regulations.jpg);
+	}
+
+	#ie7 .page-template-contact-php,
+	#ie8 .page-template-contact-php
+	{
+		background-image:url(../images/branding-bg-contact.jpg);
+	}
+
+
+	p
+	{
+		small 
+		{
+			font-size:$bodyFontSize - 2;
+		}
+	}
+
+	pre
+	{
+		// undo reset
+		word-wrap:normal;
+	}
+
+	::-moz-selection 
+	{
+	    background-color:$primaryAccent;
+	    color:$white;
+	}
+
+	::selection 
+	{
+	    background-color:$primaryAccent;
+	    color:$white;
+	}
+
+
+
+//  = LINKS
+//  ---------------------------------------------------------------------------
+	
+	a
+	{
+		// padding:0 1px;
+
+		border-bottom:0 solid $linkColor;
+		@include rem(border-bottom-width, $borderMedium);
+
+		text-decoration:none;
+		color:$textColor;
+		cursor:pointer;
+
+		@include transition(all);
+		@include transition-duration(.1s);
+
+		-webkit-tap-highlight-color: rgba(0,0,0,0); // according to ipad app
+	}
+	
+	a:active,
+	.no-touch a:hover
+	{
+		// background-color:$linkColor;
+		text-decoration:none;
+		color:$linkColor;
+	}
+
+//  = LISTS
+//  ---------------------------------------------------------------------------
+	
+	ul, ol
+	{
+		list-style-type:none;
+		@include rem(margin, 0 0 $doubleSpace);
+		padding:0;
+	}
+
+	dt
+	{
+		font-family:$baseFontFamily;
+		font-weight:$boldFontWeight;
+	}
+
+
+
+//  = HEADINGS
+//  ---------------------------------------------------------------------------
+	
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6,
+	%h1, %h2, %h3, %h4, %h5, %h6
+	{
+		font-family:$headingsFontFamily;
+		font-weight:$headingsFontWeight;
+		color:$headingsColor;
+		text-rendering:optimizelegibility;
+		@include hyphens(none);
+
+		small
+		{
+			display:block;
+			font-family:$baseFontFamily;
+			font-size:60%;
+			color:$gray;
+		}
+	}
+
+	h1, .h1, %h1
+	{
+		@include setType($h1Size, $h1LineHeight);
+
+		@include at-breakpoint($medium-width $medium-cols) { @include setType($h1Size--medium, $h1LineHeight--medium); }
+		@include at-breakpoint($large-width $large-cols) { @include setType($h1Size--large, $h1LineHeight--large); }
+		@include at-breakpoint($huge-width $huge-cols) { @include setType($h1Size--huge, $h1LineHeight--huge); }
+		@include at-breakpoint($giant-width $giant-cols) { @include setType($h1Size--giant, $h1LineHeight--giant); }
+		@include at-breakpoint($monstrous-width $monstrous-cols) { @include setType($h1Size--monstrous, $h1LineHeight--monstrous); }
+	}
+
+	h2, .h2, %h2
+	{
+		@include setType($h2Size, $h2LineHeight);
+
+		@include at-breakpoint($medium-width $medium-cols) { @include setType($h2Size--medium, $h2LineHeight--medium); }
+		@include at-breakpoint($large-width $large-cols) { @include setType($h2Size--large, $h2LineHeight--large); }
+		@include at-breakpoint($huge-width $huge-cols) { @include setType($h2Size--huge, $h2LineHeight--huge); }
+		@include at-breakpoint($giant-width $giant-cols) { @include setType($h2Size--giant, $h2LineHeight--giant); }
+		@include at-breakpoint($monstrous-width $monstrous-cols) { @include setType($h2Size--monstrous, $h2LineHeight--monstrous); }
+	}
+
+	h3, .h3, %h3
+	{
+		@include setType($h3Size, $h3LineHeight);
+	}
+
+	h4, .h4, %h4
+	{
+		@include setType($h4Size, $h4LineHeight);
+	}
+
+	.h--emphasized,
+	%h--emphasized
+	{
+		@extend %bottom-separator;
+	}
+
+	h1, .h1
+	{
+		&.h--emphasized
+		{
+			@include at-breakpoint($huge-width)
+			{
+				display:none;
+			}	
+		}
+	}
+
+
+
+//  = CODE
+//  ---------------------------------------------------------------------------
+
+	code 
+	{
+		padding:0 1px;
+
+		@include background($whiteSmoke);
+		border-radius: $pillBorderRadius;
+	}
+

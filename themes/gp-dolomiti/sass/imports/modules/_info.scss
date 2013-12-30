@@ -1,0 +1,73 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for info seciton
+//
+//  ---------------------------------------------------------------------------
+
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for info section
+//
+//  ---------------------------------------------------------------------------
+
+	.info
+	{
+		@extend .cf;
+		
+		@include rem(margin-bottom, $doubleSpace * 2);
+	}
+	
+	.section__title--smaller
+	{
+		@include rem(margin-bottom, $singleSpace / 2);
+		@include setType($h3Size, $h3LineHeight);
+		@include rem(letter-spacing, -.05);
+
+		@include at-breakpoint($medium-width) 	 { @include setType($h1Size--medium, $h1LineHeight--medium); }
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			@include rem(padding, $doubleSpace * 2 0 $singleSpace);
+			@include setType($h1Size--large, $h1LineHeight--large);
+		}
+
+		@include at-breakpoint($huge-width) 	 { @include setType($h1Size--huge, $h1LineHeight--huge); }
+		@include at-breakpoint($giant-width) 	 { @include setType($h1Size--giant, $h1LineHeight--giant); }
+		@include at-breakpoint($monstrous-width) { @include setType($h1Size--monstrous, $h1LineHeight--monstrous); }
+	}
+
+	.info__date
+	{ 
+		@include setType($h3Size, $h3LineHeight);
+		@include rem(letter-spacing, -.05);
+		text-align:center;
+
+		@include at-breakpoint($medium-width) 	 { @include setType($h2Size--medium, $h2LineHeight--medium); }
+
+		@include at-breakpoint($large-width)
+		{
+			@include rem(padding-bottom, $doubleSpace * 2);
+			@include setType($h2Size--large, $h2LineHeight--large);
+			@include rem(letter-spacing, -.1);
+		}
+
+		@include at-breakpoint($huge-width) 	 { @include setType($h2Size--huge, $h2LineHeight--huge); }
+		@include at-breakpoint($giant-width) 	 { @include setType($h2Size--giant, $h2LineHeight--giant); }
+		@include at-breakpoint($monstrous-width) { @include setType($h2Size--monstrous, $h2LineHeight--monstrous); }
+	}
+
+	.info__paragraph
+	{
+		@include at-breakpoint(48em)
+		{
+			@include span-columns(4, $large-cols);
+
+			&:last-child
+			{
+				@include omega;
+			}
+		}
+	}

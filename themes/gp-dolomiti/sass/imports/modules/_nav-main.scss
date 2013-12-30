@@ -1,0 +1,245 @@
+
+//  ---------------------------------------------------------------------------
+//
+//  Main navigation
+//
+//  ---------------------------------------------------------------------------
+
+	$navHeight: 29.3;
+
+	.flyout
+	{
+		position:absolute;
+		top:0;
+		right:0;
+		left:0;
+		background:$blackSand;
+
+		.grid
+		{
+			position:relative;
+			@include rem(min-height, $touchSize);
+		}
+
+		a
+		{
+			border:0 none;
+			color:$white;
+		}
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			position:fixed;
+			z-index:999;
+		}
+	}
+
+	.flyout__toggle
+	{
+		display:block;
+		float:left;
+		position:relative;
+		@include rem(width, $touchSize);
+		@include rem(height, $touchSize);
+		@include rem(margin-left, -$r-grid-padding);
+		@include rem(line-height, $touchSize);
+		@include rem(font-size, $h3Size);
+		text-align:center;
+
+		.fa-bars,
+		.fa-times
+		{
+			position:absolute;
+			top:0;
+			right:0;
+			bottom:0;
+			left:0;
+			@include rem(line-height, $touchSize);
+		}
+
+		.fa-bars
+		{
+			@include transform(rotateZ(360deg) scale3d(1,1,1));
+			@include transition(transform .3s ease, opacity .3s linear);
+		}
+
+		.fa-times
+		{
+			@include opacity(0);
+			@include transform(rotateZ(360deg) scale3d(.5,.5,1));
+			@include transition(transform .3s ease, opacity .3s linear);
+		}
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			display:none;
+		}
+	}
+
+	.touch .flyout__toggle:active
+	{
+		color:$white;
+		background:$primaryAccent;
+	}
+
+	.nav-is-shown .flyout__toggle
+	{
+		.fa-bars
+		{
+			@include opacity(0);
+			@include transform(rotateZ(0) scale3d(.5,.5,1));
+		}
+
+		.fa-times
+		{
+			@include opacity(1);
+			@include transform(rotateZ(0) scale3d(1,1,1));
+		}
+	}
+
+	.mountains
+	{
+		float:right;
+		@include rem(max-height, $touchSize);
+
+		& + .mountains
+		{
+			display:none;
+		}
+	}
+
+	#ie7 .mountains,
+	#ie8 .mountains
+	{
+   		@include rem(margin-top, .9);
+	}
+
+	.nav-main 
+	{
+		.menu-hauptmenue-container
+		{
+			@include rem(margin, $touchSize 0 0);
+			@include transform(scale3d(.8, .8, .8) translate3d(0, 25px, 0));
+			@include transition(transform .3s ease);
+
+			ul
+			{
+				margin:0;
+			}
+
+			a 
+			{
+				color:rgba($white, .4);
+			}
+
+			.current-menu-item a
+			{
+				color:$white;
+			}
+
+			@include at-breakpoint($large-width no-mq)
+			{
+				margin:0;
+				@include transform(scale3d(1,1,1) translate3d(0,0,0));		
+			}
+		}
+
+		.menu-item
+		{
+			@include at-breakpoint($large-width no-mq)
+			{
+				display:inline;
+
+				&:first-child
+				{
+					@include rem(margin-left, -$r-grid-padding);
+				}
+			}
+		}
+
+		.menu-item a
+		{
+			display:block;
+			@include bleed;
+			border-bottom:0 solid darken($blackSand, 3%);
+			@include rem(border-bottom-width, $borderThin);
+			font-family:$headingsFontFamily;
+			@include setType($h3Size, $touchSize);
+			text-align:center;
+			text-transform:uppercase;
+
+			@include at-breakpoint($large-width no-mq)
+			{
+				display:inline-block;
+				margin-right:0;
+				margin-left:0;
+				border-bottom-width:0;
+				@include rem(font-size, 2.1);
+				text-align:left;
+				text-transform:capitalize;
+			}
+		}
+	}
+
+	.no-touch .nav-main .menu a:hover,
+	.touch .nav-main .menu a:active
+	{
+		color:$white;
+	}
+
+	.touch .nav-main .menu a:active
+	{
+		background:$primaryAccent;
+	}
+
+	.nav-is-shown .nav-main .menu-hauptmenue-container
+	{
+		@include transform(scale3d(1,1,1) translate3d(0,0,0));
+	}
+
+	.content
+	{
+		position:relative;
+		@include rem(margin-top, $touchSize);
+		background:$white;
+		@include transition(transform .3s ease);
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			background:transparent;
+		}
+	}
+
+	.content__inner
+	{
+		background:$white;
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			@include rem(padding-top, $doubleSpace);
+		}
+	}
+
+	.csstransforms3d .nav-is-shown .content
+	{
+		@include transform(translate3d(0, $navHeight * 10px, 0));
+		@include rem(margin-top, $touchSize);
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			@include transform(translate3d(0, 0, 0));
+		}
+	}
+
+	.nav-is-shown .content
+	{
+		@include rem(margin-top, $navHeight + $touchSize);
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			@include rem(margin-top, $touchSize);
+		}
+	}
+
+
+

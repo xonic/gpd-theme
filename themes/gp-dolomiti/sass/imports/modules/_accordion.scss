@@ -1,0 +1,93 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for the side navigation area.
+//
+//  ---------------------------------------------------------------------------
+
+
+.l-accordion
+{
+
+//  = LARGE SCREEN
+//  ---------------------------------------------------------------------------
+
+	@include at-breakpoint($large-width)
+	{
+		@include span-columns(3, $large-cols);
+	}
+	
+
+
+//  = HUGE SCREEN
+//  ---------------------------------------------------------------------------
+
+	@include at-breakpoint($huge-width no-mq)
+	{
+		// position:fixed;
+		// // nav-bar height ( 2 * singleSpace + Brand Line Height) + singleSpace
+		// @include rem(top, $singleSpace * 2 + $h1LineHeight + $singleSpace); 
+		@include span-columns(3, $huge-cols);
+	}
+
+}
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for the side navigation area.
+//
+//  ---------------------------------------------------------------------------
+
+	.accordion
+	{ 
+		@extend %box--colored;
+
+		padding:0;
+		margin-left:0;
+		border-bottom:none;
+
+		li 
+		{
+			list-style-type:none;
+		}
+
+		a
+		{
+			display:block;
+			color:$accordionLinkColor;
+
+			&:hover
+			{
+				background:none;
+				color:$accordionLinkHoverColor;
+			}
+		}
+	}
+
+	.accordion__divider
+	{
+		@extend %h4;
+		border-top:1px solid $accordionDividerTopBorderColor;
+		border-bottom:1px solid $accordionDividerBottomBorderColor;
+		position:relative;
+	}
+
+	.accordion__inner
+	{
+		margin:0;
+		padding:0;
+		background:darken($accordionInnerBackgroundColor, 1%);
+		box-shadow:inset 0 0 3px rgba(#000, .1);
+	}
+
+	.accordion__divider a,
+	.accordion__inner-element a
+	{
+		@include rem(padding, $singleSpace);
+	}
+
+	.accordion__divider [data-collapse-target-group]:after
+	{
+		position:absolute;
+		@include rem(right, $singleSpace);
+		content:"\002B";
+	}

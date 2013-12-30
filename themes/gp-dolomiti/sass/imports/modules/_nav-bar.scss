@@ -1,0 +1,148 @@
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for the main navigation.
+//
+//  ---------------------------------------------------------------------------
+
+	.nav-bar 
+	{
+
+		@include bleed;
+		@include rem(margin-bottom, $doubleSpace);
+		background:$navMainBackgroundColor;
+		color:$navFontColor;
+
+		@include at-breakpoint($huge-width no-mq)
+		{
+			position:fixed;
+			top:0;
+			right:0;
+			left:0;
+			margin:0;
+			@include rem(padding, 0 $r-grid-padding);
+			box-shadow:0 0 3px rgba(#000, .2);
+			z-index:998;
+
+			line-height:0; // fixes a bug in IE & Firefox where the .nav-bar container height is too large
+		}
+
+		.nav-bar__brand
+		{
+			display:block;
+			float:left;
+			@include rem(margin, 0 $singleSpace 0 0);
+			@include rem(padding, $singleSpace 0);
+			@include rem(font-size, $h2Size);
+
+			a
+			{
+				color:$navFontColor;
+				
+				&:hover
+				{
+					background:none;
+				}
+			}
+
+			@include at-breakpoint($medium-width no-mq)
+			{
+				@include rem(font-size, $h1Size);
+			}
+		}
+
+		.collapse-bd
+		{
+
+			@include bleed;
+			clear:both;
+			background:darken($navMainBackgroundColor, 20%);
+
+			@include at-breakpoint($huge-width no-mq)
+			{
+				display:inline-block;
+				margin:0;
+				padding:0;
+				background:none;
+				height:auto!important;
+			}
+		}
+
+		.nav-bar__entries
+		{
+			@extend .h4;
+			margin:0;
+			padding:0;
+			@include rem(line-height, $h1LineHeight);
+		}
+
+		.nav-bar__entry
+		{
+			a 
+			{
+				display:block;
+				@include bleed;
+				@include rem(padding, $singleSpace $r-grid-padding * 2);
+				color:$navFontColor;
+
+				&:hover,
+				&:active
+				{
+					background:$navMainActiveBackgroundColor;
+				}
+
+				@include at-breakpoint($huge-width no-mq)
+				{
+					margin:0;
+				}
+
+			}
+		}
+
+		.nav-bar__entry--active
+		{
+			@extend .nav-bar__entry;
+			
+			a 
+			{
+				background:$navMainActiveBackgroundColor;
+			}
+		}
+
+		.nav-bar__brand,
+		.nav-bar__entries,
+		.nav-bar__entry
+		{
+			@include at-breakpoint($huge-width no-mq)
+			{
+				display:inline-block;
+			}
+		}
+
+		.nav-bar__toggle
+		{
+			@extend .h4;
+			display:inline-block;
+			float:right;
+			@include rem(min-width, $doubleSpace * 2.5);
+			@include rem(margin-right, -$r-grid-padding);
+			@include rem(padding, $singleSpace $r-grid-padding);
+			background:darken($navMainBackgroundColor, 20%);
+			@include rem(line-height, $h1LineHeight);
+			color:$navFontColor;
+			text-align:center;
+
+			@include at-breakpoint($huge-width no-mq)
+			{
+				display:none;
+			}
+		}
+
+	}
+	
+	/* handle menu mouseover and touch events properly */
+	.no-touch .nav-bar .nav-bar__toggle:hover,
+	.touch .nav-bar .nav-bar__toggle:active
+	{
+		background:$navMainActiveBackgroundColor;	
+	}

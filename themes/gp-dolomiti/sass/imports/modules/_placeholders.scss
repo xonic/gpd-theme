@@ -1,0 +1,81 @@
+//  ---------------------------------------------------------------------------
+//
+//  Text placeholder
+//	
+//	<div class="text-placeholder">
+//		<div></div>				// One div per line of text
+//		<div></div>
+//		<div></div>
+//	</div>
+//
+//  ---------------------------------------------------------------------------
+
+	.text-placeholder
+	{
+		@include rem(margin-bottom, $doubleSpace);
+
+		div
+		{
+			@include rem(margin-bottom, $bodyLineHeight);
+			@include rem(height, $bodyLineHeight);
+			background:$phTextBackgroundColor;
+		}
+	}
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  Image placeholder 
+//	
+//	<div class="img-placeholder">
+//		<div class="aspect-4-to-3"></div>
+//		<div class="inner">Image</div>
+//	</div>
+//
+//  ---------------------------------------------------------------------------
+
+	.img-placeholder
+	{
+		display:inline-block;
+		position: relative;
+		width:80%;
+		@include rem(margin-bottom, $doubleSpace);
+
+		.img-placeholder--aspect-4-to-3
+		{
+			padding-top:75%;
+		}
+
+		.img-placeholder--aspect-3-to-4
+		{
+			padding-top:125%;
+		}
+
+		.img-placeholder--aspect-1-to-1
+		{
+			padding-top:100%;
+		}
+
+		.img-placeholder--aspect-smartphone-portrait
+		{
+			padding-top:165%;
+		}
+
+		.img-placeholder__inner
+		{
+			@extend  h4;
+			margin:0;
+			@include rem(padding, 1);
+			position: absolute;
+    		top: 0;
+    		bottom: 0;
+    		left: 0;
+    		right: 0;
+    		background-color:$phImgBackgroundColor;
+    		color:#fff;
+    		border-radius: 2px;
+    		//border:0 solid $grayLight;
+    		//@include rem(border-width, $borderThick);
+		}
+	}

@@ -1,0 +1,302 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for program section
+//
+//  ---------------------------------------------------------------------------
+
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for program section
+//
+//  ---------------------------------------------------------------------------
+	
+	.day
+	{
+		@include rem(padding-top, $doubleSpace * 2);
+		border-top:0 solid $sandDark;
+		@include rem(border-top-width, $borderMedium);
+
+		&:nth-child(2)
+		{
+			padding-top:0;
+			border-top:0 none;
+		}
+	}
+
+	.day .program__icon
+	{
+		margin-right:0;
+		@include rem(width, $doubleSpace * 1.5);
+	}
+
+	.day__video
+	{
+		@include bleed;
+		margin-bottom:0;
+		padding:0;
+	}
+
+	.day__route
+	{
+		width:100%;
+
+		tr
+		{
+			border-bottom:1px solid $sandDark;
+
+			&:last-child
+			{
+				border:0 none;
+			}
+		}
+
+		@include at-breakpoint($huge-width no-mq)
+		{
+			@include span-columns(6 omega, $huge-cols);
+		}
+	}
+
+	.day__date
+	{
+		@extend %h2;
+	}
+
+	.day__subheading
+	{
+		@include rem(margin-bottom, $singleSpace);
+		@include setType($h3Size, $h3LineHeight);
+	}
+
+	.route__icon
+	{
+		@include rem(width, $doubleSpace * 1.5);
+	}
+
+	.route__location
+	{
+		text-align:left;
+	}
+
+	.route__altitude
+	{
+		text-align:right;
+	}
+
+	.day__dinner
+	{
+		@include rem(padding-top, $doubleSpace * 3);
+		clear:both;
+	}
+
+	.dinner__description
+	{
+		@include at-breakpoint($huge-width no-mq)
+		{
+			@include span-columns(6 omega, $huge-cols);
+		}
+	}
+
+	.dinner__description--rev
+	{
+		@include at-breakpoint($huge-width no-mq)
+		{
+			@include span-columns(6 omega, $huge-cols, $from:right);
+		}
+	}
+
+	.ceremony
+	{
+		@include at-breakpoint($huge-width no-mq)
+		{
+			@include span-columns(6, $huge-cols);
+		}
+	}
+
+	$ieBackgroundPosX: -204px;
+
+	.dinner 
+	{
+		background-image:url(../images/events/events.jpg);
+		background-size:1600% auto;
+	}
+
+	#ie7 .dinner,
+	#ie8 .dinner
+	{
+   		-ms-behavior: $backgroundSizePolyfillUrl;
+	}
+
+	.dinner--italian-2
+	{
+		background-position:-100% 0;
+	}
+
+	#ie7 .dinner--italian-2,
+	#ie8 .dinner--italian-2
+	{
+		background-position:$ieBackgroundPosX 0;
+	}
+
+	.dinner--italian-3
+	{
+		background-position:-200% 0;
+	}
+
+	#ie7 .dinner--italian-3,
+	#ie8 .dinner--italian-3
+	{
+		background-position:$ieBackgroundPosX * 2 0;
+	}
+
+	.dinner--italian-4
+	{
+		background-position:-300% 0;
+	}
+
+	#ie7 .dinner--italian-4,
+	#ie8 .dinner--italian-4
+	{
+		background-position:$ieBackgroundPosX * 3 0;
+	}
+
+	.dinner--lounge-1
+	{
+		background-position:-400% 0;
+	}
+
+	#ie7 .dinner--lounge-1,
+	#ie8 .dinner--lounge-1
+	{
+		background-position:$ieBackgroundPosX * 4 0;
+	}
+
+	.dinner--lounge-2
+	{
+		background-position:-500% 0;
+	}
+
+	#ie7 .dinner--lounge-2,
+	#ie8 .dinner--lounge-2
+	{
+		background-position:$ieBackgroundPosX * 5 0;
+	}
+
+	.dinner--lounge-3
+	{
+		background-position:-600% 0;
+	}
+
+	#ie7 .dinner--lounge-3,
+	#ie8 .dinner--lounge-3
+	{
+		background-position:$ieBackgroundPosX * 6 0;
+	}
+
+	.dinner--lounge-4
+	{
+		background-position:-700% 0;
+	}
+
+	#ie7 .dinner--lounge-4,
+	#ie8 .dinner--lounge-4
+	{
+		background-position:$ieBackgroundPosX * 7 0;
+	}
+
+	.dinner--choice-1
+	{
+		background-position:-800% 0;
+	}
+
+	#ie7 .dinner--choice-1,
+	#ie8 .dinner--choice-1
+	{
+		background-position:$ieBackgroundPosX * 8 0;
+	}
+
+	.dinner--choice-2
+	{
+		background-position:-900% 0;
+	}
+
+	#ie7 .dinner--choice-2,
+	#ie8 .dinner--choice-2
+	{
+		background-position:$ieBackgroundPosX * 9 0;
+	}
+
+	.dinner--choice-3
+	{
+		background-position:-1000% 0;
+	}
+
+	#ie7 .dinner--choice-3,
+	#ie8 .dinner--choice-3
+	{
+		background-position:$ieBackgroundPosX * 10 0;
+	}
+
+	.dinner--choice-4
+	{
+		background-position:-1100% 0;
+	}
+
+	#ie7 .dinner--choice-4,
+	#ie8 .dinner--choice-4
+	{
+		background-position:$ieBackgroundPosX * 11 0;
+	}
+
+	.dinner--kurhaus-1
+	{
+		background-position:-1200% 0;
+	}
+
+	#ie7 .dinner--kurhaus-1,
+	#ie8 .dinner--kurhaus-1
+	{
+		background-position:$ieBackgroundPosX * 12 0;
+	}
+
+	.dinner--kurhaus-2
+	{
+		background-position:-1300% 0;
+	}
+
+	#ie7 .dinner--kurhaus-2,
+	#ie8 .dinner--kurhaus-2
+	{
+		background-position:$ieBackgroundPosX * 13 0;
+	}
+
+	.dinner--kurhaus-3
+	{
+		background-position:-1400% 0;
+	}
+
+	#ie7 .dinner--kurhaus-3,
+	#ie8 .dinner--kurhaus-3
+	{
+		background-position:$ieBackgroundPosX * 14 0;
+	}
+
+	.dinner--kurhaus-4
+	{
+		background-position:-1500% 0;
+	}
+
+	#ie7 .dinner--kurhaus-4,
+	#ie8 .dinner--kurhaus-4
+	{
+		background-position:$ieBackgroundPosX * 15 0;
+	}
+
+
+
+
+
+
+

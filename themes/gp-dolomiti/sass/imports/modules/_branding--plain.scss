@@ -1,0 +1,35 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for branding
+//
+//  ---------------------------------------------------------------------------
+	
+	.branding
+	{ 
+		@include at-breakpoint($large-width no-mq)
+		{
+			position:static;
+			@include rem(padding, $doubleSpace * 2 0 $doubleSpace);
+			border-bottom:0 none;
+		}
+
+		@include at-breakpoint(48em)
+		{
+			@include rem(padding, $doubleSpace * 2 0 $doubleSpace);
+		}
+
+		@include at-breakpoint($huge-width no-mq)
+		{
+			@include rem(padding, $doubleSpace * 2 0 $doubleSpace);
+		}
+	}
+
+	.event-name
+	{
+		@include at-breakpoint($large-width no-mq)
+		{
+			padding:0;
+			background:$white;
+			text-shadow:none;
+		}
+	}

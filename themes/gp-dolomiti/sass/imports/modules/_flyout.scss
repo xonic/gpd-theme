@@ -1,0 +1,202 @@
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for the main category navigation.
+//
+//  ---------------------------------------------------------------------------
+
+	.l-flyout-toggle
+	{
+		clear:both;
+		@include span-columns(1, 9);
+		//@include rem(margin-left, -$r-grid-padding);
+	
+		@include at-breakpoint($large-width)
+		{
+			@include span-columns(3, 8);
+	
+			i 
+			{
+				display:none;
+			}
+		}
+	
+		@include at-breakpoint($huge-width)
+		{
+			display:none;
+		}
+	}
+
+	.l-flyout 
+	{
+		position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		width:240px;
+		box-shadow:inset -10px 0 5px -10px rgba(0,0,0,.2);
+		@include transform(translateX(-100%));
+		@include transition(all .3s ease-in-out);
+		-webkit-backface-visibility: hidden; // prevent animation flickering
+
+		@include at-breakpoint($huge-width)
+		{
+			position:static;
+			@include span-columns(4, $huge-cols);
+			@include rem(margin-left, -$r-grid-padding / 2);
+			box-shadow:none;
+			@include transform(translateX(0%));
+		}
+
+		@include at-breakpoint($giant-width)
+		{
+			@include reset-columns;
+		}
+	}
+
+	.flyout--is-open .l-flyout
+	{
+		@include transform(translateX(0%));			
+	}
+
+
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the visual styling for the main category navigation.
+//
+//  ---------------------------------------------------------------------------
+
+	.flyout-toggle
+	{
+		display:block;
+		position: relative;
+		@include rem(margin-bottom, $doubleSpace);
+		@include rem(padding, 0 0 0 $singleSpace);
+		background:$flyoutToggleBackgroundColor;
+		@include rem(line-height, $inputHeightLarge);
+		font-family:$headingsFontFamily;
+		color:$flyoutToggleTextColor;
+	
+		i 
+		{
+			@include transform(rotateZ(90deg));
+		}
+
+		&:hover
+		{
+			color:$flyoutToggleTextColor;
+			background:$flyoutToggleBackgroundColor;
+		}
+	}
+	
+	.touch .flyout-toggle
+	{
+		@include rem(line-height, $inputHeightLarge);
+	}
+	
+	.flyout-toggle:after 
+	{
+		content: " ";
+		position: absolute;
+		top: 50%;
+		left: 100%;
+		height: 0;
+		@include rem(margin-top, -$inputHeightLarge / 2);
+		width: 0;
+		border: solid transparent;
+		border-left-color:$flyoutToggleBackgroundColor;
+		@include rem(border-width, $inputHeightLarge / 2);
+		pointer-events: none;
+	}
+	
+	.flyout 
+	{
+		padding:0;
+		font-family:$headingsFontFamily;
+	}
+
+	.flyout__item
+	{
+		border:0 solid transparent;
+		@include rem(border-top-width, $borderThin);
+		@include rem(border-bottom-width, $borderThin);
+		border-top-color:lighten($flyoutBorderColor, 5%);
+		border-bottom-color:darken($flyoutBorderColor, 5%);
+
+		&:last-child
+		{
+			border-bottom-color:transparent;
+		}
+		
+		a 
+		{
+			display:block;
+			@include rem(padding, $singleSpace $r-grid-padding);
+			border:0;
+			border-style:solid;
+			@include rem(border-width, 0 0 0 $borderVeryThick);
+			border-color:$flyoutItemBorderColor;
+			color:$flyoutItemTextColor;
+
+			&:hover
+			{
+				color:$flyoutItemHoverTextColor;
+				background:$flyoutItemHoverBackgroundColor;
+				border-left-color:$flyoutItemHoverBorderColor;
+			}
+		}
+
+		.fa
+		{
+			line-height:$baseLineHeight;
+		}
+
+		@include at-breakpoint($giant-width)
+		{
+			display:inline;
+			border:none;
+
+			@include setType(2.2, 1.7); // magic numbers to meet current OTTO menu
+
+			a
+			{
+				display:inline-block;
+				border:none;
+
+				i
+				{
+
+				}
+			}
+
+			.fa
+			{
+				display:none;
+			}
+
+			&:after
+			{
+				content:" ";
+			}
+
+			&.last:after
+			{
+				content:none;
+			}
+		}
+	}
+
+	.btn__text-label
+{
+	display:none;
+
+	@include at-breakpoint($large-width)
+	{
+		display:inline;
+	}
+}
+
+

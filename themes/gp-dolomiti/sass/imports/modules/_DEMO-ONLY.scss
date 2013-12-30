@@ -1,0 +1,474 @@
+//  ---------------------------------------------------------------------------
+//
+//  This stuff here is for framework demonstration purposes only
+//
+//  ---------------------------------------------------------------------------
+
+
+	.shifter
+	{
+		@include transition(all .2s ease-out);
+		position:absolute;
+	}
+
+	.shifter--left
+	{
+		@include transform(translateX(-10%) scale(1.1));
+		opacity:0;
+	}
+
+	.shifter--right
+	{
+		@include transform(translateX(10%) scale(1.1));
+		opacity:0;
+	}
+	
+	.l-input-validation-example
+	{
+		@include at-breakpoint($huge-width)
+		{
+			@include span-columns(6,18);
+
+			&:nth-child(3n)
+			{
+				@include omega;
+			}			
+		}
+	}
+
+	.index 
+	{
+		background:darken($primaryAccent, 45%);
+	}
+
+	.branding
+	{
+		@include bleed;
+		@include rem(margin-top, -$doubleSpace);
+		@include rem(margin-bottom, $doubleSpace);
+		@include rem(padding, $singleSpace);
+		background:url(../img/branding-bg.jpg) top left no-repeat transparent;
+		@include background-size(100% 100%);
+		box-shadow:inset 0 0 5px rgba($black, .2);
+
+		@include at-breakpoint($huge-width)
+		{
+			position:relative;
+			padding-bottom:30%;		
+		}
+
+		@include at-breakpoint($giant-width)
+		{
+			padding-bottom:20%;		
+		}
+
+		@include at-breakpoint($monstrous-width)
+		{
+			padding-bottom:15%;		
+		}
+	}
+
+	.index .branding
+	{
+		margin-bottom:0;
+	}
+
+	.general .branding
+	{
+		background:url(../img/branding-bg-1.jpg) top left no-repeat transparent;
+		@include background-size(100% 100%);
+	}
+
+	.forms .branding
+	{
+		background:url(../img/branding-bg-2.jpg) top left no-repeat transparent;
+		@include background-size(100% 100%);
+	}
+
+	.navigation .branding
+	{
+		background:url(../img/branding-bg-3.jpg) top left no-repeat transparent;
+		@include background-size(100% 100%);
+	}
+
+	.modules .branding
+	{
+		background:url(../img/branding-bg-4.jpg) top left no-repeat transparent;
+		@include background-size(100% 100%);
+	}
+
+	.branding__heading
+	{
+		@extend %h2;
+		@include rem(padding, $doubleSpace);
+		background:transparentize($white, .7);
+		box-shadow:0 3px 8px rgba(#000, .5);
+		border-top:1px solid rgba($white, .3);
+		color:$grayVeryDark;
+		font-weight:200;
+		text-shadow:0 1px 0 rgba($white, .5);
+		text-align:center;
+
+		@include at-breakpoint($huge-width)
+		{
+			position:absolute;
+			bottom:19%;		
+			right:6%;
+			max-width:61.8%; // golden ratio
+			@include setType($h1Size, $h1LineHeight * 1.5);
+		}
+
+		@include at-breakpoint($giant-width)
+		{
+			bottom:25%;		
+			right:5%;
+		}
+
+		@include at-breakpoint($monstrous-width)
+		{
+			bottom:23%;		
+			right:4%;
+		}
+	}
+
+	.branding__author
+	{
+		@extend %h4;
+		@include rem(margin, $singleSpace 0 0);
+		@include setType(1.6, $bodyLineHeight);
+		font-weight:200;
+
+		@include at-breakpoint($huge-width)
+		{
+			@include rem(margin, $singleSpace 0 0);
+			@include setType($h3Size, $h3LineHeight);
+			text-align:right;
+		}
+	}
+
+	.branding__logo
+	{
+		display:inline-block;
+		@include rem(margin-left, .3);
+
+		// Safari fix because setting only 
+		// max-height does not result in a properly
+		// resized image with correct aspect ratio
+		@include rem(width, 5.8); 
+		@include rem(height, $bodyFontSize);
+
+		@include at-breakpoint($huge-width)
+		{
+			// Safari fix because setting only 
+			// max-height does not result in a properly
+			// resized image with correct aspect ratio
+			@include rem(width, 9);
+			@include rem(height, $doubleSpace);
+		}
+	}
+
+	.features
+	{
+		@extend .cf;
+		@include rem(padding, $doubleSpace 0);
+		@include bleed;
+		background-color:$white;
+		text-align:center;
+
+		@include at-breakpoint($large-width)
+		{
+			> .feature
+			{
+				@include rem(margin-bottom, $doubleSpace * 2);
+			}
+		}
+
+		// Adjust the individual height
+		// of the mobile icon which looks
+		// too small compared to other icons
+		.icon-mobile-phone
+		{
+			@include rem(font-size, 11);
+		}
+	}
+
+	.feature
+	{
+		@include at-breakpoint($large-width)
+		{
+			@include rem(margin-bottom, $doubleSpace * 2);
+		}
+	}
+
+	.feature__icon
+	{
+		display:block;
+		margin:0 auto;
+		@include rem(margin-bottom, $doubleSpace);
+		border:0 solid darken($primaryAccent, 45%);
+		// @include rem(border-width, $borderThick);
+		border-radius:999em;
+		// background-color:transparentize($red, .8);
+		color:$red;
+		@include setType($bodyFontSize * 5, $bodyLineHeight * 4);
+	}
+
+	.feature__title
+	{
+		@extend %h3;
+		// @include setType($h2Size, $h2LineHeight);
+	}
+
+	.feature__desc
+	{
+		text-align:left;
+		@include hyphens(auto);
+	}
+
+	// The following boxes are for demonstration
+	// purposes on the framework page only
+	.box--example
+	{
+
+		@extend .box;
+
+		position:relative;
+		@include rem(padding, $doubleSpace * 2 - $borderThin $singleSpace $singleSpace);
+
+		&::after
+		{
+			content:"Example";
+			position:absolute;
+			top:0;
+			left:0;
+			@include rem(padding, 0 .8);
+			background:$boxBackgroundColor;
+			border-radius:0 0 4px 0;
+			border-right:1px solid $boxBorderColor;
+			border-bottom:1px solid $boxBorderColor;
+			font-family:$headingsFontFamily;
+			font-weight:$headingsFontWeight;
+			@include rem(font-size, 1.4);
+		}
+
+
+		@include at-breakpoint($large-width)
+		{
+			@include rem(padding, $doubleSpace * 2 - $borderThin $doubleSpace $doubleSpace);		
+		}
+
+	}
+
+	@include with-grid-settings($columns: 4, $gutter: .5em) 
+	{	
+		.l-one-fourth
+		{
+			@include at-breakpoint($large-width)
+			{
+				@include span-columns(1,2);
+				@include nth-omega(2n);
+
+				&:nth-child(2n + 1)
+				{
+					clear:both;
+				}
+			}
+
+			@include at-breakpoint($huge-width)
+			{
+				@include remove-nth-omega(2n, $context:4);
+				@include span-columns(1,4);
+				@include nth-omega(4n);
+
+				&:nth-child(2n + 1)
+				{
+					clear:none;
+				}
+
+				&:nth-child(4n + 1)
+				{
+					clear:both;
+				}
+			}
+		}
+	}
+
+	.box--code
+	{
+		position:relative;
+		@include rem(padding, $doubleSpace * 2 - $borderThin $doubleSpace $doubleSpace);
+
+		&::after
+		{
+			content:"Code";
+			position:absolute;
+			top:0;
+			left:0;
+			@include rem(padding, 0 .8);
+			background:$white;
+			border-radius:0 0 4px 0;
+			border-right:1px solid $boxBorderColor;
+			border-bottom:1px solid $boxBorderColor;
+			font-family:$headingsFontFamily;
+			font-weight:$headingsFontWeight;
+			@include rem(font-size, 1.4);
+		}
+	}
+
+	
+	@include with-grid-settings($gutter: 0em)
+	{
+		.l-company 
+		{
+	
+			@include at-breakpoint($large-width)
+			{
+				@include span-columns(1,5);
+			}
+	
+			@include at-breakpoint($giant-width)
+			{
+				@include span-columns(2,6);
+			}
+		}
+	
+		.l-dev-team 
+		{
+	
+			@include at-breakpoint($large-width)
+			{
+				@include span-columns(4,5);
+				@include omega;
+			}
+	
+			@include at-breakpoint($giant-width)
+			{
+				@include span-columns(4,6);
+				@include omega;
+			}
+		}
+	
+		.l-dev-team__member
+		{
+	
+			@include at-breakpoint($small-width)
+			{
+				
+				@include span-columns(1,2);
+				@include nth-omega(2n);
+		
+				&:nth-child(2n + 1)
+				{
+					clear:both;
+				}
+			}
+	
+			@include at-breakpoint($large-width)
+			{
+				@include remove-nth-omega(2n, $context:4);
+				@include span-columns(1,4);
+				@include nth-omega(4n);
+				&:nth-child(2n + 1)
+				{
+					clear:none;
+				}
+				&:nth-child(4n + 1)
+				{
+					clear:both;
+				}
+			}
+		}
+
+		.l-company__data
+		{
+			@include at-breakpoint($giant-width)
+			{
+				@include span-columns(1,2);
+			}
+		}
+	}
+
+	.company__data,
+	.dev-team__member
+	{
+		text-align:center;
+
+		a 
+		{
+			display:block;
+		}
+
+		p
+		{
+			margin-bottom:0;
+		}
+
+		@include rem(margin-bottom, $doubleSpace);
+
+		@include at-breakpoint($large-width)
+		{
+			margin-bottom:0;
+		}
+	}
+
+	.dev-team__img
+	{
+		width:30%;
+		border-radius: 999em;
+		box-shadow: 0 2px 3px rgba(0,0,0,.2);
+		
+		@include at-breakpoint($small-width)
+		{
+			width:60%;
+		}
+	}
+
+	.company__img
+	{
+		width:30%;
+	}
+
+	.company__img, 
+	.dev-team__img
+	{
+		@include at-breakpoint($large-width)
+		{
+			width:60%;
+		}
+
+		@include at-breakpoint($huge-width)
+		{
+			width:40%;
+		}
+	}
+
+	.flyout-wrapper
+	{
+		position:relative;
+		overflow:hidden;
+	}
+
+	.flyout-content
+	{
+		clear:both;
+
+		@include at-breakpoint($huge-width)
+		{
+			clear:none;
+		}
+	}
+
+	.flyout-move
+	{
+		@extend .cf;
+		@include bleed;
+		background:$white;
+		@include transition(all .3s ease-in-out);
+	}
+
+	.flyout--is-open .flyout-move
+	{
+		@include transform(translateX(250px));
+	}
+
+	

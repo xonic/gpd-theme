@@ -1,0 +1,70 @@
+//  ---------------------------------------------------------------------------
+//
+//  # CSS Spinner
+//  Optional 6 parameters for mixin 'spinner'.
+//  Defaults are as follows.
+//
+//  ---------------------------------------------------------------------------
+
+    
+    // Keyframes for each browser that flip the boxes around.
+
+    @include keyframe($spinner-rotate-right)
+    {
+        0% {    @include experimental(transform, rotate(0deg)); }
+        25% {   @include experimental(transform, rotate(180deg)); }
+        50% {   @include experimental(transform, rotate(180deg)); }
+        75% {   @include experimental(transform, rotate(360deg)); }
+        100% {  @include experimental(transform, rotate(360deg)); }
+    }
+
+    @include keyframe($spinner-rotate-left)
+    {
+         0% {   @include experimental(transform, rotate(0deg)); }
+        25% {   @include experimental(transform, rotate(0deg)); }
+        50% {   @include experimental(transform, rotate(180deg)); }
+        75% {   @include experimental(transform, rotate(180deg)); }
+        100% {  @include experimental(transform, rotate(360deg)); }
+    }
+
+    
+    // The basic CSS for the spinner. Each '.side' takes turns spinning
+    // to reveal the left/right side filling or emptying.
+    // The damn thing is so complicated I barely understand it anymore.
+
+
+// --------------------------------------------------------------------------
+
+    // Default spinner
+    @include spinner;
+
+    // Spinner with hole
+    .spinner--has-hole 
+    {
+        @include spinner($bodyBackground);
+    }
+
+
+//  ---------------------------------------------------------------------------
+//
+//  # CSS Spinner
+//  Fallback with GIF for IE Versions <IE10
+//
+//  -
+
+    .no-cssanimations .spinner 
+    {
+        background: url(../img/throbber.gif) no-repeat center center !important;
+        min-width: 32px;
+        min-height: 32px;
+        
+        &:after 
+        {
+            display: none !important;
+        }
+
+        .spinner__side 
+        {
+            display: none !important;
+        }
+    }

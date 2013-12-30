@@ -1,0 +1,85 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the slider
+//
+//  ---------------------------------------------------------------------------
+
+
+	.slider
+	{
+		position:relative;
+		@include bleed;
+		padding:0;
+		@include rem(margin-bottom, $doubleSpace);
+		overflow-x:scroll;
+		-webkit-overflow-scrolling:touch;
+
+		&::-webkit-scrollbar
+		{
+    		display: none; 
+		}
+
+		// Hides the scrollbar.
+		-ms-overflow-style: none;
+		
+		// Prevents Metro from swiping to the next tab or app.
+		-ms-scroll-chaining: none;
+		
+		// Forces a snap scroll behavior on your images.
+		-ms-scroll-snap-type: mandatory;
+		
+		// Defines the y and x intervals to snap to when scrolling.
+		-ms-scroll-snap-points-x: snapInterval(0%, 100%);
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			overflow:hidden;
+		}
+
+		@include at-breakpoint($huge-width no-mq)
+		{
+			padding:0;
+			@include span-columns(6, $huge-cols);
+		}
+	}
+
+	.slider--rev
+	{
+		@include at-breakpoint($huge-width no-mq)
+		{
+			margin-right:0;
+			@include span-columns(6, $huge-cols, $from:right);
+		}
+	}
+
+	.slider__slides
+	{
+		@extend .cf;
+		margin-bottom:0;
+	}
+
+	.slider__slides--contains-4
+	{
+		width:350%;
+
+		.slider__slide 
+		{
+			width:25%;
+		}
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			width:100%;
+
+			.slider__slide 
+			{
+				width:50%;
+			}
+		}
+	}
+
+	.slider__slide 
+	{
+		float:left;
+		@include rem(padding, $singleSpace);
+	}

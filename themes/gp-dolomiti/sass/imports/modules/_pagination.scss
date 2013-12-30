@@ -1,0 +1,45 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styles for the pagination.
+//
+//  ---------------------------------------------------------------------------	
+
+.pagination
+{
+
+	li
+	{
+		
+		display:none;
+
+		a
+		{
+			@extend .btn;
+
+			// reset margin of button
+			@include rem(margin, 0);
+		}
+
+		&.pagination--active 
+		{
+
+			display:inline-block;
+
+			a
+			{
+				@extend .btn--primary;
+			}	
+		}
+
+		&.pagination__prev,
+		&.pagination__next
+		{
+			display:inline-block;
+		}
+
+		@include at-breakpoint($small-width no-mq)
+		{
+			display:inline-block;
+		} 
+	}
+}

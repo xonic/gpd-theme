@@ -1,0 +1,17 @@
+
+
+	body
+	{
+
+	//  = LARGE
+	//  ---------------------------------------------------------------------------
+
+		@include at-breakpoint($large-width $large-cols)
+		{
+			&:before
+			{
+				content:none;
+			}
+		}
+	}
+

@@ -1,0 +1,81 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for lang switcher
+//
+//  ---------------------------------------------------------------------------
+	
+	.lang
+	{
+		@extend .nav;
+		@include setType(1.4, $touchSize);
+		font-family:$headingsFontFamily;
+		letter-spacing:0;
+		text-align:center;
+
+		ul
+		{
+			margin:0;
+		}
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			float:none;
+			position:absolute;
+			@include rem(top, $touchSize);
+			right:0;
+			z-index:901;
+			@include rem(padding, 0 $r-grid-padding);
+			background:rgba($blackSand,.5);
+			border-radius:0 0 4px 4px;
+			@include rem(line-height, 2.6);
+		}
+	}
+
+	#ie7 .lang,
+	#ie8 .lang 
+	{
+		background:$blackSand;
+
+		a 
+		{ 
+			color:$grayLight;
+
+			&:hover
+			{
+				color:$white;
+			}
+		}
+
+		.active a { color:$white; }
+	}
+
+	[class^="lang-"]
+	{
+		a 
+		{
+			color:rgba($white, .4);
+			border:0 none;
+		}
+
+		a:hover
+		{
+			background:transparent;
+			color:$white;
+		}
+
+		&.active a
+		{
+			color:$white;
+			cursor:default;
+		}
+
+		&:after
+		{
+			content:" | ";
+		}
+
+		&:last-child:after
+		{
+			content:none;
+		}
+	}

@@ -1,0 +1,102 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the styling for branding
+//
+//  ---------------------------------------------------------------------------
+	
+	.branding
+	{ 
+		letter-spacing: -.2rem;
+		text-align:center;
+		@include rem(padding, $doubleSpace * 2 0 $doubleSpace);
+		@include transition(padding 1s ease-in-out);
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			position:relative;
+			@include rem(padding, $doubleSpace * 8 0 0);
+			border-bottom:0 solid $olive;
+			@include rem(border-bottom-width, $singleSpace);
+		}
+
+		@include at-breakpoint(48em)
+		{
+			@include rem(padding, $doubleSpace * 12 0 0);
+		}
+
+		@include at-breakpoint($huge-width no-mq)
+		{
+			@include rem(padding, $doubleSpace * 17.5 0 0);
+		}
+	}
+
+	.event-name
+	{
+		margin:0;
+		// @include setType(6.2, 5);
+		@include setType(8, 7);
+		color:$blackSand;
+		letter-spacing:-.4rem;
+		background-color:$white;
+		@include transition(background-color 1s ease-in-out);
+		
+		a
+		{
+			border-bottom:0 none;
+			color:$blackSand;
+
+			&:hover
+			{
+				color:$blackSand;
+			}
+		}
+
+		small
+		{
+			color:$blackSand;
+			// @include setType(2.4, 2.4);
+			@include setType(3.2, 2.4);
+			font-family:$sansFontFamily;
+			letter-spacing: -.1rem;
+		}
+
+		@include at-breakpoint($large-width no-mq)
+		{
+			@include rem(padding, $singleSpace);
+			background:$white;
+			background:rgba($white, .3);
+			@include setType(9, 8);
+			text-shadow:0 0 30px $white,
+					0 0 20px $white,
+					0 0 20px $white,
+					0 0 10px $white,
+					0 0 10px $white,
+					0 0 5px $white;
+			
+			small
+			{
+				@include setType(3.6, 3.2);
+			}
+		}
+
+		@include at-breakpoint($huge-width no-mq)
+		{
+			@include setType(10, 9);
+			letter-spacing: -.5rem;
+			
+			small
+			{
+				@include setType(3.8, 3.4);
+			}
+		}
+
+		@include at-breakpoint($giant-width)
+		{
+			@include setType(11, 10);
+			
+			small
+			{
+				@include setType(3.9, 3.6);
+			}
+		}
+	}

@@ -1,0 +1,4 @@
+[ 2013-10-30 19:59:47 ]  payment_page.php  -> event_espresso_pay
+	Payment for: d, d|| attendee_session id: 796c5949cb70b475b87d0f49dcd43b48-5271567e0d2809.95743578|| registration id: 1-5271567e0db5d|| transaction details: paying by check
+[ 2013-10-30 19:59:47 ]  payment_page.php  -> event_espresso_pay
+	Payment for: d, d|| attendee_session id: 796c5949cb70b475b87d0f49dcd43b48-5271567e0d2809.95743578|| registration id: 1-5271567e0db5d|| transaction details: paying by check

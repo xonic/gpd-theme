@@ -1,0 +1,123 @@
+.colors
+{
+	text-align:center;
+
+	@include at-breakpoint($large-width)
+	{
+		text-align:left;
+	}
+}
+
+//  = Backgrounds
+//  ---------------------------------------------------------------------------
+
+	.bg--blue 
+	{
+		background:$blue !important;
+	}
+
+	.bg--blueLight 
+	{
+		background:$blueLight !important;
+	}
+
+	.bg--blueMedium
+	{
+		background:$blueMedium !important;
+	}
+
+	.bg--blueDark
+	{
+		@extend .txt--invert;
+		background:$blueDark !important;
+	}
+
+	.bg--blueVeryDark
+	{
+		@extend .txt--invert;
+		background:$blueVeryDark !important;
+	}
+
+	.bg--red 
+	{
+		background:$red !important;
+	}
+
+	.bg--redLight 
+	{
+		background:$redLight !important;
+	}
+
+	.bg--redDark
+	{
+		background:$redDark !important;
+	}
+
+	.bg--black
+	{
+		@extend .txt--invert;
+		background:$black !important;
+	}
+
+	.bg--grayVeryDark
+	{
+		@extend .txt--invert;
+		background:$grayVeryDark !important;
+	}
+
+	.bg--grayDarker
+	{
+		@extend .txt--invert;
+		background:$grayDarker !important;
+	}
+
+	.bg--grayDark
+	{
+		@extend .txt--invert;
+		background:$grayDark !important;
+	}
+
+	.bg--gray
+	{
+		@extend .txt--invert;
+		background:$gray !important;
+	}
+
+	.bg--grayLight
+	{
+		background:$grayLight !important;
+	}
+
+	.bg--grayVeryLight
+	{
+		background:$grayVeryLight !important;
+	}
+
+	.bg--whiteSmoke
+	{
+		background:$whiteSmoke !important;
+	}
+
+	.bg--whiteSoft
+	{
+		background:$whiteSoft !important;
+	}
+
+	.bg--white
+	{
+		background:$white !important;
+	}
+
+//  = Text Colors
+//  ---------------------------------------------------------------------------
+
+	[class*="bg--"]
+	{
+		color:$textColor !important;
+	}
+
+	.txt--invert
+	{
+		color:$white !important;
+	}
+

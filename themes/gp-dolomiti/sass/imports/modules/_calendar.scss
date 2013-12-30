@@ -1,0 +1,483 @@
+//  ---------------------------------------------------------------------------
+//
+//  CALENDAR
+//
+//	.cal--h-view
+//
+//	The .cal--h-view component is well suited for a month view calendar. It 
+//	is made out of two nested orderered lists. The root ol is the list of table
+//	rows, which represent one week each. The nested ol is the list of table
+//	cells, which represent one day each.
+//
+//
+//	Layout Classes
+//
+//  ---------------------------------------------------------------------------
+
+	
+	// Set the grid gutter width to zero
+	@include with-grid-settings($gutter: 0em) 
+	{
+		.l-cal__cell
+		{
+			@include at-breakpoint($huge-width no-mq) 
+			{
+				
+				// set the width of the rows to 1/7
+				// make a new row after 7 elements
+				@include span-columns(1, 7);
+
+				// The last child in a row (day 7)
+				// must float right and have no margin
+				&:nth-child(7n)
+				{
+					@include omega;
+				}
+
+				// In case of cells with different heights
+				// in one row, the first cell of each row
+				// must clear all floats to avoid layout problems
+				&:nth-child(8n)
+				{
+					clear:both;
+				}
+			}
+		}
+
+		.l-cal__col-head__cell
+		{
+			@include at-breakpoint($huge-width no-mq) 
+			{
+				// The first column of the header row contains
+				// the week number, so there is one more column
+				// than in the data table below which resembles
+				// 7 days per row. However, the first column 
+				// should be narrower than the others; One third
+				// of the normal cell width. The grid is divided
+				// by 22 and the equation goes as follows:
+				// 1 * 1/22 + 7 * 3/22 = 22/22 = 1
+				@include span-columns(3, 22);
+
+				// The last child must float  
+				// right and have no margin
+				&:nth-child(8n)
+				{
+					@include omega;
+				}
+
+				// The first column is only one third
+				// as wide as the other columns
+				&:first-child
+				{
+					@include span-columns(1, 22);
+				}
+			}
+		}
+
+		.l-cal__row-head
+		{
+			@include at-breakpoint($huge-width no-mq) 
+			{
+				@include span-columns(1, 22);
+			}
+		}
+
+		.l-cal__rows
+		{
+			@include at-breakpoint($huge-width no-mq) 
+			{
+				@include span-columns(21 omega,22);
+			}
+		}
+	}
+
+//  ---------------------------------------------------------------------------
+//
+//  CALENDAR
+// 	Styling Classes
+//
+//  ---------------------------------------------------------------------------
+
+
+//	= Shared Styles
+//  ---------------------------------------------------------------------------
+
+	.cal--h-view, 
+	.cal--v-view
+	{
+		
+		@extend .cf;
+
+		font-family:$sansFontFamily;
+
+		ol 
+		{
+			padding:0;
+			list-style-type: none;
+		}
+	}
+
+	.cal__head
+	{
+		@extend h3;
+
+		display:block;
+		text-align:center;
+	}
+
+
+//  = Calendar 
+//	= horizontal view
+//  ---------------------------------------------------------------------------
+
+	.cal--h-view
+	{
+		.cal__col-head,
+		.cal__row-head
+		{
+			display:none;
+
+			@include at-breakpoint($huge-width no-mq) 
+			{
+				display:block;
+			}
+		}
+	}
+
+	.cal__col-head
+	{
+		@include at-breakpoint($huge-width no-mq) 
+		{
+			color:$calColHeadTextColor;
+
+			.cal__cell
+			{
+				@include rem(padding, 0 0 0 $singleSpace);
+				height:auto;
+				border-color:transparent;
+			}
+
+			.l-cal__col-head__cell:first-child .cal__cell
+			{
+				padding:0;
+				text-align:center;
+			}
+		}
+	}
+
+	ol.cal__row-head // specificity
+	{
+		@include at-breakpoint($huge-width no-mq) 
+		{
+			@include rem(padding-top, $borderMedium);
+
+			.cal__cell
+			{
+				@include rem(margin-bottom, $borderMedium);
+				padding-right:0;
+				padding-left:0;
+				border-color:transparent;
+				text-align:center;
+				color:$calRowHeadTextColor;
+				@include rem(font-size, $h4Size);
+			}
+		}
+	}
+
+	.cal__row 
+	{
+		@extend .cf;
+
+		@include at-breakpoint($huge-width no-mq) 
+		{
+			border-bottom:0 solid $calRowBorderColor;
+			@include rem(border-bottom-width, $borderMedium);
+
+			&:first-child
+			{
+				border-top:0 solid $calRowBorderColor;
+				@include rem(border-top-width, $borderMedium);
+			}
+		}
+
+	}
+
+	.cal__cell
+	{
+		.cal__cell__overflow,
+		.cal__show-more
+		{
+			display:none;
+		}
+
+		&.cal__cell--current
+		{
+			@include background($calCurrentBackgroundColor);
+
+			.cal__entry:hover
+			{
+				@include background($calCurrentHoverColor);
+			}
+		}
+
+		@include at-breakpoint($huge-width) 
+		{
+			
+			@include rem(padding, $singleSpace);
+			border-right:0 solid $calRowBorderColor;
+			@include rem(border-right-width, $borderMedium);
+
+			@include rem(height, $doubleSpace * 6);
+
+			.cal__cell__inner
+			{
+				position:relative;
+				max-height:100%;
+				overflow:hidden;
+			}
+
+			.cal__cell__overflow,
+			.cal__show-more
+			{
+				display:block;
+				position:absolute;
+				width:100%;
+			}
+
+			.cal__cell__overflow
+			{
+				@include rem(bottom, $baseLineHeight + $singleSpace);
+				@include rem(height, $baseLineHeight / 2);
+				@include background(linear-gradient(rgba(255,255,255,0), $calBackgroundColor));
+			}
+
+			.cal__show-more
+			{
+				bottom:0;
+				@include rem(padding-top, $singleSpace);
+				background:$calBackgroundColor;
+				@include setType($smallFontSize, $baseLineHeight);
+				text-align:center;
+
+				&:hover
+				{
+					color:$calLinkColor;
+					text-decoration:underline;
+				}
+			}
+
+			&.cal__cell--current
+			{
+				color:$calCurrentTextColor;
+				@include background($calCurrentBackgroundColor);
+
+				.cal__entry:hover
+				{
+					@include background(none);
+				}
+			}
+
+			&.cal__cell--out-of-date
+			{
+				color:$calOutofdateTextColor;
+
+				.cal__entry__period,
+				.cal__entry__title
+				{
+					color:$calOutofdateTextColor;
+				}
+
+			}
+		}
+	}
+
+	.cal__cell--is-empty
+	{
+		display:none;
+
+		@include at-breakpoint($huge-width no-mq) 
+		{
+			display:block;
+		}
+	}
+
+	.l-cal__cell:first-child .cal__cell
+	{
+		@include at-breakpoint($huge-width no-mq) 
+		{
+			border-left:0 solid $calRowBorderColor;
+			@include rem(border-left-width, $borderMedium);
+		}
+	}
+
+	.cal__cell__title
+	{
+		@extend h4;
+
+		display:block;
+		@include rem(margin-bottom, $bodyLineHeight - $borderMedium);
+		border-bottom:0 solid $calTitleBorderColor;
+		@include rem(border-bottom-width, $borderMedium);
+		text-transform:uppercase;
+		font-weight:$normalFontWeight;
+
+		@include at-breakpoint($huge-width no-mq) 
+		{
+			@include rem(margin-bottom, $singleSpace / 2);
+			border:0 none;
+		}	
+	}
+
+	.cal__additional-info
+	{
+		@include at-breakpoint($huge-width no-mq) 
+		{
+			display:none;
+		}
+	}
+
+	.cal__entries
+	{
+		margin-bottom:0;
+	}
+
+	.cal__entry
+	{	
+		@include rem(margin-bottom, $doubleSpace - $borderMedium);
+		border-bottom:0 solid $calRowBorderColor;
+		@include rem(border-bottom-width, $borderMedium);
+
+		&:last-child
+		{
+			border-bottom:0 none;
+			@include rem(margin-bottom, $doubleSpace * 2 - $borderMedium);
+		}
+
+		&:hover
+		{
+			@include background($calEntryHoverColor);
+
+			@include at-breakpoint($huge-width no-mq) 
+			{
+				@include background(transparent);
+			}
+
+		}
+
+		@include at-breakpoint($huge-width no-mq) 
+		{
+			margin-bottom:0;
+			border-bottom:0 none;
+			@include rem(line-height, $bodyLineHeight - 0.6);
+		}
+	}
+
+	.cal__entry__title, 
+	.cal__entry__period
+	{
+		@include at-breakpoint($huge-width no-mq) 
+		{
+			display:inline-block;
+			@include rem(margin-left, -.4); // display inline-block margin
+			vertical-align: top;
+		}
+	}
+
+	.cal__entry__period
+	{
+		margin-bottom:0;
+		@include setType($bodyFontSize, $bodyLineHeight);
+		font-weight:$normalFontWeight;
+		color:$calTextColor;
+
+		.to::before
+		{
+			content:" - ";
+		}
+
+		@include at-breakpoint($huge-width no-mq) 
+		{
+			width:60%;
+			text-align:right;
+			@include setType($smallFontSize, $baseLineHeight);
+			white-space:nowrap;
+			
+			.to
+			{
+				display:none;
+			}
+		}	
+
+		@include at-breakpoint($giant-width) 
+		{
+			width:41%;
+		}
+
+		@include at-breakpoint($monstrous-width no-mq) 
+		{
+			width:30%;
+		}
+	}
+
+	.cal__entry__title
+	{
+		color:$grayLight;
+
+		@include at-breakpoint($huge-width no-mq) 
+		{
+			margin-bottom:0;
+			@include rem(padding-left, .5);
+			width:40%;
+			overflow:hidden;
+
+			@include setType($smallFontSize, $baseLineHeight);
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+
+		@include at-breakpoint($giant-width) 
+		{
+			width:59%;
+		}
+
+		@include at-breakpoint($monstrous-width no-mq) 
+		{
+			width:70%;
+		}
+	}
+
+
+//  = Calendar 
+//	= vertical view
+//  ---------------------------------------------------------------------------
+
+	// .cal--v-view
+	// {
+		
+	// 	.l-cal__col-head__cell:first-child .cal__cell
+	// 	{
+	// 		display:none;
+
+	// 		@include at-breakpoint($huge-width no-mq) 
+	// 		{
+	// 			display:block;
+	// 		}
+
+	// 	}
+
+	// 	.l-cal__col-head__cell .cal__cell
+	// 	{
+	// 		border-bottom:0 solid $blue;
+	// 		@include rem(border-bottom-width, $borderMedium);
+	// 	}
+
+	// 	.cal__row-head
+	// 	{
+	// 		display:none;
+
+	// 		@include at-breakpoint($huge-width no-mq) 
+	// 		{
+	// 			display:block;
+	// 		}
+	// 	}
+	// }	

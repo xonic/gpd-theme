@@ -1,0 +1,44 @@
+//  ---------------------------------------------------------------------------
+//
+//  Collapsible element
+//
+//  ---------------------------------------------------------------------------
+
+
+	
+//  = HEADER
+//  ---------------------------------------------------------------------------
+
+	.js .collapse-hd
+	{
+		//@include rem("padding-top", $bodyLineHeight);
+		//border-top:1px dotted $gray;
+		//cursor:pointer;
+	}
+
+
+	.collapse-hd [class^="icon-"]
+	{
+		//line-height:160%;
+	}
+
+	.no-js .collapse-hd [class^="icon-"]
+	{
+		//display:none;
+	}
+
+
+	
+//  = BODY
+//  ---------------------------------------------------------------------------
+
+	.collapse-bd
+	{
+		height:0;
+		overflow:hidden;
+	}
+
+	.csstransitions .collapsing
+	{
+		@include transition(height .3s ease-out);
+	}
