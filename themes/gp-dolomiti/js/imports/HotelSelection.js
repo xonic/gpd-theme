@@ -58,6 +58,7 @@ define(["jquery"], function($)
 			if(selectedIndex === 0)
 			{
 				this.hideGroup();
+				this.resetSelection();
 			}
 			else
 			{
@@ -67,8 +68,9 @@ define(["jquery"], function($)
 			}
 		},
 
-		getURLParameter:function(name) {
-    		return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+		getURLParameter:function(name)
+		{
+			return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
 		},
 
 		hideGroup: function()
@@ -89,6 +91,14 @@ define(["jquery"], function($)
 		showDropdown: function(index)
 		{
 			$(this.$hotelDropdowns.get(index)).removeClass("is-hidden");
+		},
+
+		resetSelection: function()
+		{
+			$.each(this.$hotelDropdowns, function(i, dropdown)
+			{
+				$(dropdown).find("select")[0].selectedIndex = 0;
+			});
 		}
 	};
 
