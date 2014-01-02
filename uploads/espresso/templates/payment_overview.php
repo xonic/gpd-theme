@@ -6,7 +6,7 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 			<?php _e('Your Registration', 'event_espresso'); ?>
 		</h2>
 
-		<? //print_r($payment_status); ?>
+		<? print_r($payment_status); ?>
 
 		<?php // localize all the things!
 			switch( $payment_status ) {
@@ -14,9 +14,9 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 					$payment_status_translated = __( 'Pending', 'event_espresso' );
 		?>
 			<div class="msg msg--warning msg--has-icon space-lover">
-				<div class="msg__title"><i class="fa fa-fw fa-warning"></i>Premium Package&nbsp;&nbsp;&nbsp;<?php echo '&euro; ' . number_format($total_cost, 2); ?></div>
+				<div class="msg__title"><i class="fa fa-fw fa-warning"></i><?php echo $price_option .' &nbsp;&nbsp;&nbsp;&euro; ' . number_format($total_cost, 2); ?></div>
 				<div class="msg__bd">
-					<div>You have registered for the <a href="/packages/">Premium Package</a>.</div>
+					<div>You have registered for the <a href="/packages/"><?php echo $price_option ?></a>.</div>
 					<div>The registration is <strong>not complete</strong> until we received and processed your payment.</div>
 					<div>Thank you.</div>
 				</div>
@@ -26,9 +26,9 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 					$payment_status_translated = __( 'Incomplete', 'event_espresso' );
 		?>
 			<div class="msg msg--warning msg--has-icon space-lover">
-				<div class="msg__title"><i class="fa fa-fw fa-warning"></i>Premium Package&nbsp;&nbsp;&nbsp;<?php echo '&euro; ' . number_format($total_cost, 2); ?></div>
+				<div class="msg__title"><i class="fa fa-fw fa-warning"></i><?php echo $price_option .' &nbsp;&nbsp;&nbsp;&euro; ' . number_format($total_cost, 2); ?></div>
 				<div class="msg__bd">
-					<div>You have registered for the <a href="/packages/">Premium Package</a>.</div>
+					<div>You have registered for the <a href="/packages/"><?php echo $price_option ?></a>.</div>
 					<div>The registration is <strong>not complete</strong> until we received and processed your payment.</div>
 					<div>Thank you.</div>
 				</div>
@@ -38,9 +38,9 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 					$payment_status_translated = __( 'Completed', 'event_espresso' );
 		?>
 			<div class="msg msg--success msg--has-icon space-lover">
-				<div class="msg__title"><i class="fa fa-fw fa-check"></i>Premium Package&nbsp;&nbsp;&nbsp;<?php echo '&euro; ' . number_format($total_cost, 2); ?></div>
+				<div class="msg__title"><i class="fa fa-fw fa-check"></i><?php echo $price_option .' &nbsp;&nbsp;&nbsp;&euro; ' . number_format($total_cost, 2); ?></div>
 				<div class="msg__bd">
-					<div>You have registered for the <a href="/packages/">Premium Package</a>.</div>
+					<div>You have registered for the <a href="/packages/"><?php echo $price_option ?></a>.</div>
 					<div>Your registration is <strong>complete and confirmed</strong>, your payment has been received and processed.</div>
 					<div>Thank you.</div>
 				</div>
@@ -50,9 +50,9 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 					$payment_status_translated = __( 'Completed', 'event_espresso' );
 		?>
 			<div class="msg msg--success msg--has-icon space-lover">
-				<div class="msg__title"><i class="fa fa-fw fa-check"></i>Premium Package&nbsp;&nbsp;&nbsp;<?php echo '&euro; ' . number_format($total_cost, 2); ?></div>
+				<div class="msg__title"><i class="fa fa-fw fa-check"></i><?php echo $price_option .' &nbsp;&nbsp;&nbsp;&euro; ' . number_format($total_cost, 2); ?></div>
 				<div class="msg__bd">
-					<div>You have registered for the <a href="/packages/">Premium Package</a>.</div>
+					<div>You have registered for the <a href="/packages/"><?php echo $price_option ?></a>.</div>
 					<div>Your registration is <strong>complete and confirmed</strong>, your payment has been received and processed.</div>
 					<div>Thank you.</div>
 				</div>
@@ -62,9 +62,9 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 					$payment_status_translated = __( 'Payment Declined', 'event_espresso' );
 		?>
 			<div class="msg msg--error msg--has-icon space-lover">
-				<div class="msg__title"><i class="fa fa-fw fa-times"></i>Premium Package&nbsp;&nbsp;&nbsp;<?php echo '&euro; ' . number_format($total_cost, 2); ?></div>
+				<div class="msg__title"><i class="fa fa-fw fa-times"></i><?php echo $price_option .' &nbsp;&nbsp;&nbsp;&euro; ' . number_format($total_cost, 2); ?></div>
 				<div class="msg__bd">
-					<div>You have registered for the <a href="/packages/">Premium Package</a>.</div>
+					<div>You have registered for the <a href="/packages/"><?php echo $price_option ?></a>.</div>
 					<div>We are sorry, but your payment has been declined. For further information, please contact our <a href="mailto:hannes@granpremiodolomiti.com?subject=<? echo 'Payment declined, registration ID: ' . $registration_id; ?>" title="Get help">support team</a></div>
 					<div>Thank you.</div>
 				</div>

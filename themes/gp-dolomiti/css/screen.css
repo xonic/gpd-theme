@@ -2602,7 +2602,7 @@ form {
     background-image: url(../images/routes/routes--320--2x.jpg);
   }
 }
-/* line 8, ../sass/imports/modules/_lang.scss */
+/* line 12, ../sass/imports/modules/_lang.scss */
 .lang {
   font-size:  14px;
   font-size:  1.4rem;
@@ -2612,12 +2612,12 @@ form {
   letter-spacing: 0;
   text-align: center;
 }
-/* line 16, ../sass/imports/modules/_lang.scss */
+/* line 20, ../sass/imports/modules/_lang.scss */
 .lang ul {
   margin: 0;
 }
-@media (min-width: 37.5em) {
-  /* line 8, ../sass/imports/modules/_lang.scss */
+@media (min-width: 48em) {
+  /* line 12, ../sass/imports/modules/_lang.scss */
   .lang {
     float: none;
     position: absolute;
@@ -2649,47 +2649,47 @@ form {
   line-height:  2.6rem;
 }
 
-/* line 36, ../sass/imports/modules/_lang.scss */
+/* line 40, ../sass/imports/modules/_lang.scss */
 #ie7 .lang,
 #ie8 .lang {
   background: #332e24;
 }
-/* line 40, ../sass/imports/modules/_lang.scss */
+/* line 44, ../sass/imports/modules/_lang.scss */
 #ie7 .lang a,
 #ie8 .lang a {
   color: #b8b8b8;
 }
-/* line 44, ../sass/imports/modules/_lang.scss */
+/* line 48, ../sass/imports/modules/_lang.scss */
 #ie7 .lang a:hover,
 #ie8 .lang a:hover {
   color: white;
 }
-/* line 49, ../sass/imports/modules/_lang.scss */
+/* line 53, ../sass/imports/modules/_lang.scss */
 #ie7 .lang .active a,
 #ie8 .lang .active a {
   color: white;
 }
 
-/* line 55, ../sass/imports/modules/_lang.scss */
+/* line 59, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a {
   color: rgba(255, 255, 255, 0.4);
   border: 0 none;
 }
-/* line 61, ../sass/imports/modules/_lang.scss */
+/* line 65, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a:hover {
   background: transparent;
   color: white;
 }
-/* line 67, ../sass/imports/modules/_lang.scss */
+/* line 71, ../sass/imports/modules/_lang.scss */
 [class^="lang-"].active a {
   color: white;
   cursor: default;
 }
-/* line 73, ../sass/imports/modules/_lang.scss */
+/* line 77, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:after {
   content: " | ";
 }
-/* line 78, ../sass/imports/modules/_lang.scss */
+/* line 82, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:last-child:after {
   content: none;
 }

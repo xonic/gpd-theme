@@ -468,4 +468,23 @@ if (!function_exists('event_espresso_price_dropdown')) {
 	add_action('espresso_price_select', 'event_espresso_price_dropdown', 20, 2);
 }
 
+// make the payment option (ticket name) available on the thank you page
+function espresso_prepare_payment_data_for_gateways_custom( $payment_data ) {
+	remove_filter('filter_hook_espresso_prepare_payment_data_for_gateways', 'espresso_prepare_payment_data_for_gateways');
+	global $wpdb, $org_options;
+	$SQL = "SELECT ea.price_option, ea.email, ea.event_id, ea.registration_id, ea.txn_type, ed.start_date,";
+	$SQL .= " ea.attendee_session, ed.event_name, ea.lname, ea.fname, ea.total_cost,";
+	$SQL .= " ea.payment_status, ea.payment_date, ea.address, ea.city, ea.txn_id,";
+	$SQL .= " ea.zip, ea.state, ea.phone, ed.event_meta FROM " . EVENTS_ATTENDEE_TABLE . " ea";
+	$SQL .= " JOIN " . EVENTS_DETAIL_TABLE . " ed ON ed.id=ea.event_id";
+	$SQL .= " WHERE ea.id = %d";
+	$temp_data = $wpdb->get_row( $wpdb->prepare( $SQL, $payment_data['attendee_id'] ), ARRAY_A );
+	$payment_data = array_merge( $payment_data, $temp_data );
+	$payment_data['contact'] = $org_options['contact_email'];
+	$payment_data['event_meta'] = unserialize($temp_data['event_meta']);
+	return $payment_data;
+}
+
+add_filter('filter_hook_espresso_prepare_payment_data_for_gateways', 'espresso_prepare_payment_data_for_gateways_custom', 5);
+
 ?>

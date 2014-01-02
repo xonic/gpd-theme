@@ -1,11 +1,18 @@
 
+
 //  ---------------------------------------------------------------------------
 //
 //  Main navigation
 //
 //  ---------------------------------------------------------------------------
 
-	$navHeight: 29.3;
+	// The height of the navigation 
+	// when open on small screens
+	$navHeight: 34.2;
+	
+	// Add a minor breakpoint to 
+	// allow for all menu items to fit
+	$navLarge:48em;
 
 	.flyout
 	{
@@ -27,7 +34,7 @@
 			color:$white;
 		}
 
-		@include at-breakpoint($large-width no-mq)
+		@include at-breakpoint($navLarge no-mq)
 		{
 			position:fixed;
 			z-index:999;
@@ -70,7 +77,7 @@
 			@include transition(transform .3s ease, opacity .3s linear);
 		}
 
-		@include at-breakpoint($large-width no-mq)
+		@include at-breakpoint($navLarge no-mq)
 		{
 			display:none;
 		}
@@ -132,12 +139,22 @@
 				color:rgba($white, .4);
 			}
 
+			.menu-item--primary a
+			{
+				color:rgba($primaryAccent, .75);
+			}
+
+			.menu-item--primary.current-menu-item a
+			{
+				color:$primaryAccent;
+			}
+
 			.current-menu-item a
 			{
 				color:$white;
 			}
 
-			@include at-breakpoint($large-width no-mq)
+			@include at-breakpoint($navLarge no-mq)
 			{
 				margin:0;
 				@include transform(scale3d(1,1,1) translate3d(0,0,0));		
@@ -146,7 +163,7 @@
 
 		.menu-item
 		{
-			@include at-breakpoint($large-width no-mq)
+			@include at-breakpoint($navLarge no-mq)
 			{
 				display:inline;
 
@@ -168,7 +185,7 @@
 			text-align:center;
 			text-transform:uppercase;
 
-			@include at-breakpoint($large-width no-mq)
+			@include at-breakpoint($navLarge no-mq)
 			{
 				display:inline-block;
 				margin-right:0;
@@ -192,6 +209,18 @@
 		background:$primaryAccent;
 	}
 
+	.no-touch .nav-main .menu .menu-item--primary a:hover,
+	.touch .nav-main .menu .menu-item--primary a:active
+	{
+		color:$primaryAccent;
+	}
+
+	.touch .nav-main .menu .menu-item--primary a:active
+	{
+		background:$primaryAccent;
+		color:$white;
+	}
+
 	.nav-is-shown .nav-main .menu-hauptmenue-container
 	{
 		@include transform(scale3d(1,1,1) translate3d(0,0,0));
@@ -204,7 +233,7 @@
 		background:$white;
 		@include transition(transform .3s ease);
 
-		@include at-breakpoint($large-width no-mq)
+		@include at-breakpoint($navLarge no-mq)
 		{
 			background:transparent;
 		}
@@ -214,7 +243,7 @@
 	{
 		background:$white;
 
-		@include at-breakpoint($large-width no-mq)
+		@include at-breakpoint($navLarge no-mq)
 		{
 			@include rem(padding-top, $doubleSpace);
 		}
@@ -225,7 +254,7 @@
 		@include transform(translate3d(0, $navHeight * 10px, 0));
 		@include rem(margin-top, $touchSize);
 
-		@include at-breakpoint($large-width no-mq)
+		@include at-breakpoint($navLarge no-mq)
 		{
 			@include transform(translate3d(0, 0, 0));
 		}
@@ -235,7 +264,7 @@
 	{
 		@include rem(margin-top, $navHeight + $touchSize);
 
-		@include at-breakpoint($large-width no-mq)
+		@include at-breakpoint($navLarge no-mq)
 		{
 			@include rem(margin-top, $touchSize);
 		}

@@ -4,6 +4,10 @@
 //
 //  ---------------------------------------------------------------------------
 	
+	// Add minor breakpoint to match
+	// the minor breakpoint of nav-main.scss
+	$langLarge:48em;
+
 	.lang
 	{
 		@extend .nav;
@@ -17,7 +21,7 @@
 			margin:0;
 		}
 
-		@include at-breakpoint($large-width no-mq)
+		@include at-breakpoint($langLarge no-mq)
 		{
 			float:none;
 			position:absolute;
