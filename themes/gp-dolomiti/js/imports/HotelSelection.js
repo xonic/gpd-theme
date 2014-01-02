@@ -30,6 +30,14 @@ define(["jquery"], function($)
 			// Quit if there is no package dropdown
 			if(this.$packageSelect.length === 0) return;
 
+			// Check if there is a pre-selected package
+			// passed as URL parameter and set as selected
+			var packageParam = this.getURLParameter("package");
+			if(packageParam)
+			{
+				this.$packageSelect.find("[value*='" + packageParam + "']").attr("selected", true);
+			}
+
 			this.onchange();
 			this.listen();
 		},
@@ -57,6 +65,10 @@ define(["jquery"], function($)
 				this.hideAllDropdowns();
 				this.showDropdown(selectedIndex-1);
 			}
+		},
+
+		getURLParameter:function(name) {
+    		return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
 		},
 
 		hideGroup: function()
