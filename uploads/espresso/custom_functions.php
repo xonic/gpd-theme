@@ -407,7 +407,7 @@ if (!function_exists('event_espresso_price_dropdown')) {
 
         if ($wpdb->num_rows > 1) {
            //Create the label for the drop down
-			$html .= $show_label == 1 ? '<label class="ee-reg-page-questions" for="event_cost">' . $label . '</label>' : '';
+			$html .= $show_label == 1 ? '<label class="ee-reg-page-questions" for="event_cost"><h2 class="js-translate">Package / Paket / Pacchetto / Forfait</h2></label>' : '';
 	
 			//Create a dropdown of prices
 			$html .= '<select name="price_option' . $multi_name_adjust . '" id="price_option-' . $event_id . '">';

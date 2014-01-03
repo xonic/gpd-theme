@@ -116,8 +116,6 @@ if ( $reg_form_only == false ){
 	
 
 					<fieldset class="form-section">
-						<h2 class="js-translate">Package / Paket / Pacchetto / Forfait</h2>
-
 						<div class="event_form_field">
 							<?php do_action( 'espresso_price_select', $event_id, array('show_label'=>TRUE, 'label'=>$price_label) );?>
 						</div>
