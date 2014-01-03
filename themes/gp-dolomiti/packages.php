@@ -20,11 +20,11 @@ get_header(); ?>
 <section class="packages">
 	<div class="grid">
 		<h1 class="section__title section__title--emphasized">
-			<? _e("<!--:en-->Packages<!--:--><!--:de-->Pakete<!--:--><!--:it-->Pacchetti partecipazione<!--:--><!--:fr-->Forfaits<!--:-->"); ?>
+			<? _e("<!--:en-->Packages<!--:--><!--:de-->Pakete<!--:--><!--:it-->Pacchetti Partecipazione<!--:--><!--:fr-->Forfaits<!--:-->"); ?>
 		</h1>
 
 		<section class="subsection">
-			<h2 class="subsection__title"><? _e("<!--:en-->Premium package<!--:--><!--:de-->Premium Paket<!--:--><!--:it-->Pacchetto premium<!--:--><!--:fr-->Forfait premium<!--:-->"); ?></h2>
+			<h2 class="subsection__title"><? _e("<!--:en-->Premium Package<!--:--><!--:de-->Premium Paket<!--:--><!--:it-->Pacchetto Premium<!--:--><!--:fr-->Forfait Premium<!--:-->"); ?></h2>
 			<div class="l-package__description">
 				<p class="package__description">
 					<? _e("package__premium__description", "gp-dolomiti"); ?>
@@ -42,7 +42,7 @@ get_header(); ?>
 			</div>
 			<div class="package__price">&euro; 4.850,00</div>
 			<div class="l-package__action">
-				<a class="package__action btn btn--newsletter btn--disabled" href="javascript:void(0)"><? _e("<!--:en-->Order<!--:--><!--:de-->Anmelden<!--:--><!--:it-->Iscrizione<!--:--><!--:fr-->Inscription<!--:-->"); ?></a> <span class="package__action__msg less-important"><? _e('<!--:en-->Tickets are not available yet. We\'d love to <a href="http://eepurl.com/xOMaz" title="Newsletter">notify you</a> as soon as we\'re ready.<!--:--><!--:de-->Anmeldung derzeit noch nicht möglich. Gerne <a href="http://eepurl.com/xOMaz" title="Newsletter">benachrichtigen wir Sie</a>, wenn es soweit ist.<!--:--><!--:it-->Le iscrizioni non sono attualmente possibili, <a href="http://eepurl.com/xOMaz" title="Newsletter">vi informeremo</a> entro breve.<!--:--><!--:fr-->Les inscriptions ne sont pas encore possibles. <a href="http://eepurl.com/xOMaz" title="Newsletter">Nous vous informerons</a> dès que possible de leur ouverture. <!--:-->'); ?></span>
+				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en<!--:--><!--:de-->/register/?lang=de<!--:--><!--:it-->/register/?lang=it<!--:--><!--:fr-->/register/?lang=fr<!--:-->'); ?>"><? _e("<!--:en-->Order<!--:--><!--:de-->Anmelden<!--:--><!--:it-->Iscrizione<!--:--><!--:fr-->Inscription<!--:-->"); ?></a>
 			</div>
 			<ul class="package__features">
 				<li class="l-feature">
@@ -103,7 +103,51 @@ get_header(); ?>
 		</section>
 
 		<section class="subsection">
-			<h2 class="subsection__title"><? _e("<!--:en-->Platinum package<!--:--><!--:de-->Platinum Paket<!--:--><!--:it-->Pacchetto platinum<!--:--><!--:fr-->Forfait platinum<!--:-->"); ?></h2>
+			<h2 class="subsection__title"><? _e("<!--:en-->Platinum Package<!--:--><!--:de-->Platinum Paket<!--:--><!--:it-->Pacchetto Platinum<!--:--><!--:fr-->Forfait Platinum<!--:-->"); ?></h2>
+			<div class="l-package__description">
+				<p class="package__description">
+					<? _e("package__platinum__description", "gp-dolomiti"); ?>
+				</p>
+				<a href="<? echo get_site_url() . '/' . qtrans_getLanguage(); ?>/contact" title="Kontaktieren Sie uns"><? _e("<!--:en-->Got questions?<!--:--><!--:de-->Noch Fragen?<!--:--><!--:it-->Avete delle domande?<!--:--><!--:fr-->Des questions?<!--:-->"); ?></a>
+			</div>
+			<div class="l-package__summary">
+				<ul class="package__summary">
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Participation<!--:--><!--:de-->Teilnahme<!--:--><!--:it-->Partecipazione<!--:--><!--:fr-->Participation<!--:-->"); ?></div></li>
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Exclusive appartment<!--:--><!--:de-->Exklusives Appartement<!--:--><!--:it-->Appartamento esclusivo<!--:--><!--:fr-->Exclusive appartment<!--:-->"); ?></div></li>
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Catering<!--:--><!--:de-->Verpflegung<!--:--><!--:it-->Sostenimento<!--:--><!--:fr-->Restauration<!--:-->"); ?></div></li>
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Official clothing<!--:--><!--:de-->Offizielle Bekleidung<!--:--><!--:it-->Abbigliamento ufficiale<!--:--><!--:fr-->Vêtements officiels<!--:-->"); ?></div></li>
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Safe parking<!--:--><!--:de-->Sicher parken<!--:--><!--:it-->Parcheggio sicuro<!--:--><!--:fr-->Parking sécurisé<!--:-->"); ?></div></li>
+				</ul>
+			</div>
+			<div class="package__price">&euro; 5.350,00</div>
+			<div class="l-package__action">
+				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en&package=Platinum<!--:--><!--:de-->/register/?lang=de&package=Platinum<!--:--><!--:it-->/register/?lang=it&package=Platinum<!--:--><!--:fr-->/register/?lang=fr&package=Platinum<!--:-->'); ?>"><? _e("<!--:en-->Order<!--:--><!--:de-->Anmelden<!--:--><!--:it-->Iscrizione<!--:--><!--:fr-->Inscription<!--:-->"); ?></a>
+			</div>
+		</section>
+		<section class="subsection">
+			<h2 class="subsection__title"><? _e("<!--:en-->Superior Package<!--:--><!--:de-->Superior Paket<!--:--><!--:it-->Pacchetto Superior <!--:--><!--:fr-->Forfait Superior<!--:-->"); ?></h2>
+			<div class="l-package__description">
+				<p class="package__description">
+					<? _e("package__platinum--superior__description", "gp-dolomiti"); ?>
+				</p>
+				<a href="<? echo get_site_url() . '/' . qtrans_getLanguage(); ?>/contact" title="Kontaktieren Sie uns"><? _e("<!--:en-->Got questions?<!--:--><!--:de-->Noch Fragen?<!--:--><!--:it-->Avete delle domande?<!--:--><!--:fr-->Des questions?<!--:-->"); ?></a>
+			</div>
+			<div class="l-package__summary">
+				<ul class="package__summary">
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Participation<!--:--><!--:de-->Teilnahme<!--:--><!--:it-->Partecipazione<!--:--><!--:fr-->Participation<!--:-->"); ?></div></li>
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Exclusive appartment<!--:--><!--:de-->Exklusives Appartement<!--:--><!--:it-->Appartamento esclusivo<!--:--><!--:fr-->Exclusive appartment<!--:-->"); ?></div></li>
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Catering<!--:--><!--:de-->Verpflegung<!--:--><!--:it-->Sostenimento<!--:--><!--:fr-->Restauration<!--:-->"); ?></div></li>
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Official clothing<!--:--><!--:de-->Offizielle Bekleidung<!--:--><!--:it-->Abbigliamento ufficiale<!--:--><!--:fr-->Vêtements officiels<!--:-->"); ?></div></li>
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Safe parking<!--:--><!--:de-->Sicher parken<!--:--><!--:it-->Parcheggio sicuro<!--:--><!--:fr-->Parking sécurisé<!--:-->"); ?></div></li>
+				</ul>
+			</div>
+			<div class="package__price">&euro; 5.550,00</div>
+			<div class="l-package__action">
+				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en&package=Superior<!--:--><!--:de-->/register/?lang=de&package=Superior<!--:--><!--:it-->/register/?lang=it&package=Superior<!--:--><!--:fr-->/register/?lang=fr&package=Superior<!--:-->'); ?>"><? _e("<!--:en-->Order<!--:--><!--:de-->Anmelden<!--:--><!--:it-->Iscrizione<!--:--><!--:fr-->Inscription<!--:-->"); ?></a>
+			</div>
+		</section>
+		<section class="subsection">
+			<h2 class="subsection__title"><? _e("<!--:en-->Appartments<!--:--><!--:de-->Appartements<!--:--><!--:it-->Appartatmenti<!--:--><!--:fr-->Appartements<!--:-->"); ?></h2>
 			<div class="l-package__description">
 				<p class="package__description">
 					<? _e("package__platinum__description", "gp-dolomiti"); ?>

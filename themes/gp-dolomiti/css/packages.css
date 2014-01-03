@@ -1910,42 +1910,36 @@ object {
 }
 
 /* line 24, ../sass/imports/modules/_packages.scss */
-.package__action {
-  margin-bottom:  12px;
-  margin-bottom:  1.2rem;
-}
-
-/* line 29, ../sass/imports/modules/_packages.scss */
 .package__action__msg {
   display: block;
   margin-bottom:  48px;
   margin-bottom:  4.8rem;
 }
 @media (min-width: 48em) {
-  /* line 29, ../sass/imports/modules/_packages.scss */
+  /* line 24, ../sass/imports/modules/_packages.scss */
   .package__action__msg {
     line-height:  24px;
     line-height:  2.4rem;
   }
 }
 
-/* line 40, ../sass/imports/modules/_packages.scss */
+/* line 35, ../sass/imports/modules/_packages.scss */
 .package__price--on-demand {
   font-size: 130%;
 }
 
-/* line 45, ../sass/imports/modules/_packages.scss */
+/* line 40, ../sass/imports/modules/_packages.scss */
 .package__action__msg {
   font-size: 80%;
 }
 
-/* line 50, ../sass/imports/modules/_packages.scss */
+/* line 45, ../sass/imports/modules/_packages.scss */
 .l-package__description {
   margin-bottom:  48px;
   margin-bottom:  4.8rem;
 }
 @media (min-width: 48em) {
-  /* line 50, ../sass/imports/modules/_packages.scss */
+  /* line 45, ../sass/imports/modules/_packages.scss */
   .l-package__description {
     margin-bottom:  72px;
     margin-bottom:  7.2rem;
@@ -1955,25 +1949,25 @@ object {
   }
 }
 
-/* line 61, ../sass/imports/modules/_packages.scss */
+/* line 56, ../sass/imports/modules/_packages.scss */
 .l-package__summary {
   display: none;
 }
 @media (min-width: 48em) {
-  /* line 61, ../sass/imports/modules/_packages.scss */
+  /* line 56, ../sass/imports/modules/_packages.scss */
   .l-package__summary {
     display: block;
     width: 23.72881%;
     float: right;
     margin-right: 0;
   }
-  /* line 69, ../sass/imports/modules/_packages.scss */
+  /* line 64, ../sass/imports/modules/_packages.scss */
   .l-package__summary i {
     color: #feaa00;
   }
 }
 
-/* line 74, ../sass/imports/modules/_packages.scss */
+/* line 69, ../sass/imports/modules/_packages.scss */
 .package__summary {
   padding:  12px;
   padding:  1.2rem;
@@ -1984,14 +1978,14 @@ object {
 }
 
 @media (min-width: 48em) {
-  /* line 82, ../sass/imports/modules/_packages.scss */
+  /* line 77, ../sass/imports/modules/_packages.scss */
   .l-package__action {
     clear: right;
     width: 23.72881%;
     float: right;
     margin-right: 0;
   }
-  /* line 89, ../sass/imports/modules/_packages.scss */
+  /* line 84, ../sass/imports/modules/_packages.scss */
   .l-package__action .btn, .l-package__action .btn-group .btn-group__btn, .btn-group .l-package__action .btn-group__btn, .l-package__action .btn-dropdown .btn-dropdown__toggle, .btn-dropdown .l-package__action .btn-dropdown__toggle {
     float: right;
     width: 100%;

@@ -20,11 +20,6 @@
 		}
 	}
 
-	.package__action 
-	{
-		@include rem(margin-bottom, $singleSpace);
-	}
-
 	.package__action__msg
 	{
 		display:block;
