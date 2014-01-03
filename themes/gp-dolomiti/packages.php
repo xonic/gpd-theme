@@ -115,7 +115,7 @@ get_header(); ?>
 
 				<a class="subsection__detail" href="#ottmangut-description" data-collapse-target-group="ottmangut"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
 
-				<h2 class="subsection__heading">Hotel Ottmangut Suite</h2>
+				<h2 class="subsection__heading"><a href="http://ottmanngut.it" title="<? _e("<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--><!--:it-->Mostra la pagina dell' albergo<!--:--><!--:fr-->Voir l'hôtel<!--:-->"); ?>">Hotel Ottmangut Suite</a></h2>
 
 				<section class="slider slider--row-fixed">
 					<ul class="slider__slides slider__slides--contains-3">
@@ -155,7 +155,7 @@ get_header(); ?>
 
 				<a class="subsection__detail" href="#rubein-description" data-collapse-target-group="rubein"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
 
-				<h2 class="subsection__heading">Hotel Rubein Suite</h2>
+				<h2 class="subsection__heading"><a href="http://rubein.com" title="<? _e("<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--><!--:it-->Mostra la pagina dell' albergo<!--:--><!--:fr-->Voir l'hôtel<!--:-->"); ?>">Hotel Rubein Suite</a></h2>
 
 				<section class="slider slider--row-fixed">
 					<ul class="slider__slides slider__slides--contains-3">
@@ -195,7 +195,7 @@ get_header(); ?>
 
 				<a class="subsection__detail" href="#plantitscher-description" data-collapse-target-group="plantitscher"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
 
-				<h2 class="subsection__heading">Hotel Plantitscher Suite</h2>
+				<h2 class="subsection__heading"><a href="http://plantitscherhof.com" title="<? _e("<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--><!--:it-->Mostra la pagina dell' albergo<!--:--><!--:fr-->Voir l'hôtel<!--:-->"); ?>">Hotel Plantitscher Suite</a></h2>
 
 				<section class="slider slider--row-fixed">
 					<ul class="slider__slides slider__slides--contains-3">
@@ -260,7 +260,7 @@ get_header(); ?>
 
 				<a class="subsection__detail" href="#imperialart-description" data-collapse-target-group="imperialart"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
 
-				<h2 class="subsection__heading">Hotel Imperialart Suite</h2>
+				<h2 class="subsection__heading"><a href="http://imperialart.it" title="<? _e("<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--><!--:it-->Mostra la pagina dell' albergo<!--:--><!--:fr-->Voir l'hôtel<!--:-->"); ?>">Hotel Imperialart Suite</a></h2>
 
 				<section class="slider slider--row-fixed">
 					<ul class="slider__slides slider__slides--contains-3">
@@ -300,7 +300,7 @@ get_header(); ?>
 
 				<a class="subsection__detail" href="#mignon-description" data-collapse-target-group="mignon"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
 
-				<h2 class="subsection__heading">Hotel Mignon Suite</h2>
+				<h2 class="subsection__heading"><a href="http://hotelmignon.com" title="<? _e("<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--><!--:it-->Mostra la pagina dell' albergo<!--:--><!--:fr-->Voir l'hôtel<!--:-->"); ?>">Hotel Mignon Suite</a></h2>
 
 				<section class="slider slider--row-fixed">
 					<ul class="slider__slides slider__slides--contains-3">
@@ -340,7 +340,7 @@ get_header(); ?>
 
 				<a class="subsection__detail" href="#pergola-description" data-collapse-target-group="pergola"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
 
-				<h2 class="subsection__heading">Hotel Pergola Suite</h2>
+				<h2 class="subsection__heading"><a href="http://pergola-residence.de" title="<? _e("<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--><!--:it-->Mostra la pagina dell' albergo<!--:--><!--:fr-->Voir l'hôtel<!--:-->"); ?>">Hotel Pergola Suite</a></h2>
 
 				<section class="slider slider--row-fixed">
 					<ul class="slider__slides slider__slides--contains-3">
