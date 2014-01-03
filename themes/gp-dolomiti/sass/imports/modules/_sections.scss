@@ -1,15 +1,7 @@
-//  ---------------------------------------------------------------------------
-//
-//  Defines the layout for the main sections
-//
-//  ---------------------------------------------------------------------------
-
-
-
 
 //  ---------------------------------------------------------------------------
 //
-//  Defines the shared styling for the main sections and subsections
+//  Defines the shared styling for the main sections
 //
 //  ---------------------------------------------------------------------------
 	
@@ -38,3 +30,56 @@
 		@include rem(border-bottom-width, $borderMedium);
 		text-transform:uppercase;
 	}
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  Defines the shared styling for the sub-sections
+//
+//  ---------------------------------------------------------------------------
+
+	// The subsection is part
+	// of the main section
+	.subsection
+	{
+		@extend .cf;
+		
+		// padding-bottom equals margin-bottom - $doubleSpace
+		// since children usually have margin-bottom $doubleSpace
+		@include rem(padding-bottom, $doubleSpace);
+		@include rem(margin-bottom, $doubleSpace * 2);
+
+		border-bottom:0 solid $sandDark;
+		@include rem(border-bottom-width, $borderMedium);
+
+		&:last-child
+		{
+			padding-bottom:0;
+			border-bottom:0 none;
+		}
+	}
+
+	// Each subsection has one title
+	.subsection__title
+	{
+		@extend %h2;
+	}
+
+	// Each subsection can have
+	// multiple headings
+	.subsection__heading
+	{
+		@extend %h3;
+		@include rem(margin-bottom, $singleSpace);
+	}
+
+
+
+
+
+
+
+
+
+

@@ -388,8 +388,9 @@ table {
 }
 
 /* line 24, ../sass/imports/patterns/_clearfix.scss */
-.cf:before, .form-component:before,
+.cf:before, .subsection:before, .form-component:before,
 .cf:after,
+.subsection:after,
 .form-component:after {
   content: " ";
   /* 1 */
@@ -398,12 +399,12 @@ table {
 }
 
 /* line 29, ../sass/imports/patterns/_clearfix.scss */
-.cf:after, .form-component:after {
+.cf:after, .subsection:after, .form-component:after {
   clear: both;
 }
 
 /* line 33, ../sass/imports/patterns/_clearfix.scss */
-.cf, .form-component {
+.cf, .subsection, .form-component {
   *zoom: 1;
   /* 3 */
 }
@@ -767,7 +768,7 @@ dt {
 
 /* line 300, ../sass/imports/base/_typography.scss */
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, fieldset legend, .msg__title, .h4, .h5, .h6 {
+.h1, .h2, .h3, fieldset legend, .msg__title, .h4, .h5, .h6, .subsection__title, .subsection__heading {
   font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   color: #332e24;
@@ -778,7 +779,7 @@ h1, h2, h3, h4, h5, h6,
 }
 /* line 308, ../sass/imports/base/_typography.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
-.h1 small, .h2 small, .h3 small, fieldset legend small, .msg__title small, .h4 small, .h5 small, .h6 small {
+.h1 small, .h2 small, .h3 small, fieldset legend small, .msg__title small, .h4 small, .h5 small, .h6 small, .subsection__title small, .subsection__heading small {
   display: block;
   font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
   font-size: 60%;
@@ -839,7 +840,7 @@ h1, .h1 {
 }
 
 /* line 328, ../sass/imports/base/_typography.scss */
-h2, .h2 {
+h2, .h2, .subsection__title {
   font-size:  32px;
   font-size:  3.2rem;
   line-height:  33px;
@@ -847,7 +848,7 @@ h2, .h2 {
 }
 @media (min-width: 30em) {
   /* line 328, ../sass/imports/base/_typography.scss */
-  h2, .h2 {
+  h2, .h2, .subsection__title {
     font-size:  32px;
     font-size:  3.2rem;
     line-height:  33px;
@@ -856,7 +857,7 @@ h2, .h2 {
 }
 @media (min-width: 37.5em) {
   /* line 328, ../sass/imports/base/_typography.scss */
-  h2, .h2 {
+  h2, .h2, .subsection__title {
     font-size:  38px;
     font-size:  3.8rem;
     line-height:  44px;
@@ -865,7 +866,7 @@ h2, .h2 {
 }
 @media (min-width: 64em) {
   /* line 328, ../sass/imports/base/_typography.scss */
-  h2, .h2 {
+  h2, .h2, .subsection__title {
     font-size:  44px;
     font-size:  4.4rem;
     line-height:  44px;
@@ -874,7 +875,7 @@ h2, .h2 {
 }
 @media (min-width: 80em) {
   /* line 328, ../sass/imports/base/_typography.scss */
-  h2, .h2 {
+  h2, .h2, .subsection__title {
     font-size:  50px;
     font-size:  5rem;
     line-height:  55px;
@@ -883,7 +884,7 @@ h2, .h2 {
 }
 @media (min-width: 100em) {
   /* line 328, ../sass/imports/base/_typography.scss */
-  h2, .h2 {
+  h2, .h2, .subsection__title {
     font-size:  56px;
     font-size:  5.6rem;
     line-height:  66px;
@@ -892,7 +893,7 @@ h2, .h2 {
 }
 
 /* line 339, ../sass/imports/base/_typography.scss */
-h3, .h3, fieldset legend, .msg__title {
+h3, .h3, fieldset legend, .msg__title, .subsection__heading {
   font-size:  26px;
   font-size:  2.6rem;
   line-height:  28px;
@@ -1711,24 +1712,24 @@ object {
   cursor: not-allowed;
 }
 
-/* line 17, ../sass/imports/modules/_sections.scss */
+/* line 9, ../sass/imports/modules/_sections.scss */
 .section--dark {
   background: #332e24;
   color: white;
 }
-/* line 22, ../sass/imports/modules/_sections.scss */
+/* line 14, ../sass/imports/modules/_sections.scss */
 .section--dark h1, .section--dark h2 {
   color: white;
 }
 
-/* line 28, ../sass/imports/modules/_sections.scss */
+/* line 20, ../sass/imports/modules/_sections.scss */
 .section__title {
   text-align: center;
   letter-spacing:  -1.5px;
   letter-spacing:  -0.15rem;
 }
 
-/* line 34, ../sass/imports/modules/_sections.scss */
+/* line 26, ../sass/imports/modules/_sections.scss */
 .section__title--emphasized {
   margin:  24px 0 48px;
   margin:  2.4rem 0 4.8rem;
@@ -1738,6 +1739,28 @@ object {
   border-bottom-width:  2px;
   border-bottom-width:  0.2rem;
   text-transform: uppercase;
+}
+
+/* line 45, ../sass/imports/modules/_sections.scss */
+.subsection {
+  padding-bottom:  24px;
+  padding-bottom:  2.4rem;
+  margin-bottom:  48px;
+  margin-bottom:  4.8rem;
+  border-bottom: 0 solid #d4cfb0;
+  border-bottom-width:  2px;
+  border-bottom-width:  0.2rem;
+}
+/* line 57, ../sass/imports/modules/_sections.scss */
+.subsection:last-child {
+  padding-bottom: 0;
+  border-bottom: 0 none;
+}
+
+/* line 72, ../sass/imports/modules/_sections.scss */
+.subsection__heading {
+  margin-bottom:  12px;
+  margin-bottom:  1.2rem;
 }
 
 /* line 12, ../sass/imports/modules/_lang.scss */

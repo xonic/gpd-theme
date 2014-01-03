@@ -23,8 +23,8 @@ get_header(); ?>
 			<? _e("<!--:en-->Packages<!--:--><!--:de-->Pakete<!--:--><!--:it-->Pacchetti partecipazione<!--:--><!--:fr-->Forfaits<!--:-->"); ?>
 		</h1>
 
-		<section class="package">
-			<h2 class="package__title"><? _e("<!--:en-->Premium package<!--:--><!--:de-->Premium Paket<!--:--><!--:it-->Pacchetto premium<!--:--><!--:fr-->Forfait premium<!--:-->"); ?></h2>
+		<section class="subsection">
+			<h2 class="subsection__title"><? _e("<!--:en-->Premium package<!--:--><!--:de-->Premium Paket<!--:--><!--:it-->Pacchetto premium<!--:--><!--:fr-->Forfait premium<!--:-->"); ?></h2>
 			<div class="l-package__description">
 				<p class="package__description">
 					<? _e("package__premium__description", "gp-dolomiti"); ?>
@@ -102,8 +102,8 @@ get_header(); ?>
 			</ul>
 		</section>
 
-		<section class="package">
-			<h2 class="package__title"><? _e("<!--:en-->Platinum package<!--:--><!--:de-->Platinum Paket<!--:--><!--:it-->Pacchetto platinum<!--:--><!--:fr-->Forfait platinum<!--:-->"); ?></h2>
+		<section class="subsection">
+			<h2 class="subsection__title"><? _e("<!--:en-->Platinum package<!--:--><!--:de-->Platinum Paket<!--:--><!--:it-->Pacchetto platinum<!--:--><!--:fr-->Forfait platinum<!--:-->"); ?></h2>
 			<div class="l-package__description">
 				<p class="package__description">
 					<? _e("package__platinum__description", "gp-dolomiti"); ?>
@@ -124,25 +124,6 @@ get_header(); ?>
 				<a class="btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/contact/?lang=en<!--:--><!--:de-->/contact/?lang=de<!--:--><!--:it-->/contact/?lang=it<!--:--><!--:fr-->/contact/?lang=fr<!--:-->'); ?>"><? _e("<!--:en-->Request<!--:--><!--:de-->Anfragen<!--:--><!--:it-->Richiesta<!--:--><!--:fr-->Demande<!--:-->"); ?></a>
 			</div>
 		</section>
-		<?
-		// <section class="package">
-		// 	<h2 class="package__title">Budget Package <span class="package__price">&euro; 3.700,00</span></h2>
-		// 	<p class="package__description">
-		// 		Für all jene, die sich lieber selbst eine Unterkunft organisieren, bieten wir das Budget-Package an. Es <strong>enthält die selben Leistungen</strong> wie das Premium Package, <strong>ohne Hotel &amp; Nächtigung</strong>.
-		// 	</p>
-		// 	<div class="l-package__summary">
-		// 		<ul class="package__summary">
-		// 			<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd">Teilnahme</div></li>
-		// 			<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd">Verpflegung</div></li>
-		// 			<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd">Bekleidung</div></li>
-		// 			<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd">Sicher parken</div></li>
-		// 		</ul>
-		// 	</div>
-		// 	<div class="l-package__action">
-		// 		<a class="btn btn--newsletter" href="#">Bestellen</a>
-		// 	</div>
-		// </section>
-		?>
 	</div>
 </section>
 
