@@ -1,0 +1,214 @@
+//  ---------------------------------------------------------------------------
+//
+//  Hotel images
+//
+//  ---------------------------------------------------------------------------
+
+	$ieBackgroundPosX: -204px;
+
+	.hotel-img
+	{
+		display:block;
+		background-image:url(../images/hotels.jpg);
+		background-size:1800% 100%;
+	}
+
+	#ie7 .hotel-img,
+	#ie8 .hotel-img
+	{
+   		-ms-behavior: $backgroundSizePolyfillUrl;
+	}
+
+	.hotel-img--2
+	{
+		background-position:-100% 0;
+	}
+
+	#ie7 .hotel-img--2,
+	#ie8 .hotel-img--2
+	{
+		background-position:$ieBackgroundPosX 0;
+	}
+
+	.hotel-img--3
+	{
+		background-position:-200% 0;
+	}
+
+	#ie7 .hotel-img--3,
+	#ie8 .hotel-img--3
+	{
+		background-position:$ieBackgroundPosX * 2 0;
+	}
+
+	.hotel-img--4
+	{
+		background-position:-300% 0;
+	}
+
+	#ie7 .hotel-img--4,
+	#ie8 .hotel-img--4
+	{
+		background-position:$ieBackgroundPosX * 3 0;
+	}
+
+	.hotel-img--5
+	{
+		background-position:-400% 0;
+	}
+
+	#ie7 .hotel-img--5,
+	#ie8 .hotel-img--5
+	{
+		background-position:$ieBackgroundPosX * 4 0;
+	}
+
+	.hotel-img--6
+	{
+		background-position:-500% 0;
+	}
+
+	#ie7 .hotel-img--6,
+	#ie8 .hotel-img--6
+	{
+		background-position:$ieBackgroundPosX * 5 0;
+	}
+
+	.hotel-img--7
+	{
+		background-position:-600% 0;
+	}
+
+	#ie7 .hotel-img--7,
+	#ie8 .hotel-img--7
+	{
+		background-position:$ieBackgroundPosX * 6 0;
+	}
+
+	.hotel-img--8
+	{
+		background-position:-700% 0;
+	}
+
+	#ie7 .hotel-img--8,
+	#ie8 .hotel-img--8
+	{
+		background-position:$ieBackgroundPosX * 7 0;
+	}
+
+	.hotel-img--9
+	{
+		background-position:-800% 0;
+	}
+
+	#ie7 .hotel-img--9,
+	#ie8 .hotel-img--9
+	{
+		background-position:$ieBackgroundPosX * 8 0;
+	}
+
+	.hotel-img--10
+	{
+		background-position:-900% 0;
+	}
+
+	#ie7 .hotel-img--10,
+	#ie8 .hotel-img--10
+	{
+		background-position:$ieBackgroundPosX * 9 0;
+	}
+
+	.hotel-img--11
+	{
+		background-position:-1000% 0;
+	}
+
+	#ie7 .hotel-img--11,
+	#ie8 .hotel-img--11
+	{
+		background-position:$ieBackgroundPosX * 10 0;
+	}
+
+	.hotel-img--12
+	{
+		background-position:-1100% 0;
+	}
+
+	#ie7 .hotel-img--12,
+	#ie8 .hotel-img--12
+	{
+		background-position:$ieBackgroundPosX * 11 0;
+	}
+
+	.hotel-img--13
+	{
+		background-position:-1200% 0;
+	}
+
+	#ie7 .hotel-img--13,
+	#ie8 .hotel-img--13
+	{
+		background-position:$ieBackgroundPosX * 12 0;
+	}
+
+	.hotel-img--14
+	{
+		background-position:-1300% 0;
+	}
+
+	#ie7 .hotel-img--14,
+	#ie8 .hotel-img--14
+	{
+		background-position:$ieBackgroundPosX * 13 0;
+	}
+
+	.hotel-img--15
+	{
+		background-position:-1400% 0;
+	}
+
+	#ie7 .hotel-img--15,
+	#ie8 .hotel-img--15
+	{
+		background-position:$ieBackgroundPosX * 14 0;
+	}
+
+	.hotel-img--16
+	{
+		background-position:-1500% 0;
+	}
+
+	#ie7 .hotel-img--16,
+	#ie8 .hotel-img--16
+	{
+		background-position:$ieBackgroundPosX * 15 0;
+	}
+
+	.hotel-img--17
+	{
+		background-position:-1600% 0;
+	}
+
+	#ie7 .hotel-img--17,
+	#ie8 .hotel-img--17
+	{
+		background-position:$ieBackgroundPosX * 16 0;
+	}
+
+	.hotel-img--18
+	{
+		background-position:-1700% 0;
+	}
+
+	#ie7 .hotel-img--18,
+	#ie8 .hotel-img--18
+	{
+		background-position:$ieBackgroundPosX * 17 0;
+	}
+
+
+
+
+
+
+

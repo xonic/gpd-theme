@@ -42,7 +42,7 @@ get_header(); ?>
 			</div>
 			<div class="package__price">&euro; 4.850,00</div>
 			<div class="l-package__action">
-				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en<!--:--><!--:de-->/register/?lang=de<!--:--><!--:it-->/register/?lang=it<!--:--><!--:fr-->/register/?lang=fr<!--:-->'); ?>"><? _e("<!--:en-->Order<!--:--><!--:de-->Anmelden<!--:--><!--:it-->Iscrizione<!--:--><!--:fr-->Inscription<!--:-->"); ?></a>
+				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en<!--:--><!--:de-->/register/?lang=de<!--:--><!--:it-->/register/?lang=it<!--:--><!--:fr-->/register/?lang=fr<!--:-->'); ?>"><? _e("<!--:en-->Order Premium<!--:--><!--:de-->Premium anmelden<!--:--><!--:it-->Iscrizione Premium<!--:--><!--:fr-->Inscription Premium<!--:-->"); ?></a>
 			</div>
 			<ul class="package__features">
 				<li class="l-feature">
@@ -108,12 +108,135 @@ get_header(); ?>
 				<p class="package__description">
 					<? _e("package__platinum__description", "gp-dolomiti"); ?>
 				</p>
-				<a href="<? echo get_site_url() . '/' . qtrans_getLanguage(); ?>/contact" title="Kontaktieren Sie uns"><? _e("<!--:en-->Got questions?<!--:--><!--:de-->Noch Fragen?<!--:--><!--:it-->Avete delle domande?<!--:--><!--:fr-->Des questions?<!--:-->"); ?></a>
+
+				<p class="space-lover">
+					<a href="<? echo get_site_url() . '/' . qtrans_getLanguage(); ?>/contact" title="Kontaktieren Sie uns"><? _e("<!--:en-->Got questions?<!--:--><!--:de-->Noch Fragen?<!--:--><!--:it-->Avete delle domande?<!--:--><!--:fr-->Des questions?<!--:-->"); ?></a>
+				</p>
+
+				<a class="subsection__detail" href="#ottmangut-description" data-collapse-target-group="ottmangut"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
+
+				<h2 class="subsection__heading">Hotel Ottmangut Suite</h2>
+
+				<section class="slider slider--row-fixed">
+					<ul class="slider__slides slider__slides--contains-3">
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--1"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--2"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--3"></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<div id="ottmangut-description" class="collapse-bd" data-collapse-group="ottmangut">
+					<div class="collapse-inner">
+						<p class="package__description space-lover">
+							<? _e("package__ottmangut__description", "gp-dolomiti"); ?>
+						</p>
+					</div>
+				</div>
+
+				<a class="subsection__detail" href="#rubein-description" data-collapse-target-group="rubein"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
+
+				<h2 class="subsection__heading">Hotel Rubein Suite</h2>
+
+				<section class="slider slider--row-fixed">
+					<ul class="slider__slides slider__slides--contains-3">
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--4"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--5"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--6"></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<div id="rubein-description" class="collapse-bd" data-collapse-group="rubein">
+					<div class="collapse-inner">
+						<p class="package__description space-lover">
+							<? _e("package__rubein__description", "gp-dolomiti"); ?>
+						</p>
+					</div>
+				</div>
+
+				<a class="subsection__detail" href="#plantitscher-description" data-collapse-target-group="plantitscher"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
+
+				<h2 class="subsection__heading">Hotel Plantitscher Suite</h2>
+
+				<section class="slider slider--row-fixed">
+					<ul class="slider__slides slider__slides--contains-3">
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--7"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--8"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--9"></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<div id="plantitscher-description" class="collapse-bd" data-collapse-group="plantitscher">
+					<div class="collapse-inner">
+						<p class="package__description space-lover">
+							<? _e("package__plantitscher__description", "gp-dolomiti"); ?>
+						</p>
+					</div>
+				</div>
 			</div>
 			<div class="l-package__summary">
 				<ul class="package__summary">
 					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Participation<!--:--><!--:de-->Teilnahme<!--:--><!--:it-->Partecipazione<!--:--><!--:fr-->Participation<!--:-->"); ?></div></li>
-					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Exclusive appartment<!--:--><!--:de-->Exklusives Appartement<!--:--><!--:it-->Appartamento esclusivo<!--:--><!--:fr-->Exclusive appartment<!--:-->"); ?></div></li>
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Platinum Suite<!--:--><!--:de-->Platinum Suite<!--:--><!--:it-->Platinum Suite<!--:--><!--:fr-->Platinum Suite<!--:-->"); ?></div></li>
 					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Catering<!--:--><!--:de-->Verpflegung<!--:--><!--:it-->Sostenimento<!--:--><!--:fr-->Restauration<!--:-->"); ?></div></li>
 					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Official clothing<!--:--><!--:de-->Offizielle Bekleidung<!--:--><!--:it-->Abbigliamento ufficiale<!--:--><!--:fr-->Vêtements officiels<!--:-->"); ?></div></li>
 					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Safe parking<!--:--><!--:de-->Sicher parken<!--:--><!--:it-->Parcheggio sicuro<!--:--><!--:fr-->Parking sécurisé<!--:-->"); ?></div></li>
@@ -121,7 +244,7 @@ get_header(); ?>
 			</div>
 			<div class="package__price">&euro; 5.350,00</div>
 			<div class="l-package__action">
-				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en&package=Platinum<!--:--><!--:de-->/register/?lang=de&package=Platinum<!--:--><!--:it-->/register/?lang=it&package=Platinum<!--:--><!--:fr-->/register/?lang=fr&package=Platinum<!--:-->'); ?>"><? _e("<!--:en-->Order<!--:--><!--:de-->Anmelden<!--:--><!--:it-->Iscrizione<!--:--><!--:fr-->Inscription<!--:-->"); ?></a>
+				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en&package=Platinum<!--:--><!--:de-->/register/?lang=de&package=Platinum<!--:--><!--:it-->/register/?lang=it&package=Platinum<!--:--><!--:fr-->/register/?lang=fr&package=Platinum<!--:-->'); ?>"><? _e("<!--:en-->Order Platinum<!--:--><!--:de-->Platinum anmelden<!--:--><!--:it-->Iscrizione Platinum<!--:--><!--:fr-->Inscription Platinum<!--:-->"); ?></a>
 			</div>
 		</section>
 		<section class="subsection">
@@ -130,12 +253,135 @@ get_header(); ?>
 				<p class="package__description">
 					<? _e("package__platinum--superior__description", "gp-dolomiti"); ?>
 				</p>
-				<a href="<? echo get_site_url() . '/' . qtrans_getLanguage(); ?>/contact" title="Kontaktieren Sie uns"><? _e("<!--:en-->Got questions?<!--:--><!--:de-->Noch Fragen?<!--:--><!--:it-->Avete delle domande?<!--:--><!--:fr-->Des questions?<!--:-->"); ?></a>
+
+				<p class="space-lover">
+					<a href="<? echo get_site_url() . '/' . qtrans_getLanguage(); ?>/contact" title="Kontaktieren Sie uns"><? _e("<!--:en-->Got questions?<!--:--><!--:de-->Noch Fragen?<!--:--><!--:it-->Avete delle domande?<!--:--><!--:fr-->Des questions?<!--:-->"); ?></a>
+				</p>
+
+				<a class="subsection__detail" href="#imperialart-description" data-collapse-target-group="imperialart"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
+
+				<h2 class="subsection__heading">Hotel Imperialart Suite</h2>
+
+				<section class="slider slider--row-fixed">
+					<ul class="slider__slides slider__slides--contains-3">
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--10"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--11"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--12"></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<div id="imperialart-description" class="collapse-bd" data-collapse-group="imperialart">
+					<div class="collapse-inner">
+						<p class="package__description space-lover">
+							<? _e("package__imperialart__description", "gp-dolomiti"); ?>
+						</p>
+					</div>
+				</div>
+
+				<a class="subsection__detail" href="#mignon-description" data-collapse-target-group="mignon"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
+
+				<h2 class="subsection__heading">Hotel Mignon Suite</h2>
+
+				<section class="slider slider--row-fixed">
+					<ul class="slider__slides slider__slides--contains-3">
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--13"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--14"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--15"></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<div id="mignon-description" class="collapse-bd" data-collapse-group="mignon">
+					<div class="collapse-inner">
+						<p class="package__description space-lover">
+							<? _e("package__mignon__description", "gp-dolomiti"); ?>
+						</p>
+					</div>
+				</div>
+
+				<a class="subsection__detail" href="#pergola-description" data-collapse-target-group="pergola"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
+
+				<h2 class="subsection__heading">Hotel Pergola Suite</h2>
+
+				<section class="slider slider--row-fixed">
+					<ul class="slider__slides slider__slides--contains-3">
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--7"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--8"></div>
+								</div>
+							</div>
+						</li>
+						<li class="slider__slide">
+							<div class="polaroid">
+								<div class="tile">
+									<div class="tile__helper"></div>
+									<div class="tile__content hotel-img hotel-img--9"></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<div id="pergola-description" class="collapse-bd" data-collapse-group="pergola">
+					<div class="collapse-inner">
+						<p class="package__description space-lover">
+							<? _e("package__pergola__description", "gp-dolomiti"); ?>
+						</p>
+					</div>
+				</div>
 			</div>
 			<div class="l-package__summary">
 				<ul class="package__summary">
 					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Participation<!--:--><!--:de-->Teilnahme<!--:--><!--:it-->Partecipazione<!--:--><!--:fr-->Participation<!--:-->"); ?></div></li>
-					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Exclusive appartment<!--:--><!--:de-->Exklusives Appartement<!--:--><!--:it-->Appartamento esclusivo<!--:--><!--:fr-->Exclusive appartment<!--:-->"); ?></div></li>
+					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Superior Suite<!--:--><!--:de-->Superior Suite<!--:--><!--:it-->Superior Suite<!--:--><!--:fr-->Superior Suite<!--:-->"); ?></div></li>
 					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Catering<!--:--><!--:de-->Verpflegung<!--:--><!--:it-->Sostenimento<!--:--><!--:fr-->Restauration<!--:-->"); ?></div></li>
 					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Official clothing<!--:--><!--:de-->Offizielle Bekleidung<!--:--><!--:it-->Abbigliamento ufficiale<!--:--><!--:fr-->Vêtements officiels<!--:-->"); ?></div></li>
 					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Safe parking<!--:--><!--:de-->Sicher parken<!--:--><!--:it-->Parcheggio sicuro<!--:--><!--:fr-->Parking sécurisé<!--:-->"); ?></div></li>
@@ -143,7 +389,7 @@ get_header(); ?>
 			</div>
 			<div class="package__price">&euro; 5.550,00</div>
 			<div class="l-package__action">
-				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en&package=Superior<!--:--><!--:de-->/register/?lang=de&package=Superior<!--:--><!--:it-->/register/?lang=it&package=Superior<!--:--><!--:fr-->/register/?lang=fr&package=Superior<!--:-->'); ?>"><? _e("<!--:en-->Order<!--:--><!--:de-->Anmelden<!--:--><!--:it-->Iscrizione<!--:--><!--:fr-->Inscription<!--:-->"); ?></a>
+				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en&package=Superior<!--:--><!--:de-->/register/?lang=de&package=Superior<!--:--><!--:it-->/register/?lang=it&package=Superior<!--:--><!--:fr-->/register/?lang=fr&package=Superior<!--:-->'); ?>"><? _e("<!--:en-->Order Superior<!--:--><!--:de-->Superior anmelden<!--:--><!--:it-->Iscrizione Superior<!--:--><!--:fr-->Inscription Superior<!--:-->"); ?></a>
 			</div>
 		</section>
 		<section class="subsection">

@@ -103,7 +103,8 @@
 				'selectivizr'		: 'js/imports/selectivizr',
 				'nav'				: 'js/imports/NavController',
 				'translator'		: 'js/imports/Translator',
-				'hotelselection'	: 'js/imports/HotelSelection'
+				'hotelselection'	: 'js/imports/HotelSelection',
+				'collapse'			: 'js/imports/collapse'
 			},
 
 			shim:

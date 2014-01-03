@@ -44,7 +44,7 @@
 	.subsection
 	{
 		@extend .cf;
-		
+
 		// padding-bottom equals margin-bottom - $doubleSpace
 		// since children usually have margin-bottom $doubleSpace
 		@include rem(padding-bottom, $doubleSpace);
@@ -72,6 +72,17 @@
 	{
 		@extend %h3;
 		@include rem(margin-bottom, $singleSpace);
+	}
+
+	// If the subsection contains a
+	// collapsible, like on the packages
+	// page, this is the detail link that
+	// toggles the collapsible
+	.subsection__detail
+	{
+		float:right;
+		@include rem(margin-right, $singleSpace);
+		@include rem(font-size, 1.8);
 	}
 
 

@@ -1745,6 +1745,15 @@ object {
   margin-bottom:  1.2rem;
 }
 
+/* line 82, ../sass/imports/modules/_sections.scss */
+.subsection__detail {
+  float: right;
+  margin-right:  12px;
+  margin-right:  1.2rem;
+  font-size:  18px;
+  font-size:  1.8rem;
+}
+
 /* line 17, ../sass/imports/modules/_info.scss */
 .info {
   margin-bottom:  48px;

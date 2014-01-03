@@ -1,12 +1,5 @@
 
-// Use WP jQuery
-// if (typeof jQuery === 'function')
-// {
-//   define('jquery', function () { return jQuery; });
-// }
-
-
-require(["nav", "translator", "hotelselection", "modernizr"], function(NavController, Translator, HotelSelection)
+require(["nav", "translator", "hotelselection", "collapse", "modernizr"], function(NavController, Translator, HotelSelection, Collapse)
 {
 	// Add this event listener to prevent mobile safari 
 	// from disabling the ::active pseudo class
@@ -16,4 +9,5 @@ require(["nav", "translator", "hotelselection", "modernizr"], function(NavContro
 	NavController.init();
 	Translator.init();
 	HotelSelection.init();
+	Collapse.listen();
 });

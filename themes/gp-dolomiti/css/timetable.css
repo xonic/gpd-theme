@@ -1779,6 +1779,23 @@ object {
 
 @media (min-width: 64em) {
   /* line 47, ../sass/imports/modules/_slider.scss */
+  .slider--row-fixed {
+    float: none;
+    width: auto;
+    margin-right: auto;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .slider--row-fixed {
+  float: none;
+  width: auto;
+  margin-right: auto;
+  *margin-left: auto;
+  display: block;
+}
+
+@media (min-width: 64em) {
+  /* line 55, ../sass/imports/modules/_slider.scss */
   .slider--rev {
     margin-right: 0;
     width: 49.15254%;
@@ -1795,25 +1812,25 @@ object {
   display: inline;
 }
 
-/* line 56, ../sass/imports/modules/_slider.scss */
+/* line 64, ../sass/imports/modules/_slider.scss */
 .slider__slides {
   margin-bottom: 0;
 }
 
-/* line 62, ../sass/imports/modules/_slider.scss */
+/* line 70, ../sass/imports/modules/_slider.scss */
 .slider__slides--contains-4 {
   width: 350%;
 }
-/* line 66, ../sass/imports/modules/_slider.scss */
+/* line 74, ../sass/imports/modules/_slider.scss */
 .slider__slides--contains-4 .slider__slide {
   width: 25%;
 }
 @media (min-width: 37.5em) {
-  /* line 62, ../sass/imports/modules/_slider.scss */
+  /* line 70, ../sass/imports/modules/_slider.scss */
   .slider__slides--contains-4 {
     width: 100%;
   }
-  /* line 75, ../sass/imports/modules/_slider.scss */
+  /* line 83, ../sass/imports/modules/_slider.scss */
   .slider__slides--contains-4 .slider__slide {
     width: 50%;
   }
@@ -1822,12 +1839,31 @@ object {
 .no-mq .slider__slides--contains-4 {
   width: 100%;
 }
-/* line 75, ../sass/imports/modules/_slider.scss */
+/* line 83, ../sass/imports/modules/_slider.scss */
 .no-mq .slider__slides--contains-4 .slider__slide {
   width: 50%;
 }
 
-/* line 82, ../sass/imports/modules/_slider.scss */
+/* line 90, ../sass/imports/modules/_slider.scss */
+.slider__slides--contains-3 {
+  width: 262.5%;
+}
+/* line 94, ../sass/imports/modules/_slider.scss */
+.slider__slides--contains-3 .slider__slide {
+  width: 33.33333%;
+}
+@media (min-width: 37.5em) {
+  /* line 90, ../sass/imports/modules/_slider.scss */
+  .slider__slides--contains-3 {
+    width: 100%;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .slider__slides--contains-3 {
+  width: 100%;
+}
+
+/* line 105, ../sass/imports/modules/_slider.scss */
 .slider__slide {
   float: left;
   padding:  12px;
@@ -1891,6 +1927,15 @@ object {
 .subsection__heading {
   margin-bottom:  12px;
   margin-bottom:  1.2rem;
+}
+
+/* line 82, ../sass/imports/modules/_sections.scss */
+.subsection__detail {
+  float: right;
+  margin-right:  12px;
+  margin-right:  1.2rem;
+  font-size:  18px;
+  font-size:  1.8rem;
 }
 
 /* line 17, ../sass/imports/modules/_info.scss */

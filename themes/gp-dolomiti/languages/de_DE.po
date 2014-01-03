@@ -1,37 +1,38 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
-"POT-Creation-Date: 2013-11-17 13:17+0100\n"
-"PO-Revision-Date: 2013-11-23 16:54+0100\n"
+"POT-Creation-Date: 2014-01-03 14:22+0100\n"
+"PO-Revision-Date: 2014-01-03 14:24+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.3\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../about.php:19 ../header.php:113 ../preview.php:92
+#: ../about.php:18 ../preview.php:92
 msgid "pre__info__title"
 msgstr "Das einzigartige Oldtimer-Event"
 
-#: ../about.php:23 ../header.php:117 ../preview.php:96
+#: ../about.php:22 ../preview.php:96
 msgid "pre__info__start-date"
 msgstr "23."
 
-#: ../about.php:25 ../header.php:119 ../preview.php:98
+#: ../about.php:24 ../preview.php:98
 msgid "pre__info__to"
 msgstr "-"
 
-#: ../about.php:27 ../header.php:121 ../preview.php:100
+#: ../about.php:26 ../preview.php:100
 msgid "pre__info__end-date"
 msgstr "27. Juli, 2014"
 
-#: ../about.php:32 ../header.php:125 ../preview.php:105
+#: ../about.php:31 ../preview.php:105
 msgid "pre__info__p1"
 msgstr ""
 "Gran Premio Dolomiti ist ein außergewöhnliches Oldtimer-Treffen mit höchsten "
@@ -40,7 +41,7 @@ msgstr ""
 "Jaufen, Penserjoch, Mendel, Grödnerjoch und vieler anderer. Es ist ein "
 "Streifzug durch das Weltkulturerbe der mächtigen und imposanten Dolomiten."
 
-#: ../about.php:35 ../header.php:128 ../preview.php:108
+#: ../about.php:34 ../preview.php:108
 msgid "pre__info__p2"
 msgstr ""
 "Dieses erstklassige Event beinhaltet außerdem die Eroberung der "
@@ -51,55 +52,36 @@ msgstr ""
 "Köstlichkeiten, gepaart mit den edelsten Weinen der Region. In Ruhe genießen "
 "und es sich schmecken lassen &mdash; inmitten von Freunden."
 
-#: ../about.php:41 ../preview.php:121 ../timetable.php:20
-msgid "pre__day1"
-msgstr "Dienstag, 22. Juli 2014"
-
-#: ../about.php:48 ../preview.php:128 ../timetable.php:27
-msgid "pre__arrival"
-msgstr "Ankunft der Teilnehmer."
-
-#: ../about.php:54 ../preview.php:134 ../timetable.php:33
-msgid "pre__inspection"
-msgstr "Technische Inspektion und Zulassung der Fahrzeuge im Fahrzentrum."
-
-#: ../about.php:60 ../preview.php:140 ../timetable.php:39
-msgid "pre__check-in"
-msgstr "Check-In im Hotel."
-
-#: ../about.php:66 ../preview.php:146 ../timetable.php:45
-msgid "pre__day1__dinner"
-msgstr "Abendessen im Hotel oder in einem Gourmet-Restaurant Merans."
-
-#: ../about.php:73
+#: ../about.php:39
 msgid ""
 "<!--:en-->Experience<!--:--><!--:de-->Das Erlebnis<!--:--><!--:it--"
 ">L'esperienza<!--:--><!--:fr-->Expérience<!--:-->"
 msgstr ""
 
-#: ../about.php:80
+#: ../about.php:46
 msgid ""
 "<!--:en-->Day routes<!--:--><!--:de-->Tagesrouten<br>erkunden<!--:--><!--:"
 "it-->Percorsi<!--:--><!--:fr-->Routes<!--:-->"
 msgstr ""
 
-#: ../about.php:88
+#: ../about.php:54
 msgid ""
 "<!--:en-->Passes<!--:--><!--:de-->Bergpässe<br>erobern<!--:--><!--:it--"
 ">Passi<!--:--><!--:fr-->Passes<!--:-->"
 msgstr ""
 
-#: ../about.php:96
+#: ../about.php:62
 msgid ""
 "<!--:en-->Kilometers<!--:--><!--:de-->Kilometer<br>fahren<!--:--><!--:it--"
 ">Chilometri<!--:--><!--:fr-->Kilomètres<!--:-->"
 msgstr ""
 
-#: ../about.php:104
+#: ../about.php:70
+#, fuzzy
 msgid ""
 "<!--:en-->Meters altitude<!--:--><!--:de-->Höhenmeter<br>bezwingen<!--:--"
 "><!--:it-->Metri d'altezza<!--:--><!--:fr-->Mètres altitudines<!--:-->"
-msgstr ""
+msgstr "Meereshöhe"
 
 #: ../contact.php:21 ../preview.php:662
 msgid "pre__contact__title"
@@ -108,52 +90,6 @@ msgstr "Kontakt"
 #: ../contact.php:24 ../preview.php:665
 msgid "pre__content__subtitle"
 msgstr "Wir freuen uns, von Ihnen zu hören"
-
-#: ../content.php:16
-msgid "Featured"
-msgstr ""
-
-#: ../content.php:30
-msgid "Reply"
-msgstr ""
-
-#: ../content.php:41
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
-
-#: ../content.php:42
-msgid "Pages:"
-msgstr ""
-
-#: ../content.php:51 ../content.php:63
-msgid ", "
-msgstr ""
-
-#: ../content.php:55
-#, php-format
-msgid "<span class=\"%1$s\">Posted in</span> %2$s"
-msgstr ""
-
-#: ../content.php:69
-#, php-format
-msgid "<span class=\"%1$s\">Tagged</span> %2$s"
-msgstr ""
-
-#: ../content.php:79
-msgid "Leave a reply"
-msgstr ""
-
-#: ../content.php:79
-msgid "<b>1</b> Reply"
-msgstr ""
-
-#: ../content.php:79
-msgid "<b>%</b> Replies"
-msgstr ""
-
-#: ../content.php:82
-msgid "Edit"
-msgstr ""
 
 #: ../footer.php:19 ../preview.php:642
 msgid "pre__newsletter__title"
@@ -168,16 +104,22 @@ msgstr ""
 msgid "Hauptnavigation"
 msgstr ""
 
-#: ../header.php:51
+#: ../header--plain.php:55 ../header.php:55
 #, php-format
 msgid "Page %s"
 msgstr ""
 
-#: ../index.php:37
+#: ../header--plain.php:112 ../header.php:107
+msgid ""
+"<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna "
+"a<!--:--><!--:fr-->Retour à<!--:-->"
+msgstr ""
+
+#: ../index.php:32
 msgid "Nothing Found"
 msgstr ""
 
-#: ../index.php:41
+#: ../index.php:36
 msgid ""
 "Apologies, but no results were found for the requested archive. Perhaps "
 "searching will help find a related post."
@@ -185,15 +127,22 @@ msgstr ""
 
 #: ../packages.php:23
 msgid ""
-"<!--:en-->Packages<!--:--><!--:de-->Pakete<!--:--><!--:it-->Pacchetti<!--:--"
-"><!--:fr-->Forfaits<!--:-->"
+"<!--:en-->Packages<!--:--><!--:de-->Pakete<!--:--><!--:it-->Pacchetti "
+"Partecipazione<!--:--><!--:fr-->Forfaits<!--:-->"
 msgstr ""
 
 #: ../packages.php:27
+#, fuzzy
 msgid ""
-"<!--:en-->Premium package<!--:--><!--:de-->Premium Paket<!--:--><!--:it--"
-">Pacchetto premium<!--:--><!--:fr-->Forfait premium<!--:-->"
+"<!--:en-->Premium Package<!--:--><!--:de-->Premium Paket<!--:--><!--:it--"
+">Pacchetto Premium<!--:--><!--:fr-->Forfait Premium<!--:-->"
 msgstr ""
+"Mit dem Premium Paket können Sie sich gemütlich zurücklehnen und uns die "
+"Arbeit überlassen. Dieses Package gilt <strong>für 1 Fahrzeug und 2 "
+"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, ein Tablet mit "
+"einem digitalen Roadbook, 5 Übernachtungen in einem Spitzenhotel, komplette "
+"Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
+"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihr Fahrzeug."
 
 #: ../packages.php:30
 msgid "package__premium__description"
@@ -205,25 +154,29 @@ msgstr ""
 "Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
 "exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihr Fahrzeug."
 
-#: ../packages.php:32 ../packages.php:122
+#: ../packages.php:32 ../packages.php:414
+#, fuzzy
 msgid ""
 "<!--:en-->/contact/?lang=en<!--:--><!--:de-->/contact/?lang=de<!--:--><!--:"
 "it-->/contact/?lang=it<!--:--><!--:fr-->/contact/?lang=fr<!--:-->"
-msgstr ""
+msgstr "Kontakt"
 
 #: ../packages.php:32
+#, fuzzy
 msgid ""
 "<!--:en-->Contact us<!--:--><!--:de-->Kontaktieren Sie uns<!--:--><!--:it--"
 ">Contattaci<!--:--><!--:fr-->Contactez-nous<!--:-->"
-msgstr ""
+msgstr "Kontakt"
 
-#: ../packages.php:32 ../packages.php:110
+#: ../packages.php:32 ../packages.php:113 ../packages.php:258
+#: ../packages.php:401
 msgid ""
 "<!--:en-->Got questions?<!--:--><!--:de-->Noch Fragen?<!--:--><!--:it--"
 ">Avete delle domande?<!--:--><!--:fr-->Des questions?<!--:-->"
 msgstr ""
 
-#: ../packages.php:36 ../packages.php:114
+#: ../packages.php:36 ../packages.php:238 ../packages.php:383
+#: ../packages.php:405
 msgid ""
 "<!--:en-->Participation<!--:--><!--:de-->Teilnahme<!--:--><!--:it--"
 ">Partecipazione<!--:--><!--:fr-->Participation<!--:-->"
@@ -235,132 +188,161 @@ msgid ""
 ">Albergo<!--:--><!--:fr-->Hébergement<!--:-->"
 msgstr ""
 
-#: ../packages.php:38 ../packages.php:116
+#: ../packages.php:38 ../packages.php:240 ../packages.php:385
+#: ../packages.php:407
 msgid ""
 "<!--:en-->Catering<!--:--><!--:de-->Verpflegung<!--:--><!--:it--"
 ">Sostenimento<!--:--><!--:fr-->Restauration<!--:-->"
 msgstr ""
 
-#: ../packages.php:39 ../packages.php:117
+#: ../packages.php:39 ../packages.php:241 ../packages.php:386
+#: ../packages.php:408
+#, fuzzy
 msgid ""
 "<!--:en-->Official clothing<!--:--><!--:de-->Offizielle Bekleidung<!--:--"
 "><!--:it-->Abbigliamento ufficiale<!--:--><!--:fr-->Vêtements "
 "officiels<!--:-->"
 msgstr ""
+"Schick und mit Stil, so wie es sich gehört: mit der offiziellen und "
+"exklusiven Gran Premio Dolomiti Kleidung."
 
-#: ../packages.php:40 ../packages.php:118
+#: ../packages.php:40 ../packages.php:242 ../packages.php:387
+#: ../packages.php:409
+#, fuzzy
 msgid ""
 "<!--:en-->Safe parking<!--:--><!--:de-->Sicher parken<!--:--><!--:it--"
 ">Parcheggio sicuro<!--:--><!--:fr-->Parking sécurisé<!--:-->"
 msgstr ""
+"Wir bieten Ihnen einen rund um die Uhr bewachten Parkplatz, inklusive "
+"Shuttle-Service von und zum Hotel."
 
-#: ../packages.php:44
+#: ../packages.php:45
 msgid ""
-"<!--:en-->Order<!--:--><!--:de-->Bestellen<!--:--><!--:it-->Ordina<!--:--"
-"><!--:fr-->Commander<!--:-->"
+"<!--:en-->/register/?lang=en<!--:--><!--:de-->/register/?lang=de<!--:--><!--:"
+"it-->/register/?lang=it<!--:--><!--:fr-->/register/?lang=fr<!--:-->"
 msgstr ""
 
-#: ../packages.php:44
+#: ../packages.php:45
+#, fuzzy
 msgid ""
-"<!--:en-->Tickets are not available yet. We'd love to <a href=\"http://"
-"eepurl.com/xOMaz\" title=\"Newsletter\">notify you</a> as soon as we're "
-"ready.<!--:--><!--:de-->Bestellung derzeit noch nicht möglich. Gerne <a href="
-"\"http://eepurl.com/xOMaz\" title=\"Newsletter\">benachrichtigen wir Sie</"
-"a>, wenn es soweit ist.<!--:--><!--:it-->Le iscrizioni non sono attualmente "
-"possibili, <a href=\"http://eepurl.com/xOMaz\" title=\"Newsletter\">vi "
-"informeremo</a> entro breve.<!--:--><!--:fr-->Les inscriptions ne sont pas "
-"encore possibles. <a href=\"http://eepurl.com/xOMaz\" title=\"Newsletter"
-"\">Nous vous informerons</a> dès que possible de leur ouverture. <!--:-->"
+"<!--:en-->Order Premium<!--:--><!--:de-->Premium anmelden<!--:--><!--:it--"
+">Iscrizione Premium<!--:--><!--:fr-->Inscription Premium<!--:-->"
 msgstr ""
+"Mit dem Premium Paket können Sie sich gemütlich zurücklehnen und uns die "
+"Arbeit überlassen. Dieses Package gilt <strong>für 1 Fahrzeug und 2 "
+"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, ein Tablet mit "
+"einem digitalen Roadbook, 5 Übernachtungen in einem Spitzenhotel, komplette "
+"Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
+"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihr Fahrzeug."
 
-#: ../packages.php:49
+#: ../packages.php:50
+#, fuzzy
 msgid ""
 "<!--:en-->Digital Roadbook<!--:--><!--:de-->Digitales Roadbook<!--:--><!--:"
 "it-->Roadbook Digitale<!--:--><!--:fr-->Roadbook numérique<!--:-->"
 msgstr ""
+"Für das Rennen bekommen Sie von uns ein Tablet zur Verfügung gestellt. "
+"Darauf finden Sie ein digitales Roadbook, mit wertvollen Informationen rund "
+"um die Strecke."
 
-#: ../packages.php:52
+#: ../packages.php:53
 msgid "package__roadbook"
 msgstr ""
 "Für das Rennen bekommen Sie von uns ein Tablet zur Verfügung gestellt. "
 "Darauf finden Sie ein digitales Roadbook, mit wertvollen Informationen rund "
 "um die Strecke."
 
-#: ../packages.php:58
+#: ../packages.php:59
+#, fuzzy
 msgid ""
 "<!--:en-->Premium Hotel<!--:--><!--:de-->Premium Hotel<!--:--><!--:it--"
 ">Premium Hotel<!--:--><!--:fr-->Premium Hôtel<!--:-->"
 msgstr ""
+"Mit dem Premium Paket können Sie sich gemütlich zurücklehnen und uns die "
+"Arbeit überlassen. Dieses Package gilt <strong>für 1 Fahrzeug und 2 "
+"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, ein Tablet mit "
+"einem digitalen Roadbook, 5 Übernachtungen in einem Spitzenhotel, komplette "
+"Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
+"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihr Fahrzeug."
 
-#: ../packages.php:61
+#: ../packages.php:62
 msgid "package__hotel"
 msgstr ""
 "Wer den ganzen Tag unterwegs ist, braucht einen gesunden Schlaf. Daher "
 "übernachten Sie in einem der hochwertigsten und besten Hotels direkt im "
 "Zentrum von Meran."
 
-#: ../packages.php:67
+#: ../packages.php:68
 msgid ""
 "<!--:en-->Delicious Catering<!--:--><!--:de-->Köstliche Verpflegung<!--:--"
 "><!--:it-->Catering Delizioso<!--:--><!--:fr-->Restauration<!--:-->"
 msgstr ""
 
-#: ../packages.php:70
+#: ../packages.php:71
 msgid "package__food"
 msgstr ""
 "Wir legen großen Wert auf traditionelles, hoch qualitatives und genußvolles "
 "Essen. Sie bekommen während des gesamten Events die beste Verpflegung, "
 "mittags sowie auch abends."
 
-#: ../packages.php:76
+#: ../packages.php:77
+#, fuzzy
 msgid ""
 "<!--:en-->Safe Parking<!--:--><!--:de-->Bewachtes Parken<!--:--><!--:it--"
 ">Parcheggio custodito<!--:--><!--:fr-->Parking Surveillé<!--:-->"
 msgstr ""
+"Wir bieten Ihnen einen rund um die Uhr bewachten Parkplatz, inklusive "
+"Shuttle-Service von und zum Hotel."
 
-#: ../packages.php:79
+#: ../packages.php:80
 msgid "package__parking"
 msgstr ""
 "Wir bieten Ihnen einen rund um die Uhr bewachten Parkplatz, inklusive "
 "Shuttle-Service von und zum Hotel."
 
-#: ../packages.php:85
+#: ../packages.php:86
+#, fuzzy
 msgid ""
 "<!--:en-->Official Clothing<!--:--><!--:de-->Offizielle Bekleidung<!--:--"
 "><!--:it-->Abbigliamento Ufficiale<!--:--><!--:fr-->Tenue Officielle<!--:-->"
 msgstr ""
+"Schick und mit Stil, so wie es sich gehört: mit der offiziellen und "
+"exklusiven Gran Premio Dolomiti Kleidung."
 
-#: ../packages.php:88
+#: ../packages.php:89
 msgid "package__clothing"
 msgstr ""
 "Schick und mit Stil, so wie es sich gehört: mit der offiziellen und "
 "exklusiven Gran Premio Dolomiti Kleidung."
 
-#: ../packages.php:94
+#: ../packages.php:95
+#, fuzzy
 msgid ""
 "<!--:en-->Concert<!--:--><!--:de-->Konzert<!--:--><!--:it-->Concerto<!--:--"
 "><!--:fr-->Concert<!--:-->"
 msgstr ""
+"Am letzten Abend runden wir das Event mit einem Gala-Dinner und "
+"anschließendem Konzert feinster Musik ab."
 
-#: ../packages.php:97
+#: ../packages.php:98
 msgid "package__concert"
 msgstr ""
 "Am letzten Abend runden wir das Event mit einem Gala-Dinner und "
 "anschließendem Konzert feinster Musik ab."
 
-#: ../packages.php:105
+#: ../packages.php:106
+#, fuzzy
 msgid ""
-"<!--:en-->Platinum package<!--:--><!--:de-->Platinum Paket<!--:--><!--:it--"
-">Pacchetto platinum<!--:--><!--:fr-->Forfait platinum<!--:-->"
+"<!--:en-->Platinum Package<!--:--><!--:de-->Platinum Paket<!--:--><!--:it--"
+">Pacchetto Platinum<!--:--><!--:fr-->Forfait Platinum<!--:-->"
 msgstr ""
+"Das Platinum Paket ist für all jene, die nicht auf den besonderen Luxus "
+"verzichten möchten. Anstatt in einem der Hotels, logieren Sie in einem "
+"<strong>exklusiven und stilvollen Appartement</strong> der Extraklasse. "
+"Dieses Paket enthält alle Leistungen des Premium Pakets und gilt für 2 "
+"Personen."
 
-#: ../packages.php:105
-msgid ""
-"<!--:en-->Price on request<!--:--><!--:de-->Preis auf Anfrage<!--:--><!--:"
-"it-->Prezzo su richiesta<!--:--><!--:fr-->Prix sur demande<!--:-->"
-msgstr ""
-
-#: ../packages.php:108
+#: ../packages.php:109 ../packages.php:399
 msgid "package__platinum__description"
 msgstr ""
 "Das Platinum Paket ist für all jene, die nicht auf den besonderen Luxus "
@@ -369,14 +351,175 @@ msgstr ""
 "Dieses Paket enthält alle Leistungen des Premium Pakets und gilt für 2 "
 "Personen."
 
-#: ../packages.php:115
+#: ../packages.php:116 ../packages.php:156 ../packages.php:196
+#: ../packages.php:261 ../packages.php:301 ../packages.php:341
+msgid ""
+"<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--"
+"><!--:fr-->Détails<!--:-->"
+msgstr ""
+
+#: ../packages.php:151
+msgid "package__ottmangut__description"
+msgstr ""
+"Erleben Sie den Charme und die Geschichte der Stadt Meran im Suite & "
+"Breakfast Ottmanngut. Klassisches Ambiente in zentraler Lage Merans erleben. "
+"Frühstück mit regionalen Köstlichkeiten genießen. Ruhe und Entspannung in "
+"unserem Weinberg und inmitten mediterraner Vegetation finden. Das neu "
+"eröffnete Ottmanngut heißt Sie willkommen."
+
+#: ../packages.php:191
+msgid "package__rubein__description"
+msgstr ""
+"Dieses bezaubernde Schloß aus dem 12. Jahrhundert liegt am östlichen Rand "
+"von Meran, der traditionsreichen Kur- und Bäderstadt Zwanzig Gehminuten vom "
+"Zentrum gelegen, umgibt ein fünf Hektar großer, gepflegter Park mit "
+"jahrhundertealtem Baumbestand, mit einem großzügigen Freischwimmbad und "
+"Liegewiese, das märchenhafte Schloß Rubein. Es zählt zu den schönsten und "
+"wohnlichsten Schlössern Südtirols und ist ganzjährig geöffnet. Um den "
+"romantischen Innenhof fügen sich die exclusiven Suiten. Die großen Säle "
+"eignen sich für Empfänge und Tagungen. Die Schloßkapelle bietet einen "
+"einzigartigen Rahmen für Hochzeiten. Namenhafte Sänger wie Luciano Pavarotti "
+"und Lucio Dalla haben die Idylle dieses Refugiums schon mehrmals zum Proben "
+"genutzt. Die Suiten verteilen sich um den malerischen Innenhof. Sie sind mit "
+"geräumigen Salons, mehreren Schlafzimmern, Küche, Bad, ISDN, Telefon und TV "
+"ausgestattet. Sie sind individuell mit feinen Antiquitäten, Teppichen und "
+"wertvollen Kachelöfen eingerichtet. Die zahlreichen Gemälde gehören zur "
+"umfangreichen Sammlung des Künstlers und Malers Graf Robert du Parc. Im "
+"ersten Stock befindet sich die Kapellenwohnung, die bis zu acht Personen "
+"beherbergen kann und zwei weitere geräumige Suiten. Der zweite Stock verfügt "
+"über vier Appartments für jeweils vier Personen."
+
+#: ../packages.php:231
+#, fuzzy
+msgid "package__plantitscher__description"
+msgstr ""
+"Mit dem Premium Paket können Sie sich gemütlich zurücklehnen und uns die "
+"Arbeit überlassen. Dieses Package gilt <strong>für 1 Fahrzeug und 2 "
+"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, ein Tablet mit "
+"einem digitalen Roadbook, 5 Übernachtungen in einem Spitzenhotel, komplette "
+"Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
+"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihr Fahrzeug."
+
+#: ../packages.php:239 ../packages.php:384 ../packages.php:406
 msgid ""
 "<!--:en-->Exclusive appartment<!--:--><!--:de-->Exklusives Appartement<!--:--"
 "><!--:it-->Appartamento esclusivo<!--:--><!--:fr-->Exclusive "
 "appartment<!--:-->"
 msgstr ""
 
-#: ../packages.php:122
+#: ../packages.php:247
+#, fuzzy
+msgid ""
+"<!--:en-->/register/?lang=en&package=Platinum<!--:--><!--:de-->/register/?"
+"lang=de&package=Platinum<!--:--><!--:it-->/register/?"
+"lang=it&package=Platinum<!--:--><!--:fr-->/register/?"
+"lang=fr&package=Platinum<!--:-->"
+msgstr ""
+"Das Platinum Paket ist für all jene, die nicht auf den besonderen Luxus "
+"verzichten möchten. Anstatt in einem der Hotels, logieren Sie in einem "
+"<strong>exklusiven und stilvollen Appartement</strong> der Extraklasse. "
+"Dieses Paket enthält alle Leistungen des Premium Pakets und gilt für 2 "
+"Personen."
+
+#: ../packages.php:247
+#, fuzzy
+msgid ""
+"<!--:en-->Order Platinum<!--:--><!--:de-->Platinum anmelden<!--:--><!--:it--"
+">Iscrizione Platinum<!--:--><!--:fr-->Inscription Platinum<!--:-->"
+msgstr ""
+"Das Platinum Paket ist für all jene, die nicht auf den besonderen Luxus "
+"verzichten möchten. Anstatt in einem der Hotels, logieren Sie in einem "
+"<strong>exklusiven und stilvollen Appartement</strong> der Extraklasse. "
+"Dieses Paket enthält alle Leistungen des Premium Pakets und gilt für 2 "
+"Personen."
+
+#: ../packages.php:251
+#, fuzzy
+msgid ""
+"<!--:en-->Superior Package<!--:--><!--:de-->Superior Paket<!--:--><!--:it--"
+">Pacchetto Superior <!--:--><!--:fr-->Forfait Superior<!--:-->"
+msgstr ""
+"Für das Rennen bekommen Sie von uns ein Tablet zur Verfügung gestellt. "
+"Darauf finden Sie ein digitales Roadbook, mit wertvollen Informationen rund "
+"um die Strecke."
+
+#: ../packages.php:254
+#, fuzzy
+msgid "package__platinum--superior__description"
+msgstr ""
+"Das Platinum Paket ist für all jene, die nicht auf den besonderen Luxus "
+"verzichten möchten. Anstatt in einem der Hotels, logieren Sie in einem "
+"<strong>exklusiven und stilvollen Appartement</strong> der Extraklasse. "
+"Dieses Paket enthält alle Leistungen des Premium Pakets und gilt für 2 "
+"Personen."
+
+#: ../packages.php:296
+msgid "package__imperialart__description"
+msgstr ""
+"Keine Suite gleicht der anderen – im Boutique & Design Hotel ImperialArt "
+"wurde jedes der 11 Kunstzimmer und das lifestyle&music apARTment individuell "
+"von einem renommierten Meraner Künstler gestaltet. Moderne "
+"innenarchitektonische Highlights verschmelzen mit dem traditionsreichen "
+"Jugendstilgebäude und gewähren einen überwältigenden Einblick in die "
+"Kunstgedanken von Elisabeth Hölzl, Marcello Jori und Ulrich Egger. Das "
+"serviceorientierte Hotel mit 2 Concierge Anwärtern befindet sich in der "
+"Fußgängerzone von Meran, direkt im Zentrum, gegenüber dem Kurhaus und dem "
+"Theater. Unsere Gäste sind VIP Kunden der Therme Meran. Im Preis inklusive "
+"ist der bequeme Eintritt in die Therme Meran, welche sich in 100 Metern vom "
+"Hotel befindet."
+
+#: ../packages.php:336
+#, fuzzy
+msgid "package__mignon__description"
+msgstr ""
+"Mit dem Premium Paket können Sie sich gemütlich zurücklehnen und uns die "
+"Arbeit überlassen. Dieses Package gilt <strong>für 1 Fahrzeug und 2 "
+"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, ein Tablet mit "
+"einem digitalen Roadbook, 5 Übernachtungen in einem Spitzenhotel, komplette "
+"Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
+"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihr Fahrzeug."
+
+#: ../packages.php:376
+msgid "package__pergola__description"
+msgstr ""
+"Mit dem Hotel Pergola Residence, in einer Hanglage in der Nähe von Meran, "
+"zeigt der Stararchitekt Matteo Thun wie landschaftsforme Gestaltung aussehen "
+"kann, indem er die von der Natur vorgegebene Architektur fortsetzt. Das "
+"terrassenförmige Gebäude mit seinen 14 Wohneinheiten liegt eingebettet im "
+"Weinberg und ist das Gegenteil eines klassischen Hotels: in der Hardware und "
+"in der Software. Die Pergola Residence zeichnet sich dadurch aus, dass sie "
+"vieles nicht hat: keine typischen Hotelstrukturen, keine Zimmer mit "
+"Balkonen, keinen gastronomischen Rundum-Service. Dem Gast stehen Suiten mit "
+"Terrassen, ein optionales Frühstücksangebot, ein Weinkeller, eine Leselounge "
+"und  jede Menge Freiheiten zur Verfügung. "
+
+#: ../packages.php:392
+msgid ""
+"<!--:en-->/register/?lang=en&package=Superior<!--:--><!--:de-->/register/?"
+"lang=de&package=Superior<!--:--><!--:it-->/register/?"
+"lang=it&package=Superior<!--:--><!--:fr-->/register/?"
+"lang=fr&package=Superior<!--:-->"
+msgstr ""
+
+#: ../packages.php:392
+msgid ""
+"<!--:en-->Order Superior<!--:--><!--:de-->Superior anmelden<!--:--><!--:it--"
+">Iscrizione Superior<!--:--><!--:fr-->Inscription Superior<!--:-->"
+msgstr ""
+
+#: ../packages.php:396
+msgid ""
+"<!--:en-->Appartments<!--:--><!--:de-->Appartements<!--:--><!--:it--"
+">Appartatmenti<!--:--><!--:fr-->Appartements<!--:-->"
+msgstr ""
+
+#: ../packages.php:412
+msgid ""
+"<!--:en-->Price on request<!--:--><!--:de-->Preis auf Anfrage<!--:--><!--:"
+"it-->Prezzo su richiesta<!--:--><!--:fr-->Prix sur demande<!--:-->"
+msgstr ""
+
+#: ../packages.php:414
 msgid ""
 "<!--:en-->Request<!--:--><!--:de-->Anfragen<!--:--><!--:it-->Richiesta<!--:--"
 "><!--:fr-->Demande<!--:-->"
@@ -386,91 +529,111 @@ msgstr ""
 msgid "pre__program__title"
 msgstr "Programm"
 
+#: ../preview.php:121 ../timetable.php:20
+msgid "pre__day1"
+msgstr "Dienstag, 22. Juli 2014"
+
+#: ../preview.php:128 ../timetable.php:27
+msgid "pre__arrival"
+msgstr "Ankunft der Teilnehmer."
+
+#: ../preview.php:134 ../timetable.php:33
+msgid "pre__inspection"
+msgstr "Technische Inspektion und Zulassung der Fahrzeuge im Fahrzentrum."
+
+#: ../preview.php:140 ../timetable.php:39
+msgid "pre__check-in"
+msgstr "Check-In im Hotel."
+
+#: ../preview.php:146 ../timetable.php:45
+msgid "pre__day1__dinner"
+msgstr "Abendessen im Hotel oder in einem Gourmet-Restaurant Merans."
+
 #: ../preview.php:154 ../timetable.php:53
 msgid "pre__day2"
 msgstr "Mittwoch, 23. Juli 2014"
 
 #: ../preview.php:163 ../preview.php:282 ../preview.php:409 ../preview.php:481
-#: ../timetable.php:108 ../timetable.php:305 ../timetable.php:466
-#: ../timetable.php:680
+#: ../timetable.php:101 ../timetable.php:293 ../timetable.php:449
+#: ../timetable.php:658
 msgid "pre__location"
 msgstr "Ort"
 
 #: ../preview.php:166 ../preview.php:285 ../preview.php:412 ../preview.php:484
-#: ../timetable.php:111 ../timetable.php:308 ../timetable.php:469
-#: ../timetable.php:683
+#: ../timetable.php:104 ../timetable.php:296 ../timetable.php:452
+#: ../timetable.php:661
 msgid "pre__altitude"
 msgstr "Meereshöhe"
 
 #: ../preview.php:174 ../preview.php:246 ../preview.php:420 ../preview.php:447
-#: ../preview.php:492 ../timetable.php:119 ../timetable.php:191
-#: ../timetable.php:316 ../timetable.php:352 ../timetable.php:691
+#: ../preview.php:492 ../timetable.php:112 ../timetable.php:184
+#: ../timetable.php:304 ../timetable.php:340 ../timetable.php:669
 msgid "pre__meran"
 msgstr "Meran"
 
 #: ../preview.php:177 ../preview.php:249 ../preview.php:423 ../preview.php:450
-#: ../preview.php:495 ../timetable.php:122 ../timetable.php:194
-#: ../timetable.php:319 ../timetable.php:355 ../timetable.php:694
+#: ../preview.php:495 ../timetable.php:115 ../timetable.php:187
+#: ../timetable.php:307 ../timetable.php:343 ../timetable.php:672
 msgid "pre__meran__altitude"
 msgstr "324m"
 
-#: ../preview.php:183 ../timetable.php:128
+#: ../preview.php:183 ../timetable.php:121
 msgid "pre__jaufen"
 msgstr "Jaufenpass"
 
-#: ../preview.php:186 ../timetable.php:131
+#: ../preview.php:186 ../timetable.php:124
 msgid "pre__jaufen__altitude"
 msgstr "2094m"
 
-#: ../preview.php:192 ../timetable.php:137
+#: ../preview.php:192 ../timetable.php:130
 msgid "pre__sterzing"
 msgstr "Sterzing"
 
-#: ../preview.php:195 ../timetable.php:140
+#: ../preview.php:195 ../timetable.php:133
 msgid "pre__sterzing__altitude"
 msgstr "948m"
 
-#: ../preview.php:201 ../timetable.php:146
+#: ../preview.php:201 ../timetable.php:139
 msgid "pre__penser"
 msgstr "Penser Joch"
 
-#: ../preview.php:204 ../timetable.php:149
+#: ../preview.php:204 ../timetable.php:142
 msgid "pre__penser__altitude"
 msgstr "2211m"
 
 #: ../preview.php:210 ../preview.php:293 ../preview.php:374 ../preview.php:555
-#: ../timetable.php:155 ../timetable.php:477 ../timetable.php:567
-#: ../timetable.php:754
+#: ../timetable.php:148 ../timetable.php:460 ../timetable.php:550
+#: ../timetable.php:732
 msgid "pre__bozen"
 msgstr "Bozen"
 
 #: ../preview.php:213 ../preview.php:296 ../preview.php:377 ../preview.php:558
-#: ../timetable.php:158 ../timetable.php:480 ../timetable.php:570
-#: ../timetable.php:757
+#: ../timetable.php:151 ../timetable.php:463 ../timetable.php:553
+#: ../timetable.php:735
 msgid "pre__bozen__altitude"
 msgstr "262m"
 
-#: ../preview.php:219 ../timetable.php:164
+#: ../preview.php:219 ../timetable.php:157
 msgid "pre__mendel"
 msgstr "Mendelpass"
 
-#: ../preview.php:222 ../timetable.php:167
+#: ../preview.php:222 ../timetable.php:160
 msgid "pre__mendel__altitude"
 msgstr "1363m"
 
-#: ../preview.php:228 ../timetable.php:173
+#: ../preview.php:228 ../timetable.php:166
 msgid "pre__fondo"
 msgstr "Pfunds"
 
-#: ../preview.php:231 ../timetable.php:176
+#: ../preview.php:231 ../timetable.php:169
 msgid "pre__fondo__altitude"
 msgstr "997m"
 
-#: ../preview.php:237 ../timetable.php:182
+#: ../preview.php:237 ../timetable.php:175
 msgid "pre__gampen"
 msgstr "Gampenpass"
 
-#: ../preview.php:240 ../timetable.php:185
+#: ../preview.php:240 ../timetable.php:178
 msgid "pre__gampen__altitude"
 msgstr "1518m"
 
@@ -479,63 +642,63 @@ msgid "pre__day2__dinner"
 msgstr ""
 "Italienisches Abendessen &mdash; das beste aus der italienischen Küche."
 
-#: ../preview.php:273 ../timetable.php:252
+#: ../preview.php:273 ../timetable.php:245
 msgid "pre__day3"
 msgstr "Donnerstag, 24. Juli 2014"
 
-#: ../preview.php:302 ../preview.php:365 ../timetable.php:495
+#: ../preview.php:302 ../preview.php:365 ../timetable.php:478
 msgid "pre__ortisei"
 msgstr "St. Ulrich in Gröden"
 
-#: ../preview.php:305 ../preview.php:368 ../timetable.php:498
+#: ../preview.php:305 ../preview.php:368 ../timetable.php:481
 msgid "pre__ortisei__altitude"
 msgstr "1236m"
 
-#: ../preview.php:311 ../timetable.php:549
+#: ../preview.php:311 ../timetable.php:532
 msgid "pre__wolkenstein"
 msgstr "Wolkenstein"
 
-#: ../preview.php:314 ../timetable.php:552
+#: ../preview.php:314 ../timetable.php:535
 msgid "pre__wolkenstein__altitude"
 msgstr "1563m"
 
-#: ../preview.php:320 ../timetable.php:504
+#: ../preview.php:320 ../timetable.php:487
 msgid "pre__groedner"
 msgstr "Grödnerjoch"
 
-#: ../preview.php:323 ../timetable.php:507
+#: ../preview.php:323 ../timetable.php:490
 msgid "pre__groedner__altitude"
 msgstr "2121m"
 
-#: ../preview.php:329 ../timetable.php:513
+#: ../preview.php:329 ../timetable.php:496
 msgid "pre__corvara"
 msgstr "Corvara"
 
-#: ../preview.php:332 ../timetable.php:516
+#: ../preview.php:332 ../timetable.php:499
 msgid "pre__corvara__altitude"
 msgstr "1568m"
 
-#: ../preview.php:338 ../timetable.php:522
+#: ../preview.php:338 ../timetable.php:505
 msgid "pre__campolungo"
 msgstr "Campolongo-Pass"
 
-#: ../preview.php:341 ../timetable.php:525
+#: ../preview.php:341 ../timetable.php:508
 msgid "pre__campolungo__altitude"
 msgstr "1875m"
 
-#: ../preview.php:347 ../timetable.php:531
+#: ../preview.php:347 ../timetable.php:514
 msgid "pre__pordoi"
 msgstr "Pordoijoch"
 
-#: ../preview.php:350 ../timetable.php:534
+#: ../preview.php:350 ../timetable.php:517
 msgid "pre__pordoi__altitude"
 msgstr "2239m"
 
-#: ../preview.php:356 ../timetable.php:540
+#: ../preview.php:356 ../timetable.php:523
 msgid "pre__sella"
 msgstr "Sellajoch"
 
-#: ../preview.php:359 ../timetable.php:543
+#: ../preview.php:359 ../timetable.php:526
 msgid "pre__sella__altitude"
 msgstr "2240m"
 
@@ -545,23 +708,23 @@ msgstr ""
 "Erleben Sie die edelsten und köstlichsten Spezialitäten der originalen "
 "Südtiroler Küche."
 
-#: ../preview.php:400 ../timetable.php:413
+#: ../preview.php:400 ../timetable.php:401
 msgid "pre__day4"
 msgstr "Freitag, 25. Juli 2014"
 
-#: ../preview.php:429 ../timetable.php:343
+#: ../preview.php:429 ../timetable.php:331
 msgid "pre__glurns"
 msgstr "Glurns"
 
-#: ../preview.php:432 ../timetable.php:346
+#: ../preview.php:432 ../timetable.php:334
 msgid "pre__glurns__altitude"
 msgstr "907m"
 
-#: ../preview.php:438 ../timetable.php:334
+#: ../preview.php:438 ../timetable.php:322
 msgid "pre__stilfs"
 msgstr "Stilfser Joch"
 
-#: ../preview.php:441 ../timetable.php:337
+#: ../preview.php:441 ../timetable.php:325
 msgid "pre__stilfs__altitude"
 msgstr "2763m"
 
@@ -569,55 +732,55 @@ msgstr "2763m"
 msgid "pre__day4__dinner"
 msgstr "Entdecken Sie Ihr neues Lieblingsrestaurant der Gegend."
 
-#: ../preview.php:472 ../timetable.php:627
+#: ../preview.php:472 ../timetable.php:610
 msgid "pre__day5"
 msgstr "Samstag, 26. Juli 2014"
 
-#: ../preview.php:501 ../timetable.php:700
+#: ../preview.php:501 ../timetable.php:678
 msgid "pre__lana"
 msgstr "Lana"
 
-#: ../preview.php:504 ../timetable.php:703
+#: ../preview.php:504 ../timetable.php:681
 msgid "pre__lana__altitude"
 msgstr "310m"
 
-#: ../preview.php:510 ../timetable.php:709
+#: ../preview.php:510 ../timetable.php:687
 msgid "pre__andrian"
 msgstr "Andrian"
 
-#: ../preview.php:513 ../timetable.php:712
+#: ../preview.php:513 ../timetable.php:690
 msgid "pre__andrian__altitude"
 msgstr "274m"
 
-#: ../preview.php:519 ../timetable.php:718
+#: ../preview.php:519 ../timetable.php:696
 msgid "pre__pauls"
 msgstr "St. Pauls"
 
-#: ../preview.php:522 ../timetable.php:721
+#: ../preview.php:522 ../timetable.php:699
 msgid "pre__pauls__altitude"
 msgstr "395m"
 
-#: ../preview.php:528 ../timetable.php:727
+#: ../preview.php:528 ../timetable.php:705
 msgid "pre__eppan"
 msgstr "Eppan"
 
-#: ../preview.php:531 ../timetable.php:730
+#: ../preview.php:531 ../timetable.php:708
 msgid "pre__eppan__altitude"
 msgstr "415m"
 
-#: ../preview.php:537 ../timetable.php:736
+#: ../preview.php:537 ../timetable.php:714
 msgid "pre__kaltern"
 msgstr "Kaltern"
 
-#: ../preview.php:540 ../timetable.php:739
+#: ../preview.php:540 ../timetable.php:717
 msgid "pre__kaltern__altitude"
 msgstr "425m"
 
-#: ../preview.php:546 ../timetable.php:745
+#: ../preview.php:546 ../timetable.php:723
 msgid "pre__neumarkt"
 msgstr "Neumarkt"
 
-#: ../preview.php:549 ../timetable.php:748
+#: ../preview.php:549 ../timetable.php:726
 msgid "pre__neumarkt__altitude"
 msgstr "217m"
 
@@ -625,11 +788,11 @@ msgstr "217m"
 msgid "pre__day5__dinner"
 msgstr "Gala Dinner."
 
-#: ../preview.php:581 ../timetable.php:814
+#: ../preview.php:581 ../timetable.php:792
 msgid "pre__day6"
 msgstr "Sonntag, 27. Juli 2014"
 
-#: ../preview.php:588 ../timetable.php:821
+#: ../preview.php:588 ../timetable.php:799
 msgid "pre__day6__ceremony"
 msgstr ""
 "Während eines entspannten Brunch im Freien, zelebrieren wir Preisverleihung "
@@ -703,14 +866,14 @@ msgstr ""
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: ../timetable.php:57 ../timetable.php:256 ../timetable.php:417
-#: ../timetable.php:631
+#: ../timetable.php:57 ../timetable.php:249 ../timetable.php:405
+#: ../timetable.php:614
 msgid ""
 "<!--:en-->Day Route<!--:--><!--:de-->Tagesroute<!--:--><!--:it--"
 ">Percorso<!--:--><!--:fr-->Itinéraire<!--:-->"
 msgstr ""
 
-#: ../timetable.php:242
+#: ../timetable.php:235
 msgid "program__day2__dinner"
 msgstr ""
 "Ein Abend mit kulinarischen und kulturellen Höhepunkten Italiens im "
@@ -718,45 +881,45 @@ msgstr ""
 "Spezialitäten der italienischen Küche und lauschen den Klassikern der "
 "italienischen Musik."
 
-#: ../timetable.php:325
+#: ../timetable.php:313
 msgid "pre__prad"
 msgstr "Prad"
 
-#: ../timetable.php:328
+#: ../timetable.php:316
 msgid "pre__prad__altitude"
 msgstr "915m"
 
-#: ../timetable.php:404
+#: ../timetable.php:392
 msgid "program__day3__dinner"
 msgstr ""
 "Vor der atemberaubenden Kulisse der Wandelhalle auf der Meraner "
 "Winterpromenade, servieren wir unseren Gästen vorzügliche Delikatessen aus "
 "der traditionellen und modernen südtiroler Küche."
 
-#: ../timetable.php:486
+#: ../timetable.php:469
 msgid "pre__klausen"
 msgstr "Klausen"
 
-#: ../timetable.php:489
+#: ../timetable.php:472
 msgid "pre__klausen__altitude"
 msgstr "523m"
 
-#: ../timetable.php:558
+#: ../timetable.php:541
 msgid "pre__castelrotto"
 msgstr "Kastelruth"
 
-#: ../timetable.php:561
+#: ../timetable.php:544
 msgid "pre__castelrotto__altitude"
 msgstr "1060m"
 
-#: ../timetable.php:618
+#: ../timetable.php:601
 msgid "program__day4__dinner"
 msgstr ""
 "Am dritten Abend bieten wir unseren Gästen eine vielfältige Auswahl an "
 "unterschiedlichen Restaurants. Jeder darf sein bevorzugtes Restaurant frei "
 "wählen und dort dinieren."
 
-#: ../timetable.php:805
+#: ../timetable.php:783
 msgid "program__day5__dinner"
 msgstr ""
 "Im edlen Kurhaus von Meran veranstalten wir einen Gala-Abend mit passender "
@@ -842,12 +1005,14 @@ msgid "Dark"
 msgstr ""
 
 #: ../inc/theme-options.php:173
+#, fuzzy
 msgid "Content on left"
-msgstr ""
+msgstr "Wir freuen uns, von Ihnen zu hören"
 
 #: ../inc/theme-options.php:178
+#, fuzzy
 msgid "Content on right"
-msgstr ""
+msgstr "Wir freuen uns, von Ihnen zu hören"
 
 #: ../inc/theme-options.php:183
 msgid "One-column, no sidebar"
@@ -903,8 +1068,9 @@ msgid "Link to %s"
 msgstr ""
 
 #: ../inc/widgets.php:157
+#, fuzzy
 msgid "Title:"
-msgstr ""
+msgstr "Das einzigartige Oldtimer-Event"
 
 #: ../inc/widgets.php:160
 msgid "Number of posts to show:"
