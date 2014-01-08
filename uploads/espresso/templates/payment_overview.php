@@ -3,10 +3,10 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 <form>
 
 		<h2>
-			<?php _e('Your Registration', 'event_espresso'); ?>
+			<? _e('<!--:en-->Your Registration<!--:--><!--:de-->Ihre Anmeldung<!--:--><!--:it-->La sua registrazione<!--:--><!--:fr-->Votre Inscription<!--:-->'); ?>
 		</h2>
 
-		<? print_r($payment_status); ?>
+		<?// print_r($payment_status); ?>
 
 		<?php // localize all the things!
 			switch( $payment_status ) {
@@ -14,11 +14,10 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 					$payment_status_translated = __( 'Pending', 'event_espresso' );
 		?>
 			<div class="msg msg--warning msg--has-icon space-lover">
-				<div class="msg__title"><i class="fa fa-fw fa-warning"></i><?php echo $price_option .' &nbsp;&nbsp;&nbsp;&euro; ' . number_format($total_cost, 2); ?></div>
+				<div class="msg__title"><i class="fa fa-fw fa-warning"></i><? _e('<!--:en-->Payment pending<!--:--><!--:de-->Zahlung ausständig<!--:--><!--:it-->Pagamento non effettuato<!--:--><!--:fr-->En attente de paiement<!--:-->'); ?></div>
 				<div class="msg__bd">
-					<div>You have registered for the <a href="/packages/"><?php echo $price_option ?></a>.</div>
-					<div>The registration is <strong>not complete</strong> until we received and processed your payment.</div>
-					<div>Thank you.</div>
+					<div><? _e('<!--:en-->Your registration is <strong>not complete</strong> until payment is received.<!--:--><!--:de-->Ihre Anmeldung ist erst <strong>nach Eingang Ihrer Zahlung</strong> vollständig abgeschlossen.<!--:--><!--:it-->La registrazione <strong>non è completa</strong> finché il pagamento è stato effetuato.<!--:--><!--:fr-->Votre inscription est complète <strong>seulement après réception de votre paiement</strong>.<!--:-->'); ?></div>
+					<div><? _e('<!--:en-->Thank you.<!--:--><!--:de-->Vielen Dank.<!--:--><!--:it-->Molte grazie.<!--:--><!--:fr-->Merci beaucoup.<!--:-->'); ?></div>
 				</div>
 			</div>
 		<?		break;
@@ -26,11 +25,10 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 					$payment_status_translated = __( 'Incomplete', 'event_espresso' );
 		?>
 			<div class="msg msg--warning msg--has-icon space-lover">
-				<div class="msg__title"><i class="fa fa-fw fa-warning"></i><?php echo $price_option .' &nbsp;&nbsp;&nbsp;&euro; ' . number_format($total_cost, 2); ?></div>
+				<div class="msg__title"><i class="fa fa-fw fa-warning"></i><? _e('<!--:en-->Payment pending<!--:--><!--:de-->Zahlung ausständig<!--:--><!--:it-->Pagamento non effettuato<!--:--><!--:fr-->En attente de paiement<!--:-->'); ?></div>
 				<div class="msg__bd">
-					<div>You have registered for the <a href="/packages/"><?php echo $price_option ?></a>.</div>
-					<div>The registration is <strong>not complete</strong> until we received and processed your payment.</div>
-					<div>Thank you.</div>
+					<div><? _e('<!--:en-->Your registration is <strong>not complete</strong> until payment is received.<!--:--><!--:de-->Ihre Anmeldung ist erst <strong>nach Eingang Ihrer Zahlung</strong> vollständig abgeschlossen.<!--:--><!--:it-->La registrazione <strong>non è completa</strong> finché il pagamento è stato effetuato.<!--:--><!--:fr-->Votre inscription est complète <strong>seulement après réception de votre paiement</strong>.<!--:-->'); ?></div>
+					<div><? _e('<!--:en-->Thank you.<!--:--><!--:de-->Vielen Dank.<!--:--><!--:it-->Molte grazie.<!--:--><!--:fr-->Merci beaucoup.<!--:-->'); ?></div>
 				</div>
 			</div>
 		<?		break;
@@ -38,11 +36,10 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 					$payment_status_translated = __( 'Completed', 'event_espresso' );
 		?>
 			<div class="msg msg--success msg--has-icon space-lover">
-				<div class="msg__title"><i class="fa fa-fw fa-check"></i><?php echo $price_option .' &nbsp;&nbsp;&nbsp;&euro; ' . number_format($total_cost, 2); ?></div>
+				<div class="msg__title"><i class="fa fa-fw fa-check"></i><? _e('<!--:en-->Payment completed<!--:--><!--:de-->Zahlung erhalten<!--:--><!--:it-->Pagamento effettuato<!--:--><!--:fr-->Paiement effectué<!--:-->'); ?></div>
 				<div class="msg__bd">
-					<div>You have registered for the <a href="/packages/"><?php echo $price_option ?></a>.</div>
-					<div>Your registration is <strong>complete and confirmed</strong>, your payment has been received and processed.</div>
-					<div>Thank you.</div>
+					<div><? _e('<!--:en-->Your registration is <strong>complete and confirmed</strong>, your payment has been received and processed.<!--:--><!--:de-->Ihre Anmeldung ist <strong>vollständig abgeschlossen</strong>. Wir haben Ihre Zahlung erhalten und bearbeitet.<!--:--><!--:it-->La registrazione <strong>è completa</strong>. Il pagamento è stato effettuato.<!--:--><!--:fr-->Votre inscription <strong>est complète</strong>.<!--:-->'); ?></div>
+					<div><? _e('<!--:en-->Thank you.<!--:--><!--:de-->Vielen Dank.<!--:--><!--:it-->Molte grazie.<!--:--><!--:fr-->Merci beaucoup.<!--:-->'); ?></div>
 				</div>
 			</div>
 		<?		break;
@@ -50,11 +47,10 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 					$payment_status_translated = __( 'Completed', 'event_espresso' );
 		?>
 			<div class="msg msg--success msg--has-icon space-lover">
-				<div class="msg__title"><i class="fa fa-fw fa-check"></i><?php echo $price_option .' &nbsp;&nbsp;&nbsp;&euro; ' . number_format($total_cost, 2); ?></div>
+				<div class="msg__title"><i class="fa fa-fw fa-check"></i><? _e('<!--:en-->Payment completed<!--:--><!--:de-->Zahlung erhalten<!--:--><!--:it-->Pagamento effettuato<!--:--><!--:fr-->Paiement effectué<!--:-->'); ?></div>
 				<div class="msg__bd">
-					<div>You have registered for the <a href="/packages/"><?php echo $price_option ?></a>.</div>
-					<div>Your registration is <strong>complete and confirmed</strong>, your payment has been received and processed.</div>
-					<div>Thank you.</div>
+					<div><? _e('<!--:en-->Your registration is <strong>complete and confirmed</strong>, your payment has been received and processed.<!--:--><!--:de-->Ihre Anmeldung ist <strong>vollständig abgeschlossen</strong>. Wir haben Ihre Zahlung erhalten und bearbeitet.<!--:--><!--:it-->La registrazione <strong>è completa</strong>. Il pagamento è stato effettuato.<!--:--><!--:fr-->Votre inscription <strong>est complète</strong>.<!--:-->'); ?></div>
+					<div><? _e('<!--:en-->Thank you.<!--:--><!--:de-->Vielen Dank.<!--:--><!--:it-->Molte grazie.<!--:--><!--:fr-->Merci beaucoup.<!--:-->'); ?></div>
 				</div>
 			</div>
 		<?		break;
@@ -62,11 +58,12 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 					$payment_status_translated = __( 'Payment Declined', 'event_espresso' );
 		?>
 			<div class="msg msg--error msg--has-icon space-lover">
-				<div class="msg__title"><i class="fa fa-fw fa-times"></i><?php echo $price_option .' &nbsp;&nbsp;&nbsp;&euro; ' . number_format($total_cost, 2); ?></div>
+				<div class="msg__title"><i class="fa fa-fw fa-times"></i><? _e('<!--:en-->Payment declined<!--:--><!--:de-->Zahlung abgelehnt<!--:--><!--:it-->Pagamento rifiutato<!--:--><!--:fr-->Paiement refusé<!--:-->'); ?></div>
 				<div class="msg__bd">
-					<div>You have registered for the <a href="/packages/"><?php echo $price_option ?></a>.</div>
-					<div>We are sorry, but your payment has been declined. For further information, please contact our <a href="mailto:hannes@granpremiodolomiti.com?subject=<? echo 'Payment declined, registration ID: ' . $registration_id; ?>" title="Get help">support team</a></div>
-					<div>Thank you.</div>
+					<div><? _e('<!--:en-->We are sorry, but your <strong>payment has been declined</strong>. For further information, please <!--:--><!--:de-->Es tut uns leid, Ihnen mitteilen zu müssen, dass Ihre <strong>Zahlung abgelehnt</strong> wurde. Um weitere Informationen zu erhalten, <!--:--><!--:it-->Siamo spiacenti di comunicarle che il suo <strong>pagamento è stato rifiutato</strong>. Per ottenere ulteriori informazioni, la preghiamo di <!--:--><!--:fr-->Nous sommes désolés de vous informer que votre <strong>paiement a été refusé</strong>. Pour plus d\'informations, s\'il vous plaît <!--:-->'); ?>
+						<a href="mailto:hannes@granpremiodolomiti.com?subject=<? echo 'Payment declined, registration ID: ' . $registration_id; ?>"><? _e('<!--:en-->contact us.<!--:--><!--:de-->kontaktieren Sie uns bitte.<!--:--><!--:it-->contattarci.<!--:--><!--:fr-->contactez-nous.<!--:-->') ?></a>
+					</div>
+					<div><? _e('<!--:en-->Thank you.<!--:--><!--:de-->Vielen Dank.<!--:--><!--:it-->Molte grazie.<!--:--><!--:fr-->Merci beaucoup.<!--:-->'); ?></div>
 				</div>
 			</div>
 		<?		break;
@@ -77,21 +74,21 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 		
 
 		<h2>
-			<?php _e('Your Payment Overview', 'event_espresso'); ?>
+			<? _e('<!--:en-->Payment Overview<!--:--><!--:de-->Zahlungsinformationen<!--:--><!--:it-->Informazioni pagamento<!--:--><!--:fr-->Informations de paiement <!--:-->'); ?>
 		</h2>
 		
 		<div class="form-component form-component--readonly">
-			<label for="attendee_first_name"> <?php _e('Primary Registrant', 'event_espresso'); ?> </label>
+			<label for="attendee_first_name"><? _e('<!--:en-->Name<!--:--><!--:de-->Name<!--:--><!--:it-->Nome<!--:--><!--:fr-->Nom<!--:-->'); ?></label>
 			<input type="text" name="attendee_first_name" value="<?php echo stripslashes_deep($fname . ' ' . $lname) ?>" readonly>
 		</div>
 		
 		<div class="form-component form-component--readonly">
-			<label for="payment_type"> <?php _e('Payment Type', 'event_espresso'); ?> </label>
-			<input type="text" name="attendee_first_name" value="Bank Transfer" readonly>
+			<label for="package"><? _e('<!--:en-->Package<!--:--><!--:de-->Paket<!--:--><!--:it-->Pacchetto<!--:--><!--:fr-->Forfait<!--:-->'); ?></label>
+			<input type="text" name="package" value="<?php echo $price_option; ?>" readonly>
 		</div>
 		
 		<div class="form-component form-component--readonly">
-			<label for="amount"><?php _e('Amount Paid/Owed', 'event_espresso'); ?></label>
+			<label for="amount"><? _e('<!--:en-->Amount Paid/Owed<!--:--><!--:de-->Bezahlter/Offener Betrag<!--:--><!--:it-->Importo pagato/residuo<!--:--><!--:fr-->Montant payé/demandé<!--:-->'); ?></label>
 			<div class="media">
 				<div class="media__img media__img--payment">
 					<?php event_espresso_paid_status_icon($payment_status) ?>
@@ -103,18 +100,18 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 		</div>
 		
 		<div class="form-component form-component--readonly">
-			<label for="payment_status"><?php _e('Payment Status', 'event_espresso'); ?></label>
+			<label for="payment_status"><? _e('<!--:en-->Payment Status<!--:--><!--:de-->Status der Zahlung<!--:--><!--:it-->Stato del pagamento<!--:--><!--:fr-->Statut du paiement<!--:-->'); ?></label>
 			<input type="text" name="payment_status" value="<?php echo $payment_status_translated; ?>" readonly>
 		</div>
 		
 		<div class="form-component form-component--readonly">
-			<label for="registration_id"><?php _e('Registration ID', 'event_espresso'); ?></label>
+			<label for="registration_id"><? _e('<!--:en-->Registration ID<!--:--><!--:de-->Registrierungs-ID<!--:--><!--:it-->ID di registrazione<!--:--><!--:fr-->ID d\'enregistrement<!--:-->'); ?></label>
 			<input type="text" name="registration_id" value="<?php echo $registration_id ?>" readonly>
 		</div>
 
 	<? if($txn_type !== '') { ?>
 		<div class="form-component form-component--readonly">
-			<label for="transaction_id"><?php _e('Transaction ID', 'event_espresso'); ?></label>
+			<label for="transaction_id"><? _e('<!--:en-->Transaction ID<!--:--><!--:de-->Transaktions-ID<!--:--><!--:it-->ID di transazione<!--:--><!--:fr-->ID du transaction<!--:-->'); ?></label>
 			<input type="text" name="transaction_id" value="<?php echo $txn_id; ?>" readonly>
 		</div>
 	<? } ?>

@@ -14,20 +14,20 @@ $nameCount = 0;
 
 	<fieldset class="form-section">
 
-	<h2><?php _e('Verify Registration','event_espresso'); ?></h2>
+	<h2><? _e('<!--:en-->Verify Registration<!--:--><!--:de-->Daten prüfen<!--:--><!--:it-->Verifica dati<!--:--><!--:fr-->Vérifier les données<!--:-->'); ?></h2>
 
 		<div class="form-component form-component--readonly">
-			<label for="event_name"> <?php _e('Event Name','event_espresso'); ?> </label>
+			<label for="event_name"> <? _e('<!--:en-->Event Name<!--:--><!--:de-->Name des Events<!--:--><!--:it-->Nome del evento<!--:--><!--:fr-->Nom de l\'événement<!--:-->'); ?> </label>
 			<input type="text" name="event_name" value="<?php echo stripslashes_deep($event_name)?>" readonly>
 		</div>
 
 		<div class="form-component form-component--readonly">
-			<label for="event_package"> <?php _e('Package', 'event_espresso'); ?> </label>
+			<label for="event_package"> <? _e('<!--:en-->Package<!--:--><!--:de-->Paket<!--:--><!--:it-->Pacchetto<!--:--><!--:fr-->Forfait<!--:-->'); ?> </label>
 			<input type="text" name="event_package" value="<?php echo $attendee_prices[0]['option']; ?>" readonly>
 		</div>
 
 		<div class="form-component form-component--readonly">
-			<label for="total_price"> <?php _e('Total Price','event_espresso'); ?> </label>
+			<label for="total_price"> <? _e('<!--:en-->Total Price<!--:--><!--:de-->Gesamtpreis<!--:--><!--:it-->Prezzo totale<!--:--><!--:fr-->Prix total<!--:-->'); ?> </label>
 			<input type="text" name="total_price" value="<?php echo '&euro; ' . number_format($attendee_prices[0]['price'], 2); ?>" readonly>
 		</div>
 
@@ -37,7 +37,7 @@ $nameCount = 0;
 
 	<fieldset class="form-section">
 
-		<h2><?php _e('Driver Information','event_espresso'); ?></h2>
+		<h2><? _e('<!--:en-->Driver Information<!--:--><!--:de-->Fahrerdaten<!--:--><!--:it-->Dati del pilota<!--:--><!--:fr-->Données du conducteur<!--:-->'); ?></h2>
 
 	<?php foreach ($questions as $question) { ?>
 		<?php if(stripslashes( html_entity_decode( $question->answer, ENT_QUOTES, 'UTF-8' )) !== '') { ?>
@@ -50,7 +50,7 @@ $nameCount = 0;
 			</fieldset>
 			<fieldset class="form-section">
 
-			<h2><?php _e('Co-Driver Information','event_espresso'); ?></h2>
+			<h2><? _e('<!--:en-->Co-Driver Information<!--:--><!--:de-->Daten des Beifahrers<!--:--><!--:it-->Dati del co-pilota<!--:--><!--:fr-->Données de la co-pilote<!--:-->'); ?></h2>
 
 		<? } } ?>
 
@@ -59,7 +59,7 @@ $nameCount = 0;
 			</fieldset>
 			<fieldset class="form-section">
 
-			<h2><?php _e('Vehicle Information','event_espresso'); ?></h2>
+			<h2><? _e('<!--:en-->Car Information<!--:--><!--:de-->Fahrzeugdaten<!--:--><!--:it-->Dati del veicolo<!--:--><!--:fr-->Données du voiture<!--:-->'); ?></h2>
 
 		<? } ?>
 
@@ -68,7 +68,7 @@ $nameCount = 0;
 			</fieldset>
 			<fieldset class="form-section">
 
-			<h2><?php _e('Hotel','event_espresso'); ?></h2>
+			<h2><? _e('<!--:en-->Hotel<!--:--><!--:de-->Hotel<!--:--><!--:it-->Albergo<!--:--><!--:fr-->Logement<!--:-->'); ?></h2>
 
 		<? } ?>
 

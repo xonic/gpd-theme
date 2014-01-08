@@ -63,7 +63,9 @@ $data['phone'] = isset($phone) && !empty($phone) ? $phone : '';
 $data['event_meta'] = event_espresso_get_event_meta($event_id);
 
 //This file builds the gateways that are available
-echo '<h2>' . __('Bank Transfer', 'event_espresso') . '</h2>';
+echo '<h2>';
+_e('<!--:en-->Bank Transfer<!--:--><!--:de-->Überweisung<!--:--><!--:it-->Bonifico bancario<!--:--><!--:fr-->Virement bancaire<!--:-->');
+echo '</h2>';
 
 do_action('action_hook_espresso_display_onsite_payment_header');
 do_action('action_hook_espresso_display_onsite_payment_gateway', $data);
