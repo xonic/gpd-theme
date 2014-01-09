@@ -63,7 +63,7 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 					<div><? _e('<!--:en-->We are sorry, but your <strong>payment has been declined</strong>. For further information, please <!--:--><!--:de-->Es tut uns leid, Ihnen mitteilen zu müssen, dass Ihre <strong>Zahlung abgelehnt</strong> wurde. Um weitere Informationen zu erhalten, <!--:--><!--:it-->Siamo spiacenti di comunicarle che il suo <strong>pagamento è stato rifiutato</strong>. Per ottenere ulteriori informazioni, la preghiamo di <!--:--><!--:fr-->Nous sommes désolés de vous informer que votre <strong>paiement a été refusé</strong>. Pour plus d\'informations, s\'il vous plaît <!--:-->'); ?>
 						<a href="mailto:hannes@granpremiodolomiti.com?subject=<? echo 'Payment declined, registration ID: ' . $registration_id; ?>"><? _e('<!--:en-->contact us.<!--:--><!--:de-->kontaktieren Sie uns bitte.<!--:--><!--:it-->contattarci.<!--:--><!--:fr-->contactez-nous.<!--:-->') ?></a>
 					</div>
-					<div><? _e('<!--:en-->Thank you.<!--:--><!--:de-->Vielen Dank.<!--:--><!--:it-->Molte grazie.<!--:--><!--:fr-->Merci beaucoup.<!--:-->'); ?></div>
+					<div><? _e('<!--:en-->Thank you.<!--:--><!--:de-->Vielen Dank.<!--:--><!--:it-->Molte grazie.<!--:--><!--:fr-->Merci pour votre compréhension.<!--:-->'); ?></div>
 				</div>
 			</div>
 		<?		break;
@@ -111,7 +111,7 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 
 	<? if($txn_type !== '') { ?>
 		<div class="form-component form-component--readonly">
-			<label for="transaction_id"><? _e('<!--:en-->Transaction ID<!--:--><!--:de-->Transaktions-ID<!--:--><!--:it-->ID di transazione<!--:--><!--:fr-->ID du transaction<!--:-->'); ?></label>
+			<label for="transaction_id"><? _e('<!--:en-->Transaction ID<!--:--><!--:de-->Transaktions-ID<!--:--><!--:it-->ID di transazione<!--:--><!--:fr-->ID de la transaction<!--:-->'); ?></label>
 			<input type="text" name="transaction_id" value="<?php echo $txn_id; ?>" readonly>
 		</div>
 	<? } ?>

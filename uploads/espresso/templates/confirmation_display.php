@@ -14,7 +14,7 @@ $nameCount = 0;
 
 	<fieldset class="form-section">
 
-	<h2><? _e('<!--:en-->Verify Registration<!--:--><!--:de-->Daten prüfen<!--:--><!--:it-->Verifica dati<!--:--><!--:fr-->Vérifier les données<!--:-->'); ?></h2>
+	<h2><? _e('<!--:en-->Verify Registration<!--:--><!--:de-->Daten prüfen<!--:--><!--:it-->Verifica dati<!--:--><!--:fr-->Veuillez vérifier vos données<!--:-->'); ?></h2>
 
 		<div class="form-component form-component--readonly">
 			<label for="event_name"> <? _e('<!--:en-->Event Name<!--:--><!--:de-->Name des Events<!--:--><!--:it-->Nome del evento<!--:--><!--:fr-->Nom de l\'événement<!--:-->'); ?> </label>
@@ -50,7 +50,7 @@ $nameCount = 0;
 			</fieldset>
 			<fieldset class="form-section">
 
-			<h2><? _e('<!--:en-->Co-Driver Information<!--:--><!--:de-->Daten des Beifahrers<!--:--><!--:it-->Dati del co-pilota<!--:--><!--:fr-->Données de la co-pilote<!--:-->'); ?></h2>
+			<h2><? _e('<!--:en-->Co-Driver Information<!--:--><!--:de-->Daten des Beifahrers<!--:--><!--:it-->Dati del co-pilota<!--:--><!--:fr-->Données du co-pilote<!--:-->'); ?></h2>
 
 		<? } } ?>
 
@@ -59,7 +59,7 @@ $nameCount = 0;
 			</fieldset>
 			<fieldset class="form-section">
 
-			<h2><? _e('<!--:en-->Car Information<!--:--><!--:de-->Fahrzeugdaten<!--:--><!--:it-->Dati del veicolo<!--:--><!--:fr-->Données du voiture<!--:-->'); ?></h2>
+			<h2><? _e('<!--:en-->Car Information<!--:--><!--:de-->Fahrzeugdaten<!--:--><!--:it-->Dati del veicolo<!--:--><!--:fr-->Données de la voiture<!--:-->'); ?></h2>
 
 		<? } ?>
 
