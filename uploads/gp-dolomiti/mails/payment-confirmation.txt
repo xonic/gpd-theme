@@ -1,0 +1,43 @@
+<strong>***************************
+DEUTSCH
+***************************</strong>
+
+Vielen Dank, [fname] [lname].
+
+Wir haben Ihre Zahlung in der Höhe von [event_price] für das <strong>[ticket_type] Paket</strong> beim [event_name] erhalten und freuen uns schon sehr darauf, Sie zu diesem tollen Event herzlich begrüßen zu dürfen. Sollten Sie noch Fragen haben, zögern Sie nicht und kontaktieren Sie uns unter [contact].
+
+Status der Zahlung prüfen [payment_url].
+
+Vielen Dank und bis bald.
+Das Gran Premio Dolomiti Team
+
+
+
+<strong>***************************
+ITALIANO
+***************************</strong>
+
+
+
+<strong>***************************
+ENGLISH
+***************************</strong>
+
+Thank you, dear [fname] [lname].
+
+We have just received a payment in the amount of [event_price] for your registration to the <strong>[ticket_type] package</strong> at the [event_name].
+
+Transaction ID: [txn_id]
+
+We are truly looking forward to having you with us at this great event! Should you have any questions, please contact [contact].
+
+Review your payment information [payment_url].
+
+Thank you and see you soon!
+The Gran Premio Dolomiti Team
+
+
+
+<strong>***************************
+FRANÇAIS
+***************************</strong>

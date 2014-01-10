@@ -1,0 +1,71 @@
+<strong>***************************
+DEUTSCH
+***************************</strong>
+
+Hallo [fname] [lname],
+
+vielen Dank für Ihre Anmeldung zum <strong>[ticket_type] Paket</strong> beim [event].
+Ihre Anmeldung ist <strong>fast abgeschlossen!</strong>
+
+Falls Sie es nicht schon erledigt haben, möchten wir Sie bitten, die Teilnahmegebühr an folgendes Bankkonto zu überweisen:
+
+Teilnahmegebühr: <strong>[cost]</strong>
+Name: smt Consulting
+IBAN: <strong>IT40 S054 2811 1010 0000 0123 456</strong>
+BIC: <strong>BKAUATWW</strong>
+
+<strong>-------------------------------------</strong>
+<strong>WICHTIG</strong>
+Bitte vergessen Sie nicht, Ihre Registrierungs-ID: <strong>[registration_id]</strong> bei der Überweisung als Zahlungsgrund anzugeben. Vielen Dank.
+<strong>-------------------------------------</strong>
+
+Sobald wir Ihre Zahlung erhalten und bearbeitet haben, senden wir Ihnen eine E-mail als Bestätigung.
+
+Wir freuen uns schon sehr darauf, Sie herzlich zu diesem tollen Event begrüßen zu dürfen. Sollten Sie noch Fragen haben, zögern Sie nicht und kontaktieren Sie uns unter [contact].
+
+Status der Zahlung prüfen [payment_url].
+
+Vielen Dank und bis bald.
+Das Gran Premio Dolomiti Team
+
+
+
+<strong>***************************
+ITALIANO
+***************************</strong>
+
+
+
+<strong>***************************
+ENGLISH
+***************************</strong>
+
+Dear [fname] [lname],
+thanks for registering for the <strong>[ticket_type] package</strong> at the [event], your <strong>registration is nearly complete!</strong>
+
+If you haven't done so yet, please submit your payment to the following bank account:
+
+Amount: <strong>[cost]</strong>
+Name: <strong>smt Consulting</strong>
+IBAN: <strong>IT40 S054 2811 1010 0000 0123 456</strong>
+BIC: <strong>BKAUATWW</strong>
+
+<strong>-------------------------------------</strong>
+<strong>IMPORTANT</strong>
+Please do not forget to provide your registration ID: <strong>[registration_id]</strong> as the reason for payment when transfering the money. Thanks!
+<strong>-------------------------------------</strong>
+
+As soon as we've received and processed your payment, we'll send you a payment confirmation E-mail.
+
+We are truly looking forward to having you with us at this great event! Should you have any questions, please contact [contact].
+
+Review your payment information [payment_url].
+
+Thank you and see you soon!
+The Gran Premio Dolomiti Team
+
+
+
+<strong>***************************
+FRANÇAIS
+***************************</strong>
