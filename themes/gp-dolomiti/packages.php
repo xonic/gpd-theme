@@ -396,9 +396,8 @@ get_header(); ?>
 			<h2 class="subsection__title"><? _e("<!--:en-->Appartments<!--:--><!--:de-->Appartements<!--:--><!--:it-->Appartatmenti<!--:--><!--:fr-->Appartements<!--:-->"); ?></h2>
 			<div class="l-package__description">
 				<p class="package__description">
-					<? _e("package__platinum__description", "gp-dolomiti"); ?>
+					<? _e("package__platinum--appartment__description", "gp-dolomiti"); ?>
 				</p>
-				<a href="<? echo get_site_url() . '/' . qtrans_getLanguage(); ?>/contact" title="Kontaktieren Sie uns"><? _e("<!--:en-->Got questions?<!--:--><!--:de-->Noch Fragen?<!--:--><!--:it-->Avete delle domande?<!--:--><!--:fr-->Des questions?<!--:-->"); ?></a>
 			</div>
 			<div class="l-package__summary">
 				<ul class="package__summary">

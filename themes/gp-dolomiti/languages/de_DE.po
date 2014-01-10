@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
-"POT-Creation-Date: 2014-01-03 14:22+0100\n"
-"PO-Revision-Date: 2014-01-10 19:31+0100\n"
+"POT-Creation-Date: 2014-01-10 20:52+0100\n"
+"PO-Revision-Date: 2014-01-10 20:52+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -342,7 +342,7 @@ msgstr ""
 "Dieses Paket enthält alle Leistungen des Premium Pakets und gilt für 2 "
 "Personen."
 
-#: ../packages.php:109 ../packages.php:399
+#: ../packages.php:109
 msgid "package__platinum__description"
 msgstr ""
 "Das Platinum Paket ist für all jene, die nicht auf den besonderen Luxus "
@@ -357,6 +357,18 @@ msgid ""
 "<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--"
 "><!--:fr-->Détails<!--:-->"
 msgstr ""
+
+#: ../packages.php:118 ../packages.php:158 ../packages.php:198
+#: ../packages.php:263 ../packages.php:303 ../packages.php:343
+#, fuzzy
+msgid ""
+"<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--"
+"><!--:it-->Mostra la pagina dell' albergo<!--:--><!--:fr-->Voir "
+"l'hôtel<!--:-->"
+msgstr ""
+"Wer den ganzen Tag unterwegs ist, braucht einen gesunden Schlaf. Daher "
+"übernachten Sie in einem der hochwertigsten und besten Hotels direkt im "
+"Zentrum von Meran."
 
 #: ../packages.php:151
 msgid "package__ottmangut__description"
@@ -400,12 +412,17 @@ msgstr ""
 "Highlight in Ihrem Urlaub in Südtirol sind die hauseigenen Oldtimer, die für "
 "Ausflüge in die Dolomiten zur Verfügung stehen."
 
-#: ../packages.php:239 ../packages.php:384 ../packages.php:406
+#: ../packages.php:239
+#, fuzzy
 msgid ""
-"<!--:en-->Exclusive appartment<!--:--><!--:de-->Exklusives Appartement<!--:--"
-"><!--:it-->Appartamento esclusivo<!--:--><!--:fr-->Exclusive "
-"appartment<!--:-->"
+"<!--:en-->Platinum Suite<!--:--><!--:de-->Platinum Suite<!--:--><!--:it--"
+">Platinum Suite<!--:--><!--:fr-->Platinum Suite<!--:-->"
 msgstr ""
+"Das Platinum Paket ist für all jene, die nicht auf den besonderen Luxus "
+"verzichten möchten. Anstatt in einem der Hotels, logieren Sie in einem "
+"<strong>exklusiven und stilvollen Appartement</strong> der Extraklasse. "
+"Dieses Paket enthält alle Leistungen des Premium Pakets und gilt für 2 "
+"Personen."
 
 #: ../packages.php:247
 #, fuzzy
@@ -439,9 +456,11 @@ msgid ""
 "<!--:en-->Superior Package<!--:--><!--:de-->Superior Paket<!--:--><!--:it--"
 ">Pacchetto Superior <!--:--><!--:fr-->Forfait Superior<!--:-->"
 msgstr ""
-"Für das Rennen bekommen Sie von uns ein Tablet zur Verfügung gestellt. "
-"Darauf finden Sie ein digitales Roadbook, mit wertvollen Informationen rund "
-"um die Strecke."
+"Sollten Sie auf der Suche nach dem ultimativen Erlebnis sein, so wählen Sie "
+"das Superior Paket und logieren Sie in einer edlen Suite in <strong>einem "
+"der besten Hotels Ihrer Wahl</strong>, die Meran zu bieten hat. Dieses Paket "
+"enthält natürlich alle Leistungen, die im Premium Paket enthaten sind und "
+"gilt ebenfalls für 2 Personen."
 
 #: ../packages.php:254
 msgid "package__platinum--superior__description"
@@ -504,24 +523,64 @@ msgstr ""
 "Terrassen, ein optionales Frühstücksangebot, ein Weinkeller, eine Leselounge "
 "und  jede Menge Freiheiten zur Verfügung. "
 
+#: ../packages.php:384
+#, fuzzy
+msgid ""
+"<!--:en-->Superior Suite<!--:--><!--:de-->Superior Suite<!--:--><!--:it--"
+">Superior Suite<!--:--><!--:fr-->Superior Suite<!--:-->"
+msgstr ""
+"Sollten Sie auf der Suche nach dem ultimativen Erlebnis sein, so wählen Sie "
+"das Superior Paket und logieren Sie in einer edlen Suite in <strong>einem "
+"der besten Hotels Ihrer Wahl</strong>, die Meran zu bieten hat. Dieses Paket "
+"enthält natürlich alle Leistungen, die im Premium Paket enthaten sind und "
+"gilt ebenfalls für 2 Personen."
+
 #: ../packages.php:392
+#, fuzzy
 msgid ""
 "<!--:en-->/register/?lang=en&package=Superior<!--:--><!--:de-->/register/?"
 "lang=de&package=Superior<!--:--><!--:it-->/register/?"
 "lang=it&package=Superior<!--:--><!--:fr-->/register/?"
 "lang=fr&package=Superior<!--:-->"
 msgstr ""
+"Sollten Sie auf der Suche nach dem ultimativen Erlebnis sein, so wählen Sie "
+"das Superior Paket und logieren Sie in einer edlen Suite in <strong>einem "
+"der besten Hotels Ihrer Wahl</strong>, die Meran zu bieten hat. Dieses Paket "
+"enthält natürlich alle Leistungen, die im Premium Paket enthaten sind und "
+"gilt ebenfalls für 2 Personen."
 
 #: ../packages.php:392
+#, fuzzy
 msgid ""
 "<!--:en-->Order Superior<!--:--><!--:de-->Superior anmelden<!--:--><!--:it--"
 ">Iscrizione Superior<!--:--><!--:fr-->Inscription Superior<!--:-->"
 msgstr ""
+"Sollten Sie auf der Suche nach dem ultimativen Erlebnis sein, so wählen Sie "
+"das Superior Paket und logieren Sie in einer edlen Suite in <strong>einem "
+"der besten Hotels Ihrer Wahl</strong>, die Meran zu bieten hat. Dieses Paket "
+"enthält natürlich alle Leistungen, die im Premium Paket enthaten sind und "
+"gilt ebenfalls für 2 Personen."
 
 #: ../packages.php:396
 msgid ""
 "<!--:en-->Appartments<!--:--><!--:de-->Appartements<!--:--><!--:it--"
 ">Appartatmenti<!--:--><!--:fr-->Appartements<!--:-->"
+msgstr ""
+
+#: ../packages.php:399
+msgid "package__platinum--appartment__description"
+msgstr ""
+"Sie finden Hotelzimmer nicht so entspannend und möchten lieber ein "
+"<strong>komplettes Appartement als Rückzugsmöglichkeit</strong> haben? Gerne "
+"bieten wir Ihnen individuelle, großräumige und unvergessliche Unterkünfte "
+"an, in denen Sie sich ausgiebig erholen können. Senden Sie uns einfach eine "
+"Anfrage."
+
+#: ../packages.php:406
+msgid ""
+"<!--:en-->Exclusive appartment<!--:--><!--:de-->Exklusives Appartement<!--:--"
+"><!--:it-->Appartamento esclusivo<!--:--><!--:fr-->Exclusive "
+"appartment<!--:-->"
 msgstr ""
 
 #: ../packages.php:412
