@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2014-01-03 14:25+0100\n"
-"PO-Revision-Date: 2014-01-08 15:05+0100\n"
+"PO-Revision-Date: 2014-01-10 19:37+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -293,9 +293,9 @@ msgid "package__platinum__description"
 msgstr ""
 "If you are looking for that extra bit of luxury to enrich this great "
 "experience, the platinum package is right for you. You will reside in an "
-"<strong>exclusive and highly stylish apartment</strong>. This package "
-"further includes all the features of the premium package and is also valid "
-"for 2 persons."
+"<strong>exclusive and highly stylish suite</strong> in one of our platinum "
+"hotels of your choice. This package further includes all the features of the "
+"premium package and is also valid for 2 persons."
 
 #: ../packages.php:116 ../packages.php:156 ../packages.php:196
 #: ../packages.php:261 ../packages.php:301 ../packages.php:341
@@ -371,14 +371,12 @@ msgid ""
 msgstr ""
 
 #: ../packages.php:254
-#, fuzzy
 msgid "package__platinum--superior__description"
 msgstr ""
-"If you are looking for that extra bit of luxury to enrich this great "
-"experience, the platinum package is right for you. You will reside in an "
-"<strong>exclusive and highly stylish apartment</strong>. This package "
-"further includes all the features of the premium package and is also valid "
-"for 2 persons."
+"With the Superior Package we offer you the ultimate luxurious experience. "
+"You will reside in a generous <strong>suite of your choice in one of the "
+"greatest hotels</strong> Merano has to offer. This package further includes "
+"all the features of the premium package and is also valid for 2 persons."
 
 #: ../packages.php:296
 msgid "package__imperialart__description"
