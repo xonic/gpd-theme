@@ -18,10 +18,16 @@ define(["jquery"], function($)
 
 		splitChar:"/",
 
+		completeLink:undefined,
+
 		init: function()
 		{
 			this.currentLang = $('html').attr("lang");
 			this.translate();
+
+			this.completeLink = $("#finalize_bank");
+
+			if(this.completeLink.length > 0) this.fixCompleteLinkLanguage();
 		},
 
 		translate: function()
@@ -48,6 +54,11 @@ define(["jquery"], function($)
 				}
 
 			});
+		},
+
+		fixCompleteLinkLanguage: function()
+		{
+			this.completeLink.attr("href", this.completeLink.attr("href") + "&lang=" + this.currentLang.substr(0, 2));
 		}
 	};
 
