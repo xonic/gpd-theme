@@ -5,3 +5,4 @@ plugins/
 upgrade/
 uploads/*
 !uploads/espresso/
+!uploads/gp-dolomiti/
