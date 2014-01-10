@@ -12,6 +12,10 @@
 
 		<h1 class="section__title section__title--emphasized"><?php the_title(); ?></h1>
 
-		<?php the_content(); ?>
+		<div class="form-wrapper">
+			
+			<?php the_content(); ?>
+
+		</div>
 
 	</article><!-- #post-<?php the_ID(); ?> -->

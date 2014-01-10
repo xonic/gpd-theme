@@ -14,7 +14,7 @@
 			@include setType($bodyFontSize, $bodyLineHeight);
 		}
 
-		form,
+		.form-wrapper,
 		#event-reg-form-groups
 		{
 			margin:0 auto;

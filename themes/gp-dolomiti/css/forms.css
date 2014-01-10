@@ -2800,7 +2800,7 @@ form {
   line-height:  2.4rem;
 }
 /* line 19, ../sass/imports/modules/_event-forms.scss */
-.grid form,
+.grid .form-wrapper,
 .grid #event-reg-form-groups {
   margin: 0 auto;
   max-width:  600px;
