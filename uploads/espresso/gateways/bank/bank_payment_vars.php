@@ -37,16 +37,6 @@ function espresso_display_bank($payment_data) {
 			<label for="swift_bic"> <?php _e('SWIFT/BIC Code', 'event_espresso'); ?> </label>
 			<input type="text" name="swift_bic" value="ICRAITRR3P0" readonly>
 		</div>
-
-		<div class="form-component form-component--readonly">
-			<label for="bank_name"> <?php _e('<!--:en-->Financial Institution<!--:--><!--:de-->Name der Bank<!--:--><!--:it-->Nome della banca<!--:--><!--:fr-->Nom de la banque<!--:-->'); ?> </label>
-			<input type="text" name="bank_name" value="<?php echo stripslashes_deep( ! empty($bank_deposit_settings['bank_name']) ? $bank_deposit_settings['bank_name'] : '' ); ?>" readonly>
-		</div>
-
-		<div class="form-component form-component--readonly">
-			<label for="bank_address"> <?php _e('<!--:en-->Address<!--:--><!--:de-->Adresse<!--:--><!--:it-->Indirizzo<!--:--><!--:fr-->Adresse<!--:-->'); ?> </label>
-			<textarea type="text" name="bank_address" rows="3" readonly><?php echo stripslashes_deep( ! empty($bank_deposit_settings['bank_address']) ? $bank_deposit_settings['bank_address'] : '' ); ?></textarea>
-		</div>
 	</fieldset>
 	
 	<p class="form-section">
