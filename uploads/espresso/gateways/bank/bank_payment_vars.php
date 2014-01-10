@@ -30,12 +30,12 @@ function espresso_display_bank($payment_data) {
 
 		<div class="form-component form-component--readonly">
 			<label for="iban"> <?php _e('IBAN', 'event_espresso'); ?> </label>
-			<input type="text" name="iban" value="<?php echo stripslashes_deep( ! empty($bank_deposit_settings['iban']) ? $bank_deposit_settings['iban'] : '' ); ?>" readonly>
+			<input type="text" name="iban" value="IT 21 H 08133 58593 000040104941" readonly>
 		</div>
 
 		<div class="form-component form-component--readonly">
 			<label for="swift_bic"> <?php _e('SWIFT/BIC Code', 'event_espresso'); ?> </label>
-			<input type="text" name="swift_bic" value="<?php echo stripslashes_deep( ! empty($bank_deposit_settings['swift_bic']) ? $bank_deposit_settings['swift_bic'] : '' ); ?>" readonly>
+			<input type="text" name="swift_bic" value="ICRAITRR3P0" readonly>
 		</div>
 
 		<div class="form-component form-component--readonly">
