@@ -27,8 +27,6 @@ Thank you, dear [fname] [lname].
 
 We have just received a payment in the amount of [event_price] for your registration to the <strong>[ticket_type] package</strong> at the [event_name].
 
-Transaction ID: [txn_id]
-
 We are truly looking forward to having you with us at this great event! Should you have any questions, please contact [contact].
 
 Review your payment information [payment_url].

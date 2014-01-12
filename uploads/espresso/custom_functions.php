@@ -320,15 +320,15 @@ if (!function_exists('event_form_build')) {
 
 					$dd_type = $question->system_name == 'state' ? 'name="state"' : 'name="' . $XATT1 . $field_name . $XATT2 . $multi_name_adjust . '"';
 
-					if($question->question === "Hotel Platinum 1 / Unterkunft Platinum 1 / Albergo Platinum 1 / Logement Platinum 1")
+					if(strpos($question->question, "Platinum") !== FALSE)// === "Hotel Platinum 1 / Unterkunft Platinum 1 / Albergo Platinum 1 / Logement Platinum 1")
 					{
 						$html .= '
-							<div class="event_form_field is-hidden js-hotel-platinum-1 ' . $class . '">' . $label;
+							<div class="event_form_field is-hidden js-hotel-suite-platinum ' . $class . '">' . $label;
 					}
-					else if($question->question === "Hotel Platinum 2 / Unterkunft Platinum 2 / Albergo Platinum 2 / Logement Platinum 2")
+					else if(strpos($question->question, "Superior") !== FALSE)// === "Hotel Platinum 2 / Unterkunft Platinum 2 / Albergo Platinum 2 / Logement Platinum 2")
 					{
 						$html .= '
-							<div class="event_form_field is-hidden js-hotel-platinum-2 ' . $class . '">' . $label;
+							<div class="event_form_field is-hidden js-hotel-suite-superior ' . $class . '">' . $label;
 					}
 					else
 					{

@@ -25,7 +25,7 @@ define(["jquery"], function($)
 		{
 			this.$packageSelect = $("#price_option-1");
 			this.$hotelGroup = $(".js-hotel-group");
-			this.$hotelDropdowns = $("[class*='js-hotel-platinum-']");
+			this.$hotelDropdowns = $("[class*='js-hotel-suite-']");
 
 			// Quit if there is no package dropdown
 			if(this.$packageSelect.length === 0) return;
