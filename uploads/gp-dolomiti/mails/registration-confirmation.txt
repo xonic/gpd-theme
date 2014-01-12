@@ -11,8 +11,8 @@ Falls Sie es nicht schon erledigt haben, möchten wir Sie bitten, die Teilnahmeg
 
 Teilnahmegebühr: <strong>[cost]</strong>
 Name: smt Consulting
-IBAN: <strong>IT40 S054 2811 1010 0000 0123 456</strong>
-BIC: <strong>BKAUATWW</strong>
+IBAN: <strong>IT21 H081 3358 5930 0004 0104 941 </strong>
+BIC: <strong>ICRAITRR3P0</strong>
 
 <strong>-------------------------------------</strong>
 <strong>WICHTIG</strong>
@@ -47,8 +47,8 @@ If you haven't done so yet, please submit your payment to the following bank acc
 
 Amount: <strong>[cost]</strong>
 Name: <strong>smt Consulting</strong>
-IBAN: <strong>IT40 S054 2811 1010 0000 0123 456</strong>
-BIC: <strong>BKAUATWW</strong>
+IBAN: <strong>IT21 H081 3358 5930 0004 0104 941 </strong>
+BIC: <strong>ICRAITRR3P0</strong>
 
 <strong>-------------------------------------</strong>
 <strong>IMPORTANT</strong>
@@ -69,3 +69,27 @@ The Gran Premio Dolomiti Team
 <strong>***************************
 FRANÇAIS
 ***************************</strong>
+
+Cher [fname] [lname],
+nous vous remercions pour avoir choisi le forfait premium du Gran Premio Dolomiti 2014, votre inscription est quasiment terminée.
+Si vous ne l'avez pas encore fait, veuillez procéder au règlement à destination du compte bancaire suivant:
+
+Montant: <strong>[cost]</strong>
+Nom: <strong>smt Consulting</strong>
+IBAN: <strong>IT21 H081 3358 5930 0004 0104 941 </strong>
+BIC: <strong>ICRAITRR3P0</strong>
+
+-----------------
+IMPORTANT
+Veuillez s'il vous plaît mentionner votre numéro d'inscription: <strong>[registration_id]</strong> en tant que justification du paiement lorsque vous procéderez au virement.
+Merci!
+----------------
+
+Dès que nous aurons reçu et traité votre paiement, nous vous enverrons un e-mail de confirmation de paiement.
+
+Nous sommes impatients de vous rencontrer lors du Grand Prix! Si vous avez des questions, veuillez contacter [contact].
+
+Consultez à nouveau vos informations de paiement: [payment_url].
+
+Merci et à bientôt!
+L'équipe du Gran Premio Dolomiti
