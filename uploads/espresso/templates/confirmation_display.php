@@ -82,7 +82,11 @@ $nameCount = 0;
 	</fieldset>
 
 	<input class="btn btn--primary btn--newsletter" type="submit" name="confirm2" id="confirm2" value="<? _e('<!--:en-->Proceed to Payment<!--:--><!--:de-->Weiter zur Zahlung<!--:--><!--:it-->Procedi al pagamento<!--:--><!--:fr-->Passer au paiement<!--:-->'); ?>" />
-
+	<span class="secondary-action"><? _e('<!--:en-->or <!--:--><!--:de-->oder <!--:--><!--:it-->o <!--:--><!--:fr-->ou <!--:-->');
+			 echo '<a href="'.home_url().'/?page_id='.$event_page_id.'&amp;registration_id='.$registration_id.'&amp;id='.$attendee_id.'&amp;regevent_action=edit_attendee&amp;primary='.$attendee_id.'&amp;event_id='.$event_id.'&amp;attendee_num='.$attendee_num.'">';
+			 _e('<!--:en-->edit your registration<!--:--><!--:de-->Daten ändern<!--:--><!--:it-->modifica dati<!--:--><!--:fr-->modifier données<!--:-->');
+			 echo '</a>'; ?>
+	</span>
 	<?php	} ?>
 							
 	<?php /* This form builds the confirmation buttons */?>

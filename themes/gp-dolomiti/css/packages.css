@@ -1710,6 +1710,14 @@ object {
   cursor: not-allowed;
 }
 
+/* line 389, ../sass/imports/modules/_button.scss */
+.secondary-action {
+  display: inline-block;
+  margin:  0 0 48px 12px;
+  margin:  0 0 4.8rem 1.2rem;
+  white-space: nowrap;
+}
+
 /* line 9, ../sass/imports/modules/_sections.scss */
 .section--dark {
   background: #332e24;
