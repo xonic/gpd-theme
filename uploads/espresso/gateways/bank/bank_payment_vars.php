@@ -20,7 +20,7 @@ function espresso_display_bank($payment_data) {
 ?>
 
 		<p>
-			<?php _e('<!--:en-->Please transfer the money to the following bank account. The payment must be processed at least 2 weeks before the start of the event.<!--:--><!--:de-->Bitte überweisen Sie den Betrag auf das folgende Bankkonto. Die Zahlung muss bis spätestens 2 Wochen vor dem Tag der Veranstaltung eingetroffen sein.<!--:--><!--:it-->La preghiamo di trasferire l\'importo sul seguente conto bancario. Il pagamento deve essere effettuato entro e non oltre 2 settimane prima del giorno dell\' evento.<!--:--><!--:fr-->Veuillez transférer s\'il vous plaît le montant sur ​​le compte bancaire suivant. Le paiement doit être effectué au plus tard 2 semaines avant le jour de l\'événement.<!--:-->'); ?>
+			<?php _e('<!--:en-->Please transfer the money to the following bank account. The payment must be performed within 10 days after registration.<!--:--><!--:de-->Bitte überweisen Sie den Betrag auf das folgende Bankkonto. Die Zahlung muss innerhalb 10 Tagen nach der Anmeldung durchgeführt werden.<!--:--><!--:it-->La preghiamo di trasferire l\'importo sul seguente conto bancario. Il pagamento deve essere effettuato entro e non oltre 10 giorno dopo l\'iscrizione.<!--:--><!--:fr-->Veuillez transférer s\'il vous plaît le montant sur ​​le compte bancaire suivant. Le paiement doit être effectué au plus tard 10 jours après l\'inscription.<!--:-->'); ?>
 		</p>
 
 		<div class="form-component form-component--readonly">
