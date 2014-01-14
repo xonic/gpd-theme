@@ -12,7 +12,7 @@
 		@include rem(margin-bottom, $singleSpace);
 		white-space:nowrap;
 
-		@include at-breakpoint($minorBreakpoint)
+		@include at-breakpoint($minorBreakpoint no-mq)
 		{
 			clear:right;
 			float:right;
@@ -25,7 +25,7 @@
 		display:block;
 		@include rem(margin-bottom, $doubleSpace * 2);
 
-		@include at-breakpoint($minorBreakpoint)
+		@include at-breakpoint($minorBreakpoint no-mq)
 		{
 			@include rem(line-height, $doubleSpace);
 		}
@@ -45,7 +45,7 @@
 	{
 		@include rem(margin-bottom, $doubleSpace * 2);
 
-		@include at-breakpoint($minorBreakpoint)
+		@include at-breakpoint($minorBreakpoint no-mq)
 		{
 			@include rem(margin-bottom, $doubleSpace * 3);
 			@include span-columns(8, $huge-cols);
@@ -56,7 +56,7 @@
 	{
 		display:none;
 
-		@include at-breakpoint($minorBreakpoint)
+		@include at-breakpoint($minorBreakpoint no-mq)
 		{
 			display:block;
 			@include span-columns(3 omega, $huge-cols);
@@ -75,7 +75,7 @@
 
 	.l-package__action
 	{
-		@include at-breakpoint($minorBreakpoint)
+		@include at-breakpoint($minorBreakpoint no-mq)
 		{
 			clear:right;
 			@include span-columns(3 omega, $huge-cols);

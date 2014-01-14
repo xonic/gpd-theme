@@ -673,7 +673,7 @@ body > section {
 #ie8 body {
   background: url(../images/branding-bg-2.jpg) top center no-repeat;
   background-size: 100% auto;
-  -ms-behavior: url(http://granpremiodolomiti.com/backgroundsize.min.htc);
+  -ms-behavior: url(http://dev.granpremiodolomiti.com/backgroundsize.min.htc);
 }
 /* line 190, ../sass/imports/base/_typography.scss */
 #ie7 body:after,

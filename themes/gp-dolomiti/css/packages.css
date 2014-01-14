@@ -688,7 +688,7 @@ body > section {
 #ie8 body {
   background: url(../images/branding-bg-2.jpg) top center no-repeat;
   background-size: 100% auto;
-  -ms-behavior: url(http://granpremiodolomiti.com/backgroundsize.min.htc);
+  -ms-behavior: url(http://dev.granpremiodolomiti.com/backgroundsize.min.htc);
 }
 /* line 190, ../sass/imports/base/_typography.scss */
 #ie7 body:after,
@@ -2105,7 +2105,7 @@ object {
 /* line 18, ../sass/imports/modules/_hotel-img.scss */
 #ie7 .hotel-img,
 #ie8 .hotel-img {
-  -ms-behavior: url(http://granpremiodolomiti.com/backgroundsize.min.htc);
+  -ms-behavior: url(http://dev.granpremiodolomiti.com/backgroundsize.min.htc);
 }
 
 /* line 23, ../sass/imports/modules/_hotel-img.scss */
@@ -2309,6 +2309,12 @@ object {
     width: 23.72881%;
   }
 }
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .package__price {
+  clear: right;
+  float: right;
+  width: 23.72881%;
+}
 
 /* line 24, ../sass/imports/modules/_packages.scss */
 .package__action__msg {
@@ -2322,6 +2328,11 @@ object {
     line-height:  24px;
     line-height:  2.4rem;
   }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .package__action__msg {
+  line-height:  24px;
+  line-height:  2.4rem;
 }
 
 /* line 35, ../sass/imports/modules/_packages.scss */
@@ -2349,6 +2360,15 @@ object {
     margin-right: 1.69492%;
   }
 }
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .l-package__description {
+  margin-bottom:  72px;
+  margin-bottom:  7.2rem;
+  width: 66.10169%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
 
 /* line 56, ../sass/imports/modules/_packages.scss */
 .l-package__summary {
@@ -2366,6 +2386,19 @@ object {
   .l-package__summary i {
     color: #feaa00;
   }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .l-package__summary {
+  display: block;
+  width: 23.72881%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1.11111em;
+  display: inline;
+}
+/* line 64, ../sass/imports/modules/_packages.scss */
+.no-mq .l-package__summary i {
+  color: #feaa00;
 }
 
 /* line 69, ../sass/imports/modules/_packages.scss */
@@ -2391,6 +2424,20 @@ object {
     float: right;
     width: 100%;
   }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .l-package__action {
+  clear: right;
+  width: 23.72881%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1.11111em;
+  display: inline;
+}
+/* line 84, ../sass/imports/modules/_packages.scss */
+.no-mq .l-package__action .btn, .no-mq .l-package__action .btn-group .btn-group__btn, .btn-group .no-mq .l-package__action .btn-group__btn, .no-mq .l-package__action .btn-dropdown .btn-dropdown__toggle, .btn-dropdown .no-mq .l-package__action .btn-dropdown__toggle {
+  float: right;
+  width: 100%;
 }
 
 /* line 13, ../sass/imports/modules/_feature.scss */
