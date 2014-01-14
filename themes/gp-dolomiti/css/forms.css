@@ -2818,6 +2818,10 @@ form {
 }
 
 /* line 10, ../sass/imports/modules/_event-forms.scss */
+.grid label.error {
+  color: #cc4632;
+}
+/* line 15, ../sass/imports/modules/_event-forms.scss */
 .grid #event_espresso_registration_form {
   margin: 0;
   padding: 0;
@@ -2827,14 +2831,14 @@ form {
   line-height:  24px;
   line-height:  2.4rem;
 }
-/* line 19, ../sass/imports/modules/_event-forms.scss */
+/* line 24, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper,
 .grid #event-reg-form-groups {
   margin: 0 auto;
   max-width:  600px;
   max-width:  60rem;
 }
-/* line 25, ../sass/imports/modules/_event-forms.scss */
+/* line 30, ../sass/imports/modules/_event-forms.scss */
 .grid .form-section {
   margin:  0 0 48px;
   margin:  0 0 4.8rem;
@@ -2844,7 +2848,7 @@ form {
   border-bottom-width:  2px;
   border-bottom-width:  0.2rem;
 }
-/* line 33, ../sass/imports/modules/_event-forms.scss */
+/* line 38, ../sass/imports/modules/_event-forms.scss */
 .grid .reg-quest-title {
   margin:  72px 0 24px;
   margin:  7.2rem 0 2.4rem;
@@ -2854,15 +2858,15 @@ form {
   line-height:  2.8rem;
   font-weight: normal;
 }
-/* line 39, ../sass/imports/modules/_event-forms.scss */
+/* line 44, ../sass/imports/modules/_event-forms.scss */
 .grid .reg-quest-title:first-child {
   margin-top: 0;
 }
-/* line 45, ../sass/imports/modules/_event-forms.scss */
+/* line 50, ../sass/imports/modules/_event-forms.scss */
 .grid .event_form_field {
   margin: 0;
 }
-/* line 49, ../sass/imports/modules/_event-forms.scss */
+/* line 54, ../sass/imports/modules/_event-forms.scss */
 .grid .event_form_field .ee-reg-page-text-input {
   display: inline-block;
   width: 100%;
@@ -2884,7 +2888,7 @@ form {
   -o-transition: border linear 0.2s 0, box-shadow linear 0.2s 0, margin linear 0.2s 0;
   transition: border linear 0.2s 0, box-shadow linear 0.2s 0, margin linear 0.2s 0;
 }
-/* line 64, ../sass/imports/modules/_event-forms.scss */
+/* line 69, ../sass/imports/modules/_event-forms.scss */
 .grid .event_form_field .ee-reg-page-text-input:hover {
   border-color: #bcbcbc;
   border-top-color: #a3a3a3;
@@ -2892,7 +2896,7 @@ form {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-/* line 72, ../sass/imports/modules/_event-forms.scss */
+/* line 77, ../sass/imports/modules/_event-forms.scss */
 .grid .event_form_field .ee-reg-page-text-input:active, .grid .event_form_field .ee-reg-page-text-input:focus {
   border-color: #ffb319;
   border-top-color: #feaa00;
@@ -2902,12 +2906,12 @@ form {
   outline: none;
   ie-dummy: expression(this.hideFocus=true);
 }
-/* line 82, ../sass/imports/modules/_event-forms.scss */
+/* line 87, ../sass/imports/modules/_event-forms.scss */
 .grid .event_form_field .ee-reg-page-text-input.error {
   margin-bottom:  12px;
   margin-bottom:  1.2rem;
 }
-/* line 88, ../sass/imports/modules/_event-forms.scss */
+/* line 93, ../sass/imports/modules/_event-forms.scss */
 .grid .event_form_field select {
   width: 100%;
   height:  48px;
@@ -2915,7 +2919,7 @@ form {
   line-height:  48px;
   line-height:  4.8rem;
 }
-/* line 96, ../sass/imports/modules/_event-forms.scss */
+/* line 101, ../sass/imports/modules/_event-forms.scss */
 .grid .ee-reg-page-questions {
   display: block;
   width: 100%;
@@ -2930,14 +2934,14 @@ form {
   line-height:  24px;
   line-height:  2.4rem;
 }
-/* line 107, ../sass/imports/modules/_event-forms.scss */
+/* line 112, ../sass/imports/modules/_event-forms.scss */
 .grid .event_form_submit {
   margin: 0 auto;
   padding: 0;
   max-width:  600px;
   max-width:  60rem;
 }
-/* line 114, ../sass/imports/modules/_event-forms.scss */
+/* line 119, ../sass/imports/modules/_event-forms.scss */
 .grid .event_form_field label.error {
   margin:  0 0 24px;
   margin:  0 0 2.4rem;
@@ -2948,7 +2952,7 @@ form {
   line-height:  2.4rem;
 }
 
-/* line 123, ../sass/imports/modules/_event-forms.scss */
+/* line 128, ../sass/imports/modules/_event-forms.scss */
 .page form {
   padding:  24px 24px 0;
   padding:  2.4rem 2.4rem 0;
@@ -2958,7 +2962,7 @@ form {
   border-width:  0.1rem;
 }
 
-/* line 132, ../sass/imports/modules/_event-forms.scss */
+/* line 137, ../sass/imports/modules/_event-forms.scss */
 .media__img--payment {
   display: block;
   margin-top:  10px;
