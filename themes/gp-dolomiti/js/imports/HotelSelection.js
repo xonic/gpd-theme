@@ -21,6 +21,10 @@ define(["jquery"], function($)
 		// with an index number.
 		hotelDropdownBaseSel:undefined,
 
+		// Keep track of the first time the onchange
+		// function gets called (on page load)
+		firstLoad:true,
+
 		init: function()
 		{
 			this.$packageSelect = $("#price_option-1");
@@ -53,8 +57,12 @@ define(["jquery"], function($)
 		{
 			var selectedIndex = this.$packageSelect[0].selectedIndex;
 
-			this.resetSelection();
-			
+			// Only reset Dropdowns if it's not
+			// the first time onchange gets called
+			if(!this.firstLoad)	this.resetSelection();
+
+			this.firstLoad = false;
+
 			// Basic premium package selected, 
 			// hide the whole dropdown group
 			if(selectedIndex === 0)
