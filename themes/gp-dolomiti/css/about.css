@@ -668,66 +668,86 @@ body > section {
   }
 }
 
-/* line 184, ../sass/imports/base/_typography.scss */
+@media (min-width: 37.5em) {
+  /* line 183, ../sass/imports/base/_typography.scss */
+  .page-template-default {
+    font-size:  20px;
+    font-size:  2rem;
+    line-height:  32px;
+    line-height:  3.2rem;
+  }
+  /* line 189, ../sass/imports/base/_typography.scss */
+  .page-template-default:before {
+    background-image: none;
+  }
+}
+
+/* line 197, ../sass/imports/base/_typography.scss */
 #ie7 body,
 #ie8 body {
   background: url(../images/branding-bg-2.jpg) top center no-repeat;
   background-size: 100% auto;
   -ms-behavior: url(http://dev.granpremiodolomiti.com/backgroundsize.min.htc);
 }
-/* line 190, ../sass/imports/base/_typography.scss */
+/* line 203, ../sass/imports/base/_typography.scss */
 #ie7 body:after,
 #ie8 body:after {
   content: none;
 }
 
-/* line 197, ../sass/imports/base/_typography.scss */
+/* line 210, ../sass/imports/base/_typography.scss */
 #ie7 .page-template-timetable-php,
 #ie8 .page-template-timetable-php {
   background-image: url(../images/branding-bg-program.jpg);
 }
 
-/* line 203, ../sass/imports/base/_typography.scss */
+/* line 216, ../sass/imports/base/_typography.scss */
 #ie7 .page-template-packages-php,
 #ie8 .page-template-packages-php {
   background-image: url(../images/branding-bg-packages.jpg);
 }
 
-/* line 209, ../sass/imports/base/_typography.scss */
+/* line 222, ../sass/imports/base/_typography.scss */
 #ie7 .page-template-regulations-php,
 #ie8 .page-template-regulations-php {
   background-image: url(../images/branding-bg-regulations.jpg);
 }
 
-/* line 215, ../sass/imports/base/_typography.scss */
+/* line 228, ../sass/imports/base/_typography.scss */
 #ie7 .page-template-contact-php,
 #ie8 .page-template-contact-php {
   background-image: url(../images/branding-bg-contact.jpg);
 }
 
-/* line 223, ../sass/imports/base/_typography.scss */
+/* line 234, ../sass/imports/base/_typography.scss */
+#ie7 .page-template-default,
+#ie8 .page-template-default {
+  background-image: none;
+}
+
+/* line 242, ../sass/imports/base/_typography.scss */
 p small {
   font-size: -0.2;
 }
 
-/* line 229, ../sass/imports/base/_typography.scss */
+/* line 248, ../sass/imports/base/_typography.scss */
 pre {
   word-wrap: normal;
 }
 
-/* line 235, ../sass/imports/base/_typography.scss */
+/* line 254, ../sass/imports/base/_typography.scss */
 ::-moz-selection {
   background-color: #feaa00;
   color: white;
 }
 
-/* line 241, ../sass/imports/base/_typography.scss */
+/* line 260, ../sass/imports/base/_typography.scss */
 ::selection {
   background-color: #feaa00;
   color: white;
 }
 
-/* line 252, ../sass/imports/base/_typography.scss */
+/* line 271, ../sass/imports/base/_typography.scss */
 a {
   border-bottom: 0 solid #febb33;
   border-bottom-width:  2px;
@@ -746,14 +766,14 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 270, ../sass/imports/base/_typography.scss */
+/* line 289, ../sass/imports/base/_typography.scss */
 a:active,
 .no-touch a:hover {
   text-decoration: none;
   color: #febb33;
 }
 
-/* line 280, ../sass/imports/base/_typography.scss */
+/* line 299, ../sass/imports/base/_typography.scss */
 ul, ol {
   list-style-type: none;
   margin:  0 0 24px;
@@ -761,13 +781,13 @@ ul, ol {
   padding: 0;
 }
 
-/* line 287, ../sass/imports/base/_typography.scss */
+/* line 306, ../sass/imports/base/_typography.scss */
 dt {
   font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
   font-weight: 700;
 }
 
-/* line 300, ../sass/imports/base/_typography.scss */
+/* line 319, ../sass/imports/base/_typography.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6, .subsection__title, .subsection__heading {
   font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -778,7 +798,7 @@ h1, h2, h3, h4, h5, h6,
   -moz-hyphens: none;
   hyphens: none;
 }
-/* line 308, ../sass/imports/base/_typography.scss */
+/* line 327, ../sass/imports/base/_typography.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
 .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, .subsection__title small, .subsection__heading small {
   display: block;
@@ -787,7 +807,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
   color: #949494;
 }
 
-/* line 317, ../sass/imports/base/_typography.scss */
+/* line 336, ../sass/imports/base/_typography.scss */
 h1, .h1 {
   font-size:  42px;
   font-size:  4.2rem;
@@ -795,7 +815,7 @@ h1, .h1 {
   line-height:  4.4rem;
 }
 @media (min-width: 30em) {
-  /* line 317, ../sass/imports/base/_typography.scss */
+  /* line 336, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  42px;
     font-size:  4.2rem;
@@ -804,7 +824,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 317, ../sass/imports/base/_typography.scss */
+  /* line 336, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  48px;
     font-size:  4.8rem;
@@ -813,7 +833,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 64em) {
-  /* line 317, ../sass/imports/base/_typography.scss */
+  /* line 336, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  54px;
     font-size:  5.4rem;
@@ -822,7 +842,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 80em) {
-  /* line 317, ../sass/imports/base/_typography.scss */
+  /* line 336, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  60px;
     font-size:  6rem;
@@ -831,7 +851,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 100em) {
-  /* line 317, ../sass/imports/base/_typography.scss */
+  /* line 336, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  72px;
     font-size:  7.2rem;
@@ -840,7 +860,7 @@ h1, .h1 {
   }
 }
 
-/* line 328, ../sass/imports/base/_typography.scss */
+/* line 347, ../sass/imports/base/_typography.scss */
 h2, .h2, .subsection__title {
   font-size:  32px;
   font-size:  3.2rem;
@@ -848,7 +868,7 @@ h2, .h2, .subsection__title {
   line-height:  3.3rem;
 }
 @media (min-width: 30em) {
-  /* line 328, ../sass/imports/base/_typography.scss */
+  /* line 347, ../sass/imports/base/_typography.scss */
   h2, .h2, .subsection__title {
     font-size:  32px;
     font-size:  3.2rem;
@@ -857,7 +877,7 @@ h2, .h2, .subsection__title {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 328, ../sass/imports/base/_typography.scss */
+  /* line 347, ../sass/imports/base/_typography.scss */
   h2, .h2, .subsection__title {
     font-size:  38px;
     font-size:  3.8rem;
@@ -866,7 +886,7 @@ h2, .h2, .subsection__title {
   }
 }
 @media (min-width: 64em) {
-  /* line 328, ../sass/imports/base/_typography.scss */
+  /* line 347, ../sass/imports/base/_typography.scss */
   h2, .h2, .subsection__title {
     font-size:  44px;
     font-size:  4.4rem;
@@ -875,7 +895,7 @@ h2, .h2, .subsection__title {
   }
 }
 @media (min-width: 80em) {
-  /* line 328, ../sass/imports/base/_typography.scss */
+  /* line 347, ../sass/imports/base/_typography.scss */
   h2, .h2, .subsection__title {
     font-size:  50px;
     font-size:  5rem;
@@ -884,7 +904,7 @@ h2, .h2, .subsection__title {
   }
 }
 @media (min-width: 100em) {
-  /* line 328, ../sass/imports/base/_typography.scss */
+  /* line 347, ../sass/imports/base/_typography.scss */
   h2, .h2, .subsection__title {
     font-size:  56px;
     font-size:  5.6rem;
@@ -893,7 +913,7 @@ h2, .h2, .subsection__title {
   }
 }
 
-/* line 339, ../sass/imports/base/_typography.scss */
+/* line 358, ../sass/imports/base/_typography.scss */
 h3, .h3, .subsection__heading {
   font-size:  26px;
   font-size:  2.6rem;
@@ -901,7 +921,7 @@ h3, .h3, .subsection__heading {
   line-height:  2.8rem;
 }
 
-/* line 344, ../sass/imports/base/_typography.scss */
+/* line 363, ../sass/imports/base/_typography.scss */
 h4, .h4 {
   font-size:  21px;
   font-size:  2.1rem;
@@ -910,13 +930,13 @@ h4, .h4 {
 }
 
 @media (min-width: 64em) {
-  /* line 357, ../sass/imports/base/_typography.scss */
+  /* line 376, ../sass/imports/base/_typography.scss */
   h1.h--emphasized, .h1.h--emphasized {
     display: none;
   }
 }
 
-/* line 371, ../sass/imports/base/_typography.scss */
+/* line 390, ../sass/imports/base/_typography.scss */
 code {
   padding: 0 1px;
   background: whitesmoke;

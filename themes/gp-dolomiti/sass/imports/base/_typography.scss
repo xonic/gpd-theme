@@ -78,7 +78,7 @@
 	//  = LARGE
 	//  ---------------------------------------------------------------------------
 
-		@include at-breakpoint($large-width $large-cols)
+		@include at-breakpoint($large-width)
 		{
 			@include setType($bodyFontSize--large, $bodyLineHeight--large);
 			
@@ -129,7 +129,7 @@
 
 	.page-template-timetable-php
 	{
-		@include at-breakpoint($large-width $large-cols)
+		@include at-breakpoint($large-width)
 		{
 			@include setType($bodyFontSize--large, $bodyLineHeight--large);
 			
@@ -142,7 +142,7 @@
 
 	.page-template-packages-php
 	{
-		@include at-breakpoint($large-width $large-cols)
+		@include at-breakpoint($large-width)
 		{
 			@include setType($bodyFontSize--large, $bodyLineHeight--large);
 			
@@ -155,7 +155,7 @@
 
 	.page-template-regulations-php
 	{
-		@include at-breakpoint($large-width $large-cols)
+		@include at-breakpoint($large-width)
 		{
 			@include setType($bodyFontSize--large, $bodyLineHeight--large);
 			
@@ -168,13 +168,26 @@
 
 	.page-template-contact-php
 	{
-		@include at-breakpoint($large-width $large-cols)
+		@include at-breakpoint($large-width)
 		{
 			@include setType($bodyFontSize--large, $bodyLineHeight--large);
 			
 			&:before
 			{
 				background-image:url(../images/branding-bg-contact.jpg);
+			}
+		}
+	}
+
+	.page-template-default
+	{
+		@include at-breakpoint($large-width)
+		{
+			@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+			&:before
+			{
+				background-image:none;
 			}
 		}
 	}
@@ -214,6 +227,12 @@
 	#ie8 .page-template-contact-php
 	{
 		background-image:url(../images/branding-bg-contact.jpg);
+	}
+
+	#ie7 .page-template-default,
+	#ie8 .page-template-default
+	{
+		background-image:none;
 	}
 
 
