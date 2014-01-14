@@ -53,12 +53,13 @@ define(["jquery"], function($)
 		{
 			var selectedIndex = this.$packageSelect[0].selectedIndex;
 
+			this.resetSelection();
+			
 			// Basic premium package selected, 
 			// hide the whole dropdown group
 			if(selectedIndex === 0)
 			{
 				this.hideGroup();
-				this.resetSelection();
 			}
 			else
 			{

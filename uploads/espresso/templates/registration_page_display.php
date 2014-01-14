@@ -94,7 +94,7 @@ if ($reg_form_only == false) {
 
 		<form method="post" action="<?php echo get_permalink( $event_page_id );?>" id="registration_form">
 	<?php
-				
+				// echo $num_attendees;
 
 			//This hides the date/times and location when usign custom post types or the ESPRESSO_REG_FORM shortcode
 if ( $reg_form_only == false ){	
