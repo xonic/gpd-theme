@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2014-01-15 12:09+0100\n"
-"PO-Revision-Date: 2014-01-15 12:41+0100\n"
+"PO-Revision-Date: 2014-01-15 15:46+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -401,14 +401,14 @@ msgstr ""
 "to 4 people. "
 
 #: ../packages.php:245
-#, fuzzy
 msgid "package__plantitscher__description"
 msgstr ""
-"If you are looking for that extra bit of luxury to enrich this great "
-"experience, the platinum package is right for you. You will reside in an "
-"<strong>exclusive and highly stylish apartment</strong>. This package "
-"further includes all the features of the premium package and is also valid "
-"for 2 persons."
+"The gourmet and spa hotel Plantitscherhof is for individualists looking for "
+"that something special. A great selection of 21.000 different wines, special "
+"sorted whiskeys, a comprehensive selection of cigars and outstanding food "
+"are part of our basic services. The suites are exclusive and modern, "
+"tastefully designed and arranged. A special highlight are our classic cars, "
+"waiting to be taken for a ride by our guests."
 
 #: ../packages.php:253
 #, fuzzy

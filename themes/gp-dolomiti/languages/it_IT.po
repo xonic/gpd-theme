@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2014-01-15 11:25+0100\n"
-"PO-Revision-Date: 2014-01-15 11:38+0100\n"
+"PO-Revision-Date: 2014-01-15 15:49+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: it_IT\n"
@@ -419,13 +419,14 @@ msgstr ""
 "prestigiose sono adatte ad accogliere ognuna quattro persone."
 
 #: ../packages.php:245
-#, fuzzy
 msgid "package__plantitscher__description"
 msgstr ""
-"Il pacchetto Platinum è una proposta per coloro che non vogliono fare a meno "
-"del abituale lusso. Al posto di pernottamenti in albergo vi proponiamo "
-"alloggi esclusivi in appartamenti di gran classe. Anche questa proposta "
-"include le varie prestazioni del pacchetto Premium."
+"Il Gourmet & Spa Hotel Plantitscherhof è un oasi per individualisti, che "
+"cercano qualcosa di speciale. 21.000 vini scelti, la più grande carta di "
+"Whisky in Alto Adige, unica selezione di sigari, cucina stellata e un "
+"servizio unico, attendono gli ospiti. Camere e appartamenti esclusivi e "
+"moderni si presentano nella tenuta storica. Con le proprie auto d'epoca per "
+"esplorare le montagne dolomitiche, sono a disposizione dei nostri clienti."
 
 #: ../packages.php:253
 #, fuzzy
