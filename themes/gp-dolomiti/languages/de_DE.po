@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2014-01-15 11:55+0100\n"
-"PO-Revision-Date: 2014-01-15 12:08+0100\n"
+"PO-Revision-Date: 2014-01-15 15:59+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -163,7 +163,7 @@ msgstr ""
 "Personen</strong>. Es beinhaltet die Teilnahme am Rennen, ein Tablet mit "
 "einem digitalen Roadbook, 5 Übernachtungen in einem Spitzenhotel, komplette "
 "Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
-"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihr Fahrzeug."
+"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihren Oldtimer."
 
 #: ../packages.php:46 ../packages.php:427
 #, fuzzy
