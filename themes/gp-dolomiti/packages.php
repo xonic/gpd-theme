@@ -169,7 +169,7 @@ get_header(); ?>
 
 				<a class="subsection__detail" href="#rubein-description" data-collapse-target-group="rubein"><? _e("<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--><!--:fr-->Détails<!--:-->"); ?></a>
 
-				<h2 class="subsection__heading"><a href="http://rubein.com" title="<? _e("<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--><!--:it-->Mostra la pagina dell' albergo<!--:--><!--:fr-->Voir l'hôtel<!--:-->"); ?>">Hotel Rubein Suite</a></h2>
+				<h2 class="subsection__heading"><a href="http://rubein.com" title="<? _e("<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--><!--:it-->Mostra la pagina dell' albergo<!--:--><!--:fr-->Voir l'hôtel<!--:-->"); ?>"><? _e("<!--:en-->Castle<!--:--><!--:de-->Schloss<!--:--><!--:it-->Castello<!--:--><!--:fr-->Château<!--:-->"); ?> Rubein Suite</a></h2>
 
 				<section class="slider slider--row-fixed">
 					<ul class="slider__slides slider__slides--contains-3">
