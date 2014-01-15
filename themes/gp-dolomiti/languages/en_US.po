@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
-"POT-Creation-Date: 2014-01-10 20:53+0100\n"
-"PO-Revision-Date: 2014-01-10 20:58+0100\n"
+"POT-Creation-Date: 2014-01-15 12:09+0100\n"
+"PO-Revision-Date: 2014-01-15 12:41+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -129,7 +129,18 @@ msgid ""
 "Partecipazione<!--:--><!--:fr-->Forfaits<!--:-->"
 msgstr ""
 
-#: ../packages.php:27
+#: ../packages.php:34
+msgid ""
+"<!--:en-->The first few participants of the Gran Premio Dolomiti will "
+"receive a little surprise at the event<!--:--><!--:de-->Die ersten wenigen "
+"Teilnehmer des Gran Premio Dolomiti erhalten von uns eine kleine "
+"Überraschung<!--:--><!--:it-->I primi pochi iscritti al Gran Premio Dolomiti "
+"verranno premiati con una piccola sorpresa<!--:--><!--:fr-->La première "
+"quelques inscrits au Grand Prix Dolomites seront attribués avec une petite "
+"surprise<!--:-->"
+msgstr ""
+
+#: ../packages.php:41
 #, fuzzy
 msgid ""
 "<!--:en-->Premium Package<!--:--><!--:de-->Premium Paket<!--:--><!--:it--"
@@ -141,7 +152,7 @@ msgstr ""
 "catering (lunch/dinner/brunch), daily evening program, exclusive officially "
 "branded clothing and a safe parking area for your classic car."
 
-#: ../packages.php:30
+#: ../packages.php:44
 msgid "package__premium__description"
 msgstr ""
 "Lean back and relax with this full service premium package. It is valid for "
@@ -150,49 +161,48 @@ msgstr ""
 "catering (lunch/dinner/brunch), daily evening program, exclusive officially "
 "branded clothing and a safe parking area for your classic car."
 
-#: ../packages.php:32 ../packages.php:414
+#: ../packages.php:46 ../packages.php:427
 #, fuzzy
 msgid ""
 "<!--:en-->/contact/?lang=en<!--:--><!--:de-->/contact/?lang=de<!--:--><!--:"
 "it-->/contact/?lang=it<!--:--><!--:fr-->/contact/?lang=fr<!--:-->"
 msgstr "Contact"
 
-#: ../packages.php:32
+#: ../packages.php:46
 #, fuzzy
 msgid ""
 "<!--:en-->Contact us<!--:--><!--:de-->Kontaktieren Sie uns<!--:--><!--:it--"
 ">Contattaci<!--:--><!--:fr-->Contactez-nous<!--:-->"
 msgstr "Contact"
 
-#: ../packages.php:32 ../packages.php:113 ../packages.php:258
-#: ../packages.php:401
+#: ../packages.php:46 ../packages.php:127 ../packages.php:272
 msgid ""
 "<!--:en-->Got questions?<!--:--><!--:de-->Noch Fragen?<!--:--><!--:it--"
 ">Avete delle domande?<!--:--><!--:fr-->Des questions?<!--:-->"
 msgstr ""
 
-#: ../packages.php:36 ../packages.php:238 ../packages.php:383
-#: ../packages.php:405
+#: ../packages.php:50 ../packages.php:252 ../packages.php:397
+#: ../packages.php:418
 msgid ""
 "<!--:en-->Participation<!--:--><!--:de-->Teilnahme<!--:--><!--:it--"
 ">Partecipazione<!--:--><!--:fr-->Participation<!--:-->"
 msgstr ""
 
-#: ../packages.php:37
+#: ../packages.php:51
 msgid ""
 "<!--:en-->Accomodation<!--:--><!--:de-->Unterkunft<!--:--><!--:it--"
 ">Albergo<!--:--><!--:fr-->Hébergement<!--:-->"
 msgstr ""
 
-#: ../packages.php:38 ../packages.php:240 ../packages.php:385
-#: ../packages.php:407
+#: ../packages.php:52 ../packages.php:254 ../packages.php:399
+#: ../packages.php:420
 msgid ""
 "<!--:en-->Catering<!--:--><!--:de-->Verpflegung<!--:--><!--:it--"
 ">Sostenimento<!--:--><!--:fr-->Restauration<!--:-->"
 msgstr ""
 
-#: ../packages.php:39 ../packages.php:241 ../packages.php:386
-#: ../packages.php:408
+#: ../packages.php:53 ../packages.php:255 ../packages.php:400
+#: ../packages.php:421
 #, fuzzy
 msgid ""
 "<!--:en-->Official clothing<!--:--><!--:de-->Offizielle Bekleidung<!--:--"
@@ -202,8 +212,8 @@ msgstr ""
 "Get involved, get in style and wear the exclusive officially branded Gran "
 "Premio Dolomiti clothing."
 
-#: ../packages.php:40 ../packages.php:242 ../packages.php:387
-#: ../packages.php:409
+#: ../packages.php:54 ../packages.php:256 ../packages.php:401
+#: ../packages.php:422
 #, fuzzy
 msgid ""
 "<!--:en-->Safe parking<!--:--><!--:de-->Sicher parken<!--:--><!--:it--"
@@ -212,13 +222,13 @@ msgstr ""
 "For your precious classic car we provide a safe, guarded parking area, "
 "including shuttle services to the hotel."
 
-#: ../packages.php:45
+#: ../packages.php:59
 msgid ""
 "<!--:en-->/register/?lang=en<!--:--><!--:de-->/register/?lang=de<!--:--><!--:"
 "it-->/register/?lang=it<!--:--><!--:fr-->/register/?lang=fr<!--:-->"
 msgstr ""
 
-#: ../packages.php:45
+#: ../packages.php:59
 #, fuzzy
 msgid ""
 "<!--:en-->Order Premium<!--:--><!--:de-->Premium anmelden<!--:--><!--:it--"
@@ -230,7 +240,7 @@ msgstr ""
 "catering (lunch/dinner/brunch), daily evening program, exclusive officially "
 "branded clothing and a safe parking area for your classic car."
 
-#: ../packages.php:50
+#: ../packages.php:64
 #, fuzzy
 msgid ""
 "<!--:en-->Digital Roadbook<!--:--><!--:de-->Digitales Roadbook<!--:--><!--:"
@@ -239,13 +249,13 @@ msgstr ""
 "During the race we provide you with an electronic tablet. It comes with a "
 "digital road book app with all the information about the route you need."
 
-#: ../packages.php:53
+#: ../packages.php:67
 msgid "package__roadbook"
 msgstr ""
 "During the race we provide you with an electronic tablet. It comes with a "
 "digital road book app with all the information about the route you need."
 
-#: ../packages.php:59
+#: ../packages.php:73
 #, fuzzy
 msgid ""
 "<!--:en-->Premium Hotel<!--:--><!--:de-->Premium Hotel<!--:--><!--:it--"
@@ -257,26 +267,26 @@ msgstr ""
 "catering (lunch/dinner/brunch), daily evening program, exclusive officially "
 "branded clothing and a safe parking area for your classic car."
 
-#: ../packages.php:62
+#: ../packages.php:76
 msgid "package__hotel"
 msgstr ""
 "We will experience a lot of beautiful things during the day and will need "
 "some good night sleep. You will reside in one of the best hotels in the "
 "center of Merano."
 
-#: ../packages.php:68
+#: ../packages.php:82
 msgid ""
 "<!--:en-->Delicious Catering<!--:--><!--:de-->Köstliche Verpflegung<!--:--"
 "><!--:it-->Catering Delizioso<!--:--><!--:fr-->Restauration<!--:-->"
 msgstr ""
 
-#: ../packages.php:71
+#: ../packages.php:85
 msgid "package__food"
 msgstr ""
 "Traditional, high quality and delicious local cuisine is very important to "
 "us. During the whole event you will be catered by the best professionals."
 
-#: ../packages.php:77
+#: ../packages.php:91
 #, fuzzy
 msgid ""
 "<!--:en-->Safe Parking<!--:--><!--:de-->Bewachtes Parken<!--:--><!--:it--"
@@ -285,13 +295,13 @@ msgstr ""
 "For your precious classic car we provide a safe, guarded parking area, "
 "including shuttle services to the hotel."
 
-#: ../packages.php:80
+#: ../packages.php:94
 msgid "package__parking"
 msgstr ""
 "For your precious classic car we provide a safe, guarded parking area, "
 "including shuttle services to the hotel."
 
-#: ../packages.php:86
+#: ../packages.php:100
 #, fuzzy
 msgid ""
 "<!--:en-->Official Clothing<!--:--><!--:de-->Offizielle Bekleidung<!--:--"
@@ -300,13 +310,13 @@ msgstr ""
 "Get involved, get in style and wear the exclusive officially branded Gran "
 "Premio Dolomiti clothing."
 
-#: ../packages.php:89
+#: ../packages.php:103
 msgid "package__clothing"
 msgstr ""
 "Get involved, get in style and wear the exclusive officially branded Gran "
 "Premio Dolomiti clothing."
 
-#: ../packages.php:95
+#: ../packages.php:109
 #, fuzzy
 msgid ""
 "<!--:en-->Concert<!--:--><!--:de-->Konzert<!--:--><!--:it-->Concerto<!--:--"
@@ -315,13 +325,13 @@ msgstr ""
 "On the last evening we'll offer you a special program, including a Gala-"
 "Dinner and a special concert."
 
-#: ../packages.php:98
+#: ../packages.php:112
 msgid "package__concert"
 msgstr ""
 "On the last evening we'll offer you a special program, including a Gala-"
 "Dinner and a special concert."
 
-#: ../packages.php:106
+#: ../packages.php:120
 #, fuzzy
 msgid ""
 "<!--:en-->Platinum Package<!--:--><!--:de-->Platinum Paket<!--:--><!--:it--"
@@ -333,7 +343,7 @@ msgstr ""
 "further includes all the features of the premium package and is also valid "
 "for 2 persons."
 
-#: ../packages.php:109
+#: ../packages.php:123
 msgid "package__platinum__description"
 msgstr ""
 "If you are looking for that extra bit of luxury to enrich this great "
@@ -342,15 +352,15 @@ msgstr ""
 "hotels of your choice. This package further includes all the features of the "
 "premium package and is also valid for 2 persons."
 
-#: ../packages.php:116 ../packages.php:156 ../packages.php:196
-#: ../packages.php:261 ../packages.php:301 ../packages.php:341
+#: ../packages.php:130 ../packages.php:170 ../packages.php:210
+#: ../packages.php:275 ../packages.php:315 ../packages.php:355
 msgid ""
 "<!--:en-->Details<!--:--><!--:de-->Details<!--:--><!--:it-->Dettagli<!--:--"
 "><!--:fr-->Détails<!--:-->"
 msgstr ""
 
-#: ../packages.php:118 ../packages.php:158 ../packages.php:198
-#: ../packages.php:263 ../packages.php:303 ../packages.php:343
+#: ../packages.php:132 ../packages.php:172 ../packages.php:212
+#: ../packages.php:277 ../packages.php:317 ../packages.php:357
 #, fuzzy
 msgid ""
 "<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--"
@@ -361,14 +371,14 @@ msgstr ""
 "some good night sleep. You will reside in one of the best hotels in the "
 "center of Merano."
 
-#: ../packages.php:151
+#: ../packages.php:165
 msgid "package__ottmangut__description"
 msgstr ""
 "Merano city charm: Suite & Breakfast Ottmanngut. Stylish and harmonious "
 "atmosphere. Breakfast service with delicious local specialties. "
 "Mediterranean vegetation. Your new home for your holidays in South Tyrol."
 
-#: ../packages.php:191
+#: ../packages.php:205
 msgid "package__rubein__description"
 msgstr ""
 "This splendid castle from the 12. century is situated near the eastern edge "
@@ -390,7 +400,7 @@ msgstr ""
 "more suites. On the second floor there are 4 suites that can lodge each up "
 "to 4 people. "
 
-#: ../packages.php:231
+#: ../packages.php:245
 #, fuzzy
 msgid "package__plantitscher__description"
 msgstr ""
@@ -400,7 +410,7 @@ msgstr ""
 "further includes all the features of the premium package and is also valid "
 "for 2 persons."
 
-#: ../packages.php:239
+#: ../packages.php:253
 #, fuzzy
 msgid ""
 "<!--:en-->Platinum Suite<!--:--><!--:de-->Platinum Suite<!--:--><!--:it--"
@@ -412,7 +422,7 @@ msgstr ""
 "further includes all the features of the premium package and is also valid "
 "for 2 persons."
 
-#: ../packages.php:247
+#: ../packages.php:261
 #, fuzzy
 msgid ""
 "<!--:en-->/register/?lang=en&package=Platinum<!--:--><!--:de-->/register/?"
@@ -426,7 +436,7 @@ msgstr ""
 "further includes all the features of the premium package and is also valid "
 "for 2 persons."
 
-#: ../packages.php:247
+#: ../packages.php:261
 #, fuzzy
 msgid ""
 "<!--:en-->Order Platinum<!--:--><!--:de-->Platinum anmelden<!--:--><!--:it--"
@@ -438,7 +448,7 @@ msgstr ""
 "further includes all the features of the premium package and is also valid "
 "for 2 persons."
 
-#: ../packages.php:251
+#: ../packages.php:265
 #, fuzzy
 msgid ""
 "<!--:en-->Superior Package<!--:--><!--:de-->Superior Paket<!--:--><!--:it--"
@@ -449,7 +459,7 @@ msgstr ""
 "greatest hotels</strong> Merano has to offer. This package further includes "
 "all the features of the premium package and is also valid for 2 persons."
 
-#: ../packages.php:254
+#: ../packages.php:268
 msgid "package__platinum--superior__description"
 msgstr ""
 "With the Superior Package we offer you the ultimate luxurious experience. "
@@ -457,7 +467,7 @@ msgstr ""
 "greatest hotels</strong> Merano has to offer. This package further includes "
 "all the features of the premium package and is also valid for 2 persons."
 
-#: ../packages.php:296
+#: ../packages.php:310
 msgid "package__imperialart__description"
 msgstr ""
 "In the Boutique & Design Hotel ImperialArt every room has been created by an "
@@ -471,7 +481,7 @@ msgstr ""
 "get the free entry to the well-known thermal bath of Merano, 100 meters next "
 "to the hotel."
 
-#: ../packages.php:336
+#: ../packages.php:350
 msgid "package__mignon__description"
 msgstr ""
 "The Amort family are justifiably proud of their beautifully furnished and "
@@ -492,7 +502,7 @@ msgstr ""
 "of sauna, salt steam bath, ice grotto and relax area. Wide choice of "
 "treatments, massages and aromatic baths in the beauty salon."
 
-#: ../packages.php:376
+#: ../packages.php:390
 msgid "package__pergola__description"
 msgstr ""
 "With the Hotel Pergola Residence, situated in the vineyards of the Merano "
@@ -505,7 +515,7 @@ msgstr ""
 "the guest has a suite with a panoramic terrace, an individual breakfast with "
 "culinary delights, a lounge, a wine cellar and as much freedom as he wants. "
 
-#: ../packages.php:384
+#: ../packages.php:398
 #, fuzzy
 msgid ""
 "<!--:en-->Superior Suite<!--:--><!--:de-->Superior Suite<!--:--><!--:it--"
@@ -516,7 +526,7 @@ msgstr ""
 "greatest hotels</strong> Merano has to offer. This package further includes "
 "all the features of the premium package and is also valid for 2 persons."
 
-#: ../packages.php:392
+#: ../packages.php:406
 #, fuzzy
 msgid ""
 "<!--:en-->/register/?lang=en&package=Superior<!--:--><!--:de-->/register/?"
@@ -529,7 +539,7 @@ msgstr ""
 "greatest hotels</strong> Merano has to offer. This package further includes "
 "all the features of the premium package and is also valid for 2 persons."
 
-#: ../packages.php:392
+#: ../packages.php:406
 #, fuzzy
 msgid ""
 "<!--:en-->Order Superior<!--:--><!--:de-->Superior anmelden<!--:--><!--:it--"
@@ -540,13 +550,13 @@ msgstr ""
 "greatest hotels</strong> Merano has to offer. This package further includes "
 "all the features of the premium package and is also valid for 2 persons."
 
-#: ../packages.php:396
+#: ../packages.php:410
 msgid ""
 "<!--:en-->Appartments<!--:--><!--:de-->Appartements<!--:--><!--:it--"
 ">Appartatmenti<!--:--><!--:fr-->Appartements<!--:-->"
 msgstr ""
 
-#: ../packages.php:399
+#: ../packages.php:413
 msgid "package__platinum--appartment__description"
 msgstr ""
 "If you're not the hotel type and prefer having a <strong>whole appartment as "
@@ -554,20 +564,25 @@ msgstr ""
 "unforgettable accomodations. Enjoy the experience at a spacious and peaceful "
 "place and have a better rest. Simply send us a request."
 
-#: ../packages.php:406
+#: ../packages.php:419
+#, fuzzy
 msgid ""
 "<!--:en-->Exclusive appartment<!--:--><!--:de-->Exklusives Appartement<!--:--"
 "><!--:it-->Appartamento esclusivo<!--:--><!--:fr-->Exclusive "
 "appartment<!--:-->"
 msgstr ""
+"If you're not the hotel type and prefer having a <strong>whole appartment as "
+"your cozy & quiet place</strong>, we'd happily offer you individual and "
+"unforgettable accomodations. Enjoy the experience at a spacious and peaceful "
+"place and have a better rest. Simply send us a request."
 
-#: ../packages.php:412
+#: ../packages.php:425
 msgid ""
 "<!--:en-->Price on request<!--:--><!--:de-->Preis auf Anfrage<!--:--><!--:"
 "it-->Prezzo su richiesta<!--:--><!--:fr-->Prix sur demande<!--:-->"
 msgstr ""
 
-#: ../packages.php:414
+#: ../packages.php:427
 msgid ""
 "<!--:en-->Request<!--:--><!--:de-->Anfragen<!--:--><!--:it-->Richiesta<!--:--"
 "><!--:fr-->Demande<!--:-->"
@@ -847,53 +862,288 @@ msgstr ""
 msgid "pre__rules__title"
 msgstr "Entry Regulations"
 
-#: ../preview.php:602 ../regulations.php:18
+#: ../preview.php:602
 msgid "pre__rules__subtitle"
 msgstr "FIVA Oldtimer Vehicle Classes"
 
-#: ../preview.php:606 ../regulations.php:22
+#: ../preview.php:606
 msgid "pre__rules__a"
 msgstr "Class A, \"Ancetre\""
 
-#: ../preview.php:609 ../regulations.php:25
+#: ../preview.php:609
 msgid "pre__rules__a__year"
 msgstr "All cars manufactured before 1904."
 
-#: ../preview.php:612 ../regulations.php:28
+#: ../preview.php:612
 msgid "pre__rules__b"
 msgstr "Class B, \"Veteran\""
 
-#: ../preview.php:615 ../regulations.php:31
+#: ../preview.php:615
 msgid "pre__rules__b__year"
 msgstr ""
 "All cars manufactured between January 1st, 1905 and December 31st, 1918."
 
-#: ../preview.php:618 ../regulations.php:34
+#: ../preview.php:618
 msgid "pre__rules__c"
 msgstr "Class C, \"Vintage\""
 
-#: ../preview.php:621 ../regulations.php:37
+#: ../preview.php:621
 msgid "pre__rules__c__year"
 msgstr ""
 "All cars manufactured between January 1st, 1919 and December 31st, 1930."
 
-#: ../preview.php:624 ../regulations.php:40
+#: ../preview.php:624
 msgid "pre__rules__d"
 msgstr "Class D, \"Post Vintage\""
 
-#: ../preview.php:627 ../regulations.php:43
+#: ../preview.php:627
 msgid "pre__rules__d__year"
 msgstr ""
 "All cars manufactured between January 1st, 1931 and December 31st, 1945."
 
-#: ../preview.php:630 ../regulations.php:46
+#: ../preview.php:630
 msgid "pre__rules__e"
 msgstr "Class E"
 
-#: ../preview.php:633 ../regulations.php:49
+#: ../preview.php:633
 msgid "pre__rules__e__year"
 msgstr ""
 "All cars manufactured between January 1st, 1946 and December 31st, 1960."
+
+#: ../regulations.php:19
+#, fuzzy
+msgid ""
+"<!--:en-->Participants &amp; Vehicles<!--:--><!--:de-->Teilnehmer &amp; "
+"Fahrzeuge<!--:--><!--:it-->Partecipanti &amp; veicoli<!--:--><!--:fr--"
+">Concurrents &amp; véhicules<!--:-->"
+msgstr ""
+"If you are looking for that extra bit of luxury to enrich this great "
+"experience, the platinum package is right for you. You will reside in an "
+"<strong>exclusive and highly stylish apartment</strong>. This package "
+"further includes all the features of the premium package and is also valid "
+"for 2 persons."
+
+#: ../regulations.php:21
+msgid "rules__participants__year"
+msgstr "All vehicles manufactured before 1960 are allowed to participate."
+
+#: ../regulations.php:22
+msgid "rules__participants__codex"
+msgstr ""
+"The vehicles must be original and unmodified and conform to road traffic "
+"regulations."
+
+#: ../regulations.php:26
+#, fuzzy
+msgid ""
+"<!--:en-->Vehicle Categories<!--:--><!--:de-->Fahrzeugklassen<!--:--><!--:"
+"it-->Categorie autovetture<!--:--><!--:fr-->Catégories de véhicules<!--:-->"
+msgstr ""
+"For your precious classic car we provide a safe, guarded parking area, "
+"including shuttle services to the hotel."
+
+#: ../regulations.php:27
+msgid "rules__vehicles__categories"
+msgstr ""
+"The regulations of <a href=\"http://www.asifed.it/commission/\" title=\"Show"
+"\">ASI</a> <a href=\"http://www.fiva.org/site/en/commissions/\" title=\"Show"
+"\">FIVA</a> apply."
+
+#: ../regulations.php:30
+#, fuzzy
+msgid ""
+"<!--:en-->Classification<!--:--><!--:de-->Wertung<!--:--><!--:it--"
+">Classifiche<!--:--><!--:fr-->Classements<!--:-->"
+msgstr ""
+"On the last evening we'll offer you a special program, including a Gala-"
+"Dinner and a special concert."
+
+#: ../regulations.php:31
+msgid "rules__classification"
+msgstr ""
+"The regulations of <a href=\"http://www.asifed.it/commission/\" title=\"Show"
+"\">ASI</a> <a href=\"http://www.fiva.org/site/en/commissions/\" title=\"Show"
+"\">FIVA</a> apply."
+
+#: ../regulations.php:34
+#, fuzzy
+msgid ""
+"<!--:en-->Activity Gran Premio Dolomiti<!--:--><!--:de-->Ablauf Gran Premio "
+"Dolomiti<!--:--><!--:it-->Svolgimento Gran Premio Dolomiti<!--:--><!--:fr--"
+">Déroulement Gran Premio Dolomiti<!--:-->"
+msgstr ""
+"Lean back and relax with this full service premium package. It is valid for "
+"<strong>1 car and 2 persons</strong> and includes the participation in the "
+"race, a tablet with a digital road book, 5 nights in a superior hotel, full "
+"catering (lunch/dinner/brunch), daily evening program, exclusive officially "
+"branded clothing and a safe parking area for your classic car."
+
+#: ../regulations.php:35
+msgid "rules__activity"
+msgstr "Regularity test with freely chosen timing devices."
+
+#: ../regulations.php:38
+#, fuzzy
+msgid ""
+"<!--:en-->Race Regulation<!--:--><!--:de-->Rennbestimmungen<!--:--><!--:it--"
+">Norme di gara<!--:--><!--:fr-->Règles de course<!--:-->"
+msgstr "Altitude"
+
+#: ../regulations.php:39
+msgid "rules__race"
+msgstr ""
+"The participants are subject to the italian road traffic regulations. "
+"Drivers participate on their own risk and are directly responsible for their "
+"security and the security of their vehicles."
+
+#: ../regulations.php:42
+#, fuzzy
+msgid ""
+"<!--:en-->Technical Control<!--:--><!--:de-->Technische Überprüfung<!--:--"
+"><!--:it-->Verifiche techniche<!--:--><!--:fr-->Controles techniques<!--:-->"
+msgstr ""
+"On the last evening we'll offer you a special program, including a Gala-"
+"Dinner and a special concert."
+
+#: ../regulations.php:43
+msgid "rules__control"
+msgstr ""
+"All participating vehicles have to pass the technical control at the Parc "
+"Fermée at the event."
+
+#: ../regulations.php:46
+#, fuzzy
+msgid ""
+"<!--:en-->Reclamation<!--:--><!--:de-->Einspruch<!--:--><!--:it--"
+">Reclami<!--:--><!--:fr-->Rèclamations<!--:-->"
+msgstr ""
+"On the last evening we'll offer you a special program, including a Gala-"
+"Dinner and a special concert."
+
+#: ../regulations.php:47
+msgid "rules__reclamation"
+msgstr ""
+"The regulations of <a href=\"http://www.asifed.it/commission/\" title=\"Show"
+"\">ASI</a> <a href=\"http://www.fiva.org/site/en/commissions/\" title=\"Show"
+"\">FIVA</a> apply."
+
+#: ../regulations.php:50
+#, fuzzy
+msgid ""
+"<!--:en-->Disclaimer<!--:--><!--:de-->Haftungsausschluss<!--:--><!--:it--"
+">Rinuncia di responsibilità<!--:--><!--:fr-->Renonciation de "
+"responsabilité<!--:-->"
+msgstr ""
+"If you are looking for that extra bit of luxury to enrich this great "
+"experience, the platinum package is right for you. You will reside in an "
+"<strong>exclusive and highly stylish apartment</strong>. This package "
+"further includes all the features of the premium package and is also valid "
+"for 2 persons."
+
+#: ../regulations.php:51
+msgid "rules__disclaimer"
+msgstr ""
+"At the moment of their entry the participants (contenders, drivers, co-"
+"drivers, vehicle-possessors and legal owners) renounce the right to proceed "
+"or to file recourse against\t\tthe organizers, its representatives, judges, "
+"and assistants\t\tauthorities and any person involved in the organization of "
+"the event in case of accidents or damage suffered during th event.The "
+"organizer reserves the right to exclude participants from the race in case "
+"of severebreaches of the rules and/or of the road traffic regulations."
+
+#: ../regulations.php:54
+#, fuzzy
+msgid ""
+"<!--:en-->Privacy<!--:--><!--:de-->Datenschutz<!--:--><!--:it--"
+">Privacy<!--:--><!--:fr-->Vie privée<!--:-->"
+msgstr ""
+"On the last evening we'll offer you a special program, including a Gala-"
+"Dinner and a special concert."
+
+#: ../regulations.php:55
+msgid "rules__privacy"
+msgstr ""
+"With their names all participants give their consent to the organization "
+"committee for the release of their data to the media as well as for the "
+"publication on the Internet, exclusively for the purposes related to the "
+"event and they will not enter a protest against theorganization committee or "
+"the media disclosing their data."
+
+#: ../regulations.php:58
+#, fuzzy
+msgid ""
+"<!--:en-->Cancellation Fee<!--:--><!--:de-->Stornobedingungen<!--:--><!--:"
+"it-->Condizioni annullamento<!--:--><!--:fr-->Conditions d'annulation<!--:-->"
+msgstr ""
+"If you are looking for that extra bit of luxury to enrich this great "
+"experience, the platinum package is right for you. You will reside in an "
+"<strong>exclusive and highly stylish apartment</strong>. This package "
+"further includes all the features of the premium package and is also valid "
+"for 2 persons."
+
+#: ../regulations.php:59
+msgid "rules__cancellation"
+msgstr ""
+"In case of cancellation the participation fee will be returned, deducting a "
+"processing tax of 200,00 Eur for handling. After the 23rd Mai 2014 there has "
+"to be paid also a cancellation fee for the Hotel booking."
+
+#: ../regulations.php:61
+msgid ""
+"<!--:en-->Until 60 days before event: no cancellation fee<!--:--><!--:de--"
+">Bis 60 Tage vor Anreise: keine Stornogebühr<!--:--><!--:it-->Fino a 60 "
+"giorni prima del evento: senza penalità<!--:--><!--:fr-->60 jours avant "
+"l'arrivée: pas de frais d'annulation<!--:-->"
+msgstr ""
+
+#: ../regulations.php:62
+#, fuzzy
+msgid ""
+"<!--:en-->Until 30 days before event: 50%<!--:--><!--:de-->Bis 30 Tage vor "
+"Anreise: 50%<!--:--><!--:it-->Fino a 30 giorni prima del evento: 50%<!--:--"
+"><!--:fr-->30 jours avant l'arrivée: 50%<!--:-->"
+msgstr ""
+"We will experience a lot of beautiful things during the day and will need "
+"some good night sleep. You will reside in one of the best hotels in the "
+"center of Merano."
+
+#: ../regulations.php:63
+#, fuzzy
+msgid ""
+"<!--:en-->Until 10 days before event: 80%<!--:--><!--:de-->Bis 10 Tage vor "
+"Anreise: 80%<!--:--><!--:it-->Fino a 10 giorni prima del evento: 80%<!--:--"
+"><!--:fr-->10 jours avant l'arrivée: 80%<!--:-->"
+msgstr ""
+"We will experience a lot of beautiful things during the day and will need "
+"some good night sleep. You will reside in one of the best hotels in the "
+"center of Merano."
+
+#: ../regulations.php:64
+msgid ""
+"<!--:en-->Less than 10 days before event: 100%<!--:--><!--:de-->Weniger als "
+"10 Tage vor Anreise: 100%<!--:--><!--:it-->Meno di 10 giorni prima del "
+"evento: 100%<!--:--><!--:fr-->Moins que 60 jours avant l'arrivée: 100%<!--:--"
+">"
+msgstr ""
+
+#: ../regulations.php:68
+#, fuzzy
+msgid ""
+"<!--:en-->Other<!--:--><!--:de-->Verschiedenes<!--:--><!--:it-->Varie<!--:--"
+"><!--:fr-->Divers<!--:-->"
+msgstr ""
+"On the last evening we'll offer you a special program, including a Gala-"
+"Dinner and a special concert."
+
+#: ../regulations.php:69
+msgid "rules__other"
+msgstr ""
+"The organizers reserve the right to undertake any alteration and/or to "
+"cancel the event owing to measures ordered by the relevant authorities, "
+"force majeure or to safety reasons, should said measures be required by "
+"extraordinary circumstances. In said cases the organizers are not liable for "
+"the compensation of any eventual claim for damage. This agreement ist valid "
+"as of the entry into the event for all participants."
 
 #: ../single.php:18
 msgid "Post navigation"
