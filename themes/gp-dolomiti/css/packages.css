@@ -702,7 +702,7 @@ body > section {
 #ie8 body {
   background: url(../images/branding-bg-2.jpg) top center no-repeat;
   background-size: 100% auto;
-  -ms-behavior: url(http://dev.granpremiodolomiti.com/backgroundsize.min.htc);
+  -ms-behavior: url(http://granpremiodolomiti.com/backgroundsize.min.htc);
 }
 /* line 203, ../sass/imports/base/_typography.scss */
 #ie7 body:after,
@@ -2125,7 +2125,7 @@ object {
 /* line 18, ../sass/imports/modules/_hotel-img.scss */
 #ie7 .hotel-img,
 #ie8 .hotel-img {
-  -ms-behavior: url(http://dev.granpremiodolomiti.com/backgroundsize.min.htc);
+  -ms-behavior: url(http://granpremiodolomiti.com/backgroundsize.min.htc);
 }
 
 /* line 23, ../sass/imports/modules/_hotel-img.scss */
