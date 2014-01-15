@@ -34,6 +34,31 @@ Das Gran Premio Dolomiti Team
 ITALIANO
 ***************************</strong>
 
+Buongiorno [fname] [lname],
+
+ringraziamo per la sua iscrizione al pacchetto <strong>[ticket_type] Paket</strong> del [event], la sua iscrizione è <strong>quasi completata!</strong>
+
+In caso non avesse già effettuato il pagamento, la preghiamo di trasferire la quota d'iscrizione al seguente conto corrente bancario:
+
+Quota d'iscrizione: <strong>[cost]</strong>
+Nome: smt Consulting
+IBAN: <strong>IT21 H081 3358 5930 0004 0104 941 </strong>
+BIC: <strong>ICRAITRR3P0</strong>
+
+<strong>-------------------------------------</strong>
+<strong>IMPORTANTE</strong>
+Vi preghiamo di non dimenticare di segnare il suo nr. di registrazione: <strong>[registration_id]</strong> sul modulo di pagamento, molte Grazie.
+<strong>-------------------------------------</strong>
+
+A seguito del  pagamento avvenuto verrà elaborato la sua richiesta, vi invieremo una mail con la conferma del pagamento.
+
+Siamo lieti e compiaciuti di darle il benventuo a questa bellissima manifestazione. In caso di specifiche domande, non esitae di contattarci al seguente indirizzo mail: [contact]
+
+Controllo attuale situazione pagamento: [payment_url]
+
+Grazie e a presto
+La squadra del Gran Premio Dolomiti
+
 
 
 <strong>***************************

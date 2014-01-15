@@ -17,6 +17,15 @@ Das Gran Premio Dolomiti Team
 ITALIANO
 ***************************</strong>
 
+Grazie, [fname] [lname].
+
+Abbiamo ricevuto il pagamento di [cost] per la sua iscrizione al <strong>pacchetto [ticket_type]</strong> del [event_name] e siamo lieti e compiaciuti di darle il benventuo a questa bellissima manifestazione. In caso di specifiche domande, non esitae di contattarci al seguente indirizzo mail: [contact]
+
+Controllo attuale situazione pagamento: [payment_url]
+
+Grazie e a presto
+La squadra del Gran Premio Dolomiti
+
 
 
 <strong>***************************

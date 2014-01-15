@@ -23,6 +23,20 @@ get_header(); ?>
 			<? _e("<!--:en-->Packages<!--:--><!--:de-->Pakete<!--:--><!--:it-->Pacchetti Partecipazione<!--:--><!--:fr-->Forfaits<!--:-->"); ?>
 		</h1>
 
+		<?
+			$today = getdate();
+
+			if(do_shortcode('[ATTENDEE_NUMBERS event_id="1" type="num_attendees"]') < 20 && $today[mon] <= 2 && $today[year] === 2014) { ?>
+				
+				<div class="msg msg--success msg--has-icon space-lover">
+					<div class="msg__title"><i class="fa fa-fw fa-thumbs-o-up"></i>Early Bird</div>
+					<div class="msg__bd">
+						<div><? _e('<!--:en-->The first few participants of the Gran Premio Dolomiti will receive a little surprise at the event<!--:--><!--:de-->Die ersten wenigen Teilnehmer des Gran Premio Dolomiti erhalten von uns eine kleine Überraschung<!--:--><!--:it-->I primi pochi iscritti al Gran Premio Dolomiti verranno premiati con una piccola sorpresa<!--:--><!--:fr-->La première quelques inscrits au Grand Prix Dolomites seront attribués avec une petite surprise<!--:-->'); ?>.</div>
+					</div>
+				</div>
+		<? } ?>
+
+
 		<section class="subsection">
 			<h2 class="subsection__title"><? _e("<!--:en-->Premium Package<!--:--><!--:de-->Premium Paket<!--:--><!--:it-->Pacchetto Premium<!--:--><!--:fr-->Forfait Premium<!--:-->"); ?></h2>
 			<div class="l-package__description">

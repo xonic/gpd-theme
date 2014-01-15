@@ -94,7 +94,6 @@ if ($reg_form_only == false) {
 
 		<form method="post" action="<?php echo get_permalink( $event_page_id );?>" id="registration_form">
 	<?php
-				// echo $num_attendees;
 
 			//This hides the date/times and location when usign custom post types or the ESPRESSO_REG_FORM shortcode
 if ( $reg_form_only == false ){	
@@ -112,8 +111,24 @@ if ( $reg_form_only == false ){
 	<?php
 					}
 					do_action('action_hook_espresso_social_display_buttons', $event_id);
-	?>
-	
+
+					$today = getdate();
+
+					if($num_attendees < 20 && $today[mon] <= 2 && $today[year] === 2014) { ?>
+						
+						<fieldset class="form-section">
+							<h2>
+								Early Bird
+							</h2>
+							
+							<div class="msg msg--success msg--has-icon space-lover" style="margin-bottom:0!important;">
+								<div class="msg__title"><i class="fa fa-fw fa-check"></i><? _e('<!--:en-->Congratulations!<!--:--><!--:de-->Glückwunsch!<!--:--><!--:it-->Congratulazione!<!--:--><!--:fr-->Félicitation!<!--:-->'); ?></div>
+								<div class="msg__bd">
+									<div><? _e('<!--:en-->You are among the first participants of the Gran Premio Dolomiti and will receive a little surprise at the event<!--:--><!--:de-->Sie zählen zu den ersten Teilnehmern des Gran Premio Dolomiti und erhalten von uns eine kleine Überraschung<!--:--><!--:it-->Siete tra i primi iscritti al Gran Premio Dolomiti, pertanto vogliamo premiarla con una piccola sorpresa<!--:--><!--:fr-->Vous êtes parmi les premiers membres de la Grand Prix Dolomites, si nous voulons les récompenser avec une petite surprise<!--:-->'); ?>.</div>
+								</div>
+							</div>
+						</fieldset>
+					<? } ?>
 
 					<fieldset class="form-section">
 						<div class="event_form_field">

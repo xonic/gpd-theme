@@ -6,7 +6,6 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 			<? _e('<!--:en-->Your Registration<!--:--><!--:de-->Ihre Anmeldung<!--:--><!--:it-->La sua registrazione<!--:--><!--:fr-->Votre Inscription<!--:-->'); ?>
 		</h2>
 
-		<?// print_r($payment_status); ?>
 
 		<?php // localize all the things!
 			switch( $payment_status ) {
@@ -117,4 +116,6 @@ do_action('action_hook_espresso_log', __FILE__, 'FILE LOADED', '');	?>
 	<? } ?>
 
 	<input  type="hidden" name="allow_leave_page" id="allow_leave_page" value="true"/>
+
+	
 </form>
