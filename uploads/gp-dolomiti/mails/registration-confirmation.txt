@@ -104,11 +104,11 @@ Nom: <strong>smt Consulting</strong>
 IBAN: <strong>IT21 H081 3358 5930 0004 0104 941 </strong>
 BIC: <strong>ICRAITRR3P0</strong>
 
------------------
-IMPORTANT
+<strong>-----------------</strong>
+<strong>IMPORTANT</strong>
 Veuillez s'il vous plaît mentionner votre numéro d'inscription: <strong>[registration_id]</strong> en tant que justification du paiement lorsque vous procéderez au virement.
 Merci!
-----------------
+<strong>----------------</strong>
 
 Dès que nous aurons reçu et traité votre paiement, nous vous enverrons un e-mail de confirmation de paiement.
 
