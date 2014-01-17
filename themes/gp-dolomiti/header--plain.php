@@ -89,14 +89,14 @@
 			<div class="flyout">
 				<div class="grid cf">
 					<!-- <? echo $post->post_name ?> -->
-					<? if ($post->post_name === "register") { ?>
+					<? if ($post->post_name === "register" || $post->post_name === "thank-you") { ?>
 					<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 					<? } ?>
 					<!--[if lte IE 8]>
 					<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/mountains--bw.png" alt="Gran Premio Dolomiti Logo">
 					<![endif]-->
 					<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/mountains--bw.svg" alt="Gran Premio Dolomiti Logo" width="70" height="44">
-					<? if ($post->post_name === "register") { ?>
+					<? if ($post->post_name === "register" || $post->post_name === "thank-you") { ?>
 					<nav class="nav-main">
 						<? wp_nav_menu( array( 'theme_location' => 'nav-main' ) ); ?>
 					</nav>
