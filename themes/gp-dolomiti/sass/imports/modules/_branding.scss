@@ -11,17 +11,12 @@
 		@include rem(padding, $doubleSpace * 2 0 $doubleSpace);
 		@include transition(padding 1s ease-in-out);
 
-		@include at-breakpoint($large-width no-mq)
+		@include at-breakpoint(48em no-mq)
 		{
 			position:relative;
-			@include rem(padding, $doubleSpace * 8 0 0);
+			@include rem(padding, $doubleSpace * 12 0 0);
 			border-bottom:0 solid $olive;
 			@include rem(border-bottom-width, $singleSpace);
-		}
-
-		@include at-breakpoint(48em)
-		{
-			@include rem(padding, $doubleSpace * 12 0 0);
 		}
 
 		@include at-breakpoint($huge-width no-mq)

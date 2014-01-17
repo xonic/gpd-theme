@@ -36,7 +36,7 @@ ITALIANO
 
 Buongiorno [fname] [lname],
 
-ringraziamo per la sua iscrizione al pacchetto <strong>[ticket_type] Paket</strong> del [event], la sua iscrizione è <strong>quasi completata!</strong>
+ringraziamo per la sua iscrizione al <strong>pacchetto [ticket_type]</strong> del [event], la sua iscrizione è <strong>quasi completata!</strong>
 
 In caso non avesse già effettuato il pagamento, la preghiamo di trasferire la quota d'iscrizione al seguente conto corrente bancario:
 

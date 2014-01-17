@@ -562,7 +562,7 @@ html {
   line-height: 1;
 }
 
-/* line 51, ../sass/imports/base/_typography.scss */
+/* line 55, ../sass/imports/base/_typography.scss */
 body {
   font-size:  18px;
   font-size:  1.8rem;
@@ -571,7 +571,7 @@ body {
   background-color: white;
   color: #4c4535;
 }
-/* line 61, ../sass/imports/base/_typography.scss */
+/* line 65, ../sass/imports/base/_typography.scss */
 body > section {
   padding:  24px 0;
   padding:  2.4rem 0;
@@ -580,7 +580,7 @@ body > section {
   border-bottom-width:  1.2rem;
 }
 @media (min-width: 30em) {
-  /* line 51, ../sass/imports/base/_typography.scss */
+  /* line 55, ../sass/imports/base/_typography.scss */
   body {
     font-size:  18px;
     font-size:  1.8rem;
@@ -588,15 +588,15 @@ body > section {
     line-height:  2.8rem;
   }
 }
-@media (min-width: 37.5em) {
-  /* line 51, ../sass/imports/base/_typography.scss */
+@media (min-width: 48em) {
+  /* line 55, ../sass/imports/base/_typography.scss */
   body {
     font-size:  20px;
     font-size:  2rem;
     line-height:  32px;
     line-height:  3.2rem;
   }
-  /* line 86, ../sass/imports/base/_typography.scss */
+  /* line 90, ../sass/imports/base/_typography.scss */
   body:before {
     content: " ";
     position: absolute;
@@ -611,142 +611,142 @@ body > section {
   }
 }
 
-@media (min-width: 37.5em) {
-  /* line 131, ../sass/imports/base/_typography.scss */
+@media (min-width: 48em) {
+  /* line 135, ../sass/imports/base/_typography.scss */
   .page-template-timetable-php {
     font-size:  20px;
     font-size:  2rem;
     line-height:  32px;
     line-height:  3.2rem;
   }
-  /* line 137, ../sass/imports/base/_typography.scss */
+  /* line 141, ../sass/imports/base/_typography.scss */
   .page-template-timetable-php:before {
     background-image: url(../images/branding-bg-program.jpg);
   }
 }
 
-@media (min-width: 37.5em) {
-  /* line 144, ../sass/imports/base/_typography.scss */
+@media (min-width: 48em) {
+  /* line 148, ../sass/imports/base/_typography.scss */
   .page-template-packages-php {
     font-size:  20px;
     font-size:  2rem;
     line-height:  32px;
     line-height:  3.2rem;
   }
-  /* line 150, ../sass/imports/base/_typography.scss */
+  /* line 154, ../sass/imports/base/_typography.scss */
   .page-template-packages-php:before {
     background-image: url(../images/branding-bg-packages.jpg);
   }
 }
 
-@media (min-width: 37.5em) {
-  /* line 157, ../sass/imports/base/_typography.scss */
+@media (min-width: 48em) {
+  /* line 161, ../sass/imports/base/_typography.scss */
   .page-template-regulations-php {
     font-size:  20px;
     font-size:  2rem;
     line-height:  32px;
     line-height:  3.2rem;
   }
-  /* line 163, ../sass/imports/base/_typography.scss */
+  /* line 167, ../sass/imports/base/_typography.scss */
   .page-template-regulations-php:before {
     background-image: url(../images/branding-bg-regulations.jpg);
   }
 }
 
-@media (min-width: 37.5em) {
-  /* line 170, ../sass/imports/base/_typography.scss */
+@media (min-width: 48em) {
+  /* line 174, ../sass/imports/base/_typography.scss */
   .page-template-contact-php {
     font-size:  20px;
     font-size:  2rem;
     line-height:  32px;
     line-height:  3.2rem;
   }
-  /* line 176, ../sass/imports/base/_typography.scss */
+  /* line 180, ../sass/imports/base/_typography.scss */
   .page-template-contact-php:before {
     background-image: url(../images/branding-bg-contact.jpg);
   }
 }
 
-@media (min-width: 37.5em) {
-  /* line 183, ../sass/imports/base/_typography.scss */
+@media (min-width: 48em) {
+  /* line 187, ../sass/imports/base/_typography.scss */
   .page-template-default {
     font-size:  20px;
     font-size:  2rem;
     line-height:  32px;
     line-height:  3.2rem;
   }
-  /* line 189, ../sass/imports/base/_typography.scss */
+  /* line 193, ../sass/imports/base/_typography.scss */
   .page-template-default:before {
     background-image: none;
   }
 }
 
-/* line 197, ../sass/imports/base/_typography.scss */
+/* line 201, ../sass/imports/base/_typography.scss */
 #ie7 body,
 #ie8 body {
   background: url(../images/branding-bg-2.jpg) top center no-repeat;
   background-size: 100% auto;
   -ms-behavior: url(http://granpremiodolomiti.com/backgroundsize.min.htc);
 }
-/* line 203, ../sass/imports/base/_typography.scss */
+/* line 207, ../sass/imports/base/_typography.scss */
 #ie7 body:after,
 #ie8 body:after {
   content: none;
 }
 
-/* line 210, ../sass/imports/base/_typography.scss */
+/* line 214, ../sass/imports/base/_typography.scss */
 #ie7 .page-template-timetable-php,
 #ie8 .page-template-timetable-php {
   background-image: url(../images/branding-bg-program.jpg);
 }
 
-/* line 216, ../sass/imports/base/_typography.scss */
+/* line 220, ../sass/imports/base/_typography.scss */
 #ie7 .page-template-packages-php,
 #ie8 .page-template-packages-php {
   background-image: url(../images/branding-bg-packages.jpg);
 }
 
-/* line 222, ../sass/imports/base/_typography.scss */
+/* line 226, ../sass/imports/base/_typography.scss */
 #ie7 .page-template-regulations-php,
 #ie8 .page-template-regulations-php {
   background-image: url(../images/branding-bg-regulations.jpg);
 }
 
-/* line 228, ../sass/imports/base/_typography.scss */
+/* line 232, ../sass/imports/base/_typography.scss */
 #ie7 .page-template-contact-php,
 #ie8 .page-template-contact-php {
   background-image: url(../images/branding-bg-contact.jpg);
 }
 
-/* line 234, ../sass/imports/base/_typography.scss */
+/* line 238, ../sass/imports/base/_typography.scss */
 #ie7 .page-template-default,
 #ie8 .page-template-default {
   background-image: none;
 }
 
-/* line 242, ../sass/imports/base/_typography.scss */
+/* line 246, ../sass/imports/base/_typography.scss */
 p small {
   font-size: -0.2;
 }
 
-/* line 248, ../sass/imports/base/_typography.scss */
+/* line 252, ../sass/imports/base/_typography.scss */
 pre {
   word-wrap: normal;
 }
 
-/* line 254, ../sass/imports/base/_typography.scss */
+/* line 258, ../sass/imports/base/_typography.scss */
 ::-moz-selection {
   background-color: #feaa00;
   color: white;
 }
 
-/* line 260, ../sass/imports/base/_typography.scss */
+/* line 264, ../sass/imports/base/_typography.scss */
 ::selection {
   background-color: #feaa00;
   color: white;
 }
 
-/* line 271, ../sass/imports/base/_typography.scss */
+/* line 275, ../sass/imports/base/_typography.scss */
 a {
   border-bottom: 0 solid #febb33;
   border-bottom-width:  2px;
@@ -765,14 +765,14 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 289, ../sass/imports/base/_typography.scss */
+/* line 293, ../sass/imports/base/_typography.scss */
 a:active,
 .no-touch a:hover {
   text-decoration: none;
   color: #febb33;
 }
 
-/* line 299, ../sass/imports/base/_typography.scss */
+/* line 303, ../sass/imports/base/_typography.scss */
 ul, ol {
   list-style-type: none;
   margin:  0 0 24px;
@@ -780,13 +780,13 @@ ul, ol {
   padding: 0;
 }
 
-/* line 306, ../sass/imports/base/_typography.scss */
+/* line 310, ../sass/imports/base/_typography.scss */
 dt {
   font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
   font-weight: 700;
 }
 
-/* line 319, ../sass/imports/base/_typography.scss */
+/* line 323, ../sass/imports/base/_typography.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, fieldset legend, .msg__title, .h4, .h5, .h6, .subsection__title, .subsection__heading {
   font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -797,7 +797,7 @@ h1, h2, h3, h4, h5, h6,
   -moz-hyphens: none;
   hyphens: none;
 }
-/* line 327, ../sass/imports/base/_typography.scss */
+/* line 331, ../sass/imports/base/_typography.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
 .h1 small, .h2 small, .h3 small, fieldset legend small, .msg__title small, .h4 small, .h5 small, .h6 small, .subsection__title small, .subsection__heading small {
   display: block;
@@ -806,7 +806,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
   color: #949494;
 }
 
-/* line 336, ../sass/imports/base/_typography.scss */
+/* line 340, ../sass/imports/base/_typography.scss */
 h1, .h1 {
   font-size:  42px;
   font-size:  4.2rem;
@@ -814,7 +814,7 @@ h1, .h1 {
   line-height:  4.4rem;
 }
 @media (min-width: 30em) {
-  /* line 336, ../sass/imports/base/_typography.scss */
+  /* line 340, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  42px;
     font-size:  4.2rem;
@@ -823,7 +823,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 336, ../sass/imports/base/_typography.scss */
+  /* line 340, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  48px;
     font-size:  4.8rem;
@@ -832,7 +832,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 64em) {
-  /* line 336, ../sass/imports/base/_typography.scss */
+  /* line 340, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  54px;
     font-size:  5.4rem;
@@ -841,7 +841,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 80em) {
-  /* line 336, ../sass/imports/base/_typography.scss */
+  /* line 340, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  60px;
     font-size:  6rem;
@@ -850,7 +850,7 @@ h1, .h1 {
   }
 }
 @media (min-width: 100em) {
-  /* line 336, ../sass/imports/base/_typography.scss */
+  /* line 340, ../sass/imports/base/_typography.scss */
   h1, .h1 {
     font-size:  72px;
     font-size:  7.2rem;
@@ -859,7 +859,7 @@ h1, .h1 {
   }
 }
 
-/* line 347, ../sass/imports/base/_typography.scss */
+/* line 351, ../sass/imports/base/_typography.scss */
 h2, .h2, .subsection__title {
   font-size:  32px;
   font-size:  3.2rem;
@@ -867,7 +867,7 @@ h2, .h2, .subsection__title {
   line-height:  3.3rem;
 }
 @media (min-width: 30em) {
-  /* line 347, ../sass/imports/base/_typography.scss */
+  /* line 351, ../sass/imports/base/_typography.scss */
   h2, .h2, .subsection__title {
     font-size:  32px;
     font-size:  3.2rem;
@@ -876,7 +876,7 @@ h2, .h2, .subsection__title {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 347, ../sass/imports/base/_typography.scss */
+  /* line 351, ../sass/imports/base/_typography.scss */
   h2, .h2, .subsection__title {
     font-size:  38px;
     font-size:  3.8rem;
@@ -885,7 +885,7 @@ h2, .h2, .subsection__title {
   }
 }
 @media (min-width: 64em) {
-  /* line 347, ../sass/imports/base/_typography.scss */
+  /* line 351, ../sass/imports/base/_typography.scss */
   h2, .h2, .subsection__title {
     font-size:  44px;
     font-size:  4.4rem;
@@ -894,7 +894,7 @@ h2, .h2, .subsection__title {
   }
 }
 @media (min-width: 80em) {
-  /* line 347, ../sass/imports/base/_typography.scss */
+  /* line 351, ../sass/imports/base/_typography.scss */
   h2, .h2, .subsection__title {
     font-size:  50px;
     font-size:  5rem;
@@ -903,7 +903,7 @@ h2, .h2, .subsection__title {
   }
 }
 @media (min-width: 100em) {
-  /* line 347, ../sass/imports/base/_typography.scss */
+  /* line 351, ../sass/imports/base/_typography.scss */
   h2, .h2, .subsection__title {
     font-size:  56px;
     font-size:  5.6rem;
@@ -912,7 +912,7 @@ h2, .h2, .subsection__title {
   }
 }
 
-/* line 358, ../sass/imports/base/_typography.scss */
+/* line 362, ../sass/imports/base/_typography.scss */
 h3, .h3, fieldset legend, .msg__title, .subsection__heading {
   font-size:  26px;
   font-size:  2.6rem;
@@ -920,7 +920,7 @@ h3, .h3, fieldset legend, .msg__title, .subsection__heading {
   line-height:  2.8rem;
 }
 
-/* line 363, ../sass/imports/base/_typography.scss */
+/* line 367, ../sass/imports/base/_typography.scss */
 h4, .h4 {
   font-size:  21px;
   font-size:  2.1rem;
@@ -929,13 +929,13 @@ h4, .h4 {
 }
 
 @media (min-width: 64em) {
-  /* line 376, ../sass/imports/base/_typography.scss */
+  /* line 380, ../sass/imports/base/_typography.scss */
   h1.h--emphasized, .h1.h--emphasized {
     display: none;
   }
 }
 
-/* line 390, ../sass/imports/base/_typography.scss */
+/* line 394, ../sass/imports/base/_typography.scss */
 code {
   padding: 0 1px;
   background: whitesmoke;
@@ -1903,12 +1903,12 @@ object {
   -o-transition: padding 1s ease-in-out;
   transition: padding 1s ease-in-out;
 }
-@media (min-width: 37.5em) {
+@media (min-width: 48em) {
   /* line 8, ../sass/imports/modules/_branding.scss */
   .branding {
     position: relative;
-    padding:  192px 0 0;
-    padding:  19.2rem 0 0;
+    padding:  288px 0 0;
+    padding:  28.8rem 0 0;
     border-bottom: 0 solid #8b826a;
     border-bottom-width:  12px;
     border-bottom-width:  1.2rem;
@@ -1917,18 +1917,11 @@ object {
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .branding {
   position: relative;
-  padding:  192px 0 0;
-  padding:  19.2rem 0 0;
+  padding:  288px 0 0;
+  padding:  28.8rem 0 0;
   border-bottom: 0 solid #8b826a;
   border-bottom-width:  12px;
   border-bottom-width:  1.2rem;
-}
-@media (min-width: 48em) {
-  /* line 8, ../sass/imports/modules/_branding.scss */
-  .branding {
-    padding:  288px 0 0;
-    padding:  28.8rem 0 0;
-  }
 }
 @media (min-width: 64em) {
   /* line 8, ../sass/imports/modules/_branding.scss */
@@ -1943,7 +1936,7 @@ object {
   padding:  42rem 0 0;
 }
 
-/* line 34, ../sass/imports/modules/_branding.scss */
+/* line 29, ../sass/imports/modules/_branding.scss */
 .event-name {
   margin: 0;
   font-size:  80px;
@@ -1958,16 +1951,16 @@ object {
   -o-transition: background-color 1s ease-in-out;
   transition: background-color 1s ease-in-out;
 }
-/* line 44, ../sass/imports/modules/_branding.scss */
+/* line 39, ../sass/imports/modules/_branding.scss */
 .event-name a {
   border-bottom: 0 none;
   color: #332e24;
 }
-/* line 49, ../sass/imports/modules/_branding.scss */
+/* line 44, ../sass/imports/modules/_branding.scss */
 .event-name a:hover {
   color: #332e24;
 }
-/* line 55, ../sass/imports/modules/_branding.scss */
+/* line 50, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  32px;
@@ -1978,7 +1971,7 @@ object {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 34, ../sass/imports/modules/_branding.scss */
+  /* line 29, ../sass/imports/modules/_branding.scss */
   .event-name {
     padding:  12px;
     padding:  1.2rem;
@@ -1990,7 +1983,7 @@ object {
     line-height:  8rem;
     text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   }
-  /* line 77, ../sass/imports/modules/_branding.scss */
+  /* line 72, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  36px;
     font-size:  3.6rem;
@@ -2010,7 +2003,7 @@ object {
   line-height:  8rem;
   text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
 }
-/* line 77, ../sass/imports/modules/_branding.scss */
+/* line 72, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  36px;
   font-size:  3.6rem;
@@ -2018,7 +2011,7 @@ object {
   line-height:  3.2rem;
 }
 @media (min-width: 64em) {
-  /* line 34, ../sass/imports/modules/_branding.scss */
+  /* line 29, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  100px;
     font-size:  10rem;
@@ -2026,7 +2019,7 @@ object {
     line-height:  9rem;
     letter-spacing: -.5rem;
   }
-  /* line 88, ../sass/imports/modules/_branding.scss */
+  /* line 83, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  38px;
     font-size:  3.8rem;
@@ -2042,7 +2035,7 @@ object {
   line-height:  9rem;
   letter-spacing: -.5rem;
 }
-/* line 88, ../sass/imports/modules/_branding.scss */
+/* line 83, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  38px;
   font-size:  3.8rem;
@@ -2050,14 +2043,14 @@ object {
   line-height:  3.4rem;
 }
 @media (min-width: 80em) {
-  /* line 34, ../sass/imports/modules/_branding.scss */
+  /* line 29, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  110px;
     font-size:  11rem;
     line-height:  100px;
     line-height:  10rem;
   }
-  /* line 98, ../sass/imports/modules/_branding.scss */
+  /* line 93, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;
