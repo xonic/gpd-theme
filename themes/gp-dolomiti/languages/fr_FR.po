@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2014-01-15 11:46+0100\n"
-"PO-Revision-Date: 2014-01-15 15:59+0100\n"
+"PO-Revision-Date: 2014-01-17 09:10+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -419,14 +419,15 @@ msgstr ""
 "idéales pour accueillir respectivement quatre personnes."
 
 #: ../packages.php:245
-#, fuzzy
 msgid "package__plantitscher__description"
 msgstr ""
-"Si vous recherchez une expérience encore plus luxueuse, optez pour le "
-"forfait platinum. Vous logerez alors dans un <strong>appartement haut de "
-"gamme et plein de caractère</strong>. Ce forfait comprend toutes les "
-"caractéristiques du forfait premium et est également valable pour 2 "
-"personnes."
+"Le Gourmet & SPA Hôtel Ansitz Plantitscherhof est fait pour les personnes "
+"qui recherchent quelque chose de spécial. Une sélection de 21 000 vins, la "
+"plus grande carte de Whisky de Tyrol du Sud, une sélection extraordinaire de "
+"cigares, de la cuisine de haut niveau. Nous répondons au besoin du client le "
+"plus exigeant. Les chambres et suites sont meublées d'époque. Un autre point "
+"fort de vos vacances au Tyrol du Sud, la disponibilité de voitures anciennes "
+"pour des excursions dans les Dolomites."
 
 #: ../packages.php:253
 #, fuzzy
