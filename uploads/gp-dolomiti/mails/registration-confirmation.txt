@@ -96,7 +96,7 @@ FRANÇAIS
 ***************************</strong>
 
 Cher [fname] [lname],
-nous vous remercions pour avoir choisi le <strong>forfait [ticket_type]</strong> du [event], votre inscription est quasiment terminée.
+nous vous remercions pour avoir choisi le <strong>forfait [ticket_type]</strong> du [event], votre <strong>inscription est quasiment terminée.</strong>
 Si vous ne l'avez pas encore fait, veuillez procéder au règlement à destination du compte bancaire suivant:
 
 Montant: <strong>[cost]</strong>
