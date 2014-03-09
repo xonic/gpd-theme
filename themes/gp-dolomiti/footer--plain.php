@@ -15,7 +15,7 @@
 				<div class="grid">
 
 					<section class="container">
-						<p>&copy; Gran Premio Dolomiti 2014</p>
+						<p>&copy; Gran Premio Dolomiti <?php echo date('Y'); ?></p>
 
 						<div class="l-organizer">
 							<div class="polaroid">

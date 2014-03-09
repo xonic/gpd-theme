@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2014-01-15 11:25+0100\n"
-"PO-Revision-Date: 2014-01-15 15:49+0100\n"
+"PO-Revision-Date: 2014-03-09 10:43+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.3\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -22,7 +22,7 @@ msgstr "Un incomparabile raduno di auto d‘epoca"
 
 #: ../about.php:22 ../preview.php:96
 msgid "pre__info__start-date"
-msgstr "23."
+msgstr "21."
 
 #: ../about.php:24 ../preview.php:98
 msgid "pre__info__to"
@@ -30,7 +30,7 @@ msgstr "-"
 
 #: ../about.php:26 ../preview.php:100
 msgid "pre__info__end-date"
-msgstr "27. Luglio 2014"
+msgstr "26. Luglio 2015"
 
 #: ../about.php:31 ../preview.php:105
 msgid "pre__info__p1"
@@ -610,7 +610,7 @@ msgstr "Programma"
 
 #: ../preview.php:121 ../timetable.php:20
 msgid "pre__day1"
-msgstr "Martedì, 22. Luglio 2014"
+msgstr "Martedì, 21. Luglio 2015"
 
 #: ../preview.php:128 ../timetable.php:27
 msgid "pre__arrival"
@@ -630,7 +630,7 @@ msgstr "Cena in Hotel oppure ristorante Gourmet a scelta."
 
 #: ../preview.php:154 ../timetable.php:53
 msgid "pre__day2"
-msgstr "Mercoledì, 23. Luglio 2014"
+msgstr "Mercoledì, 22. Luglio 2015"
 
 #: ../preview.php:163 ../preview.php:282 ../preview.php:409 ../preview.php:481
 #: ../timetable.php:101 ../timetable.php:293 ../timetable.php:449
@@ -722,7 +722,7 @@ msgstr "Notte italiana a base di specialità di pesce."
 
 #: ../preview.php:273 ../timetable.php:245
 msgid "pre__day3"
-msgstr "Giovedì, 24. Luglio 2014"
+msgstr "Giovedì, 23. Luglio 2015"
 
 #: ../preview.php:302 ../preview.php:365 ../timetable.php:478
 msgid "pre__ortisei"
@@ -788,7 +788,7 @@ msgstr ""
 
 #: ../preview.php:400 ../timetable.php:401
 msgid "pre__day4"
-msgstr "Venerdì, 25. Luglio 2014"
+msgstr "Venerdì, 24. Luglio 2015"
 
 #: ../preview.php:429 ../timetable.php:331
 msgid "pre__glurns"
@@ -814,7 +814,7 @@ msgstr ""
 
 #: ../preview.php:472 ../timetable.php:610
 msgid "pre__day5"
-msgstr "Sabato, 26. Luglio 2014"
+msgstr "Sabato, 25. Luglio 2015"
 
 #: ../preview.php:501 ../timetable.php:678
 msgid "pre__lana"
@@ -870,13 +870,13 @@ msgstr "Gran Gala."
 
 #: ../preview.php:581 ../timetable.php:792
 msgid "pre__day6"
-msgstr "Domenica, 27. Luglio 2014"
+msgstr "Domenica, 26. Luglio 2015"
 
 #: ../preview.php:588 ../timetable.php:799
 msgid "pre__day6__ceremony"
 msgstr ""
 "Un colazione/brunch all' aperto con premiazione dei vincitori della Gran "
-"Premio Dolomiti 2014."
+"Premio Dolomiti 2015."
 
 #: ../preview.php:599 ../regulations.php:15
 msgid "pre__rules__title"
@@ -1102,7 +1102,7 @@ msgid "rules__cancellation"
 msgstr ""
 "In caso di disdetta della partecipazione la quota d’iscrizione versata viene "
 "restituita, si trattiene una quota per il disbrigo di € 200,00. A partire "
-"dal 23.05.2014 sono da pagare anche spese di disdetta applicate dall’hotel."
+"dal 21.05.2015 sono da pagare anche spese di disdetta applicate dall’hotel."
 
 #: ../regulations.php:59
 msgid ""

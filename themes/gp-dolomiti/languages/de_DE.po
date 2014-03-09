@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2014-01-15 11:55+0100\n"
-"PO-Revision-Date: 2014-01-15 15:59+0100\n"
+"PO-Revision-Date: 2014-03-09 10:45+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.3\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -22,7 +22,7 @@ msgstr "Das einzigartige Oldtimer-Event"
 
 #: ../about.php:22 ../preview.php:96
 msgid "pre__info__start-date"
-msgstr "23."
+msgstr "21."
 
 #: ../about.php:24 ../preview.php:98
 msgid "pre__info__to"
@@ -30,7 +30,7 @@ msgstr "-"
 
 #: ../about.php:26 ../preview.php:100
 msgid "pre__info__end-date"
-msgstr "27. Juli, 2014"
+msgstr "26. Juli, 2015"
 
 #: ../about.php:31 ../preview.php:105
 msgid "pre__info__p1"
@@ -617,7 +617,7 @@ msgstr "Programm"
 
 #: ../preview.php:121 ../timetable.php:20
 msgid "pre__day1"
-msgstr "Dienstag, 22. Juli 2014"
+msgstr "Dienstag, 21. Juli 2015"
 
 #: ../preview.php:128 ../timetable.php:27
 msgid "pre__arrival"
@@ -637,7 +637,7 @@ msgstr "Abendessen im Hotel oder in einem Gourmet-Restaurant Merans."
 
 #: ../preview.php:154 ../timetable.php:53
 msgid "pre__day2"
-msgstr "Mittwoch, 23. Juli 2014"
+msgstr "Mittwoch, 22. Juli 2015"
 
 #: ../preview.php:163 ../preview.php:282 ../preview.php:409 ../preview.php:481
 #: ../timetable.php:101 ../timetable.php:293 ../timetable.php:449
@@ -730,7 +730,7 @@ msgstr ""
 
 #: ../preview.php:273 ../timetable.php:245
 msgid "pre__day3"
-msgstr "Donnerstag, 24. Juli 2014"
+msgstr "Donnerstag, 23. Juli 2015"
 
 #: ../preview.php:302 ../preview.php:365 ../timetable.php:478
 msgid "pre__ortisei"
@@ -796,7 +796,7 @@ msgstr ""
 
 #: ../preview.php:400 ../timetable.php:401
 msgid "pre__day4"
-msgstr "Freitag, 25. Juli 2014"
+msgstr "Freitag, 24. Juli 2015"
 
 #: ../preview.php:429 ../timetable.php:331
 msgid "pre__glurns"
@@ -820,7 +820,7 @@ msgstr "Entdecken Sie Ihr neues Lieblingsrestaurant der Gegend."
 
 #: ../preview.php:472 ../timetable.php:610
 msgid "pre__day5"
-msgstr "Samstag, 26. Juli 2014"
+msgstr "Samstag, 25. Juli 2015"
 
 #: ../preview.php:501 ../timetable.php:678
 msgid "pre__lana"
@@ -876,7 +876,7 @@ msgstr "Gala Dinner."
 
 #: ../preview.php:581 ../timetable.php:792
 msgid "pre__day6"
-msgstr "Sonntag, 27. Juli 2014"
+msgstr "Sonntag, 26. Juli 2015"
 
 #: ../preview.php:588 ../timetable.php:799
 msgid "pre__day6__ceremony"
@@ -1120,8 +1120,8 @@ msgid "rules__cancellation"
 msgstr ""
 "Bei einer Absage der Teilnahme durch den Teilnehmer nach erfolgter Anmeldung "
 "und Überweisung erhält der Teilnehmer die Zahlung abzüglich einer "
-"Bearbeitungsgebühr von Euro 200,00 zurück. AB 23. Mai 2014 fällt zusätzlich "
-"eine Stornogebühr des Hotels an."
+"Bearbeitungsgebühr von Euro 200,00 zurück. Ab dem 21. Mai 2015 fällt "
+"zusätzlich eine Stornogebühr des Hotels an."
 
 #: ../regulations.php:61
 msgid ""

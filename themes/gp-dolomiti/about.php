@@ -18,11 +18,11 @@ get_header(); ?>
 						<? _e("pre__info__title", "gp-dolomiti"); ?>
 					</h1>
 					<h2 class="info__date">
-						<time datetime="2014-07-23">
+						<time datetime="2015-07-21">
 							<? _e("pre__info__start-date", "gp-dolomiti"); ?>
 						</time> 
 						<? _e("pre__info__to", "gp-dolomiti"); ?>
-						<time datetime="2014-07-27">
+						<time datetime="2015-07-26">
 							<? _e("pre__info__end-date", "gp-dolomiti"); ?>
 						</time>
 					</h2>

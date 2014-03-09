@@ -16,7 +16,7 @@ get_header(); ?>
 				</h1>
 				<section class="subsection">
 					<h1 class="subsection__title">
-						<time datetime="2014-07-22">
+						<time datetime="2015-07-21">
 							<? _e("pre__day1", "gp-dolomiti"); ?>
 						</time>
 					</h1>
@@ -49,7 +49,7 @@ get_header(); ?>
 				</section>
 				<section class="subsection">
 					<h1 class="subsection__title">
-						<time datetime="2014-07-23">
+						<time datetime="2015-07-22">
 							<? _e("pre__day2", "gp-dolomiti"); ?>
 						</time>
 					</h1>
@@ -241,7 +241,7 @@ get_header(); ?>
 
 				<section class="subsection">
 					<h1 class="subsection__title">
-						<time datetime="2014-07-24">
+						<time datetime="2015-07-23">
 							<? _e("pre__day3", "gp-dolomiti"); ?>
 						</time>
 					</h1>
@@ -397,7 +397,7 @@ get_header(); ?>
 				</section>
 				<section class="subsection">
 					<h1 class="subsection__title">
-						<time datetime="2014-07-25">
+						<time datetime="2015-07-24">
 							<? _e("pre__day4", "gp-dolomiti"); ?>
 						</time>
 					</h1>
@@ -606,7 +606,7 @@ get_header(); ?>
 				</section>
 				<section class="subsection">
 					<h1 class="subsection__title">
-						<time datetime="2014-07-26">
+						<time datetime="2015-07-25">
 							<? _e("pre__day5", "gp-dolomiti"); ?>
 						</time>
 					</h1>
@@ -788,7 +788,7 @@ get_header(); ?>
 				</section>
 				<section class="subsection">
 					<h1 class="subsection__title">
-						<time datetime="2014-07-27">
+						<time datetime="2015-07-26">
 							<? _e("pre__day6", "gp-dolomiti"); ?>
 						</time>
 					</h1>
