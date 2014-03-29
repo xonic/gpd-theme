@@ -74,16 +74,12 @@ if ($reg_form_only == false) {
 			// if todays date is after $reg_end_date
 			// if todays date is prior to $reg_start_date
 ?>
-			<p class="event_full">
-				<strong>
-					<?php _e('We are sorry but this event is not yet open for registration.', 'event_espresso'); ?>
-				</strong>
-			</p>
-			<p class="event_full">
-				<strong>
-					<?php echo  __('You will be able to register starting ', 'event_espresso') . ' ' . event_espresso_no_format_date($reg_start_date, 'F d, Y'); ?>
-				</strong>
-			</p>
+			<div class="msg msg--info msg--has-icon space-lover" style="margin-bottom:0!important;">
+				<div class="msg__title"><i class="fa fa-fw fa-info-circle"></i><? _e('<!--:en-->Currently Closed<!--:--><!--:de-->Derzeit geschlossen<!--:--><!--:it-->Chiuso temporaneo<!--:--><!--:fr-->Temporairement fermé<!--:-->'); ?></div>
+				<div class="msg__bd">
+					<div><? _e('<!--:en-->We\'ll be back soon.<!--:--><!--:de-->Wir sind bald zurück.<!--:--><!--:it-->Ritorniamo fra poco.<!--:--><!--:fr-->Nous serons bientôt de retour.<!--:-->'); ?>.</div>
+				</div>
+			</div>
 <?php
 		break;
 
