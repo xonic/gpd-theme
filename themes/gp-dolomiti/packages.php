@@ -54,9 +54,9 @@ get_header(); ?>
 					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Safe parking<!--:--><!--:de-->Sicher parken<!--:--><!--:it-->Parcheggio sicuro<!--:--><!--:fr-->Parking sécurisé<!--:-->"); ?></div></li>
 				</ul>
 			</div>
-			<div class="package__price">&euro; 4.850,00</div>
+			<!-- <div class="package__price">&euro; 4.850,00</div> -->
 			<div class="l-package__action">
-				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en<!--:--><!--:de-->/register/?lang=de<!--:--><!--:it-->/register/?lang=it<!--:--><!--:fr-->/register/?lang=fr<!--:-->'); ?>"><? _e("<!--:en-->Order Premium<!--:--><!--:de-->Premium anmelden<!--:--><!--:it-->Iscrizione Premium<!--:--><!--:fr-->Inscription Premium<!--:-->"); ?></a>
+				<a class="package__action btn btn--newsletter btn--disabled" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en<!--:--><!--:de-->/register/?lang=de<!--:--><!--:it-->/register/?lang=it<!--:--><!--:fr-->/register/?lang=fr<!--:-->'); ?>"><? _e("<!--:en-->Order Premium<!--:--><!--:de-->Premium anmelden<!--:--><!--:it-->Iscrizione Premium<!--:--><!--:fr-->Inscription Premium<!--:-->"); ?></a>
 			</div>
 			<ul class="package__features">
 				<li class="l-feature">
@@ -256,9 +256,9 @@ get_header(); ?>
 					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Safe parking<!--:--><!--:de-->Sicher parken<!--:--><!--:it-->Parcheggio sicuro<!--:--><!--:fr-->Parking sécurisé<!--:-->"); ?></div></li>
 				</ul>
 			</div>
-			<div class="package__price">&euro; 5.350,00</div>
+			<!-- <div class="package__price">&euro; 5.350,00</div> -->
 			<div class="l-package__action">
-				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en&package=Platinum<!--:--><!--:de-->/register/?lang=de&package=Platinum<!--:--><!--:it-->/register/?lang=it&package=Platinum<!--:--><!--:fr-->/register/?lang=fr&package=Platinum<!--:-->'); ?>"><? _e("<!--:en-->Order Platinum<!--:--><!--:de-->Platinum anmelden<!--:--><!--:it-->Iscrizione Platinum<!--:--><!--:fr-->Inscription Platinum<!--:-->"); ?></a>
+				<a class="package__action btn btn--newsletter btn--disabled" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en&package=Platinum<!--:--><!--:de-->/register/?lang=de&package=Platinum<!--:--><!--:it-->/register/?lang=it&package=Platinum<!--:--><!--:fr-->/register/?lang=fr&package=Platinum<!--:-->'); ?>"><? _e("<!--:en-->Order Platinum<!--:--><!--:de-->Platinum anmelden<!--:--><!--:it-->Iscrizione Platinum<!--:--><!--:fr-->Inscription Platinum<!--:-->"); ?></a>
 			</div>
 		</section>
 		<section class="subsection">
@@ -401,9 +401,9 @@ get_header(); ?>
 					<li class="media"><div class="media__img"><i class="fa fa-check"></i></div><div class="media__bd"><? _e("<!--:en-->Safe parking<!--:--><!--:de-->Sicher parken<!--:--><!--:it-->Parcheggio sicuro<!--:--><!--:fr-->Parking sécurisé<!--:-->"); ?></div></li>
 				</ul>
 			</div>
-			<div class="package__price">&euro; 5.550,00</div>
+			<!-- <div class="package__price">&euro; 5.550,00</div> -->
 			<div class="l-package__action">
-				<a class="package__action btn btn--newsletter" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en&package=Superior<!--:--><!--:de-->/register/?lang=de&package=Superior<!--:--><!--:it-->/register/?lang=it&package=Superior<!--:--><!--:fr-->/register/?lang=fr&package=Superior<!--:-->'); ?>"><? _e("<!--:en-->Order Superior<!--:--><!--:de-->Superior anmelden<!--:--><!--:it-->Iscrizione Superior<!--:--><!--:fr-->Inscription Superior<!--:-->"); ?></a>
+				<a class="package__action btn btn--newsletter btn--disabled" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en&package=Superior<!--:--><!--:de-->/register/?lang=de&package=Superior<!--:--><!--:it-->/register/?lang=it&package=Superior<!--:--><!--:fr-->/register/?lang=fr&package=Superior<!--:-->'); ?>"><? _e("<!--:en-->Order Superior<!--:--><!--:de-->Superior anmelden<!--:--><!--:it-->Iscrizione Superior<!--:--><!--:fr-->Inscription Superior<!--:-->"); ?></a>
 			</div>
 		</section>
 		<section class="subsection">
