@@ -362,7 +362,7 @@ get_header(); ?>
 							<div class="polaroid">
 								<div class="tile">
 									<div class="tile__helper"></div>
-									<div class="tile__content hotel-img hotel-img--7"></div>
+									<div class="tile__content hotel-img hotel-img--16"></div>
 								</div>
 							</div>
 						</li>
@@ -370,7 +370,7 @@ get_header(); ?>
 							<div class="polaroid">
 								<div class="tile">
 									<div class="tile__helper"></div>
-									<div class="tile__content hotel-img hotel-img--8"></div>
+									<div class="tile__content hotel-img hotel-img--17"></div>
 								</div>
 							</div>
 						</li>
@@ -378,7 +378,7 @@ get_header(); ?>
 							<div class="polaroid">
 								<div class="tile">
 									<div class="tile__helper"></div>
-									<div class="tile__content hotel-img hotel-img--9"></div>
+									<div class="tile__content hotel-img hotel-img--18"></div>
 								</div>
 							</div>
 						</li>
