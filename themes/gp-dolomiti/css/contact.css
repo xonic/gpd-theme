@@ -790,8 +790,8 @@ dt {
 /* line 323, ../sass/imports/base/_typography.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, fieldset legend, .h4, .h5, .h6, .subsection__title, .subsection__heading {
-  font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 400;
+  font-family: "futura-pt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 200;
   color: #332e24;
   text-rendering: optimizelegibility;
   -webkit-hyphens: none;
@@ -977,7 +977,7 @@ object {
     z-index: 999;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .flyout {
   position: fixed;
   z-index: 999;
@@ -1043,7 +1043,7 @@ object {
     display: none;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .flyout__toggle {
   display: none;
 }
@@ -1138,7 +1138,7 @@ object {
     transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .nav-main .menu-hauptmenue-container {
   margin: 0;
   -ms-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -1155,7 +1155,7 @@ object {
     margin-left:  -1rem;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .nav-main .menu-item {
   display: inline;
 }
@@ -1174,7 +1174,7 @@ object {
   border-bottom: 0 solid #2a261e;
   border-bottom-width:  1px;
   border-bottom-width:  0.1rem;
-  font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "futura-pt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size:  26px;
   font-size:  2.6rem;
   line-height:  48px;
@@ -1195,7 +1195,7 @@ object {
     text-transform: capitalize;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .nav-main .menu-item a {
   display: inline-block;
   margin-right: 0;
@@ -1256,7 +1256,7 @@ object {
     background: transparent;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .content {
   background: transparent;
 }
@@ -1272,7 +1272,7 @@ object {
     padding-top:  2.4rem;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .content__inner {
   padding-top:  24px;
   padding-top:  2.4rem;
@@ -1298,7 +1298,7 @@ object {
     transform: translate3d(0, 0, 0);
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .csstransforms3d .nav-is-shown .content {
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -1316,7 +1316,7 @@ object {
     margin-top:  4.8rem;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .nav-is-shown .content {
   margin-top:  48px;
   margin-top:  4.8rem;
@@ -1630,7 +1630,7 @@ object {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fec44d,endColorstr=#febb33);
   zoom: 1;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 5px #7e5501, 0 5px 0 2px rgba(0, 0, 0, 0.8), 0 10px 20px 3px rgba(0, 0, 0, 0.3);
-  font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "futura-pt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   text-transform: uppercase;
   font-size:  32px;
   font-size:  3.2rem;
@@ -2912,7 +2912,7 @@ form {
     line-height:  5.5rem;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .section__title--smaller {
   padding:  48px 0 12px;
   padding:  4.8rem 0 1.2rem;
@@ -3029,7 +3029,7 @@ form {
   font-size:  1.4rem;
   line-height:  48px;
   line-height:  4.8rem;
-  font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "futura-pt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   letter-spacing: 0;
   text-align: center;
 }
@@ -3054,7 +3054,7 @@ form {
     line-height:  2.6rem;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .lang {
   float: none;
   position: absolute;
@@ -3115,19 +3115,18 @@ form {
   content: none;
 }
 
-/* line 8, ../sass/imports/modules/_branding.scss */
+/* line 7, ../sass/imports/modules/_branding.scss */
+.a11y {
+  display: none;
+}
+
+/* line 10, ../sass/imports/modules/_branding.scss */
 .branding {
   letter-spacing: -.2rem;
   text-align: center;
-  padding:  48px 0 24px;
-  padding:  4.8rem 0 2.4rem;
-  -webkit-transition: padding 1s ease-in-out;
-  -moz-transition: padding 1s ease-in-out;
-  -o-transition: padding 1s ease-in-out;
-  transition: padding 1s ease-in-out;
 }
 @media (min-width: 48em) {
-  /* line 8, ../sass/imports/modules/_branding.scss */
+  /* line 10, ../sass/imports/modules/_branding.scss */
   .branding {
     position: relative;
     padding:  288px 0 0;
@@ -3137,7 +3136,7 @@ form {
     border-bottom-width:  1.2rem;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .branding {
   position: relative;
   padding:  288px 0 0;
@@ -3147,19 +3146,57 @@ form {
   border-bottom-width:  1.2rem;
 }
 @media (min-width: 64em) {
-  /* line 8, ../sass/imports/modules/_branding.scss */
+  /* line 10, ../sass/imports/modules/_branding.scss */
   .branding {
     padding:  420px 0 0;
     padding:  42rem 0 0;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .branding {
   padding:  420px 0 0;
   padding:  42rem 0 0;
 }
+/* line 27, ../sass/imports/modules/_branding.scss */
+.branding a, .branding a:hover {
+  border: 0 none;
+}
 
-/* line 29, ../sass/imports/modules/_branding.scss */
+/* line 30, ../sass/imports/modules/_branding.scss */
+.touch .branding a:active {
+  border: 0 none;
+}
+
+/* line 33, ../sass/imports/modules/_branding.scss */
+.branding__wrapper {
+  padding:  24px 0;
+  padding:  2.4rem 0;
+  -webkit-transition: padding 1s ease-in-out;
+  -moz-transition: padding 1s ease-in-out;
+  -o-transition: padding 1s ease-in-out;
+  transition: padding 1s ease-in-out;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+/* line 41, ../sass/imports/modules/_branding.scss */
+.branding__logo {
+  display: block;
+  margin: 0 auto;
+  width:  200px;
+  width:  20rem;
+  height:  186px;
+  height:  18.6rem;
+  background: url(../images/gpd-logo.svg) top left no-repeat transparent;
+  background-size: 100%;
+}
+
+/* line 51, ../sass/imports/modules/_branding.scss */
+#ie8 .branding__logo {
+  background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
+}
+
+/* line 56, ../sass/imports/modules/_branding.scss */
 .event-name {
   margin: 0;
   font-size:  80px;
@@ -3167,6 +3204,8 @@ form {
   line-height:  70px;
   line-height:  7rem;
   color: #332e24;
+  text-transform: uppercase;
+  text-align: center;
   letter-spacing: -.4rem;
   background-color: white;
   -webkit-transition: background-color 1s ease-in-out;
@@ -3174,27 +3213,27 @@ form {
   -o-transition: background-color 1s ease-in-out;
   transition: background-color 1s ease-in-out;
 }
-/* line 39, ../sass/imports/modules/_branding.scss */
+/* line 68, ../sass/imports/modules/_branding.scss */
 .event-name a {
   border-bottom: 0 none;
   color: #332e24;
 }
-/* line 44, ../sass/imports/modules/_branding.scss */
+/* line 73, ../sass/imports/modules/_branding.scss */
 .event-name a:hover {
   color: #332e24;
 }
-/* line 50, ../sass/imports/modules/_branding.scss */
+/* line 79, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  32px;
   font-size:  3.2rem;
   line-height:  24px;
   line-height:  2.4rem;
-  font-family: "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "futura-pt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 29, ../sass/imports/modules/_branding.scss */
+  /* line 56, ../sass/imports/modules/_branding.scss */
   .event-name {
     padding:  12px;
     padding:  1.2rem;
@@ -3206,7 +3245,7 @@ form {
     line-height:  8rem;
     text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   }
-  /* line 72, ../sass/imports/modules/_branding.scss */
+  /* line 101, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  36px;
     font-size:  3.6rem;
@@ -3214,7 +3253,7 @@ form {
     line-height:  3.2rem;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .event-name {
   padding:  12px;
   padding:  1.2rem;
@@ -3226,7 +3265,7 @@ form {
   line-height:  8rem;
   text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
 }
-/* line 72, ../sass/imports/modules/_branding.scss */
+/* line 101, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  36px;
   font-size:  3.6rem;
@@ -3234,7 +3273,7 @@ form {
   line-height:  3.2rem;
 }
 @media (min-width: 64em) {
-  /* line 29, ../sass/imports/modules/_branding.scss */
+  /* line 56, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  100px;
     font-size:  10rem;
@@ -3242,7 +3281,7 @@ form {
     line-height:  9rem;
     letter-spacing: -.5rem;
   }
-  /* line 83, ../sass/imports/modules/_branding.scss */
+  /* line 112, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  38px;
     font-size:  3.8rem;
@@ -3250,7 +3289,7 @@ form {
     line-height:  3.4rem;
   }
 }
-/* line 91, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_media.scss */
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .event-name {
   font-size:  100px;
   font-size:  10rem;
@@ -3258,7 +3297,7 @@ form {
   line-height:  9rem;
   letter-spacing: -.5rem;
 }
-/* line 83, ../sass/imports/modules/_branding.scss */
+/* line 112, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  38px;
   font-size:  3.8rem;
@@ -3266,14 +3305,14 @@ form {
   line-height:  3.4rem;
 }
 @media (min-width: 80em) {
-  /* line 29, ../sass/imports/modules/_branding.scss */
+  /* line 56, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  110px;
     font-size:  11rem;
     line-height:  100px;
     line-height:  10rem;
   }
-  /* line 93, ../sass/imports/modules/_branding.scss */
+  /* line 122, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;
@@ -3322,7 +3361,7 @@ form {
   margin-right: 7.14286%;
   display: inline;
 }
-/* line 184, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-1.0.9/sass/susy/_grid.scss */
+/* line 184, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
 .l-organizer:nth-child(4n) {
   float: right;
   margin-right: 0;

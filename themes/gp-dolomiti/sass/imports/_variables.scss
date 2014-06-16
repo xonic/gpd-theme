@@ -90,7 +90,7 @@
 //  = TYPOGRAPHY
 //  ---------------------------------------------------------------------------
 
-	$sansFontFamily:        "din-condensed-web", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	$sansFontFamily:        "futura-pt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	$serifFontFamily:       "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
 	$monoFontFamily:        "Menlo", "Monaco", "Consolas", "Courier New", monospace;
 
@@ -126,11 +126,12 @@
 
 	$smallFontSize:			$baseLineHeight - 0.2;
 
+	$lightFontWeight:			200;
 	$normalFontWeight:			400;
 	$boldFontWeight:			700;
 
 	$headingsFontFamily:    $sansFontFamily; 	// empty to use BS default, $baseFontFamily
-	$headingsFontWeight:    $normalFontWeight;
+	$headingsFontWeight:    $lightFontWeight;
 	$headingsColor:         $blackSand;			// empty to use BS default, $textColor
 
 	/* h1 Sizes */

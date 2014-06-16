@@ -4,12 +4,12 @@
 //
 //  ---------------------------------------------------------------------------
 	
+	.a11y { display:none; }
+
 	.branding
 	{ 
 		letter-spacing: -.2rem;
 		text-align:center;
-		@include rem(padding, $doubleSpace * 2 0 $doubleSpace);
-		@include transition(padding 1s ease-in-out);
 
 		@include at-breakpoint(48em no-mq)
 		{
@@ -23,6 +23,33 @@
 		{
 			@include rem(padding, $doubleSpace * 17.5 0 0);
 		}
+
+		a, a:hover { border:0 none; }
+	}
+
+	.touch .branding a:active { border:0 none; }
+
+	.branding__wrapper
+	{
+		@include rem(padding, $doubleSpace 0);
+		@include transition(padding 1s ease-in-out);
+		background-color:$white;
+		background:rgba($white, .6);
+	}
+
+	.branding__logo
+	{
+		display:block;
+		margin:0 auto;
+		@include rem(width, 20);
+		@include rem(height, 18.6);
+		background:url(../images/gpd-logo.svg) top left no-repeat transparent;
+		background-size:100%;
+	}
+
+	#ie8 .branding__logo
+	{
+		background:url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 	}
 
 	.event-name
@@ -31,6 +58,8 @@
 		// @include setType(6.2, 5);
 		@include setType(8, 7);
 		color:$blackSand;
+		text-transform:uppercase;
+		text-align:center;
 		letter-spacing:-.4rem;
 		background-color:$white;
 		@include transition(background-color 1s ease-in-out);
