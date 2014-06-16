@@ -14,14 +14,14 @@
 		@include at-breakpoint(48em no-mq)
 		{
 			position:relative;
-			@include rem(padding, $doubleSpace * 12 0 0);
+			@include rem(padding, $doubleSpace * 7 0 0);
 			border-bottom:0 solid $olive;
 			@include rem(border-bottom-width, $singleSpace);
 		}
 
 		@include at-breakpoint($huge-width no-mq)
 		{
-			@include rem(padding, $doubleSpace * 17.5 0 0);
+			@include rem(padding, $doubleSpace * 14 0 0);
 		}
 
 		a, a:hover { border:0 none; }
@@ -34,7 +34,7 @@
 		@include rem(padding, $doubleSpace 0);
 		@include transition(padding 1s ease-in-out);
 		background-color:$white;
-		background:rgba($white, .6);
+		background:rgba($white, .8);
 	}
 
 	.branding__logo

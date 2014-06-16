@@ -549,7 +549,7 @@ pre, table, fieldset, hr {
 
 /* line 44, ../sass/imports/base/_typography.scss */
 html {
-  font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
+  font-family: "ff-meta-serif-web-pro", "Georgia", "Geneva", "Times New Roman", serif;
   font-size: 62.5%;
   line-height: 1;
 }
@@ -774,7 +774,7 @@ ul, ol {
 
 /* line 310, ../sass/imports/base/_typography.scss */
 dt {
-  font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
+  font-family: "ff-meta-serif-web-pro", "Georgia", "Geneva", "Times New Roman", serif;
   font-weight: 700;
 }
 
@@ -793,7 +793,7 @@ h1, h2, h3, h4, h5, h6,
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
 .h1 small, .h2 small, .h3 small, fieldset legend small, .h4 small, .h5 small, .h6 small, .subsection__title small, .subsection__heading small {
   display: block;
-  font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
+  font-family: "ff-meta-serif-web-pro", "Georgia", "Geneva", "Times New Roman", serif;
   font-size: 60%;
   color: #949494;
 }
@@ -1407,7 +1407,7 @@ label .error {
 [type="email"],
 button,
 textarea {
-  font-family: "utopia-std", "Georgia", "Geneva", "Times New Roman", serif;
+  font-family: "ff-meta-serif-web-pro", "Georgia", "Geneva", "Times New Roman", serif;
   font-size:  18px;
   font-size:  1.8rem;
   -webkit-appearance: none;
@@ -2701,8 +2701,8 @@ form {
   /* line 10, ../sass/imports/modules/_branding.scss */
   .branding {
     position: relative;
-    padding:  288px 0 0;
-    padding:  28.8rem 0 0;
+    padding:  168px 0 0;
+    padding:  16.8rem 0 0;
     border-bottom: 0 solid #8b826a;
     border-bottom-width:  12px;
     border-bottom-width:  1.2rem;
@@ -2711,8 +2711,8 @@ form {
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .branding {
   position: relative;
-  padding:  288px 0 0;
-  padding:  28.8rem 0 0;
+  padding:  168px 0 0;
+  padding:  16.8rem 0 0;
   border-bottom: 0 solid #8b826a;
   border-bottom-width:  12px;
   border-bottom-width:  1.2rem;
@@ -2720,14 +2720,14 @@ form {
 @media (min-width: 64em) {
   /* line 10, ../sass/imports/modules/_branding.scss */
   .branding {
-    padding:  420px 0 0;
-    padding:  42rem 0 0;
+    padding:  336px 0 0;
+    padding:  33.6rem 0 0;
   }
 }
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .branding {
-  padding:  420px 0 0;
-  padding:  42rem 0 0;
+  padding:  336px 0 0;
+  padding:  33.6rem 0 0;
 }
 /* line 27, ../sass/imports/modules/_branding.scss */
 .branding a, .branding a:hover {
@@ -2748,7 +2748,7 @@ form {
   -o-transition: padding 1s ease-in-out;
   transition: padding 1s ease-in-out;
   background-color: white;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 /* line 41, ../sass/imports/modules/_branding.scss */
