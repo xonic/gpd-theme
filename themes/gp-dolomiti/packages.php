@@ -61,15 +61,6 @@ get_header(); ?>
 			<ul class="package__features">
 				<li class="l-feature">
 					<div class="feature">
-						<h3 class="feature__title"><? _e("<!--:en-->Digital Roadbook<!--:--><!--:de-->Digitales Roadbook<!--:--><!--:it-->Roadbook Digitale<!--:--><!--:fr-->Roadbook numérique<!--:-->"); ?></h3>
-						<div class="feature__img"><i class="fa fa-tablet fa-5x"></i></div>
-						<p class="feature__description">
-							<? _e("package__roadbook", "gp-dolomiti"); ?>
-						</p>
-					</div>
-				</li>
-				<li class="l-feature">
-					<div class="feature">
 						<h3 class="feature__title"><? _e("<!--:en-->Premium Hotel<!--:--><!--:de-->Premium Hotel<!--:--><!--:it-->Premium Hotel<!--:--><!--:fr-->Premium Hôtel<!--:-->"); ?></h3>
 						<div class="feature__img"><i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i> <span class="feature__icon-text">S</span></div>
 						<p class="feature__description">
