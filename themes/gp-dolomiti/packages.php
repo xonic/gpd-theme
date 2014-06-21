@@ -95,15 +95,6 @@ get_header(); ?>
 						</p>
 					</div>
 				</li>
-				<li class="l-feature">
-					<div class="feature">
-						<h3 class="feature__title"><? _e("<!--:en-->Concert<!--:--><!--:de-->Konzert<!--:--><!--:it-->Concerto<!--:--><!--:fr-->Concert<!--:-->"); ?></h3>
-						<div class="feature__img"><i class="fa fa-music fa-5x"></i></div>
-						<p class="feature__description">
-							<? _e("package__concert", "gp-dolomiti"); ?>
-						</p>
-					</div>
-				</li>
 			</ul>
 		</section>
 

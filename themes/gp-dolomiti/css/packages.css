@@ -2481,57 +2481,6 @@ object {
     clear: both;
   }
 }
-@media (min-width: 64em) {
-  /* line 13, ../sass/imports/modules/_feature.scss */
-  .l-feature {
-    width: 32.20339%;
-    float: left;
-    margin-right: 1.69492%;
-  }
-  /* line 27, ../sass/imports/modules/_feature.scss */
-  .l-feature:nth-child(2n + 1) {
-    clear: none;
-  }
-  /* line 251, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
-  .l-feature:nth-child(2n) {
-    float: left;
-    margin-right: 1.69492%;
-  }
-  /* line 184, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
-  .l-feature:nth-child(3n) {
-    float: right;
-    margin-right: 0;
-  }
-  /* line 32, ../sass/imports/modules/_feature.scss */
-  .l-feature:nth-child(3n + 1) {
-    clear: both;
-  }
-}
-/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
-.no-mq .l-feature {
-  width: 32.20339%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
-}
-/* line 27, ../sass/imports/modules/_feature.scss */
-.no-mq .l-feature:nth-child(2n + 1) {
-  clear: none;
-}
-/* line 251, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
-.no-mq .l-feature:nth-child(2n) {
-  float: left;
-  margin-right: 1.69492%;
-}
-/* line 184, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
-.no-mq .l-feature:nth-child(3n) {
-  float: right;
-  margin-right: 0;
-}
-/* line 32, ../sass/imports/modules/_feature.scss */
-.no-mq .l-feature:nth-child(3n + 1) {
-  clear: both;
-}
 
 /* line 37, ../sass/imports/modules/_feature.scss */
 .feature {
@@ -2572,21 +2521,22 @@ object {
 .features--about {
   margin-bottom: 0;
 }
-/* line 72, ../sass/imports/modules/_feature.scss */
-.features--about .l-feature {
-  width: 47.36842%;
-  float: left;
-  margin-right: 5.26316%;
-  display: inline;
-}
-/* line 184, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
-.features--about .l-feature:nth-child(2n) {
-  float: right;
-  margin-right: 0;
-}
-/* line 77, ../sass/imports/modules/_feature.scss */
+/* line 74, ../sass/imports/modules/_feature.scss */
 .features--about .l-feature:last-child {
   margin-bottom: 0;
+}
+@media (min-width: 30em) {
+  /* line 72, ../sass/imports/modules/_feature.scss */
+  .features--about .l-feature {
+    width: 47.36842%;
+    float: left;
+    margin-right: 5.26316%;
+  }
+  /* line 184, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
+  .features--about .l-feature:nth-child(2n) {
+    float: right;
+    margin-right: 0;
+  }
 }
 @media (min-width: 64em) {
   /* line 72, ../sass/imports/modules/_feature.scss */
@@ -2600,18 +2550,13 @@ object {
     float: left;
     margin-right: 1.69492%;
   }
-  /* line 251, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
-  .features--about .l-feature:nth-child(3n) {
-    float: left;
-    margin-right: 1.69492%;
-  }
   /* line 184, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
   .features--about .l-feature:nth-child(4n) {
     float: right;
     margin-right: 0;
   }
-  /* line 88, ../sass/imports/modules/_feature.scss */
-  .features--about .l-feature:nth-child(3n + 1) {
+  /* line 90, ../sass/imports/modules/_feature.scss */
+  .features--about .l-feature:nth-child(2n + 1) {
     clear: none;
   }
 }
@@ -2627,25 +2572,20 @@ object {
   float: left;
   margin-right: 1.69492%;
 }
-/* line 251, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
-.no-mq .features--about .l-feature:nth-child(3n) {
-  float: left;
-  margin-right: 1.69492%;
-}
 /* line 184, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_grid.scss */
 .no-mq .features--about .l-feature:nth-child(4n) {
   float: right;
   margin-right: 0;
 }
-/* line 88, ../sass/imports/modules/_feature.scss */
-.no-mq .features--about .l-feature:nth-child(3n + 1) {
+/* line 90, ../sass/imports/modules/_feature.scss */
+.no-mq .features--about .l-feature:nth-child(2n + 1) {
   clear: none;
 }
-/* line 93, ../sass/imports/modules/_feature.scss */
+/* line 95, ../sass/imports/modules/_feature.scss */
 .features--about .feature {
   text-align: center;
 }
-/* line 98, ../sass/imports/modules/_feature.scss */
+/* line 100, ../sass/imports/modules/_feature.scss */
 .features--about .feature__title {
   font-size:  42px;
   font-size:  4.2rem;
@@ -2655,7 +2595,7 @@ object {
   margin-bottom:  1.2rem;
 }
 @media (min-width: 30em) {
-  /* line 98, ../sass/imports/modules/_feature.scss */
+  /* line 100, ../sass/imports/modules/_feature.scss */
   .features--about .feature__title {
     font-size:  42px;
     font-size:  4.2rem;
@@ -2664,7 +2604,7 @@ object {
   }
 }
 @media (min-width: 37.5em) {
-  /* line 98, ../sass/imports/modules/_feature.scss */
+  /* line 100, ../sass/imports/modules/_feature.scss */
   .features--about .feature__title {
     font-size:  48px;
     font-size:  4.8rem;
@@ -2680,7 +2620,7 @@ object {
   line-height:  5.5rem;
 }
 @media (min-width: 64em) {
-  /* line 98, ../sass/imports/modules/_feature.scss */
+  /* line 100, ../sass/imports/modules/_feature.scss */
   .features--about .feature__title {
     font-size:  54px;
     font-size:  5.4rem;

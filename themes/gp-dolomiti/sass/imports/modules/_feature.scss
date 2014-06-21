@@ -21,16 +21,16 @@
 			&:nth-child(2n + 1) { clear:both; }
 		}
 
-		@include at-breakpoint($huge-width no-mq)
-		{
+		// @include at-breakpoint($huge-width no-mq)
+		// {
 
-			&:nth-child(2n + 1) { clear:none; }
-			@include remove-nth-omega(2n, $context:$huge-cols);
+		// 	&:nth-child(2n + 1) { clear:none; }
+		// 	@include remove-nth-omega(2n, $context:$huge-cols);
 
-			@include span-columns(4, $huge-cols);
-			@include nth-omega(3n);
-			&:nth-child(3n + 1) { clear:both; }
-		}
+		// 	@include span-columns(4, $huge-cols);
+		// 	@include nth-omega(3n);
+		// 	&:nth-child(3n + 1) { clear:both; }
+		// }
 	}
 
 	.feature
@@ -70,22 +70,24 @@
 
 		.l-feature
 		{
-			@include span-columns(2, $small-cols);
-			@include nth-omega(2n);
-
 			&:last-child
 			{
 				margin-bottom:0;
 			}
 
+			@include at-breakpoint($medium-width)
+			{
+				@include span-columns(2, $small-cols);
+				@include nth-omega(2n);
+			}
+
 			@include at-breakpoint($huge-width no-mq)
 			{
 				@include remove-nth-omega(2n, $context:$huge-cols);
-				@include remove-nth-omega(3n, $context:$huge-cols);
 
 				@include span-columns(3, $huge-cols);
 				@include nth-omega(4n);
-				&:nth-child(3n + 1) { clear:none; }
+				&:nth-child(2n + 1) { clear:none; }
 			}
 		}
 
