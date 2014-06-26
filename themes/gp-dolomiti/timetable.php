@@ -557,7 +557,7 @@ get_header(); ?>
 					</table>
 					<div class="day__dinner cf">
 						
-						<h3 class="subsection__heading"><i class="fa fa-cutlery"></i>&nbsp;&nbsp;Genuss nach Wahl</h3>
+						<h3 class="subsection__heading"><i class="fa fa-cutlery"></i>&nbsp;&nbsp;<? _e("<!--:en-->South Tyrolean Cuisine<!--:--><!--:de-->Südtiroler Küche<!--:--><!--:it-->Cucina sudtirolese<!--:--><!--:fr-->Cuisine du Tyrol du Sud<!--:-->"); ?></h3>
 					
 						<section class="slider slider--rev">
 							<ul class="slider__slides slider__slides--contains-4">
