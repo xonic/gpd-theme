@@ -11,21 +11,14 @@
 ?>
 
 		
-			<footer class="impressum section--dark">
+			<footer class="impressum section">
 				<div class="grid">
 
 					<section class="container">
-						<p>&copy; Gran Premio Dolomiti <?php echo date('Y'); ?></p>
 
 						<div class="l-organizer">
 							<div class="polaroid">
-								<img src="<? echo get_template_directory_uri() . '/images/rentor.jpg' ?>" alt="Rentor KG Logo">
-							</div>
-						</div>
-
-						<div class="l-organizer">
-							<div class="polaroid">
-								<img src="<? echo get_template_directory_uri() . '/images/smt.jpg' ?>" alt="SMT Consulting Logo">
+								<img src="<? echo get_template_directory_uri() . '/images/merano.jpg' ?>" alt="Meran Logo">
 							</div>
 						</div>
 
@@ -35,26 +28,19 @@
 							</div>
 						</div>
 
-						<address class="vcard">
-							<!-- WAT?! -->
-							<span class="fn n">
-								<span class="given-name"></span>
-							</span>
-						 	<div class="org">SMT Consulting</div>
-						 	<div class="email">
-						 		<a class="value" href="mailto:hannes@granpremiodolomiti.com">hannes@granpremiodolomiti.com</a>
-						 	</div>
-						 	<div class="tel">
-								<span class="value">+39 0473 201 253</span>
-						 	</div>
-						 	<div class="adr">
-						  		<span class="street-address">Gampenstraße 99i</span><br/>
-						  		<span class="postal-code">39012</span>
-						  		<span class="locality">Meran</span><br/>
-						  		<span class="country-name">Italien</span>
-						 	</div>
-						</address>
+						<div class="l-organizer">
+							<div class="polaroid">
+								<img src="<? echo get_template_directory_uri() . '/images/suedtirol.jpg' ?>" alt="Südtirol Logo">
+							</div>
+						</div>
+
 					</section>
+
+					<p>
+						&copy; Gran Premio Dolomiti <?php echo date('Y'); ?>
+						<br>
+						<a href="mailto:hello@granpremiodolomiti.com" title="E-Mail">hello@granpremiodolomiti.com</a>
+					</p>
 				</div>
 			</footer>
 		</div><!-- .content__inner -->

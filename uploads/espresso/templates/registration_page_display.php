@@ -74,7 +74,7 @@ if ($reg_form_only == false) {
 			// if todays date is after $reg_end_date
 			// if todays date is prior to $reg_start_date
 ?>
-			<div class="msg msg--info msg--has-icon space-lover" style="margin-bottom:0!important;">
+			<div class="msg msg--info msg--has-icon space-lover">
 				<div class="msg__title"><i class="fa fa-fw fa-info-circle"></i><? _e('<!--:en-->Currently Closed<!--:--><!--:de-->Derzeit geschlossen<!--:--><!--:it-->Chiuso temporaneo<!--:--><!--:fr-->Temporairement fermé<!--:-->'); ?></div>
 				<div class="msg__bd">
 					<div><? _e('<!--:en-->We\'ll be back soon.<!--:--><!--:de-->Wir sind bald zurück.<!--:--><!--:it-->Ritorniamo fra poco.<!--:--><!--:fr-->Nous serons bientôt de retour.<!--:-->'); ?>.</div>
