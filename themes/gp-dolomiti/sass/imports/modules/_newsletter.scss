@@ -15,5 +15,6 @@
 	
 	.newsletter
 	{
+		@include rem(padding-top, $doubleSpace);
 		text-align:center;
 	}

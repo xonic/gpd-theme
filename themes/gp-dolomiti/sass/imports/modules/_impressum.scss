@@ -6,22 +6,23 @@
 	
 	.impressum
 	{
-		@include rem(margin-top, $doubleSpace * 3);
-		@include rem(padding-top, $doubleSpace);
-		@include setType($bodyFontSize, $bodyLineHeight);
+		@include rem(padding, $doubleSpace * 2 0);
+		background-color:$olive;
+		@include setType(1.6, $bodyLineHeight);
 		text-align:center;
-		color:$sandDark;
+		color:$white;
+		color:rgba($white, .5);
 
-		address
+		a 
 		{
-			@include rem(padding-bottom, $doubleSpace);
-			color:$olive;
-			font-style:normal;
+			border-bottom-color:rgba($orange, .5);
+			color:$white;
+			color:rgba($white, .5);
 
-			a 
+			&:hover
 			{
-				color:$olive;
-				border:0 none;
+				border-bottom-color:rgba($orange, 1);
+				color:rgba($white, 1);
 			}
 		}
 	}

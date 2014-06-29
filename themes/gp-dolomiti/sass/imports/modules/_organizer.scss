@@ -9,11 +9,11 @@
 		@include rem(margin-bottom, $doubleSpace);
 
 		@include span-columns(1, 3);
-		@include nth-omega(3n + 1);
+		@include nth-omega(3n);
 
 		.polaroid
 		{
-			@include rem(max-width, 7);
+			@include rem(max-width, 10);
 			margin:0 auto;
 			border-radius:3px;
 		}
