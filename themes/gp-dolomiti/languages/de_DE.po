@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2014-01-15 11:55+0100\n"
-"PO-Revision-Date: 2014-06-21 11:16+0100\n"
+"PO-Revision-Date: 2014-08-01 06:34+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -143,27 +143,26 @@ msgid ""
 msgstr ""
 
 #: ../packages.php:41
-#, fuzzy
 msgid ""
 "<!--:en-->Premium Package<!--:--><!--:de-->Premium Paket<!--:--><!--:it--"
 ">Pacchetto Premium<!--:--><!--:fr-->Forfait Premium<!--:-->"
 msgstr ""
 "Mit dem Premium Paket können Sie sich gemütlich zurücklehnen und uns die "
 "Arbeit überlassen. Dieses Package gilt <strong>für 1 Fahrzeug und 2 "
-"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, ein Tablet mit "
-"einem digitalen Roadbook, 5 Übernachtungen in einem Spitzenhotel, komplette "
-"Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
-"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihr Fahrzeug."
+"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, 5 Übernachtungen "
+"in einem Spitzenhotel, komplette Verpflegung (mittags &amp; abends), "
+"tägliches Rahmenprogramm, offizielle und exklusive Bekleidung, sowie eine "
+"bewachte Parkanlage für Ihr Fahrzeug."
 
 #: ../packages.php:44
 msgid "package__premium__description"
 msgstr ""
 "Mit dem Premium Paket können Sie sich gemütlich zurücklehnen und uns die "
 "Arbeit überlassen. Dieses Package gilt <strong>für 1 Fahrzeug und 2 "
-"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, ein Tablet mit "
-"einem digitalen Roadbook, 5 Übernachtungen in einem Spitzenhotel, komplette "
-"Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
-"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihren Oldtimer."
+"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, 5 Übernachtungen "
+"in einem Spitzenhotel, komplette Verpflegung (mittags &amp; abends), "
+"tägliches Rahmenprogramm, offizielle und exklusive Bekleidung, sowie eine "
+"bewachte Parkanlage für Ihren Oldtimer."
 
 #: ../packages.php:46 ../packages.php:427
 #, fuzzy
@@ -233,17 +232,16 @@ msgid ""
 msgstr ""
 
 #: ../packages.php:59
-#, fuzzy
 msgid ""
 "<!--:en-->Order Premium<!--:--><!--:de-->Premium anmelden<!--:--><!--:it--"
 ">Iscrizione Premium<!--:--><!--:fr-->Inscription Premium<!--:-->"
 msgstr ""
 "Mit dem Premium Paket können Sie sich gemütlich zurücklehnen und uns die "
 "Arbeit überlassen. Dieses Package gilt <strong>für 1 Fahrzeug und 2 "
-"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, ein Tablet mit "
-"einem digitalen Roadbook, 5 Übernachtungen in einem Spitzenhotel, komplette "
-"Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
-"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihr Fahrzeug."
+"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, 5 Übernachtungen "
+"in einem Spitzenhotel, komplette Verpflegung (mittags &amp; abends), "
+"tägliches Rahmenprogramm, offizielle und exklusive Bekleidung, sowie eine "
+"bewachte Parkanlage für Ihr Fahrzeug."
 
 #: ../packages.php:64
 #, fuzzy
@@ -263,17 +261,16 @@ msgstr ""
 "um die Strecke."
 
 #: ../packages.php:73
-#, fuzzy
 msgid ""
 "<!--:en-->Premium Hotel<!--:--><!--:de-->Premium Hotel<!--:--><!--:it--"
 ">Premium Hotel<!--:--><!--:fr-->Premium Hôtel<!--:-->"
 msgstr ""
 "Mit dem Premium Paket können Sie sich gemütlich zurücklehnen und uns die "
 "Arbeit überlassen. Dieses Package gilt <strong>für 1 Fahrzeug und 2 "
-"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, ein Tablet mit "
-"einem digitalen Roadbook, 5 Übernachtungen in einem Spitzenhotel, komplette "
-"Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
-"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihr Fahrzeug."
+"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, 5 Übernachtungen "
+"in einem Spitzenhotel, komplette Verpflegung (mittags &amp; abends), "
+"tägliches Rahmenprogramm, offizielle und exklusive Bekleidung, sowie eine "
+"bewachte Parkanlage für Ihr Fahrzeug."
 
 #: ../packages.php:76
 msgid "package__hotel"
@@ -996,7 +993,6 @@ msgstr ""
 "\" title=\"Anzeigen\">FIVA</a>"
 
 #: ../regulations.php:34
-#, fuzzy
 msgid ""
 "<!--:en-->Activity Gran Premio Dolomiti<!--:--><!--:de-->Ablauf Gran Premio "
 "Dolomiti<!--:--><!--:it-->Svolgimento Gran Premio Dolomiti<!--:--><!--:fr--"
@@ -1004,10 +1000,10 @@ msgid ""
 msgstr ""
 "Mit dem Premium Paket können Sie sich gemütlich zurücklehnen und uns die "
 "Arbeit überlassen. Dieses Package gilt <strong>für 1 Fahrzeug und 2 "
-"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, ein Tablet mit "
-"einem digitalen Roadbook, 5 Übernachtungen in einem Spitzenhotel, komplette "
-"Verpflegung (mittags &amp; abends), tägliches Rahmenprogramm, offizielle und "
-"exklusive Bekleidung, sowie eine bewachte Parkanlage für Ihr Fahrzeug."
+"Personen</strong>. Es beinhaltet die Teilnahme am Rennen, 5 Übernachtungen "
+"in einem Spitzenhotel, komplette Verpflegung (mittags &amp; abends), "
+"tägliches Rahmenprogramm, offizielle und exklusive Bekleidung, sowie eine "
+"bewachte Parkanlage für Ihr Fahrzeug."
 
 #: ../regulations.php:35
 msgid "rules__activity"

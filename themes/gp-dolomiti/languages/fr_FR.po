@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2014-01-15 11:46+0100\n"
-"PO-Revision-Date: 2014-06-26 07:16+0100\n"
+"PO-Revision-Date: 2014-08-01 06:40+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -144,28 +144,26 @@ msgid ""
 msgstr ""
 
 #: ../packages.php:41
-#, fuzzy
 msgid ""
 "<!--:en-->Premium Package<!--:--><!--:de-->Premium Paket<!--:--><!--:it--"
 ">Pacchetto Premium<!--:--><!--:fr-->Forfait Premium<!--:-->"
 msgstr ""
 "Lâchez prise et savourez grâce au forfait premium. Celui-ci est valable pour "
 "<strong>1 véhicule et 2 personnes</strong>. Il comprend la participation à "
-"la course, une tablette tactile avec un guide routier numérique, 5 nuits "
-"dans un hôtel de classe supérieure, la demi-pension (midis & soirs), un "
-"programme quotidien des événements en soirée, une tenue officielle et "
-"exclusive ainsi qu'un accès à un parking sécurisé pour votre véhicule."
+"la course, 5 nuits dans un hôtel de classe supérieure, la demi-pension "
+"(midis & soirs), un programme quotidien des événements en soirée, une tenue "
+"officielle et exclusive ainsi qu'un accès à un parking sécurisé pour votre "
+"véhicule."
 
 #: ../packages.php:44
 msgid "package__premium__description"
 msgstr ""
 "Lâchez prise et savourez grâce au forfait premium. Celui-ci est valable pour "
 "<strong>1 véhicule et 2 personnes</strong>. Il comprend la participation à "
-"la course, une tablette tactile avec un guide routier numérique, 5 nuits "
-"dans un hôtel de classe supérieure, la demi-pension (midis & soirs), un "
-"programme quotidien des événements en soirée, une tenue officielle et "
-"exclusive ainsi qu'un accès à un parking sécurisé pour votre véhicule "
-"d'époque."
+"la course, 5 nuits dans un hôtel de classe supérieure, la demi-pension "
+"(midis & soirs), un programme quotidien des événements en soirée, une tenue "
+"officielle et exclusive ainsi qu'un accès à un parking sécurisé pour votre "
+"véhicule d'époque."
 
 #: ../packages.php:46 ../packages.php:427
 #, fuzzy
@@ -235,17 +233,16 @@ msgid ""
 msgstr ""
 
 #: ../packages.php:59
-#, fuzzy
 msgid ""
 "<!--:en-->Order Premium<!--:--><!--:de-->Premium anmelden<!--:--><!--:it--"
 ">Iscrizione Premium<!--:--><!--:fr-->Inscription Premium<!--:-->"
 msgstr ""
 "Lâchez prise et savourez grâce au forfait premium. Celui-ci est valable pour "
 "<strong>1 véhicule et 2 personnes</strong>. Il comprend la participation à "
-"la course, une tablette tactile avec un guide routier numérique, 5 nuits "
-"dans un hôtel de classe supérieure, la demi-pension (midis & soirs), un "
-"programme quotidien des événements en soirée, une tenue officielle et "
-"exclusive ainsi qu'un accès à un parking sécurisé pour votre véhicule."
+"la course, 5 nuits dans un hôtel de classe supérieure, la demi-pension "
+"(midis & soirs), un programme quotidien des événements en soirée, une tenue "
+"officielle et exclusive ainsi qu'un accès à un parking sécurisé pour votre "
+"véhicule."
 
 #: ../packages.php:64
 #, fuzzy
@@ -265,17 +262,16 @@ msgstr ""
 "concernant l'itinéraire."
 
 #: ../packages.php:73
-#, fuzzy
 msgid ""
 "<!--:en-->Premium Hotel<!--:--><!--:de-->Premium Hotel<!--:--><!--:it--"
 ">Premium Hotel<!--:--><!--:fr-->Premium Hôtel<!--:-->"
 msgstr ""
 "Lâchez prise et savourez grâce au forfait premium. Celui-ci est valable pour "
 "<strong>1 véhicule et 2 personnes</strong>. Il comprend la participation à "
-"la course, une tablette tactile avec un guide routier numérique, 5 nuits "
-"dans un hôtel de classe supérieure, la demi-pension (midis & soirs), un "
-"programme quotidien des événements en soirée, une tenue officielle et "
-"exclusive ainsi qu'un accès à un parking sécurisé pour votre véhicule."
+"la course, 5 nuits dans un hôtel de classe supérieure, la demi-pension "
+"(midis & soirs), un programme quotidien des événements en soirée, une tenue "
+"officielle et exclusive ainsi qu'un accès à un parking sécurisé pour votre "
+"véhicule."
 
 #: ../packages.php:76
 msgid "package__hotel"
@@ -986,7 +982,6 @@ msgstr ""
 "title=\"Montrer\">FIVA</a>"
 
 #: ../regulations.php:34
-#, fuzzy
 msgid ""
 "<!--:en-->Activity Gran Premio Dolomiti<!--:--><!--:de-->Ablauf Gran Premio "
 "Dolomiti<!--:--><!--:it-->Svolgimento Gran Premio Dolomiti<!--:--><!--:fr--"
@@ -994,10 +989,10 @@ msgid ""
 msgstr ""
 "Lâchez prise et savourez grâce au forfait premium. Celui-ci est valable pour "
 "<strong>1 véhicule et 2 personnes</strong>. Il comprend la participation à "
-"la course, une tablette tactile avec un guide routier numérique, 5 nuits "
-"dans un hôtel de classe supérieure, la demi-pension (midis & soirs), un "
-"programme quotidien des événements en soirée, une tenue officielle et "
-"exclusive ainsi qu'un accès à un parking sécurisé pour votre véhicule."
+"la course, 5 nuits dans un hôtel de classe supérieure, la demi-pension "
+"(midis & soirs), un programme quotidien des événements en soirée, une tenue "
+"officielle et exclusive ainsi qu'un accès à un parking sécurisé pour votre "
+"véhicule."
 
 #: ../regulations.php:35
 msgid "rules__activity"

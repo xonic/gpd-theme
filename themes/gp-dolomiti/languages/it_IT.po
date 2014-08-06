@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2014-01-15 11:25+0100\n"
-"PO-Revision-Date: 2014-06-21 11:41+0100\n"
+"PO-Revision-Date: 2014-08-01 06:39+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: it_IT\n"
@@ -142,7 +142,6 @@ msgid ""
 msgstr ""
 
 #: ../packages.php:41
-#, fuzzy
 msgid ""
 "<!--:en-->Premium Package<!--:--><!--:de-->Premium Paket<!--:--><!--:it--"
 ">Pacchetto Premium<!--:--><!--:fr-->Forfait Premium<!--:-->"
@@ -150,10 +149,10 @@ msgstr ""
 "Con la proposta Premium potete rilassarvi tranquillamente e noi vi "
 "prepariamo le vostre richieste adeguatamente. La proposta Premium vale per "
 "<strong>1 autovettura con 2 persone</strong>, include la partecipazione al "
-"raduno, 1 Tablet con Road Book elettronico, 5 pernottamenti in camera doppia "
-"in Hotel 4 Stelle S, pranzi e cene durante il periodo del raduno, programmi "
-"serali con intrattenimenti musicali di altissimo livello, vestiario della "
-"manifestazione e parcheggio coperto per la sua auto d'epoca."
+"raduno, 5 pernottamenti in camera doppia in Hotel 4 Stelle S, pranzi e cene "
+"durante il periodo del raduno, programmi serali con intrattenimenti musicali "
+"di altissimo livello, vestiario della manifestazione e parcheggio coperto "
+"per la sua auto d'epoca."
 
 #: ../packages.php:44
 msgid "package__premium__description"
@@ -161,10 +160,10 @@ msgstr ""
 "Con la proposta Premium potete rilassarvi tranquillamente e noi vi "
 "prepariamo le vostre richieste adeguatamente. La proposta Premium vale per "
 "<strong>1 autovettura con 2 persone</strong>, include la partecipazione al "
-"raduno, 1 Tablet con Road Book elettronico, 5 pernottamenti in camera doppia "
-"in Hotel 4 Stelle S, pranzi e cene durante il periodo del raduno, programmi "
-"serali con intrattenimenti musicali di altissimo livello, vestiario della "
-"manifestazione e parcheggio coperto per la sua auto d'epoca."
+"raduno, 5 pernottamenti in camera doppia in Hotel 4 Stelle S, pranzi e cene "
+"durante il periodo del raduno, programmi serali con intrattenimenti musicali "
+"di altissimo livello, vestiario della manifestazione e parcheggio coperto "
+"per la sua auto d'epoca."
 
 #: ../packages.php:46 ../packages.php:427
 #, fuzzy
@@ -234,7 +233,6 @@ msgid ""
 msgstr ""
 
 #: ../packages.php:59
-#, fuzzy
 msgid ""
 "<!--:en-->Order Premium<!--:--><!--:de-->Premium anmelden<!--:--><!--:it--"
 ">Iscrizione Premium<!--:--><!--:fr-->Inscription Premium<!--:-->"
@@ -242,10 +240,10 @@ msgstr ""
 "Con la proposta Premium potete rilassarvi tranquillamente e noi vi "
 "prepariamo le vostre richieste adeguatamente. La proposta Premium vale per "
 "<strong>1 autovettura con 2 persone</strong>, include la partecipazione al "
-"raduno, 1 Tablet con Road Book elettronico, 5 pernottamenti in camera doppia "
-"in Hotel 4 Stelle S, pranzi e cene durante il periodo del raduno, programmi "
-"serali con intrattenimenti musicali di altissimo livello, vestiario della "
-"manifestazione e parcheggio coperto per la sua auto d'epoca."
+"raduno, 5 pernottamenti in camera doppia in Hotel 4 Stelle S, pranzi e cene "
+"durante il periodo del raduno, programmi serali con intrattenimenti musicali "
+"di altissimo livello, vestiario della manifestazione e parcheggio coperto "
+"per la sua auto d'epoca."
 
 #: ../packages.php:64
 #, fuzzy
@@ -265,7 +263,6 @@ msgstr ""
 "manifestazioni collaterali. (Il Tablet rimarrà di sua proprietà)"
 
 #: ../packages.php:73
-#, fuzzy
 msgid ""
 "<!--:en-->Premium Hotel<!--:--><!--:de-->Premium Hotel<!--:--><!--:it--"
 ">Premium Hotel<!--:--><!--:fr-->Premium Hôtel<!--:-->"
@@ -273,10 +270,10 @@ msgstr ""
 "Con la proposta Premium potete rilassarvi tranquillamente e noi vi "
 "prepariamo le vostre richieste adeguatamente. La proposta Premium vale per "
 "<strong>1 autovettura con 2 persone</strong>, include la partecipazione al "
-"raduno, 1 Tablet con Road Book elettronico, 5 pernottamenti in camera doppia "
-"in Hotel 4 Stelle S, pranzi e cene durante il periodo del raduno, programmi "
-"serali con intrattenimenti musicali di altissimo livello, vestiario della "
-"manifestazione e parcheggio coperto per la sua auto d'epoca."
+"raduno, 5 pernottamenti in camera doppia in Hotel 4 Stelle S, pranzi e cene "
+"durante il periodo del raduno, programmi serali con intrattenimenti musicali "
+"di altissimo livello, vestiario della manifestazione e parcheggio coperto "
+"per la sua auto d'epoca."
 
 #: ../packages.php:76
 msgid "package__hotel"
@@ -988,7 +985,6 @@ msgstr ""
 "\"Mostra\">FIVA</a>"
 
 #: ../regulations.php:32
-#, fuzzy
 msgid ""
 "<!--:en-->Activity Gran Premio Dolomiti<!--:--><!--:de-->Ablauf Gran Premio "
 "Dolomiti<!--:--><!--:it-->Svolgimento Gran Premio Dolomiti<!--:--><!--:fr--"
@@ -997,10 +993,10 @@ msgstr ""
 "Con la proposta Premium potete rilassarvi tranquillamente e noi vi "
 "prepariamo le vostre richieste adeguatamente. La proposta Premium vale per "
 "<strong>1 autovettura con 2 persone</strong>, include la partecipazione al "
-"raduno, 1 Tablet con Road Book elettronico, 5 pernottamenti in camera doppia "
-"in Hotel 4 Stelle S, pranzi e cene durante il periodo del raduno, programmi "
-"serali con intrattenimenti musicali di altissimo livello, vestiario della "
-"manifestazione e parcheggio coperto per la sua auto d'epoca."
+"raduno, 5 pernottamenti in camera doppia in Hotel 4 Stelle S, pranzi e cene "
+"durante il periodo del raduno, programmi serali con intrattenimenti musicali "
+"di altissimo livello, vestiario della manifestazione e parcheggio coperto "
+"per la sua auto d'epoca."
 
 #: ../regulations.php:33
 msgid "rules__activity"

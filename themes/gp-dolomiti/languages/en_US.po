@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Dolomiti\n"
 "POT-Creation-Date: 2014-01-15 12:09+0100\n"
-"PO-Revision-Date: 2014-06-21 11:21+0100\n"
+"PO-Revision-Date: 2014-08-01 06:37+0100\n"
 "Last-Translator: Thomas Nägele <hello@granpremiodolomiti.com>\n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -141,25 +141,24 @@ msgid ""
 msgstr ""
 
 #: ../packages.php:41
-#, fuzzy
 msgid ""
 "<!--:en-->Premium Package<!--:--><!--:de-->Premium Paket<!--:--><!--:it--"
 ">Pacchetto Premium<!--:--><!--:fr-->Forfait Premium<!--:-->"
 msgstr ""
 "Lean back and relax with this full service premium package. It is valid for "
 "<strong>1 car and 2 persons</strong> and includes the participation in the "
-"race, a tablet with a digital road book, 5 nights in a superior hotel, full "
-"catering (lunch/dinner/brunch), daily evening program, exclusive officially "
-"branded clothing and a safe parking area for your classic car."
+"race, 5 nights in a superior hotel, full catering (lunch/dinner/brunch), "
+"daily evening program, exclusive officially branded clothing and a safe "
+"parking area for your classic car."
 
 #: ../packages.php:44
 msgid "package__premium__description"
 msgstr ""
 "Lean back and relax with this full service premium package. It is valid for "
 "<strong>1 car and 2 persons</strong> and includes the participation in the "
-"race, a tablet with a digital road book, 5 nights in a superior hotel, full "
-"catering (lunch/dinner/brunch), daily evening program, exclusive officially "
-"branded clothing and a safe parking area for your classic car."
+"race, 5 nights in a superior hotel, full catering (lunch/dinner/brunch), "
+"daily evening program, exclusive officially branded clothing and a safe "
+"parking area for your classic car."
 
 #: ../packages.php:46 ../packages.php:427
 #, fuzzy
@@ -229,16 +228,15 @@ msgid ""
 msgstr ""
 
 #: ../packages.php:59
-#, fuzzy
 msgid ""
 "<!--:en-->Order Premium<!--:--><!--:de-->Premium anmelden<!--:--><!--:it--"
 ">Iscrizione Premium<!--:--><!--:fr-->Inscription Premium<!--:-->"
 msgstr ""
 "Lean back and relax with this full service premium package. It is valid for "
 "<strong>1 car and 2 persons</strong> and includes the participation in the "
-"race, a tablet with a digital road book, 5 nights in a superior hotel, full "
-"catering (lunch/dinner/brunch), daily evening program, exclusive officially "
-"branded clothing and a safe parking area for your classic car."
+"race, 5 nights in a superior hotel, full catering (lunch/dinner/brunch), "
+"daily evening program, exclusive officially branded clothing and a safe "
+"parking area for your classic car."
 
 #: ../packages.php:64
 #, fuzzy
@@ -256,16 +254,15 @@ msgstr ""
 "digital road book app with all the information about the route you need."
 
 #: ../packages.php:73
-#, fuzzy
 msgid ""
 "<!--:en-->Premium Hotel<!--:--><!--:de-->Premium Hotel<!--:--><!--:it--"
 ">Premium Hotel<!--:--><!--:fr-->Premium Hôtel<!--:-->"
 msgstr ""
 "Lean back and relax with this full service premium package. It is valid for "
 "<strong>1 car and 2 persons</strong> and includes the participation in the "
-"race, a tablet with a digital road book, 5 nights in a superior hotel, full "
-"catering (lunch/dinner/brunch), daily evening program, exclusive officially "
-"branded clothing and a safe parking area for your classic car."
+"race, 5 nights in a superior hotel, full catering (lunch/dinner/brunch), "
+"daily evening program, exclusive officially branded clothing and a safe "
+"parking area for your classic car."
 
 #: ../packages.php:76
 msgid "package__hotel"
@@ -966,7 +963,6 @@ msgstr ""
 "\">FIVA</a> apply."
 
 #: ../regulations.php:34
-#, fuzzy
 msgid ""
 "<!--:en-->Activity Gran Premio Dolomiti<!--:--><!--:de-->Ablauf Gran Premio "
 "Dolomiti<!--:--><!--:it-->Svolgimento Gran Premio Dolomiti<!--:--><!--:fr--"
@@ -974,9 +970,9 @@ msgid ""
 msgstr ""
 "Lean back and relax with this full service premium package. It is valid for "
 "<strong>1 car and 2 persons</strong> and includes the participation in the "
-"race, a tablet with a digital road book, 5 nights in a superior hotel, full "
-"catering (lunch/dinner/brunch), daily evening program, exclusive officially "
-"branded clothing and a safe parking area for your classic car."
+"race, 5 nights in a superior hotel, full catering (lunch/dinner/brunch), "
+"daily evening program, exclusive officially branded clothing and a safe "
+"parking area for your classic car."
 
 #: ../regulations.php:35
 msgid "rules__activity"
