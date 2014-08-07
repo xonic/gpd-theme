@@ -50,7 +50,7 @@ define(function()
 			{
 				this.$logo.css(
 				{
-					"margin-left":  -scrollPosY / this.thresholdLogo * 100,
+					"-webkit-transform":  "translateX(" + scrollPosY / this.thresholdLogo * 100 + "px)",
 					"opacity": opacityValue / this.thresholdLogo
 				});
 
@@ -60,7 +60,7 @@ define(function()
 			{
 				this.$branding.css(
 				{
-					"background-size":  scrollPosY / this.thresholdBackground * 15 + 100 + "%"
+					"-webkit-transform":  "translateX(-" + scrollPosY / this.thresholdBackground * 100 + "px)"
 				});
 			}
 		}

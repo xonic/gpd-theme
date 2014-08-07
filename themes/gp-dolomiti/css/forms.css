@@ -3311,8 +3311,7 @@ form {
     border-bottom: 0 solid #8b826a;
     border-bottom-width:  12px;
     border-bottom-width:  1.2rem;
-    background: url(../images/branding--about.jpg) top center no-repeat transparent;
-    background-size: 100%;
+    overflow: hidden;
   }
 }
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
@@ -3322,8 +3321,7 @@ form {
   border-bottom: 0 solid #8b826a;
   border-bottom-width:  12px;
   border-bottom-width:  1.2rem;
-  background: url(../images/branding--about.jpg) top center no-repeat transparent;
-  background-size: 100%;
+  overflow: hidden;
 }
 @media (min-width: 64em) {
   /* line 10, ../sass/imports/modules/_branding.scss */
@@ -3342,7 +3340,32 @@ form {
   border: 0 none;
 }
 
-/* line 37, ../sass/imports/modules/_branding.scss */
+@media (min-width: 48em) {
+  /* line 37, ../sass/imports/modules/_branding.scss */
+  .branding__bg {
+    position: absolute;
+    top: 0;
+    right: -100px;
+    bottom: 0;
+    left: 0;
+    background: url(../images/branding--about.jpg) top center no-repeat transparent;
+    background-size: 100%;
+    background-position: center;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .branding__bg {
+  position: absolute;
+  top: 0;
+  right: -100px;
+  bottom: 0;
+  left: 0;
+  background: url(../images/branding--about.jpg) top center no-repeat transparent;
+  background-size: 100%;
+  background-position: center;
+}
+
+/* line 52, ../sass/imports/modules/_branding.scss */
 .branding__wrapper {
   padding:  24px 0;
   padding:  2.4rem 0;
@@ -3353,7 +3376,7 @@ form {
   text-align: center;
 }
 
-/* line 44, ../sass/imports/modules/_branding.scss */
+/* line 59, ../sass/imports/modules/_branding.scss */
 .branding__logo {
   display: inline-block;
   width:  280px;
@@ -3363,13 +3386,13 @@ form {
   margin-left: 0;
   background: url(../images/gpd-logo--text.svg) top left no-repeat transparent;
   background-size: 100%;
-  -webkit-transition: margin-left 0 linear, opacity 0 linear;
-  -moz-transition: margin-left 0 linear, opacity 0 linear;
-  -o-transition: margin-left 0 linear, opacity 0 linear;
-  transition: margin-left 0 linear, opacity 0 linear;
+  -webkit-transition: -webkit-transform 0 ease-out, opacity 0 linear;
+  -moz-transition: -moz-transform 0 ease-out, opacity 0 linear;
+  -o-transition: -o-transform 0 ease-out, opacity 0 linear;
+  transition: transform 0 ease-out, opacity 0 linear;
 }
 @media (min-width: 48em) {
-  /* line 44, ../sass/imports/modules/_branding.scss */
+  /* line 59, ../sass/imports/modules/_branding.scss */
   .branding__logo {
     background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
     background-size: 100%;
@@ -3381,12 +3404,12 @@ form {
   background-size: 100%;
 }
 
-/* line 62, ../sass/imports/modules/_branding.scss */
+/* line 77, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 67, ../sass/imports/modules/_branding.scss */
+/* line 82, ../sass/imports/modules/_branding.scss */
 .event-name {
   margin: 0;
   font-size:  80px;
@@ -3403,16 +3426,16 @@ form {
   -o-transition: background-color 1s ease-in-out;
   transition: background-color 1s ease-in-out;
 }
-/* line 79, ../sass/imports/modules/_branding.scss */
+/* line 94, ../sass/imports/modules/_branding.scss */
 .event-name a {
   border-bottom: 0 none;
   color: #332e24;
 }
-/* line 84, ../sass/imports/modules/_branding.scss */
+/* line 99, ../sass/imports/modules/_branding.scss */
 .event-name a:hover {
   color: #332e24;
 }
-/* line 90, ../sass/imports/modules/_branding.scss */
+/* line 105, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  32px;
@@ -3423,7 +3446,7 @@ form {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 67, ../sass/imports/modules/_branding.scss */
+  /* line 82, ../sass/imports/modules/_branding.scss */
   .event-name {
     padding:  12px;
     padding:  1.2rem;
@@ -3435,7 +3458,7 @@ form {
     line-height:  8rem;
     text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   }
-  /* line 112, ../sass/imports/modules/_branding.scss */
+  /* line 127, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  36px;
     font-size:  3.6rem;
@@ -3455,7 +3478,7 @@ form {
   line-height:  8rem;
   text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
 }
-/* line 112, ../sass/imports/modules/_branding.scss */
+/* line 127, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  36px;
   font-size:  3.6rem;
@@ -3463,7 +3486,7 @@ form {
   line-height:  3.2rem;
 }
 @media (min-width: 64em) {
-  /* line 67, ../sass/imports/modules/_branding.scss */
+  /* line 82, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  100px;
     font-size:  10rem;
@@ -3471,7 +3494,7 @@ form {
     line-height:  9rem;
     letter-spacing: -.5rem;
   }
-  /* line 123, ../sass/imports/modules/_branding.scss */
+  /* line 138, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  38px;
     font-size:  3.8rem;
@@ -3487,7 +3510,7 @@ form {
   line-height:  9rem;
   letter-spacing: -.5rem;
 }
-/* line 123, ../sass/imports/modules/_branding.scss */
+/* line 138, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  38px;
   font-size:  3.8rem;
@@ -3495,14 +3518,14 @@ form {
   line-height:  3.4rem;
 }
 @media (min-width: 80em) {
-  /* line 67, ../sass/imports/modules/_branding.scss */
+  /* line 82, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  110px;
     font-size:  11rem;
     line-height:  100px;
     line-height:  10rem;
   }
-  /* line 133, ../sass/imports/modules/_branding.scss */
+  /* line 148, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;

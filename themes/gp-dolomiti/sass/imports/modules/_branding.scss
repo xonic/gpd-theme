@@ -17,9 +17,9 @@
 			padding: 20% 0 24%;
 			border-bottom:0 solid $olive;
 			@include rem(border-bottom-width, $singleSpace);
-			background:url(../images/branding--about.jpg) top center no-repeat transparent;
-			background-size:100%;
-
+			// background:url(../images/branding--about.jpg) top center no-repeat transparent;
+			// background-size:100%;
+			overflow:hidden;
 		}
 
 		@include at-breakpoint($huge-width)
@@ -32,6 +32,21 @@
 	}
 
 	.touch .branding a:active { border:0 none; }
+
+	.branding__bg
+	{
+		@include at-breakpoint(48em no-mq)
+		{
+			position:absolute;
+			top:0;
+			right:-100px;
+			bottom:0;
+			left:0;
+			background:url(../images/branding--about.jpg) top center no-repeat transparent;
+			background-size:100%;
+			background-position:center;
+		}
+	}
 
 	.branding__wrapper
 	{
@@ -49,7 +64,7 @@
 		background:url(../images/gpd-logo--text.svg) top left no-repeat transparent;
 		background-size:100%;
 
-		@include transition(margin-left 0 linear, opacity 0 linear);
+		@include transition(transform 0 ease-out, opacity 0 linear);
 
 		@include at-breakpoint(48em no-mq)
 		{

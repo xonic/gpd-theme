@@ -107,7 +107,8 @@
 				</div>
 			</div>
 			<div class="content">
-				<header id="js-branding" class="branding" role="banner">
+				<header class="branding" role="banner">
+					<div id="js-branding" class="branding__bg"></div>
 					<div class="branding__wrapper">
 						<a id="js-logo" class="branding__logo" href="/" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
 							<h1 class="a11y">
