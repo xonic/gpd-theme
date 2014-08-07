@@ -14,14 +14,18 @@
 		@include at-breakpoint(48em no-mq)
 		{
 			position:relative;
-			@include rem(padding, $doubleSpace * 7 0 0);
+			padding: 20% 0 24%;
 			border-bottom:0 solid $olive;
 			@include rem(border-bottom-width, $singleSpace);
+			background:url(../images/branding--about.jpg) top center no-repeat transparent;
+			background-size:100%;
+
 		}
 
-		@include at-breakpoint($huge-width no-mq)
+		@include at-breakpoint($huge-width)
 		{
-			@include rem(padding, $doubleSpace * 14 0 0);
+			padding:15% 0;
+			background-position:center;
 		}
 
 		a, a:hover { border:0 none; }
@@ -33,18 +37,25 @@
 	{
 		@include rem(padding, $doubleSpace 0);
 		@include transition(padding 1s ease-in-out);
-		background-color:$white;
-		background:rgba($white, .8);
+		text-align:center;
 	}
 
 	.branding__logo
 	{
-		display:block;
-		margin:0 auto;
-		@include rem(width, 20);
-		@include rem(height, 18.6);
-		background:url(../images/gpd-logo.svg) top left no-repeat transparent;
+		display:inline-block;
+		@include rem(width, 28);
+		@include rem(height, 11.7);
+		margin-left:0;
+		background:url(../images/gpd-logo--text.svg) top left no-repeat transparent;
 		background-size:100%;
+
+		@include transition(margin-left 0 linear, opacity 0 linear);
+
+		@include at-breakpoint(48em no-mq)
+		{
+			background:url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
+			background-size:100%;
+		}
 	}
 
 	#ie8 .branding__logo

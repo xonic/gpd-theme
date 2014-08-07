@@ -29,7 +29,7 @@
 			right:0;
 			z-index:901;
 			@include rem(padding, 0 $r-grid-padding);
-			background:rgba($blackSand,.5);
+			background:rgba($white,.5);
 			border-radius:0 0 4px 4px;
 			@include rem(line-height, 2.6);
 		}
@@ -57,25 +57,26 @@
 	{
 		a 
 		{
-			color:rgba($white, .4);
+			color:rgba($textColor, .6);
 			border:0 none;
 		}
 
 		a:hover
 		{
 			background:transparent;
-			color:$white;
+			color:$textColor;
 		}
 
 		&.active a
 		{
-			color:$white;
+			color:$textColor;
 			cursor:default;
 		}
 
 		&:after
 		{
 			content:" | ";
+			color:darken($white, 10%);
 		}
 
 		&:last-child:after

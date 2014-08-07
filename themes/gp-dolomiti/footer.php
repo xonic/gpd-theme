@@ -90,7 +90,8 @@
 				'nav'				: 'js/imports/NavController',
 				'translator'		: 'js/imports/Translator',
 				'hotelselection'	: 'js/imports/HotelSelection',
-				'collapse'			: 'js/imports/collapse'
+				'collapse'			: 'js/imports/collapse',
+				'fx'				: 'js/imports/fx'
 			},
 
 			shim:

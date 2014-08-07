@@ -88,11 +88,16 @@
 	<body <?php body_class(); ?>>
 			<div class="flyout">
 				<div class="grid cf">
-					<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 					<!--[if lte IE 8]>
 					<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--on-dark--ie.png" alt="Gran Premio Dolomiti Logo">
 					<![endif]-->
-					<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--on-dark.svg" alt="Gran Premio Dolomiti Logo" width="72" height="44">
+					<a href="/" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
+						<div class="nav-logo">
+							<img class="nav-logo__mountains" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--mountains--dark.svg" alt="Gran Premio Dolomiti Logo"	>
+							<img class="nav-logo__text" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--text.svg" alt="Gran Premio Dolomiti Logo"	>
+						</div>
+					</a>
+					<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 					<nav class="nav-main">
 						<? wp_nav_menu( array( 'theme_location' => 'nav-main' ) ); ?>
 					</nav>
@@ -102,9 +107,9 @@
 				</div>
 			</div>
 			<div class="content">
-				<header class="branding" role="banner">
+				<header id="js-branding" class="branding" role="banner">
 					<div class="branding__wrapper">
-						<a class="branding__logo" href="/" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
+						<a id="js-logo" class="branding__logo" href="/" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
 							<h1 class="a11y">
 								Gran Premio Dolomiti
 							</h1>

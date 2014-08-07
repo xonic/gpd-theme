@@ -2620,7 +2620,7 @@ form {
     z-index: 901;
     padding:  0 10px;
     padding:  0 1rem;
-    background: rgba(51, 46, 36, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 0 0 4px 4px;
     line-height:  26px;
     line-height:  2.6rem;
@@ -2636,7 +2636,7 @@ form {
   z-index: 901;
   padding:  0 10px;
   padding:  0 1rem;
-  background: rgba(51, 46, 36, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 0 0 4px 4px;
   line-height:  26px;
   line-height:  2.6rem;
@@ -2665,24 +2665,25 @@ form {
 
 /* line 59, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(76, 69, 53, 0.6);
   border: 0 none;
 }
 /* line 65, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a:hover {
   background: transparent;
-  color: white;
+  color: #4c4535;
 }
 /* line 71, ../sass/imports/modules/_lang.scss */
 [class^="lang-"].active a {
-  color: white;
+  color: #4c4535;
   cursor: default;
 }
 /* line 77, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:after {
   content: " | ";
+  color: #e6e6e6;
 }
-/* line 82, ../sass/imports/modules/_lang.scss */
+/* line 83, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:last-child:after {
   content: none;
 }
@@ -2701,45 +2702,42 @@ form {
   /* line 10, ../sass/imports/modules/_branding.scss */
   .branding {
     position: relative;
-    padding:  168px 0 0;
-    padding:  16.8rem 0 0;
+    padding: 20% 0 24%;
     border-bottom: 0 solid #8b826a;
     border-bottom-width:  12px;
     border-bottom-width:  1.2rem;
+    background: url(../images/branding--about.jpg) top center no-repeat transparent;
+    background-size: 100%;
   }
 }
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .branding {
   position: relative;
-  padding:  168px 0 0;
-  padding:  16.8rem 0 0;
+  padding: 20% 0 24%;
   border-bottom: 0 solid #8b826a;
   border-bottom-width:  12px;
   border-bottom-width:  1.2rem;
+  background: url(../images/branding--about.jpg) top center no-repeat transparent;
+  background-size: 100%;
 }
 @media (min-width: 64em) {
   /* line 10, ../sass/imports/modules/_branding.scss */
   .branding {
-    padding:  336px 0 0;
-    padding:  33.6rem 0 0;
+    padding: 15% 0;
+    background-position: center;
   }
 }
-/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
-.no-mq .branding {
-  padding:  336px 0 0;
-  padding:  33.6rem 0 0;
-}
-/* line 27, ../sass/imports/modules/_branding.scss */
+/* line 31, ../sass/imports/modules/_branding.scss */
 .branding a, .branding a:hover {
   border: 0 none;
 }
 
-/* line 30, ../sass/imports/modules/_branding.scss */
+/* line 34, ../sass/imports/modules/_branding.scss */
 .touch .branding a:active {
   border: 0 none;
 }
 
-/* line 33, ../sass/imports/modules/_branding.scss */
+/* line 37, ../sass/imports/modules/_branding.scss */
 .branding__wrapper {
   padding:  24px 0;
   padding:  2.4rem 0;
@@ -2747,28 +2745,43 @@ form {
   -moz-transition: padding 1s ease-in-out;
   -o-transition: padding 1s ease-in-out;
   transition: padding 1s ease-in-out;
-  background-color: white;
-  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
 }
 
-/* line 41, ../sass/imports/modules/_branding.scss */
+/* line 44, ../sass/imports/modules/_branding.scss */
 .branding__logo {
-  display: block;
-  margin: 0 auto;
-  width:  200px;
-  width:  20rem;
-  height:  186px;
-  height:  18.6rem;
-  background: url(../images/gpd-logo.svg) top left no-repeat transparent;
+  display: inline-block;
+  width:  280px;
+  width:  28rem;
+  height:  117px;
+  height:  11.7rem;
+  margin-left: 0;
+  background: url(../images/gpd-logo--text.svg) top left no-repeat transparent;
+  background-size: 100%;
+  -webkit-transition: margin-left 0 linear, opacity 0 linear;
+  -moz-transition: margin-left 0 linear, opacity 0 linear;
+  -o-transition: margin-left 0 linear, opacity 0 linear;
+  transition: margin-left 0 linear, opacity 0 linear;
+}
+@media (min-width: 48em) {
+  /* line 44, ../sass/imports/modules/_branding.scss */
+  .branding__logo {
+    background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
+    background-size: 100%;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .branding__logo {
+  background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
   background-size: 100%;
 }
 
-/* line 51, ../sass/imports/modules/_branding.scss */
+/* line 62, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 56, ../sass/imports/modules/_branding.scss */
+/* line 67, ../sass/imports/modules/_branding.scss */
 .event-name {
   margin: 0;
   font-size:  80px;
@@ -2785,16 +2798,16 @@ form {
   -o-transition: background-color 1s ease-in-out;
   transition: background-color 1s ease-in-out;
 }
-/* line 68, ../sass/imports/modules/_branding.scss */
+/* line 79, ../sass/imports/modules/_branding.scss */
 .event-name a {
   border-bottom: 0 none;
   color: #332e24;
 }
-/* line 73, ../sass/imports/modules/_branding.scss */
+/* line 84, ../sass/imports/modules/_branding.scss */
 .event-name a:hover {
   color: #332e24;
 }
-/* line 79, ../sass/imports/modules/_branding.scss */
+/* line 90, ../sass/imports/modules/_branding.scss */
 .event-name small {
   color: #332e24;
   font-size:  32px;
@@ -2805,7 +2818,7 @@ form {
   letter-spacing: -.1rem;
 }
 @media (min-width: 37.5em) {
-  /* line 56, ../sass/imports/modules/_branding.scss */
+  /* line 67, ../sass/imports/modules/_branding.scss */
   .event-name {
     padding:  12px;
     padding:  1.2rem;
@@ -2817,7 +2830,7 @@ form {
     line-height:  8rem;
     text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
   }
-  /* line 101, ../sass/imports/modules/_branding.scss */
+  /* line 112, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  36px;
     font-size:  3.6rem;
@@ -2837,7 +2850,7 @@ form {
   line-height:  8rem;
   text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white, 0 0 10px white, 0 0 10px white, 0 0 5px white;
 }
-/* line 101, ../sass/imports/modules/_branding.scss */
+/* line 112, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  36px;
   font-size:  3.6rem;
@@ -2845,7 +2858,7 @@ form {
   line-height:  3.2rem;
 }
 @media (min-width: 64em) {
-  /* line 56, ../sass/imports/modules/_branding.scss */
+  /* line 67, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  100px;
     font-size:  10rem;
@@ -2853,7 +2866,7 @@ form {
     line-height:  9rem;
     letter-spacing: -.5rem;
   }
-  /* line 112, ../sass/imports/modules/_branding.scss */
+  /* line 123, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  38px;
     font-size:  3.8rem;
@@ -2869,7 +2882,7 @@ form {
   line-height:  9rem;
   letter-spacing: -.5rem;
 }
-/* line 112, ../sass/imports/modules/_branding.scss */
+/* line 123, ../sass/imports/modules/_branding.scss */
 .no-mq .event-name small {
   font-size:  38px;
   font-size:  3.8rem;
@@ -2877,14 +2890,14 @@ form {
   line-height:  3.4rem;
 }
 @media (min-width: 80em) {
-  /* line 56, ../sass/imports/modules/_branding.scss */
+  /* line 67, ../sass/imports/modules/_branding.scss */
   .event-name {
     font-size:  110px;
     font-size:  11rem;
     line-height:  100px;
     line-height:  10rem;
   }
-  /* line 122, ../sass/imports/modules/_branding.scss */
+  /* line 133, ../sass/imports/modules/_branding.scss */
   .event-name small {
     font-size:  39px;
     font-size:  3.9rem;
