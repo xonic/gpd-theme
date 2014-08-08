@@ -23,7 +23,7 @@ define(function()
 
 		thresholdLogo: 300,
 
-		thresholdBackground: 600,
+		thresholdBackground: 700,
 
 		init: function()
 		{
