@@ -90,6 +90,7 @@
 				'nav'				: 'js/imports/NavController',
 				'translator'		: 'js/imports/Translator',
 				'hotelselection'	: 'js/imports/HotelSelection',
+				'scrollcontroller'	: 'js/imports/ScrollController',
 				'collapse'			: 'js/imports/collapse',
 				'fx'				: 'js/imports/fx'
 			},

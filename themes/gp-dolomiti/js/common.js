@@ -1,5 +1,5 @@
 
-require(["nav", "translator", "hotelselection", "collapse", "fx", "modernizr"], function(NavController, Translator, HotelSelection, Collapse, FX)
+require(["nav", "translator", "hotelselection", "collapse", "fx", "scrollcontroller", "modernizr"], function(NavController, Translator, HotelSelection, Collapse, FX, ScrollController)
 {
 	// Add this event listener to prevent mobile safari 
 	// from disabling the ::active pseudo class
@@ -11,4 +11,5 @@ require(["nav", "translator", "hotelselection", "collapse", "fx", "modernizr"], 
 	HotelSelection.init();
 	Collapse.listen();
 	FX.init();
+	ScrollController.init();
 });

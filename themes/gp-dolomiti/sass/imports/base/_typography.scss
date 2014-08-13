@@ -85,19 +85,6 @@
 		@include at-breakpoint($bodyLarge)
 		{
 			@include setType($bodyFontSize--large, $bodyLineHeight--large);
-			
-			&:before
-			{
-				content:" ";
-				position:absolute;
-				top:0;
-				right:0;
-				left:0;
-				@include rem(height, $doubleSpace * 40);
-				background:url(../images/branding-bg-2.jpg) 50% 48px no-repeat;
-				background-size:100%;
-				background-attachment:fixed;
-			}
 		}
 
 
@@ -131,113 +118,50 @@
 		// }
 	}
 
-	.page-template-timetable-php
-	{
-		@include at-breakpoint($bodyLarge)
-		{
-			@include setType($bodyFontSize--large, $bodyLineHeight--large);
-			
-			&:before
-			{
-				background-image:url(../images/branding-bg-program.jpg);
-			}
-		}
-	}
+	
 
-	.page-template-packages-php
-	{
-		@include at-breakpoint($bodyLarge)
-		{
-			@include setType($bodyFontSize--large, $bodyLineHeight--large);
-			
-			&:before
-			{
-				background-image:url(../images/branding-bg-packages.jpg);
-			}
-		}
-	}
+	// #ie7 body,
+	// #ie8 body
+	// {
+	// 	background:url(../images/branding-bg-2.jpg) top center no-repeat;
+	// 	background-size:100% auto;
+ //   		-ms-behavior: $backgroundSizePolyfillUrl;
 
-	.page-template-regulations-php
-	{
-		@include at-breakpoint($bodyLarge)
-		{
-			@include setType($bodyFontSize--large, $bodyLineHeight--large);
-			
-			&:before
-			{
-				background-image:url(../images/branding-bg-regulations.jpg);
-			}
-		}
-	}
+ //   		&:after
+ //   		{
+ //   			content:none;
+ //   		}
+	// }
 
-	.page-template-contact-php
-	{
-		@include at-breakpoint($bodyLarge)
-		{
-			@include setType($bodyFontSize--large, $bodyLineHeight--large);
-			
-			&:before
-			{
-				background-image:url(../images/branding-bg-contact.jpg);
-			}
-		}
-	}
+	// #ie7 .page-template-timetable-php,
+	// #ie8 .page-template-timetable-php
+	// {
+	// 	background-image:url(../images/branding-bg-program.jpg);
+	// }
 
-	.page-template-default
-	{
-		@include at-breakpoint($bodyLarge)
-		{
-			@include setType($bodyFontSize--large, $bodyLineHeight--large);
-			
-			&:before
-			{
-				background-image:none;
-			}
-		}
-	}
+	// #ie7 .page-template-packages-php,
+	// #ie8 .page-template-packages-php
+	// {
+	// 	background-image:url(../images/branding-bg-packages.jpg);
+	// }
 
-	#ie7 body,
-	#ie8 body
-	{
-		background:url(../images/branding-bg-2.jpg) top center no-repeat;
-		background-size:100% auto;
-   		-ms-behavior: $backgroundSizePolyfillUrl;
+	// #ie7 .page-template-regulations-php,
+	// #ie8 .page-template-regulations-php
+	// {
+	// 	background-image:url(../images/branding-bg-regulations.jpg);
+	// }
 
-   		&:after
-   		{
-   			content:none;
-   		}
-	}
+	// #ie7 .page-template-contact-php,
+	// #ie8 .page-template-contact-php
+	// {
+	// 	background-image:url(../images/branding-bg-contact.jpg);
+	// }
 
-	#ie7 .page-template-timetable-php,
-	#ie8 .page-template-timetable-php
-	{
-		background-image:url(../images/branding-bg-program.jpg);
-	}
-
-	#ie7 .page-template-packages-php,
-	#ie8 .page-template-packages-php
-	{
-		background-image:url(../images/branding-bg-packages.jpg);
-	}
-
-	#ie7 .page-template-regulations-php,
-	#ie8 .page-template-regulations-php
-	{
-		background-image:url(../images/branding-bg-regulations.jpg);
-	}
-
-	#ie7 .page-template-contact-php,
-	#ie8 .page-template-contact-php
-	{
-		background-image:url(../images/branding-bg-contact.jpg);
-	}
-
-	#ie7 .page-template-default,
-	#ie8 .page-template-default
-	{
-		background-image:none;
-	}
+	// #ie7 .page-template-default,
+	// #ie8 .page-template-default
+	// {
+	// 	background-image:none;
+	// }
 
 
 	p

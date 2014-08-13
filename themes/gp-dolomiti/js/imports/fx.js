@@ -19,9 +19,13 @@ define(function()
 
 		$logo: null,
 
+		$scrollLink: null,
+
 		$window: null,
 
 		thresholdLogo: 300,
+
+		thresholdLink: 300,
 
 		thresholdBackground: 700,
 
@@ -29,6 +33,7 @@ define(function()
 		{
 			this.$branding = $("#js-branding");
 			this.$logo = $("#js-logo");
+			this.$scrollLink = $(".js-scrollto");
 			this.$window = $(window);
 			this.bindScrollListener();
 			this.onscroll();
@@ -43,15 +48,29 @@ define(function()
 
 		onscroll: function()
 		{
-			var opacityValue = this.thresholdLogo - this.$window.scrollTop(),
+			var opacityLogo = this.thresholdLogo - this.$window.scrollTop(),
+				opacityLink = this.thresholdLink - this.$window.scrollTop(),
 				scrollPosY = this.$window.scrollTop();
+
+
+			if(scrollPosY > this.thresholdBackground) return;
 
 			if(scrollPosY >= 0 && scrollPosY <= this.thresholdLogo)
 			{
 				this.$logo.css(
 				{
-					"-webkit-transform":  "translateX(" + scrollPosY / this.thresholdLogo * 100 + "px)",
-					"opacity": opacityValue / this.thresholdLogo
+					"transform":  "translateX(" + scrollPosY / this.thresholdLogo * 100 + "px)",
+					"opacity": opacityLogo / this.thresholdLogo
+				});
+
+			}
+
+			if(scrollPosY >= 0 && scrollPosY <= this.thresholdLink)
+			{
+				this.$scrollLink.css(
+				{
+					"transform":  "translateX(" + -scrollPosY / this.thresholdLink * 300 + "px)",
+					"opacity": opacityLink / this.thresholdLink
 				});
 
 			}
@@ -60,7 +79,7 @@ define(function()
 			{
 				this.$branding.css(
 				{
-					"-webkit-transform":  "translateX(-" + scrollPosY / this.thresholdBackground * 100 + "px)"
+					"transform":  "translateX(-" + scrollPosY / this.thresholdBackground * 100 + "px)"
 				});
 			}
 		}

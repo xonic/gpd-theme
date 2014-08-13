@@ -115,7 +115,8 @@
 								Gran Premio Dolomiti
 							</h1>
 						</a>
+						<a class="js-scrollto down-arrow" href="#main">Scroll</a>
 					</div>
 				</header>
 
-				<div class="content__inner">
+				<div id="main" class="content__inner">

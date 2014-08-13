@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="540px"
+	 height="540px" viewBox="0 0 540 540" enable-background="new 0 0 540 540" xml:space="preserve">
+<g id="mountains" display="none">
+</g>
+<g id="car" display="none">
+</g>
+<g id="Layer_5">
+	<g>
+		<g>
+			<path fill="#FFFFFF" d="M270,40c31.1,0,61.2,6.1,89.5,18.1c27.4,11.6,52,28.2,73.1,49.3c21.1,21.1,37.7,45.7,49.3,73.1
+				c12,28.3,18.1,58.4,18.1,89.5s-6.1,61.2-18.1,89.5c-11.6,27.4-28.2,52-49.3,73.1c-21.1,21.1-45.7,37.7-73.1,49.3
+				c-28.3,12-58.4,18.1-89.5,18.1s-61.2-6.1-89.5-18.1c-27.4-11.6-52-28.2-73.1-49.3c-21.1-21.1-37.7-45.7-49.3-73.1
+				C46.1,331.2,40,301.1,40,270s6.1-61.2,18.1-89.5c11.6-27.4,28.2-52,49.3-73.1c21.1-21.1,45.7-37.7,73.1-49.3
+				C208.8,46.1,238.9,40,270,40 M270,0C120.9,0,0,120.9,0,270s120.9,270,270,270s270-120.9,270-270S419.1,0,270,0L270,0z"/>
+		</g>
+		<polygon fill="#FFFFFF" points="412.5,152.9 270,240.8 127.5,152.8 270,435.2 		"/>
+	</g>
+</g>
+</svg>

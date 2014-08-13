@@ -43,10 +43,63 @@
 			bottom:0;
 			left:0;
 			background:url(../images/branding--about.jpg) top center no-repeat transparent;
-			background-size:100%;
+			background-size:105%;
 			background-position:center;
 		}
 	}
+
+	.page-template-timetable-php .branding__bg
+	{
+		@include at-breakpoint(48em no-mq)
+		{
+			background:url(../images/branding--timetable.jpg) top center no-repeat transparent;
+			background-size:105%;
+			background-position:center;
+		}
+	}
+
+	.page-template-packages-php .branding__bg
+	{
+		@include at-breakpoint(48em no-mq)
+		{
+			background:url(../images/branding--packages.jpg) top center no-repeat transparent;
+			background-size:105%;
+			background-position:center;
+		}
+	}
+
+	.page-template-regulations-php .branding__bg
+	{
+		@include at-breakpoint(48em no-mq)
+		{
+			background:url(../images/branding--regulations.jpg) top center no-repeat transparent;
+			background-size:105%;
+			background-position:center;
+		}
+	}
+
+	.page-template-contact-php .branding__bg
+	{
+		@include at-breakpoint(48em no-mq)
+		{
+			background:url(../images/branding--contact.jpg) top center no-repeat transparent;
+			background-size:105%;
+			background-position:center;
+		}
+	}
+
+	// .page-template-default .branding__bg
+	// {
+	// 	@include at-breakpoint($bodyLarge)
+	// 	{
+	// 		@include setType($bodyFontSize--large, $bodyLineHeight--large);
+			
+	// 		&:before
+	// 		{
+	// 			background-image:none;
+	// 		}
+	// 	}
+	// }
 
 	.branding__wrapper
 	{
@@ -76,6 +129,22 @@
 	#ie8 .branding__logo
 	{
 		background:url(../images/gpd-logo--ie.png) top left no-repeat transparent;
+	}
+
+	.down-arrow
+	{
+		display:block;
+		position:relative;
+		z-index:1;
+		@include rem(margin, $doubleSpace auto 0);
+		@include rem(width, 7);
+		@include rem(height, 7);
+		background:url(../images/gpd-down-arrow.svg) top left no-repeat transparent;
+		background-size:100%;
+		text-indent:-999em;
+		overflow:hidden;
+
+		@include transition(transform 0 ease-out, opacity 0 linear);
 	}
 
 	.event-name

@@ -26,7 +26,7 @@ get_header(); ?>
 		<?
 			$today = getdate();
 
-			if(do_shortcode('[ATTENDEE_NUMBERS event_id="1" type="num_attendees"]') < 20 && $today[mon] <= 2 && $today[year] === 2014) { ?>
+			if(do_shortcode('[ATTENDEE_NUMBERS event_id="1" type="num_attendees"]') < 20 && $today['mon'] <= 2 && $today['year'] === 2014) { ?>
 				
 				<div class="msg msg--success msg--has-icon space-lover">
 					<div class="msg__title"><i class="fa fa-fw fa-thumbs-o-up"></i>Early Bird</div>
