@@ -28,7 +28,6 @@
 	@import "imports/patterns/clearfix";
 	@import "imports/patterns/nav";
 	@import "imports/patterns/media";
-	@import "imports/patterns/collapse";
 	@import "imports/patterns/global-states";
 	@import "imports/patterns/style";
 
@@ -37,6 +36,7 @@
 	@import "imports/base/images";
 
 	// Modules
+	@import "imports/modules/collapsible";
 	@import "imports/modules/nav-main";
 	@import "imports/modules/button";
 	@import "imports/modules/sections";

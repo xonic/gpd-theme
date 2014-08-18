@@ -1,0 +1,17 @@
+//  ---------------------------------------------------------------------------
+//
+//  Defines the layout for the side navigation area.
+//
+//  ---------------------------------------------------------------------------
+
+
+.collapsible
+{
+	height:0;
+	overflow:hidden;
+}
+
+.csstransitions .collapsible--is-animating
+{
+	@include transition(height .3s ease-in-out);
+}

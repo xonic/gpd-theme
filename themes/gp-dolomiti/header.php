@@ -86,26 +86,24 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-			<div class="flyout">
-				<div class="grid cf">
-					<!--[if lte IE 8]>
-					<img class="mountains" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--on-dark--ie.png" alt="Gran Premio Dolomiti Logo">
-					<![endif]-->
-					<a href="/" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
-						<div class="nav-logo">
-							<img class="nav-logo__mountains" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--mountains--dark.svg" alt="Gran Premio Dolomiti Logo"	>
-							<img class="nav-logo__text" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--text.svg" alt="Gran Premio Dolomiti Logo"	>
-						</div>
-					</a>
-					<a class="flyout__toggle js-flyout__toggle" href="javascript:void(0)"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
-					<nav class="nav-main">
-						<? wp_nav_menu( array( 'theme_location' => 'nav-main' ) ); ?>
-					</nav>
-					<div class="lang">
-						<?php echo qtrans_generateLanguageSelectCode('text'); ?>
-					</div>
+		<a href="/" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
+			<div class="logo">
+				<img class="logo__mountains" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--mountains--dark.svg" alt="Gran Premio Dolomiti Logo"	>
+				<img class="logo__text" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--text.svg" alt="Gran Premio Dolomiti Logo"	>
+			</div>
+		</a>
+		<a class="btn btn--primary btn--right-aligned btn--register" href="<? echo get_permalink( get_page_by_path( 'register' ) ); ?>" title="<? _e('<!--:en-->Register now<!--:--><!--:de-->Jetzt anmelden<!--:--><!--:it-->Registra adesso<!--:--><!--:fr-->Inscrivez-vous<!--:-->'); ?>"><? echo get_the_title( get_page_by_path( 'register' ) ); ?></a>
+		<a class="flyout__toggle js-collapsible__toggle" href="#js-collapsible--nav"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+		<div id="js-collapsible--nav" class="flyout js-collapsible collapsible">
+			<div class="js-collapsible__inner">
+				<nav class="nav-main">
+					<? wp_nav_menu( array( 'theme_location' => 'nav-main' ) ); ?>
+				</nav>
+				<div class="lang">
+					<?php echo qtrans_generateLanguageSelectCode('text'); ?>
 				</div>
 			</div>
+		</div>
 			<div class="content">
 				<header class="branding" role="banner">
 					<div id="js-branding" class="branding__bg"></div>

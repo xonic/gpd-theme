@@ -91,7 +91,7 @@
 				'translator'		: 'js/imports/Translator',
 				'hotelselection'	: 'js/imports/HotelSelection',
 				'scrollcontroller'	: 'js/imports/ScrollController',
-				'collapse'			: 'js/imports/collapse',
+				'collapse'			: 'js/imports/CollapsingController',
 				'fx'				: 'js/imports/fx'
 			},
 

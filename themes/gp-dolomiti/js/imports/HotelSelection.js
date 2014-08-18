@@ -27,7 +27,7 @@ define(["jquery"], function($)
 
 		init: function()
 		{
-			this.$packageSelect = $("#price_option-1");
+			this.$packageSelect = $("[name='price_option']");
 			this.$hotelGroup = $(".js-hotel-group");
 			this.$hotelDropdowns = $("[class*='js-hotel-suite-']");
 

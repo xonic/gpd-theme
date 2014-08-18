@@ -30,7 +30,6 @@
 	@import "imports/patterns/media";
 	@import "imports/patterns/global-states";
 	@import "imports/patterns/style";
-	@import "imports/patterns/collapse";
 	// @import "imports/patterns/font-awesome";
 	
 
@@ -39,25 +38,9 @@
 	@import "imports/base/images";
 
 	// Modules
-	// @import "imports/modules/content-primary";
-	// @import "imports/modules/meta-info";
+	@import "imports/modules/collapsible";
 	@import "imports/modules/button";
-	// @import "imports/modules/box";
-	// @import "imports/modules/nav-bar";
-	// @import "imports/modules/accordion";
-	// @import "imports/modules/tab-nav";
-	// @import "imports/modules/pagination";
 	@import "imports/modules/forms";
-	// @import "imports/modules/table";
-	// @import "imports/modules/wizard-h";
-	// @import "imports/modules/wizard-v";
-	// @import "imports/patterns/colors";
-	// @import "imports/modules/panel";
-	// @import "imports/modules/placeholders";
-	// @import "imports/modules/progress-bar";
-	// @import "imports/modules/spinner";
-	// @import "imports/modules/calendar";
-	// @import "imports/modules/flyout";
 	@import "imports/modules/sections";
 	@import "imports/modules/map";
 	@import "imports/modules/lang";

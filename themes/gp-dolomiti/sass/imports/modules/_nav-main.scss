@@ -6,48 +6,35 @@
 //
 //  ---------------------------------------------------------------------------
 
-	// The height of the navigation 
-	// when open on small screens
-	$navHeight: 34.2;
-	
 	// Add a minor breakpoint to 
 	// allow for all menu items to fit
 	$navLarge:48em;
 
+	.btn--register
+	{
+		float:right;
+	}
+
 	.flyout
 	{
-		position:absolute;
-		top:0;
-		right:0;
-		left:0;
-		background:$white;
-
-		.grid
-		{
-			position:relative;
-			@include rem(min-height, $touchSize);
-		}
+		background:$blackSand;
+		clear:both;
 
 		a
 		{
 			border:0 none;
-			color:$textColor;
-		}
-
-		@include at-breakpoint($navLarge no-mq)
-		{
-			position:static;
+			color:$white;
 		}
 	}
 
 	.flyout__toggle
 	{
 		display:block;
-		float:right;
+		float:left;
 		position:relative;
 		@include rem(width, $touchSize);
 		@include rem(height, $touchSize);
-		@include rem(margin-left, -$r-grid-padding);
+		border:0 none;
 		@include rem(line-height, $touchSize);
 		@include rem(font-size, $h3Size);
 		text-align:center;
@@ -88,7 +75,7 @@
 		background:$primaryAccent;
 	}
 
-	.nav-is-shown .flyout__toggle
+	.flyout--is-shown .flyout__toggle
 	{
 		.fa-bars
 		{
@@ -103,48 +90,13 @@
 		}
 	}
 
-	.nav-logo
-	{
-		float:left;
-		@include rem(max-height, $touchSize);
-		@include rem(margin-right, $doubleSpace);
-		@include rem(padding, $singleSpace 0);
-		white-space:nowrap;
-
-		img
-		{
-			@include rem(max-height, $touchSize - $doubleSpace);
-		}
-
-		& + .nav-logo
-		{
-			display:none;
-		}
-	}
-
-	.nav-logo__text
-	{
-		display:none;
-
-		@include at-breakpoint(48em no-mq)
-		{
-			display:inline;
-		}
-	}
-
-	#ie7 .nav-logo,
-	#ie8 .nav-logo
-	{
-   		@include rem(margin-top, .9);
-	}
-
 	.nav-main 
 	{
 		.menu-hauptmenue-container
 		{
-			@include rem(margin, $touchSize 0 0);
 			@include transform(scale3d(.8, .8, .8) translate3d(0, 25px, 0));
-			@include transition(transform .3s ease);
+			@include transition(transform .3s ease, opacity .3s linear);
+			opacity:0;
 
 			ul
 			{
@@ -153,7 +105,7 @@
 
 			a 
 			{
-				color:rgba($textColor, .6);
+				color:rgba($white, .6);
 			}
 
 			.menu-item--primary a
@@ -168,7 +120,7 @@
 
 			.current-menu-item a
 			{
-				color:$textColor;
+				color:$white;
 			}
 
 			@include at-breakpoint($navLarge no-mq)
@@ -195,12 +147,12 @@
 		{
 			display:block;
 			@include bleed;
-			border-bottom:0 solid darken($white, 10%);
+			border-bottom:0 solid lighten($blackSand, 5%);
 			@include rem(border-bottom-width, $borderThin);
 			font-family:$headingsFontFamily;
 			@include setType($h3Size, $touchSize);
 			text-align:center;
-			text-transform:uppercase;
+			// text-transform:uppercase;
 
 			@include at-breakpoint($navLarge no-mq)
 			{
@@ -238,54 +190,10 @@
 		color:$white;
 	}
 
-	.nav-is-shown .nav-main .menu-hauptmenue-container
+	.collapsible--is-expanded .nav-main .menu-hauptmenue-container
 	{
 		@include transform(scale3d(1,1,1) translate3d(0,0,0));
-	}
-
-	.content
-	{
-		position:relative;
-		@include rem(margin-top, $touchSize);
-		background:$white;
-		@include transition(transform .3s ease);
-
-		@include at-breakpoint($navLarge no-mq)
-		{
-			margin-top:0;
-			background:transparent;
-		}
-	}
-
-	.content__inner
-	{
-		background:$white;
-
-		@include at-breakpoint($navLarge no-mq)
-		{
-			@include rem(padding-top, $doubleSpace);
-		}
-	}
-
-	.csstransforms3d .nav-is-shown .content
-	{
-		@include transform(translate3d(0, $navHeight * 10px, 0));
-		@include rem(margin-top, $touchSize);
-
-		@include at-breakpoint($navLarge no-mq)
-		{
-			@include transform(translate3d(0, 0, 0));
-		}
-	}
-
-	.nav-is-shown .content
-	{
-		@include rem(margin-top, $navHeight + $touchSize);
-
-		@include at-breakpoint($navLarge no-mq)
-		{
-			@include rem(margin-top, $touchSize);
-		}
+		opacity:1;
 	}
 
 
