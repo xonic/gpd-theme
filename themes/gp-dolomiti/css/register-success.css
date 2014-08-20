@@ -1901,9 +1901,31 @@ object {
     position: relative;
     display: inline-block;
   }
+  /* line 95, ../sass/imports/modules/_branding.scss */
+  .branding__tagline-container:before {
+    content: " ";
+    position: absolute;
+    top:  -150px;
+    top:  -15rem;
+    right:  -150px;
+    right:  -15rem;
+    bottom:  -150px;
+    bottom:  -15rem;
+    left:  -150px;
+    left:  -15rem;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 70, color-stop(0%, rgba(255, 255, 255, 0.8)), color-stop(70%, rgba(255, 255, 255, 0)));
+    background: -webkit-radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
+    background: -moz-radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
+    background: -o-radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
+  }
+  /* line 106, ../sass/imports/modules/_branding.scss */
+  .branding__tagline-container > div {
+    position: relative;
+  }
 }
 
-/* line 97, ../sass/imports/modules/_branding.scss */
+/* line 113, ../sass/imports/modules/_branding.scss */
 .branding__subtagline {
   padding-left:  14px;
   padding-left:  1.4rem;
@@ -1915,7 +1937,7 @@ object {
 }
 
 @media (min-width: 48em) {
-  /* line 105, ../sass/imports/modules/_branding.scss */
+  /* line 121, ../sass/imports/modules/_branding.scss */
   .page-template-timetable-php .branding__bg {
     background: url(../images/branding--timetable.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -1930,7 +1952,7 @@ object {
 }
 
 @media (min-width: 48em) {
-  /* line 115, ../sass/imports/modules/_branding.scss */
+  /* line 131, ../sass/imports/modules/_branding.scss */
   .page-template-packages-php .branding__bg {
     background: url(../images/branding--packages.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -1945,7 +1967,7 @@ object {
 }
 
 @media (min-width: 48em) {
-  /* line 125, ../sass/imports/modules/_branding.scss */
+  /* line 141, ../sass/imports/modules/_branding.scss */
   .page-template-regulations-php .branding__bg {
     background: url(../images/branding--regulations.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -1960,7 +1982,7 @@ object {
 }
 
 @media (min-width: 48em) {
-  /* line 135, ../sass/imports/modules/_branding.scss */
+  /* line 151, ../sass/imports/modules/_branding.scss */
   .page-template-contact-php .branding__bg {
     background: url(../images/branding--contact.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -1974,7 +1996,7 @@ object {
   background-position: center;
 }
 
-/* line 158, ../sass/imports/modules/_branding.scss */
+/* line 174, ../sass/imports/modules/_branding.scss */
 .branding__logo {
   display: inline-block;
   width:  280px;
@@ -1990,7 +2012,7 @@ object {
   transition: transform 0 ease-out, opacity 0 linear;
 }
 @media (min-width: 48em) {
-  /* line 158, ../sass/imports/modules/_branding.scss */
+  /* line 174, ../sass/imports/modules/_branding.scss */
   .branding__logo {
     background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
     background-size: 100%;
@@ -2002,12 +2024,12 @@ object {
   background-size: 100%;
 }
 
-/* line 176, ../sass/imports/modules/_branding.scss */
+/* line 192, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 181, ../sass/imports/modules/_branding.scss */
+/* line 197, ../sass/imports/modules/_branding.scss */
 .down-arrow {
   display: block;
   position: relative;
