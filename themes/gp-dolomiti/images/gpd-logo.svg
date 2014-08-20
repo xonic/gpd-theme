@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1236.2px" height="1153.6px" viewBox="0 0 1236.2 1153.6" enable-background="new 0 0 1236.2 1153.6" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1223.6px" height="988.3px" viewBox="12.6 0 1223.6 988.3" enable-background="new 12.6 0 1223.6 988.3"
+	 xml:space="preserve">
 <g id="mountains" display="none">
 </g>
 <g id="car" display="none">
 </g>
 <g id="Layer_5">
 	<g>
-		<text transform="matrix(1 0 0 1 19.144 1121.937)"><tspan x="0" y="0" fill="#4C4535" font-family="'FuturaLT'" font-size="116.4921" letter-spacing="-1">c</tspan><tspan x="50" y="0" fill="#4C4535" font-family="'FuturaLT'" font-size="116.4921">lassic cars &amp; fine dining</tspan></text>
-		<text transform="matrix(1 0 0 1 0 975.8442)"><tspan x="0" y="0" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="300.3815" letter-spacing="-7">D</tspan><tspan x="188.3" y="0" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="300.3815" letter-spacing="-19">OL</tspan><tspan x="504" y="0" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="300.3815" letter-spacing="-13">O</tspan><tspan x="747" y="0" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="300.3815" letter-spacing="-7">MITI</tspan></text>
-		<text transform="matrix(1 0 0 1 20.0649 686.0898)"><tspan x="0" y="0" fill="#4C4535" font-family="'FuturaLT'" font-size="114.653" letter-spacing="45">GRAN PR</tspan><tspan x="795.5" y="0" fill="#4C4535" font-family="'FuturaLT'" font-size="114.653" letter-spacing="50">E</tspan><tspan x="905.6" y="0" fill="#4C4535" font-family="'FuturaLT'" font-size="114.653" letter-spacing="45">MI</tspan><tspan x="1121.5" y="0" fill="#4C4535" font-family="'FuturaLT'" font-size="114.653" letter-spacing="20">O</tspan></text>
+		
+			<text transform="matrix(1 0 0 1 4.882812e-04 975.8447)" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="300.3815" letter-spacing="-6">D</text>
+		
+			<text transform="matrix(1 0 0 1 188.3003 975.8447)" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="300.3815" letter-spacing="-18">OL</text>
+		
+			<text transform="matrix(1 0 0 1 504.0005 975.8447)" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="300.3815" letter-spacing="-12">O</text>
+		
+			<text transform="matrix(1 0 0 1 747.0005 975.8447)" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="300.3815" letter-spacing="-6">MITI</text>
+		
+			<text transform="matrix(1 0 0 1 20.0649 686.0898)" fill="#4C4535" font-family="'FuturaLT'" font-size="114.653" letter-spacing="44">GRAN PR</text>
+		
+			<text transform="matrix(1 0 0 1 815.5649 686.0898)" fill="#4C4535" font-family="'FuturaLT'" font-size="114.653" letter-spacing="49">E</text>
+		
+			<text transform="matrix(1 0 0 1 925.6655 686.0898)" fill="#4C4535" font-family="'FuturaLT'" font-size="114.653" letter-spacing="44">MI</text>
+		
+			<text transform="matrix(1 0 0 1 1141.5649 686.0898)" fill="#4C4535" font-family="'FuturaLT'" font-size="114.653" letter-spacing="19">O</text>
 		<g>
-			<path fill="#4C4535" d="M105.4,428.3c35.6-15.3,78-27.8,129.4-38.2c94.8-19.1,207-27.9,315.6-36.4c102.4-8,208.3-16.3,298-33.3
-				c96.7-18.2,164.2-44.7,206.1-80.9L890.3,0L688.4,220.8L587.6,73.6L419.7,257.1l-75.9-110.6L69.4,446.1
-				C80.4,439.8,92.4,433.9,105.4,428.3z"/>
-			<path fill="#4C4535" d="M1068.7,260.4c-23.6,19.9-53.1,36.5-90.2,50.7c-35,13.5-76.1,24.6-125.5,33.9
-				c-91.1,17.2-197.6,25.5-300.7,33.6C444.5,387,333,395.9,239.7,414.7C143.9,434,77.4,461.6,37.1,500.6h160.1h235.5h154.1h293.3
-				h353.2L1068.7,260.4z"/>
+			<path fill="#4C4535" d="M105.4,428.3c35.6-15.3,78-27.8,129.4-38.2C329.6,371,441.8,362.2,550.4,353.7
+				c102.399-8,208.299-16.3,298-33.3c96.699-18.2,164.199-44.7,206.1-80.9L890.299,0L688.401,220.8L587.6,73.6L419.7,257.1
+				l-75.9-110.6L69.4,446.1C80.4,439.8,92.4,433.9,105.4,428.3z"/>
+			<path fill="#4C4535" d="M1068.7,260.4c-23.6,19.9-53.1,36.5-90.199,50.7c-35,13.5-76.1,24.601-125.5,33.9
+				c-91.1,17.2-197.6,25.5-300.701,33.6C444.5,387,333,395.9,239.7,414.7C143.9,434,77.4,461.6,37.1,500.6h160.1h235.5h154.1h293.3
+				h353.199L1068.7,260.4z"/>
 		</g>
 	</g>
 </g>

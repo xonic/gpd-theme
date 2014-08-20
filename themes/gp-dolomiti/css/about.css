@@ -839,29 +839,84 @@ object {
   transition: height 0.3s ease-in-out;
 }
 
-/* line 14, ../sass/imports/modules/_nav-main.scss */
-.btn--register {
-  float: right;
+@media (min-width: 64em) {
+  /* line 14, ../sass/imports/modules/_nav-main.scss */
+  .top-bar {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    padding-bottom:  24px;
+    padding-bottom:  2.4rem;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(41, 41, 41, 0.5)), color-stop(100%, rgba(41, 41, 41, 0)));
+    background: -webkit-linear-gradient(rgba(41, 41, 41, 0.5), rgba(41, 41, 41, 0));
+    background: -moz-linear-gradient(rgba(41, 41, 41, 0.5), rgba(41, 41, 41, 0));
+    background: -o-linear-gradient(rgba(41, 41, 41, 0.5), rgba(41, 41, 41, 0));
+    background: linear-gradient(rgba(41, 41, 41, 0.5), rgba(41, 41, 41, 0));
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .top-bar {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  padding-bottom:  24px;
+  padding-bottom:  2.4rem;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(41, 41, 41, 0.5)), color-stop(100%, rgba(41, 41, 41, 0)));
+  background: linear-gradient(rgba(41, 41, 41, 0.5), rgba(41, 41, 41, 0));
 }
 
-/* line 19, ../sass/imports/modules/_nav-main.scss */
+/* line 26, ../sass/imports/modules/_nav-main.scss */
 .flyout {
   background: #332e24;
   clear: both;
 }
-/* line 24, ../sass/imports/modules/_nav-main.scss */
+/* line 31, ../sass/imports/modules/_nav-main.scss */
 .flyout a {
   border: 0 none;
   color: white;
 }
+@media (min-width: 64em) {
+  /* line 26, ../sass/imports/modules/_nav-main.scss */
+  .flyout {
+    height: auto !important;
+    background: transparent;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .flyout {
+  height: auto !important;
+  background: transparent;
+}
 
-/* line 31, ../sass/imports/modules/_nav-main.scss */
+/* line 44, ../sass/imports/modules/_nav-main.scss */
 .flyout__inner {
   padding:  12px 0;
   padding:  1.2rem 0;
 }
+@media (min-width: 64em) {
+  /* line 44, ../sass/imports/modules/_nav-main.scss */
+  .flyout__inner {
+    position: absolute;
+    top: 0;
+    right:  24px;
+    right:  2.4rem;
+    left:  240px;
+    left:  24rem;
+    z-index: 1001;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .flyout__inner {
+  position: absolute;
+  top: 0;
+  right:  24px;
+  right:  2.4rem;
+  left:  240px;
+  left:  24rem;
+  z-index: 1001;
+}
 
-/* line 36, ../sass/imports/modules/_nav-main.scss */
+/* line 58, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle {
   display: block;
   position: absolute;
@@ -878,7 +933,7 @@ object {
   font-size:  2.6rem;
   text-align: center;
 }
-/* line 50, ../sass/imports/modules/_nav-main.scss */
+/* line 72, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .fa-bars,
 .flyout__toggle .fa-times {
   position: absolute;
@@ -889,7 +944,7 @@ object {
   line-height:  48px;
   line-height:  4.8rem;
 }
-/* line 60, ../sass/imports/modules/_nav-main.scss */
+/* line 82, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .fa-bars {
   -webkit-transform: rotateZ(360deg) scale3d(1, 1, 1);
   -moz-transform: rotateZ(360deg) scale3d(1, 1, 1);
@@ -901,7 +956,7 @@ object {
   -o-transition: -o-transform 0.3s ease, opacity 0.3s linear;
   transition: transform 0.3s ease, opacity 0.3s linear;
 }
-/* line 66, ../sass/imports/modules/_nav-main.scss */
+/* line 88, ../sass/imports/modules/_nav-main.scss */
 .flyout__toggle .fa-times {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -915,8 +970,8 @@ object {
   -o-transition: -o-transform 0.3s ease, opacity 0.3s linear;
   transition: transform 0.3s ease, opacity 0.3s linear;
 }
-@media (min-width: 48em) {
-  /* line 36, ../sass/imports/modules/_nav-main.scss */
+@media (min-width: 64em) {
+  /* line 58, ../sass/imports/modules/_nav-main.scss */
   .flyout__toggle {
     display: none;
   }
@@ -926,13 +981,13 @@ object {
   display: none;
 }
 
-/* line 79, ../sass/imports/modules/_nav-main.scss */
+/* line 101, ../sass/imports/modules/_nav-main.scss */
 .touch .flyout__toggle:active {
   color: white;
   background: #feaa00;
 }
 
-/* line 87, ../sass/imports/modules/_nav-main.scss */
+/* line 109, ../sass/imports/modules/_nav-main.scss */
 .flyout--is-shown .flyout__toggle .fa-bars {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
@@ -942,7 +997,7 @@ object {
   -o-transform: rotateZ(0) scale3d(0.5, 0.5, 1);
   transform: rotateZ(0) scale3d(0.5, 0.5, 1);
 }
-/* line 93, ../sass/imports/modules/_nav-main.scss */
+/* line 115, ../sass/imports/modules/_nav-main.scss */
 .flyout--is-shown .flyout__toggle .fa-times {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
@@ -953,7 +1008,7 @@ object {
   transform: rotateZ(0) scale3d(1, 1, 1);
 }
 
-/* line 102, ../sass/imports/modules/_nav-main.scss */
+/* line 125, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container {
   -webkit-transform: scale3d(0.8, 0.8, 0.8) translate3d(0, 25px, 0);
   -moz-transform: scale3d(0.8, 0.8, 0.8) translate3d(0, 25px, 0);
@@ -966,30 +1021,32 @@ object {
   transition: transform 0.3s ease, opacity 0.3s linear;
   opacity: 0;
 }
-/* line 108, ../sass/imports/modules/_nav-main.scss */
+/* line 131, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container ul {
   margin: 0;
 }
-/* line 113, ../sass/imports/modules/_nav-main.scss */
+/* line 136, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container a {
   color: rgba(255, 255, 255, 0.6);
 }
-/* line 118, ../sass/imports/modules/_nav-main.scss */
+/* line 141, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .menu-item--primary a {
   color: rgba(254, 170, 0, 0.75);
 }
-/* line 123, ../sass/imports/modules/_nav-main.scss */
+/* line 146, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .menu-item--primary.current-menu-item a {
   color: #feaa00;
 }
-/* line 128, ../sass/imports/modules/_nav-main.scss */
+/* line 151, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .current-menu-item a {
   color: white;
 }
-@media (min-width: 48em) {
-  /* line 102, ../sass/imports/modules/_nav-main.scss */
+@media (min-width: 64em) {
+  /* line 125, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-hauptmenue-container {
-    margin: 0;
+    margin:  12px 0 0;
+    margin:  1.2rem 0 0;
+    opacity: 1;
     -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
     -moz-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
     -ms-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -999,31 +1056,31 @@ object {
 }
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .nav-main .menu-hauptmenue-container {
-  margin: 0;
+  margin:  12px 0 0;
+  margin:  1.2rem 0 0;
+  opacity: 1;
   -ms-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
-@media (min-width: 48em) {
-  /* line 140, ../sass/imports/modules/_nav-main.scss */
+@media (min-width: 64em) {
+  /* line 164, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item {
     display: inline;
   }
-  /* line 146, ../sass/imports/modules/_nav-main.scss */
+  /* line 170, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item:first-child {
-    margin-left:  -10px;
-    margin-left:  -1rem;
+    display: none;
   }
 }
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .nav-main .menu-item {
   display: inline;
 }
-/* line 146, ../sass/imports/modules/_nav-main.scss */
+/* line 170, ../sass/imports/modules/_nav-main.scss */
 .no-mq .nav-main .menu-item:first-child {
-  margin-left:  -10px;
-  margin-left:  -1rem;
+  display: none;
 }
-/* line 153, ../sass/imports/modules/_nav-main.scss */
+/* line 177, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-item a {
   display: block;
   margin-left: -0.55556em;
@@ -1040,15 +1097,15 @@ object {
   line-height:  4.8rem;
   text-align: center;
 }
-@media (min-width: 48em) {
-  /* line 153, ../sass/imports/modules/_nav-main.scss */
+@media (min-width: 64em) {
+  /* line 177, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item a {
     display: inline-block;
     margin-right: 0;
     margin-left: 0;
     border-bottom-width: 0;
-    font-size:  21px;
-    font-size:  2.1rem;
+    font-size:  18px;
+    font-size:  1.8rem;
     text-align: left;
     text-transform: capitalize;
   }
@@ -1059,36 +1116,84 @@ object {
   margin-right: 0;
   margin-left: 0;
   border-bottom-width: 0;
-  font-size:  21px;
-  font-size:  2.1rem;
+  font-size:  18px;
+  font-size:  1.8rem;
   text-align: left;
   text-transform: capitalize;
 }
-
-/* line 178, ../sass/imports/modules/_nav-main.scss */
-.no-touch .nav-main .menu a:hover,
-.touch .nav-main .menu a:active {
-  color: #4c4535;
+@media (min-width: 64em) {
+  /* line 200, ../sass/imports/modules/_nav-main.scss */
+  .nav-main .nav-main__cta {
+    float: right;
+    margin-top:  6px;
+    margin-top:  0.6rem;
+    padding: 0;
+  }
+  /* line 208, ../sass/imports/modules/_nav-main.scss */
+  .nav-main .nav-main__cta a {
+    padding:  0 12px;
+    padding:  0 1.2rem;
+    background: #feaa00;
+    background: rgba(254, 170, 0, 0.7);
+    border-radius: 2px;
+    color: white;
+    line-height: 2;
+  }
+  /* line 217, ../sass/imports/modules/_nav-main.scss */
+  .nav-main .nav-main__cta a:hover {
+    background: #feaa00;
+    color: white;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .nav-main .nav-main__cta {
+  float: right;
+  margin-top:  6px;
+  margin-top:  0.6rem;
+  padding: 0;
+}
+/* line 208, ../sass/imports/modules/_nav-main.scss */
+.no-mq .nav-main .nav-main__cta a {
+  padding:  0 12px;
+  padding:  0 1.2rem;
+  background: #feaa00;
+  background: rgba(254, 170, 0, 0.7);
+  border-radius: 2px;
+  color: white;
+  line-height: 2;
+}
+/* line 217, ../sass/imports/modules/_nav-main.scss */
+.no-mq .nav-main .nav-main__cta a:hover {
+  background: #feaa00;
+  color: white;
 }
 
-/* line 183, ../sass/imports/modules/_nav-main.scss */
+/* line 229, ../sass/imports/modules/_nav-main.scss */
+.no-touch .nav-main .menu a:hover,
+.touch .nav-main .menu a:active {
+  color: white;
+}
+
+/* line 234, ../sass/imports/modules/_nav-main.scss */
 .touch .nav-main .menu a:active {
   background: #feaa00;
 }
 
-/* line 189, ../sass/imports/modules/_nav-main.scss */
+/* line 240, ../sass/imports/modules/_nav-main.scss */
 .no-touch .nav-main .menu .menu-item--primary a:hover,
 .touch .nav-main .menu .menu-item--primary a:active {
   color: #feaa00;
 }
 
-/* line 194, ../sass/imports/modules/_nav-main.scss */
-.touch .nav-main .menu .menu-item--primary a:active {
+/* line 247, ../sass/imports/modules/_nav-main.scss */
+.touch .nav-main .menu .menu-item--primary a:active,
+.touch .nav-main .menu .nav-main__cta a:active,
+.no-touch .nav-main .menu .nav-main__cta a:hover {
   background: #feaa00;
   color: white;
 }
 
-/* line 200, ../sass/imports/modules/_nav-main.scss */
+/* line 253, ../sass/imports/modules/_nav-main.scss */
 .collapsible--is-expanded .nav-main .menu-hauptmenue-container {
   -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   -moz-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -1622,9 +1727,10 @@ object {
 .lang ul {
   margin: 0;
 }
-@media (min-width: 48em) {
+@media (min-width: 64em) {
   /* line 12, ../sass/imports/modules/_lang.scss */
   .lang {
+    display: none;
     float: none;
     position: absolute;
     top:  48px;
@@ -1641,6 +1747,7 @@ object {
 }
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .lang {
+  display: none;
   float: none;
   position: absolute;
   top:  48px;
@@ -1655,48 +1762,48 @@ object {
   line-height:  2.6rem;
 }
 
-/* line 40, ../sass/imports/modules/_lang.scss */
+/* line 41, ../sass/imports/modules/_lang.scss */
 #ie7 .lang,
 #ie8 .lang {
   background: #332e24;
 }
-/* line 44, ../sass/imports/modules/_lang.scss */
+/* line 45, ../sass/imports/modules/_lang.scss */
 #ie7 .lang a,
 #ie8 .lang a {
   color: #b8b8b8;
 }
-/* line 48, ../sass/imports/modules/_lang.scss */
+/* line 49, ../sass/imports/modules/_lang.scss */
 #ie7 .lang a:hover,
 #ie8 .lang a:hover {
   color: white;
 }
-/* line 53, ../sass/imports/modules/_lang.scss */
+/* line 54, ../sass/imports/modules/_lang.scss */
 #ie7 .lang .active a,
 #ie8 .lang .active a {
   color: white;
 }
 
-/* line 59, ../sass/imports/modules/_lang.scss */
+/* line 60, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a {
   color: rgba(76, 69, 53, 0.6);
   border: 0 none;
 }
-/* line 65, ../sass/imports/modules/_lang.scss */
+/* line 66, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a:hover {
   background: transparent;
   color: #4c4535;
 }
-/* line 71, ../sass/imports/modules/_lang.scss */
+/* line 72, ../sass/imports/modules/_lang.scss */
 [class^="lang-"].active a {
   color: #4c4535;
   cursor: default;
 }
-/* line 77, ../sass/imports/modules/_lang.scss */
+/* line 78, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:after {
   content: " | ";
   color: #e6e6e6;
 }
-/* line 83, ../sass/imports/modules/_lang.scss */
+/* line 84, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:last-child:after {
   content: none;
 }
@@ -1709,35 +1816,53 @@ object {
 /* line 10, ../sass/imports/modules/_branding.scss */
 .logo {
   display: block;
-  margin:  0 auto;
-  margin:  0 auto;
-  padding:  12px;
-  padding:  1.2rem;
+  margin:  12px auto;
+  margin:  1.2rem auto;
   width:  120px;
   width:  12rem;
+  height:  96px;
+  height:  9.6rem;
+  background: url(../images/gpd-logo.svg) top center no-repeat transparent;
+  background-size: 100%;
+}
+@media (min-width: 64em) {
+  /* line 10, ../sass/imports/modules/_branding.scss */
+  .logo {
+    float: left;
+    margin:  24px;
+    margin:  2.4rem;
+    width:  180px;
+    width:  18rem;
+    height:  40px;
+    height:  4rem;
+    background: url(../images/gpd-logo--wide.svg) top center no-repeat transparent;
+    background-size: 100%;
+  }
 }
 
-/* line 18, ../sass/imports/modules/_branding.scss */
+/* line 30, ../sass/imports/modules/_branding.scss */
 .branding {
+  padding:  24px 0;
+  padding:  2.4rem 0;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
   letter-spacing:  -2px;
   letter-spacing:  -0.2rem;
 }
-
-/* line 26, ../sass/imports/modules/_branding.scss */
-.branding__subtagline {
-  padding-left:  14px;
-  padding-left:  1.4rem;
-  font-size:  21px;
-  font-size:  2.1rem;
-  line-height: 1;
-  letter-spacing:  9px;
-  letter-spacing:  0.9rem;
+@media (min-width: 64em) {
+  /* line 30, ../sass/imports/modules/_branding.scss */
+  .branding {
+    position: relative;
+    padding: 0;
+    height:  550px;
+    height:  55rem;
+    background: url(../images/gpd-logo--wide.svg) top center no-repeat transparent;
+    background-size: 100%;
+  }
 }
 
-/* line 41, ../sass/imports/modules/_branding.scss */
+/* line 55, ../sass/imports/modules/_branding.scss */
 .touch .branding a,
 .touch .branding a:hover,
 .touch .branding a:active,
@@ -1747,8 +1872,8 @@ object {
   border: 0 none;
 }
 
-@media (min-width: 48em) {
-  /* line 48, ../sass/imports/modules/_branding.scss */
+@media (min-width: 64em) {
+  /* line 62, ../sass/imports/modules/_branding.scss */
   .branding__bg {
     position: absolute;
     top: 0;
@@ -1760,20 +1885,38 @@ object {
     background-position: center;
   }
 }
-/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
-.no-mq .branding__bg {
-  position: absolute;
-  top: 0;
-  right: -100px;
-  bottom: 0;
-  left: 0;
-  background: url(../images/branding--about.jpg) top center no-repeat transparent;
-  background-size: 105%;
-  background-position: center;
+
+@media (min-width: 64em) {
+  /* line 77, ../sass/imports/modules/_branding.scss */
+  .branding__wrapper {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 64em) {
+  /* line 88, ../sass/imports/modules/_branding.scss */
+  .branding__tagline-container {
+    position: relative;
+    display: inline-block;
+  }
+}
+
+/* line 97, ../sass/imports/modules/_branding.scss */
+.branding__subtagline {
+  padding-left:  14px;
+  padding-left:  1.4rem;
+  font-size:  21px;
+  font-size:  2.1rem;
+  line-height: 1;
+  letter-spacing:  9px;
+  letter-spacing:  0.9rem;
 }
 
 @media (min-width: 48em) {
-  /* line 63, ../sass/imports/modules/_branding.scss */
+  /* line 105, ../sass/imports/modules/_branding.scss */
   .page-template-timetable-php .branding__bg {
     background: url(../images/branding--timetable.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -1788,7 +1931,7 @@ object {
 }
 
 @media (min-width: 48em) {
-  /* line 73, ../sass/imports/modules/_branding.scss */
+  /* line 115, ../sass/imports/modules/_branding.scss */
   .page-template-packages-php .branding__bg {
     background: url(../images/branding--packages.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -1803,7 +1946,7 @@ object {
 }
 
 @media (min-width: 48em) {
-  /* line 83, ../sass/imports/modules/_branding.scss */
+  /* line 125, ../sass/imports/modules/_branding.scss */
   .page-template-regulations-php .branding__bg {
     background: url(../images/branding--regulations.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -1818,7 +1961,7 @@ object {
 }
 
 @media (min-width: 48em) {
-  /* line 93, ../sass/imports/modules/_branding.scss */
+  /* line 135, ../sass/imports/modules/_branding.scss */
   .page-template-contact-php .branding__bg {
     background: url(../images/branding--contact.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -1832,18 +1975,7 @@ object {
   background-position: center;
 }
 
-/* line 116, ../sass/imports/modules/_branding.scss */
-.branding__wrapper {
-  padding:  24px 0;
-  padding:  2.4rem 0;
-  -webkit-transition: padding 1s ease-in-out;
-  -moz-transition: padding 1s ease-in-out;
-  -o-transition: padding 1s ease-in-out;
-  transition: padding 1s ease-in-out;
-  text-align: center;
-}
-
-/* line 123, ../sass/imports/modules/_branding.scss */
+/* line 158, ../sass/imports/modules/_branding.scss */
 .branding__logo {
   display: inline-block;
   width:  280px;
@@ -1859,7 +1991,7 @@ object {
   transition: transform 0 ease-out, opacity 0 linear;
 }
 @media (min-width: 48em) {
-  /* line 123, ../sass/imports/modules/_branding.scss */
+  /* line 158, ../sass/imports/modules/_branding.scss */
   .branding__logo {
     background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
     background-size: 100%;
@@ -1871,12 +2003,12 @@ object {
   background-size: 100%;
 }
 
-/* line 141, ../sass/imports/modules/_branding.scss */
+/* line 176, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 146, ../sass/imports/modules/_branding.scss */
+/* line 181, ../sass/imports/modules/_branding.scss */
 .down-arrow {
   display: block;
   position: relative;

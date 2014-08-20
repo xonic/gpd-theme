@@ -9,25 +9,39 @@
 	.logo
 	{
 		display:block;
-		@include rem(margin, 0 auto);
-		@include rem(padding, $singleSpace);
+		@include rem(margin, $singleSpace auto);
 		@include rem(width, $doubleSpace * 5);
+		@include rem(height, 9.6);
+		background:url(../images/gpd-logo.svg) top center no-repeat transparent;
+		background-size:100%;
+
+		@include at-breakpoint($huge-width)
+		{
+			float:left;
+			@include rem(margin, $doubleSpace);
+			@include rem(width, 18);
+			@include rem(height, 4);
+			background:url(../images/gpd-logo--wide.svg) top center no-repeat transparent;
+			background-size:100%;
+		}
 	}
 
 	.branding
 	{ 
+		@include rem(padding, $doubleSpace 0);
 		line-height: 1;
 		text-align:center;
 		text-transform: uppercase;
 		@include rem(letter-spacing, -.2);
-	}
 
-	.branding__subtagline
-	{
-		@include rem(padding-left, 1.4);
-		@include rem(font-size, 2.1);
-		line-height: 1;
-		@include rem(letter-spacing, .9);
+		@include at-breakpoint($huge-width)
+		{
+			position:relative;
+			padding:0;
+			@include rem(height, 55);
+			background:url(../images/gpd-logo--wide.svg) top center no-repeat transparent;
+			background-size:100%;
+		}
 	}
 
 	.touch,
@@ -46,7 +60,7 @@
 
 	.branding__bg
 	{
-		@include at-breakpoint(48em no-mq)
+		@include at-breakpoint($huge-width)
 		{
 			position:absolute;
 			top:0;
@@ -57,6 +71,34 @@
 			background-size:105%;
 			background-position:center;
 		}
+	}
+
+	.branding__wrapper
+	{
+		@include at-breakpoint($huge-width)
+		{
+			position:absolute;
+			top:40%;
+			width:100%;
+			text-align:center;
+		}
+	}
+
+	.branding__tagline-container
+	{
+		@include at-breakpoint($huge-width)
+		{
+			position:relative;
+			display:inline-block;
+		}
+	}
+
+	.branding__subtagline
+	{
+		@include rem(padding-left, 1.4);
+		@include rem(font-size, 2.1);
+		line-height: 1;
+		@include rem(letter-spacing, .9);
 	}
 
 	.page-template-timetable-php .branding__bg
@@ -111,13 +153,6 @@
 	// 		}
 	// 	}
 	// }
-
-	.branding__wrapper
-	{
-		@include rem(padding, $doubleSpace 0);
-		@include transition(padding 1s ease-in-out);
-		text-align:center;
-	}
 
 	.branding__logo
 	{

@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2883px"
-	 height="505.6px" viewBox="0 0 2883 505.6" enable-background="new 0 0 2883 505.6" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="2883px" height="505.6px" viewBox="0 0 2883 505.6" enable-background="new 0 0 2883 505.6" xml:space="preserve">
 <g id="mountains" display="none">
 </g>
 <g id="car" display="none">
 </g>
 <g id="Layer_5">
 	<g>
+		
+			<text transform="matrix(1 0 0 1 1352.311 495.335)" fill="#FFFFFF" font-family="'FuturaLT-Light'" font-size="370.1509" letter-spacing="-8">D</text>
+		
+			<text transform="matrix(1 0 0 1 1584.4111 495.335)" fill="#FFFFFF" font-family="'FuturaLT-Light'" font-size="370.1509" letter-spacing="-23">OL</text>
+		
+			<text transform="matrix(1 0 0 1 1973.4111 495.335)" fill="#FFFFFF" font-family="'FuturaLT-Light'" font-size="370.1509" letter-spacing="-15">O</text>
+		
+			<text transform="matrix(1 0 0 1 2272.9111 495.335)" fill="#FFFFFF" font-family="'FuturaLT-Light'" font-size="370.1509" letter-spacing="-8">MITI</text>
+		
+			<text transform="matrix(1 0 0 1 1377.0376 138.2803)" fill="#FFFFFF" font-family="'FuturaLT'" font-size="141.2833" letter-spacing="55">GRAN PR</text>
+		
+			<text transform="matrix(1 0 0 1 2357.2373 138.2803)" fill="#FFFFFF" font-family="'FuturaLT'" font-size="141.2833" letter-spacing="61">E</text>
+		
+			<text transform="matrix(1 0 0 1 2493.0371 138.2803)" fill="#FFFFFF" font-family="'FuturaLT'" font-size="141.2833" letter-spacing="55">MI</text>
+		
+			<text transform="matrix(1 0 0 1 2759.0371 138.2803)" fill="#FFFFFF" font-family="'FuturaLT'" font-size="141.2833" letter-spacing="24">O</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1352.311 495.3354)"><tspan x="0" y="0" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="370.1509" letter-spacing="-9">D</tspan><tspan x="232.1" y="0" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="370.1509" letter-spacing="-24">OL</tspan><tspan x="621.1" y="0" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="370.1509" letter-spacing="-16">O</tspan><tspan x="920.6" y="0" fill="#4C4535" font-family="'FuturaLT-Light'" font-size="370.1509" letter-spacing="-9">MITI</tspan></text>
-		<text transform="matrix(1 0 0 1 1377.0376 138.2803)"><tspan x="0" y="0" fill="#4C4535" font-family="'FuturaLT'" font-size="141.2833" letter-spacing="56">GRAN PR</tspan><tspan x="980.2" y="0" fill="#4C4535" font-family="'FuturaLT'" font-size="141.2833" letter-spacing="62">E</tspan><tspan x="1116" y="0" fill="#4C4535" font-family="'FuturaLT'" font-size="141.2833" letter-spacing="56">MI</tspan><tspan x="1382" y="0" fill="#4C4535" font-family="'FuturaLT'" font-size="141.2833" letter-spacing="25">O</tspan></text>
-	</g>
-	<g>
-		<path fill="#4C4535" d="M105.4,428.3c35.6-15.3,78-27.8,129.4-38.2c94.8-19.1,207-27.9,315.6-36.4c102.4-8,208.3-16.3,298-33.3
-			c96.7-18.2,164.2-44.7,206.1-80.9L890.3,0L688.4,220.8L587.6,73.6L419.7,257.1l-75.9-110.6L69.4,446.1
-			C80.4,439.8,92.4,433.9,105.4,428.3z"/>
-		<path fill="#4C4535" d="M1068.7,260.4c-23.6,19.9-53.1,36.5-90.2,50.7c-35,13.5-76.1,24.6-125.5,33.9
+		<path fill="#FFFFFF" d="M105.4,428.3c35.6-15.3,78-27.8,129.4-38.2C329.6,371,441.8,362.2,550.4,353.7
+			c102.399-8,208.3-16.3,298-33.3c96.699-18.2,164.199-44.7,206.1-80.9L890.3,0L688.4,220.8L587.6,73.6L419.7,257.101L343.8,146.5
+			L69.4,446.1C80.4,439.8,92.4,433.9,105.4,428.3z"/>
+		<path fill="#FFFFFF" d="M1068.7,260.399c-23.601,19.9-53.101,36.5-90.2,50.7c-35,13.5-76.1,24.601-125.5,33.9
 			c-91.1,17.2-197.6,25.5-300.7,33.6C444.5,387,333,395.9,239.7,414.7C143.9,434,77.4,461.6,37.1,500.6h160.1h235.5h154.1h293.3
-			h353.2L1068.7,260.4z"/>
+			h353.2L1068.7,260.399z"/>
 	</g>
 </g>
 </svg>

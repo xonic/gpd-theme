@@ -86,32 +86,33 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<a href="/" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
-			<div class="logo">
-				<img class="logo__mountains" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--mountains--dark.svg" alt="Gran Premio Dolomiti Logo"	>
-				<img class="logo__text" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--text.svg" alt="Gran Premio Dolomiti Logo"	>
-			</div>
-		</a>
-		<a class="flyout__toggle js-collapsible__toggle" href="#js-collapsible--nav"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
-		<div id="js-collapsible--nav" class="flyout js-collapsible collapsible">
-			<div class="js-collapsible__inner flyout__inner">
-				<nav class="nav-main">
-					<? wp_nav_menu( array( 'theme_location' => 'nav-main' ) ); ?>
-				</nav>
-				<div class="lang">
-					<?php echo qtrans_generateLanguageSelectCode('text'); ?>
+		<div class="top-bar">
+			<a href="/" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
+				<div class="logo">
+					<h1 class="a11y">Gran Premio Dolomiti &middot; classic cars &amp; fine dining</h1>
+				</div>
+			</a>
+			<a class="flyout__toggle js-collapsible__toggle" href="#js-collapsible--nav"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+			<div id="js-collapsible--nav" class="flyout js-collapsible collapsible">
+				<div class="js-collapsible__inner flyout__inner">
+					<nav class="nav-main">
+						<? wp_nav_menu( array( 'theme_location' => 'nav-main' ) ); ?>
+					</nav>
+					<div class="lang">
+						<?php echo qtrans_generateLanguageSelectCode('text'); ?>
+					</div>
 				</div>
 			</div>
 		</div>
-			<div class="content">
-				<header class="branding" role="banner">
-					<div id="js-branding" class="branding__bg"></div>
-					<div class="branding__wrapper">
-						<h1 id="js-fade-on-scroll" data-fade-direction="right" data-fade-opacity="true" class="branding__tagline-container">
-							<div class="branding__subtagline">Südtirols neue</div>
-							<div class="branding__tagline">Oldtimer Rallye</div>
-						</h1>
-					</div>
-				</header>
+		<div class="content">
+			<header class="branding" role="banner">
+				<div id="js-branding" class="branding__bg"></div>
+				<div class="branding__wrapper">
+					<h1 id="js-fade-on-scroll" data-fade-direction="right" data-fade-opacity="true" class="branding__tagline-container">
+						<div class="branding__subtagline">Südtirols neue</div>
+						<div class="branding__tagline">Oldtimer Rallye</div>
+					</h1>
+				</div>
+			</header>
 
-				<div id="main" class="content__inner">
+			<div id="main" class="content__inner">

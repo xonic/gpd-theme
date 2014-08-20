@@ -21,8 +21,9 @@
 			margin:0;
 		}
 
-		@include at-breakpoint($langLarge no-mq)
+		@include at-breakpoint($huge-width no-mq)
 		{
+			display:none;
 			float:none;
 			position:absolute;
 			@include rem(top, $touchSize);
