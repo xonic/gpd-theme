@@ -18,7 +18,7 @@
 			width:100%;
 			z-index:1000;
 			@include rem(padding-bottom, $doubleSpace);
-			@include background(linear-gradient(rgba($black, .5), rgba($black, 0)));
+			@include background(linear-gradient(rgba($black, .4), rgba($black, 0)));
 		}
 	}
 
@@ -134,7 +134,7 @@
 
 			a 
 			{
-				color:rgba($white, .6);
+				color:rgba($white, .8);
 			}
 
 			.menu-item--primary a
