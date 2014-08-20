@@ -92,10 +92,9 @@
 				<img class="logo__text" src="<?php echo get_template_directory_uri(); ?>/images/gpd-logo--text.svg" alt="Gran Premio Dolomiti Logo"	>
 			</div>
 		</a>
-		<a class="btn btn--primary btn--right-aligned btn--register" href="<? echo get_permalink( get_page_by_path( 'register' ) ); ?>" title="<? _e('<!--:en-->Register now<!--:--><!--:de-->Jetzt anmelden<!--:--><!--:it-->Registra adesso<!--:--><!--:fr-->Inscrivez-vous<!--:-->'); ?>"><? echo get_the_title( get_page_by_path( 'register' ) ); ?></a>
 		<a class="flyout__toggle js-collapsible__toggle" href="#js-collapsible--nav"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 		<div id="js-collapsible--nav" class="flyout js-collapsible collapsible">
-			<div class="js-collapsible__inner">
+			<div class="js-collapsible__inner flyout__inner">
 				<nav class="nav-main">
 					<? wp_nav_menu( array( 'theme_location' => 'nav-main' ) ); ?>
 				</nav>
@@ -108,12 +107,10 @@
 				<header class="branding" role="banner">
 					<div id="js-branding" class="branding__bg"></div>
 					<div class="branding__wrapper">
-						<a id="js-logo" class="branding__logo" href="/" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
-							<h1 class="a11y">
-								Gran Premio Dolomiti
-							</h1>
-						</a>
-						<a class="js-scrollto down-arrow" href="#main">Scroll</a>
+						<h1 id="js-fade-on-scroll" data-fade-direction="right" data-fade-opacity="true" class="branding__tagline-container">
+							<div class="branding__subtagline">Südtirols neue</div>
+							<div class="branding__tagline">Oldtimer Rallye</div>
+						</h1>
 					</div>
 				</header>
 

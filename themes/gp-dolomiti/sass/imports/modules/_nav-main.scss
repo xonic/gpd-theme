@@ -27,11 +27,17 @@
 		}
 	}
 
+	.flyout__inner
+	{
+		@include rem(padding, $singleSpace 0);
+	}
+
 	.flyout__toggle
 	{
 		display:block;
-		float:left;
-		position:relative;
+		position:absolute;
+		top:0;
+		right:0;
 		@include rem(width, $touchSize);
 		@include rem(height, $touchSize);
 		border:0 none;

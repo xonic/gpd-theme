@@ -2473,8 +2473,8 @@ form {
 /* line 10, ../sass/imports/modules/_branding.scss */
 .logo {
   display: block;
-  margin:  0 auto 24px;
-  margin:  0 auto 2.4rem;
+  margin:  0 auto;
+  margin:  0 auto;
   padding:  12px;
   padding:  1.2rem;
   width:  120px;
@@ -2483,11 +2483,25 @@ form {
 
 /* line 18, ../sass/imports/modules/_branding.scss */
 .branding {
-  letter-spacing: -.2rem;
+  line-height: 1;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing:  -2px;
+  letter-spacing:  -0.2rem;
 }
 
-/* line 48, ../sass/imports/modules/_branding.scss */
+/* line 26, ../sass/imports/modules/_branding.scss */
+.branding__subtagline {
+  padding-left:  14px;
+  padding-left:  1.4rem;
+  font-size:  21px;
+  font-size:  2.1rem;
+  line-height: 1;
+  letter-spacing:  9px;
+  letter-spacing:  0.9rem;
+}
+
+/* line 41, ../sass/imports/modules/_branding.scss */
 .touch .branding a,
 .touch .branding a:hover,
 .touch .branding a:active,
@@ -2498,7 +2512,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 55, ../sass/imports/modules/_branding.scss */
+  /* line 48, ../sass/imports/modules/_branding.scss */
   .branding__bg {
     position: absolute;
     top: 0;
@@ -2523,7 +2537,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 70, ../sass/imports/modules/_branding.scss */
+  /* line 63, ../sass/imports/modules/_branding.scss */
   .page-template-timetable-php .branding__bg {
     background: url(../images/branding--timetable.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2538,7 +2552,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 80, ../sass/imports/modules/_branding.scss */
+  /* line 73, ../sass/imports/modules/_branding.scss */
   .page-template-packages-php .branding__bg {
     background: url(../images/branding--packages.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2553,7 +2567,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 90, ../sass/imports/modules/_branding.scss */
+  /* line 83, ../sass/imports/modules/_branding.scss */
   .page-template-regulations-php .branding__bg {
     background: url(../images/branding--regulations.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2568,7 +2582,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 100, ../sass/imports/modules/_branding.scss */
+  /* line 93, ../sass/imports/modules/_branding.scss */
   .page-template-contact-php .branding__bg {
     background: url(../images/branding--contact.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2582,7 +2596,7 @@ form {
   background-position: center;
 }
 
-/* line 123, ../sass/imports/modules/_branding.scss */
+/* line 116, ../sass/imports/modules/_branding.scss */
 .branding__wrapper {
   padding:  24px 0;
   padding:  2.4rem 0;
@@ -2593,7 +2607,7 @@ form {
   text-align: center;
 }
 
-/* line 130, ../sass/imports/modules/_branding.scss */
+/* line 123, ../sass/imports/modules/_branding.scss */
 .branding__logo {
   display: inline-block;
   width:  280px;
@@ -2609,7 +2623,7 @@ form {
   transition: transform 0 ease-out, opacity 0 linear;
 }
 @media (min-width: 48em) {
-  /* line 130, ../sass/imports/modules/_branding.scss */
+  /* line 123, ../sass/imports/modules/_branding.scss */
   .branding__logo {
     background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
     background-size: 100%;
@@ -2621,12 +2635,12 @@ form {
   background-size: 100%;
 }
 
-/* line 148, ../sass/imports/modules/_branding.scss */
+/* line 141, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 153, ../sass/imports/modules/_branding.scss */
+/* line 146, ../sass/imports/modules/_branding.scss */
 .down-arrow {
   display: block;
   position: relative;
