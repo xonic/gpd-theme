@@ -179,10 +179,25 @@
 	.tckt-slctr-tkt-details-sctn > h3,
 	.tckt-slctr-tkt-details-sctn > section,
 	.tckt-slctr-tkt-details-sctn > br,
-	.ticket-pending + .tckt-slctr-tkt-details-tr p,
-	.ticket-sales-expired + .tckt-slctr-tkt-details-tr p,
+	.tckt-slctr-tkt-details-sctn > p,
+	.tckt-slctr-tkt-details-sctn > div,
 	.tckt-slctr-tbl-td-price .smaller-text,
 	.tckt-slctr-tbl-td-price .currency-code
+	{
+		display:none;
+	}
+
+	[lang="de-DE"] .tckt-slctr-tkt-details-sctn .de,
+	[lang="en-US"] .tckt-slctr-tkt-details-sctn .en,
+	[lang="en-GB"] .tckt-slctr-tkt-details-sctn .en,
+	[lang="it-IT"] .tckt-slctr-tkt-details-sctn .it,
+	[lang="fr-FR"] .tckt-slctr-tkt-details-sctn .fr
+	{
+		display:block;
+	}
+
+	.ticket-pending + .tckt-slctr-tkt-details-tr,
+	.ticket-sales-expired + .tckt-slctr-tkt-details-tr
 	{
 		display:none;
 	}
@@ -202,9 +217,10 @@
 
 
 	// Style ticket description
-	.tckt-slctr-tkt-details-tr p
+	.tckt-slctr-tkt-details-sctn > div
 	{
-		font-size:85%;
+		@include rem(margin-bottom, $doubleSpace);
+		font-size:75%;
 		line-height:1.2;
 
 		@include at-breakpoint($large-width)
