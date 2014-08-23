@@ -264,22 +264,22 @@
 	{
 		@include setType($h1Size, $h1LineHeight);
 
-		@include at-breakpoint($medium-width $medium-cols) { @include setType($h1Size--medium, $h1LineHeight--medium); }
-		@include at-breakpoint($large-width $large-cols) { @include setType($h1Size--large, $h1LineHeight--large); }
-		@include at-breakpoint($huge-width $huge-cols) { @include setType($h1Size--huge, $h1LineHeight--huge); }
-		@include at-breakpoint($giant-width $giant-cols) { @include setType($h1Size--giant, $h1LineHeight--giant); }
-		@include at-breakpoint($monstrous-width $monstrous-cols) { @include setType($h1Size--monstrous, $h1LineHeight--monstrous); }
+		// @include at-breakpoint($medium-width $medium-cols) { @include setType($h1Size--medium, $h1LineHeight--medium); }
+		// @include at-breakpoint($large-width $large-cols) { @include setType($h1Size--large, $h1LineHeight--large); }
+		// @include at-breakpoint($huge-width $huge-cols) { @include setType($h1Size--huge, $h1LineHeight--huge); }
+		// @include at-breakpoint($giant-width $giant-cols) { @include setType($h1Size--giant, $h1LineHeight--giant); }
+		// @include at-breakpoint($monstrous-width $monstrous-cols) { @include setType($h1Size--monstrous, $h1LineHeight--monstrous); }
 	}
 
 	h2, .h2, %h2
 	{
 		@include setType($h2Size, $h2LineHeight);
 
-		@include at-breakpoint($medium-width $medium-cols) { @include setType($h2Size--medium, $h2LineHeight--medium); }
-		@include at-breakpoint($large-width $large-cols) { @include setType($h2Size--large, $h2LineHeight--large); }
-		@include at-breakpoint($huge-width $huge-cols) { @include setType($h2Size--huge, $h2LineHeight--huge); }
-		@include at-breakpoint($giant-width $giant-cols) { @include setType($h2Size--giant, $h2LineHeight--giant); }
-		@include at-breakpoint($monstrous-width $monstrous-cols) { @include setType($h2Size--monstrous, $h2LineHeight--monstrous); }
+		// @include at-breakpoint($medium-width $medium-cols) { @include setType($h2Size--medium, $h2LineHeight--medium); }
+		// @include at-breakpoint($large-width $large-cols) { @include setType($h2Size--large, $h2LineHeight--large); }
+		// @include at-breakpoint($huge-width $huge-cols) { @include setType($h2Size--huge, $h2LineHeight--huge); }
+		// @include at-breakpoint($giant-width $giant-cols) { @include setType($h2Size--giant, $h2LineHeight--giant); }
+		// @include at-breakpoint($monstrous-width $monstrous-cols) { @include setType($h2Size--monstrous, $h2LineHeight--monstrous); }
 	}
 
 	h3, .h3, %h3

@@ -139,11 +139,15 @@
 		@include rem(margin-top, 1);
 	}
 
+
+
 //  ---------------------------------------------------------------------------
 //
 //  TICKET SELECTOR
 //
 //  ---------------------------------------------------------------------------
+
+
 
 	// Make form wrapper full width
 	// for ticket selector page
@@ -242,5 +246,84 @@
  		float:right;
  		margin-bottom:0;
  	}
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  REGISTRATION FORM
+//
+//  ---------------------------------------------------------------------------
+
+
+
+	// Hide unneccessary stuff
+	.spco-steps-big-hdr
+	{
+		display:none;
+	}
+
+	.form-wrapper // needed for specificty override
+	{
+		// Wizard
+		#spco-steps-display-dv
+		{
+			border-top:1px solid $sandDark;
+			border-bottom:1px solid $sandDark;
+
+			// Step number
+			.spco-step-big-nmbr
+			{
+				font-family:$sansFontFamily;
+				@include rem(font-size, 4.2);
+			}
+
+			// Active step number color
+			.active-step .spco-step-big-nmbr
+			{
+				color:$primaryAccent;
+			}
+
+			// Step title
+			.spco-steps-display-hdr
+			{
+				margin:0;
+				font-family:$serifFontFamily;
+			}
+
+			// Override arrow & inactive step color
+			.spco-step-arrow-dv,
+			.inactive-step .spco-step-big-nmbr,
+			.inactive-step .spco-steps-display-hdr
+			{
+				color:$grayLight;
+			}
+
+			.spco-step-arrow-dv
+			{
+				@include rem(padding, 2.5 0, !important);
+			}
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

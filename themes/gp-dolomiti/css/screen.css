@@ -665,51 +665,6 @@ h1, .h1 {
   line-height:  44px;
   line-height:  4.4rem;
 }
-@media (min-width: 30em) {
-  /* line 264, ../sass/imports/base/_typography.scss */
-  h1, .h1 {
-    font-size:  42px;
-    font-size:  4.2rem;
-    line-height:  44px;
-    line-height:  4.4rem;
-  }
-}
-@media (min-width: 37.5em) {
-  /* line 264, ../sass/imports/base/_typography.scss */
-  h1, .h1 {
-    font-size:  48px;
-    font-size:  4.8rem;
-    line-height:  55px;
-    line-height:  5.5rem;
-  }
-}
-@media (min-width: 64em) {
-  /* line 264, ../sass/imports/base/_typography.scss */
-  h1, .h1 {
-    font-size:  54px;
-    font-size:  5.4rem;
-    line-height:  55px;
-    line-height:  5.5rem;
-  }
-}
-@media (min-width: 80em) {
-  /* line 264, ../sass/imports/base/_typography.scss */
-  h1, .h1 {
-    font-size:  60px;
-    font-size:  6rem;
-    line-height:  66px;
-    line-height:  6.6rem;
-  }
-}
-@media (min-width: 100em) {
-  /* line 264, ../sass/imports/base/_typography.scss */
-  h1, .h1 {
-    font-size:  72px;
-    font-size:  7.2rem;
-    line-height:  77px;
-    line-height:  7.7rem;
-  }
-}
 
 /* line 275, ../sass/imports/base/_typography.scss */
 h2, .h2, .subsection__title {
@@ -717,51 +672,6 @@ h2, .h2, .subsection__title {
   font-size:  3.2rem;
   line-height:  33px;
   line-height:  3.3rem;
-}
-@media (min-width: 30em) {
-  /* line 275, ../sass/imports/base/_typography.scss */
-  h2, .h2, .subsection__title {
-    font-size:  32px;
-    font-size:  3.2rem;
-    line-height:  33px;
-    line-height:  3.3rem;
-  }
-}
-@media (min-width: 37.5em) {
-  /* line 275, ../sass/imports/base/_typography.scss */
-  h2, .h2, .subsection__title {
-    font-size:  38px;
-    font-size:  3.8rem;
-    line-height:  44px;
-    line-height:  4.4rem;
-  }
-}
-@media (min-width: 64em) {
-  /* line 275, ../sass/imports/base/_typography.scss */
-  h2, .h2, .subsection__title {
-    font-size:  44px;
-    font-size:  4.4rem;
-    line-height:  44px;
-    line-height:  4.4rem;
-  }
-}
-@media (min-width: 80em) {
-  /* line 275, ../sass/imports/base/_typography.scss */
-  h2, .h2, .subsection__title {
-    font-size:  50px;
-    font-size:  5rem;
-    line-height:  55px;
-    line-height:  5.5rem;
-  }
-}
-@media (min-width: 100em) {
-  /* line 275, ../sass/imports/base/_typography.scss */
-  h2, .h2, .subsection__title {
-    font-size:  56px;
-    font-size:  5.6rem;
-    line-height:  66px;
-    line-height:  6.6rem;
-  }
 }
 
 /* line 286, ../sass/imports/base/_typography.scss */
@@ -2487,6 +2397,18 @@ form {
 @media (min-width: 64em) {
   /* line 10, ../sass/imports/modules/_branding.scss */
   .logo {
+    margin:  60px auto;
+    margin:  6rem auto;
+    width:  140px;
+    width:  14rem;
+    height:  60px;
+    height:  6rem;
+  }
+}
+
+@media (min-width: 64em) {
+  /* line 27, ../sass/imports/modules/_branding.scss */
+  .logo--wide {
     float: left;
     margin:  24px;
     margin:  2.4rem;
@@ -2499,7 +2421,7 @@ form {
   }
 }
 
-/* line 30, ../sass/imports/modules/_branding.scss */
+/* line 40, ../sass/imports/modules/_branding.scss */
 .branding {
   padding:  24px 0;
   padding:  2.4rem 0;
@@ -2511,7 +2433,7 @@ form {
   overflow: hidden;
 }
 @media (min-width: 64em) {
-  /* line 30, ../sass/imports/modules/_branding.scss */
+  /* line 40, ../sass/imports/modules/_branding.scss */
   .branding {
     position: relative;
     padding: 0;
@@ -2522,7 +2444,7 @@ form {
   }
 }
 
-/* line 56, ../sass/imports/modules/_branding.scss */
+/* line 66, ../sass/imports/modules/_branding.scss */
 .touch .branding a,
 .touch .branding a:hover,
 .touch .branding a:active,
@@ -2533,7 +2455,7 @@ form {
 }
 
 @media (min-width: 64em) {
-  /* line 63, ../sass/imports/modules/_branding.scss */
+  /* line 73, ../sass/imports/modules/_branding.scss */
   .branding__bg {
     position: absolute;
     top: 0;
@@ -2547,7 +2469,7 @@ form {
 }
 
 @media (min-width: 64em) {
-  /* line 78, ../sass/imports/modules/_branding.scss */
+  /* line 88, ../sass/imports/modules/_branding.scss */
   .branding__wrapper {
     position: absolute;
     top: 40%;
@@ -2557,12 +2479,12 @@ form {
 }
 
 @media (min-width: 64em) {
-  /* line 89, ../sass/imports/modules/_branding.scss */
+  /* line 99, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container {
     position: relative;
     display: inline-block;
   }
-  /* line 96, ../sass/imports/modules/_branding.scss */
+  /* line 106, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container:before {
     content: " ";
     position: absolute;
@@ -2580,13 +2502,13 @@ form {
     background: -o-radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
     background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
   }
-  /* line 107, ../sass/imports/modules/_branding.scss */
+  /* line 117, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container > div {
     position: relative;
   }
 }
 
-/* line 114, ../sass/imports/modules/_branding.scss */
+/* line 124, ../sass/imports/modules/_branding.scss */
 .branding__subtagline {
   padding-left:  14px;
   padding-left:  1.4rem;
@@ -2598,7 +2520,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 122, ../sass/imports/modules/_branding.scss */
+  /* line 132, ../sass/imports/modules/_branding.scss */
   .page-template-timetable-php .branding__bg {
     background: url(../images/branding--timetable.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2613,7 +2535,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 132, ../sass/imports/modules/_branding.scss */
+  /* line 142, ../sass/imports/modules/_branding.scss */
   .page-template-packages-php .branding__bg {
     background: url(../images/branding--packages.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2628,7 +2550,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 142, ../sass/imports/modules/_branding.scss */
+  /* line 152, ../sass/imports/modules/_branding.scss */
   .page-template-regulations-php .branding__bg {
     background: url(../images/branding--regulations.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2643,7 +2565,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 152, ../sass/imports/modules/_branding.scss */
+  /* line 162, ../sass/imports/modules/_branding.scss */
   .page-template-contact-php .branding__bg {
     background: url(../images/branding--contact.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2657,7 +2579,7 @@ form {
   background-position: center;
 }
 
-/* line 175, ../sass/imports/modules/_branding.scss */
+/* line 185, ../sass/imports/modules/_branding.scss */
 .branding__logo {
   display: inline-block;
   width:  280px;
@@ -2673,7 +2595,7 @@ form {
   transition: transform 0 ease-out, opacity 0 linear;
 }
 @media (min-width: 48em) {
-  /* line 175, ../sass/imports/modules/_branding.scss */
+  /* line 185, ../sass/imports/modules/_branding.scss */
   .branding__logo {
     background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
     background-size: 100%;
@@ -2685,12 +2607,12 @@ form {
   background-size: 100%;
 }
 
-/* line 193, ../sass/imports/modules/_branding.scss */
+/* line 203, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 198, ../sass/imports/modules/_branding.scss */
+/* line 208, ../sass/imports/modules/_branding.scss */
 .down-arrow {
   display: block;
   position: relative;

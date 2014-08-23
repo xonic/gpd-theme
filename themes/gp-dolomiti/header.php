@@ -88,7 +88,7 @@
 	<body <?php body_class(); ?>>
 		<div class="top-bar">
 			<a href="<? echo get_home_url(); ?>" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
-				<div class="logo">
+				<div class="logo logo--wide">
 					<h1 class="a11y">Gran Premio Dolomiti &middot; classic cars &amp; fine dining</h1>
 				</div>
 			</a>
