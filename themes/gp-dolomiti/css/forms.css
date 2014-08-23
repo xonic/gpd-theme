@@ -1204,7 +1204,7 @@ object {
 }
 
 /* line 11, ../sass/imports/modules/_button.scss */
-.btn, .btn-group .btn-group__btn, .btn-dropdown .btn-dropdown__toggle {
+.btn, .btn-group .btn-group__btn, .btn-dropdown .btn-dropdown__toggle, .ticket-selector-submit-btn {
   display: inline-block;
   vertical-align: baseline;
   padding:  11.0px 12px;
@@ -1227,13 +1227,13 @@ object {
   white-space: normal;
 }
 /* line 38, ../sass/imports/modules/_button.scss */
-.btn:hover, .btn-group .btn-group__btn:hover, .btn-dropdown .btn-dropdown__toggle:hover, .btn:focus, .btn-group .btn-group__btn:focus, .btn-dropdown .btn-dropdown__toggle:focus {
+.btn:hover, .btn-group .btn-group__btn:hover, .btn-dropdown .btn-dropdown__toggle:hover, .ticket-selector-submit-btn:hover, .btn:focus, .btn-group .btn-group__btn:focus, .btn-dropdown .btn-dropdown__toggle:focus, .ticket-selector-submit-btn:focus {
   background-color: white;
   color: #4c4535;
   outline: 0 none;
 }
 /* line 45, ../sass/imports/modules/_button.scss */
-.btn:active, .btn-group .btn-group__btn:active, .btn-dropdown .btn-dropdown__toggle:active {
+.btn:active, .btn-group .btn-group__btn:active, .btn-dropdown .btn-dropdown__toggle:active, .ticket-selector-submit-btn:active {
   background-color: #e2dfdf;
   color: #4c4535;
   outline: 0 none;
@@ -1266,26 +1266,28 @@ object {
 }
 
 /* line 88, ../sass/imports/modules/_button.scss */
-.btn--right-aligned {
+.btn--right-aligned, .ticket-selector-submit-btn {
   margin-right: 0;
 }
 
 /* line 102, ../sass/imports/modules/_button.scss */
-.btn--primary {
+.btn--primary, .ticket-selector-submit-btn {
   background: #feaa00;
   color: white;
 }
 
 /* line 109, ../sass/imports/modules/_button.scss */
-.no-touch .btn--primary:hover,
-.no-touch .btn--primary:focus {
+.no-touch .btn--primary:hover, .no-touch .ticket-selector-submit-btn:hover,
+.no-touch .btn--primary:focus,
+.no-touch .ticket-selector-submit-btn:focus {
   background-color: #ffb828;
   color: white;
 }
 
 /* line 116, ../sass/imports/modules/_button.scss */
-.touch .btn--primary:active,
-.no-touch .btn--primary:active {
+.touch .btn--primary:active, .touch .ticket-selector-submit-btn:active,
+.no-touch .btn--primary:active,
+.no-touch .ticket-selector-submit-btn:active {
   background-color: #efa000;
   color: white;
 }
@@ -2232,7 +2234,7 @@ textarea + span.wpcf7-not-valid-tip {
   position: relative;
 }
 /* line 534, ../sass/imports/modules/_forms.scss */
-.input--search .btn, .input--search .btn-group .btn-group__btn, .btn-group .input--search .btn-group__btn, .input--search .btn-dropdown .btn-dropdown__toggle, .btn-dropdown .input--search .btn-dropdown__toggle {
+.input--search .btn, .input--search .btn-group .btn-group__btn, .btn-group .input--search .btn-group__btn, .input--search .btn-dropdown .btn-dropdown__toggle, .btn-dropdown .input--search .btn-dropdown__toggle, .input--search .ticket-selector-submit-btn {
   position: absolute;
   top: 0;
   right: 0;
@@ -2250,23 +2252,24 @@ textarea + span.wpcf7-not-valid-tip {
   transition: color 0.1s linear, background-color 0.2s linear;
 }
 /* line 549, ../sass/imports/modules/_forms.scss */
-.input--search .btn [class="icon-search"], .input--search .btn-group .btn-group__btn [class="icon-search"], .btn-group .input--search .btn-group__btn [class="icon-search"], .input--search .btn-dropdown .btn-dropdown__toggle [class="icon-search"], .btn-dropdown .input--search .btn-dropdown__toggle [class="icon-search"] {
+.input--search .btn [class="icon-search"], .input--search .btn-group .btn-group__btn [class="icon-search"], .btn-group .input--search .btn-group__btn [class="icon-search"], .input--search .btn-dropdown .btn-dropdown__toggle [class="icon-search"], .btn-dropdown .input--search .btn-dropdown__toggle [class="icon-search"], .input--search .ticket-selector-submit-btn [class="icon-search"] {
   font-size:  27px;
   font-size:  2.7rem;
 }
 /* line 556, ../sass/imports/modules/_forms.scss */
-.input--search .btn:focus, .input--search .btn-group .btn-group__btn:focus, .btn-group .input--search .btn-group__btn:focus, .input--search .btn-dropdown .btn-dropdown__toggle:focus, .btn-dropdown .input--search .btn-dropdown__toggle:focus,
+.input--search .btn:focus, .input--search .btn-group .btn-group__btn:focus, .btn-group .input--search .btn-group__btn:focus, .input--search .btn-dropdown .btn-dropdown__toggle:focus, .btn-dropdown .input--search .btn-dropdown__toggle:focus, .input--search .ticket-selector-submit-btn:focus,
 .input--search .btn:hover,
 .input--search .btn-group .btn-group__btn:hover,
 .btn-group .input--search .btn-group__btn:hover,
 .input--search .btn-dropdown .btn-dropdown__toggle:hover,
-.btn-dropdown .input--search .btn-dropdown__toggle:hover {
+.btn-dropdown .input--search .btn-dropdown__toggle:hover,
+.input--search .ticket-selector-submit-btn:hover {
   background-color: #3295cc;
   color: #0a1d28;
   box-shadow: none;
 }
 /* line 563, ../sass/imports/modules/_forms.scss */
-.input--search .btn:active, .input--search .btn-group .btn-group__btn:active, .btn-group .input--search .btn-group__btn:active, .input--search .btn-dropdown .btn-dropdown__toggle:active, .btn-dropdown .input--search .btn-dropdown__toggle:active {
+.input--search .btn:active, .input--search .btn-group .btn-group__btn:active, .btn-group .input--search .btn-group__btn:active, .input--search .btn-dropdown .btn-dropdown__toggle:active, .btn-dropdown .input--search .btn-dropdown__toggle:active, .input--search .ticket-selector-submit-btn:active {
   background-color: #2877a3;
   padding-top:  2px;
   padding-top:  0.2rem;
@@ -2588,7 +2591,7 @@ form {
   line-height:  4.8rem;
 }
 /* line 744, ../sass/imports/modules/_forms.scss */
-.touch .input--search .btn, .touch .input--search .btn-group .btn-group__btn, .btn-group .touch .input--search .btn-group__btn, .touch .input--search .btn-dropdown .btn-dropdown__toggle, .btn-dropdown .touch .input--search .btn-dropdown__toggle {
+.touch .input--search .btn, .touch .input--search .btn-group .btn-group__btn, .btn-group .touch .input--search .btn-group__btn, .touch .input--search .btn-dropdown .btn-dropdown__toggle, .btn-dropdown .touch .input--search .btn-dropdown__toggle, .touch .input--search .ticket-selector-submit-btn {
   height:  48px;
   height:  4.8rem;
 }
@@ -2749,6 +2752,84 @@ form {
   display: block;
   margin-top:  10px;
   margin-top:  1rem;
+}
+
+/* line 151, ../sass/imports/modules/_event-forms.scss */
+.page-template-ticket-selector-php .grid .form-wrapper {
+  max-width: none;
+}
+
+/* line 157, ../sass/imports/modules/_event-forms.scss */
+.tkt-slctr-tbl {
+  width: 100%;
+  border-bottom: 1px solid #d4cfb0;
+}
+/* line 162, ../sass/imports/modules/_event-forms.scss */
+.tkt-slctr-tbl thead {
+  display: none;
+}
+
+/* line 169, ../sass/imports/modules/_event-forms.scss */
+.tckt-slctr-tkt-details-dv {
+  display: block !important;
+}
+
+/* line 186, ../sass/imports/modules/_event-forms.scss */
+.ticket-pending,
+.ticket-sales-expired,
+.display-tckt-slctr-tkt-details,
+.tkt-slctr-tbl-wrap-dv > .lt-grey-text,
+.tckt-slctr-tkt-details-sctn > h3,
+.tckt-slctr-tkt-details-sctn > section,
+.tckt-slctr-tkt-details-sctn > br,
+.ticket-pending + .tckt-slctr-tkt-details-tr p,
+.ticket-sales-expired + .tckt-slctr-tkt-details-tr p,
+.tckt-slctr-tbl-td-price .smaller-text,
+.tckt-slctr-tbl-td-price .currency-code {
+  display: none;
+}
+
+/* line 192, ../sass/imports/modules/_event-forms.scss */
+.tckt-slctr-tbl-tr {
+  border-top: 1px solid #d4cfb0;
+}
+/* line 194, ../sass/imports/modules/_event-forms.scss */
+.tckt-slctr-tbl-tr td {
+  padding-top:  24px;
+  padding-top:  2.4rem;
+  vertical-align: top;
+}
+/* line 197, ../sass/imports/modules/_event-forms.scss */
+.tckt-slctr-tbl-tr:first-child {
+  border-top: 0 none;
+}
+/* line 199, ../sass/imports/modules/_event-forms.scss */
+.tckt-slctr-tbl-tr:first-child td {
+  padding-top: 0;
+}
+
+/* line 206, ../sass/imports/modules/_event-forms.scss */
+.tckt-slctr-tkt-details-tr p {
+  font-size: 85%;
+  line-height: 1.2;
+}
+@media (min-width: 37.5em) {
+  /* line 206, ../sass/imports/modules/_event-forms.scss */
+  .tckt-slctr-tkt-details-tr p {
+    width: 60%;
+  }
+}
+@media (min-width: 64em) {
+  /* line 206, ../sass/imports/modules/_event-forms.scss */
+  .tckt-slctr-tkt-details-tr p {
+    width: 45%;
+  }
+}
+
+/* line 222, ../sass/imports/modules/_event-forms.scss */
+.ticket-selector-submit-btn {
+  float: right;
+  margin-bottom: 0;
 }
 
 /* line 9, ../sass/imports/modules/_sections.scss */
@@ -3095,6 +3176,7 @@ form {
   text-transform: uppercase;
   letter-spacing:  -2px;
   letter-spacing:  -0.2rem;
+  overflow: hidden;
 }
 @media (min-width: 64em) {
   /* line 30, ../sass/imports/modules/_branding.scss */
@@ -3108,7 +3190,7 @@ form {
   }
 }
 
-/* line 55, ../sass/imports/modules/_branding.scss */
+/* line 56, ../sass/imports/modules/_branding.scss */
 .touch .branding a,
 .touch .branding a:hover,
 .touch .branding a:active,
@@ -3119,7 +3201,7 @@ form {
 }
 
 @media (min-width: 64em) {
-  /* line 62, ../sass/imports/modules/_branding.scss */
+  /* line 63, ../sass/imports/modules/_branding.scss */
   .branding__bg {
     position: absolute;
     top: 0;
@@ -3133,7 +3215,7 @@ form {
 }
 
 @media (min-width: 64em) {
-  /* line 77, ../sass/imports/modules/_branding.scss */
+  /* line 78, ../sass/imports/modules/_branding.scss */
   .branding__wrapper {
     position: absolute;
     top: 40%;
@@ -3143,12 +3225,12 @@ form {
 }
 
 @media (min-width: 64em) {
-  /* line 88, ../sass/imports/modules/_branding.scss */
+  /* line 89, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container {
     position: relative;
     display: inline-block;
   }
-  /* line 95, ../sass/imports/modules/_branding.scss */
+  /* line 96, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container:before {
     content: " ";
     position: absolute;
@@ -3166,13 +3248,13 @@ form {
     background: -o-radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
     background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
   }
-  /* line 106, ../sass/imports/modules/_branding.scss */
+  /* line 107, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container > div {
     position: relative;
   }
 }
 
-/* line 113, ../sass/imports/modules/_branding.scss */
+/* line 114, ../sass/imports/modules/_branding.scss */
 .branding__subtagline {
   padding-left:  14px;
   padding-left:  1.4rem;
@@ -3184,7 +3266,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 121, ../sass/imports/modules/_branding.scss */
+  /* line 122, ../sass/imports/modules/_branding.scss */
   .page-template-timetable-php .branding__bg {
     background: url(../images/branding--timetable.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -3199,7 +3281,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 131, ../sass/imports/modules/_branding.scss */
+  /* line 132, ../sass/imports/modules/_branding.scss */
   .page-template-packages-php .branding__bg {
     background: url(../images/branding--packages.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -3214,7 +3296,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 141, ../sass/imports/modules/_branding.scss */
+  /* line 142, ../sass/imports/modules/_branding.scss */
   .page-template-regulations-php .branding__bg {
     background: url(../images/branding--regulations.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -3229,7 +3311,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 151, ../sass/imports/modules/_branding.scss */
+  /* line 152, ../sass/imports/modules/_branding.scss */
   .page-template-contact-php .branding__bg {
     background: url(../images/branding--contact.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -3243,7 +3325,7 @@ form {
   background-position: center;
 }
 
-/* line 174, ../sass/imports/modules/_branding.scss */
+/* line 175, ../sass/imports/modules/_branding.scss */
 .branding__logo {
   display: inline-block;
   width:  280px;
@@ -3259,7 +3341,7 @@ form {
   transition: transform 0 ease-out, opacity 0 linear;
 }
 @media (min-width: 48em) {
-  /* line 174, ../sass/imports/modules/_branding.scss */
+  /* line 175, ../sass/imports/modules/_branding.scss */
   .branding__logo {
     background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
     background-size: 100%;
@@ -3271,12 +3353,12 @@ form {
   background-size: 100%;
 }
 
-/* line 192, ../sass/imports/modules/_branding.scss */
+/* line 193, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 197, ../sass/imports/modules/_branding.scss */
+/* line 198, ../sass/imports/modules/_branding.scss */
 .down-arrow {
   display: block;
   position: relative;

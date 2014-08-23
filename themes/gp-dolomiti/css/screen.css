@@ -2508,6 +2508,7 @@ form {
   text-transform: uppercase;
   letter-spacing:  -2px;
   letter-spacing:  -0.2rem;
+  overflow: hidden;
 }
 @media (min-width: 64em) {
   /* line 30, ../sass/imports/modules/_branding.scss */
@@ -2521,7 +2522,7 @@ form {
   }
 }
 
-/* line 55, ../sass/imports/modules/_branding.scss */
+/* line 56, ../sass/imports/modules/_branding.scss */
 .touch .branding a,
 .touch .branding a:hover,
 .touch .branding a:active,
@@ -2532,7 +2533,7 @@ form {
 }
 
 @media (min-width: 64em) {
-  /* line 62, ../sass/imports/modules/_branding.scss */
+  /* line 63, ../sass/imports/modules/_branding.scss */
   .branding__bg {
     position: absolute;
     top: 0;
@@ -2546,7 +2547,7 @@ form {
 }
 
 @media (min-width: 64em) {
-  /* line 77, ../sass/imports/modules/_branding.scss */
+  /* line 78, ../sass/imports/modules/_branding.scss */
   .branding__wrapper {
     position: absolute;
     top: 40%;
@@ -2556,12 +2557,12 @@ form {
 }
 
 @media (min-width: 64em) {
-  /* line 88, ../sass/imports/modules/_branding.scss */
+  /* line 89, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container {
     position: relative;
     display: inline-block;
   }
-  /* line 95, ../sass/imports/modules/_branding.scss */
+  /* line 96, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container:before {
     content: " ";
     position: absolute;
@@ -2579,13 +2580,13 @@ form {
     background: -o-radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
     background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
   }
-  /* line 106, ../sass/imports/modules/_branding.scss */
+  /* line 107, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container > div {
     position: relative;
   }
 }
 
-/* line 113, ../sass/imports/modules/_branding.scss */
+/* line 114, ../sass/imports/modules/_branding.scss */
 .branding__subtagline {
   padding-left:  14px;
   padding-left:  1.4rem;
@@ -2597,7 +2598,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 121, ../sass/imports/modules/_branding.scss */
+  /* line 122, ../sass/imports/modules/_branding.scss */
   .page-template-timetable-php .branding__bg {
     background: url(../images/branding--timetable.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2612,7 +2613,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 131, ../sass/imports/modules/_branding.scss */
+  /* line 132, ../sass/imports/modules/_branding.scss */
   .page-template-packages-php .branding__bg {
     background: url(../images/branding--packages.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2627,7 +2628,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 141, ../sass/imports/modules/_branding.scss */
+  /* line 142, ../sass/imports/modules/_branding.scss */
   .page-template-regulations-php .branding__bg {
     background: url(../images/branding--regulations.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2642,7 +2643,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 151, ../sass/imports/modules/_branding.scss */
+  /* line 152, ../sass/imports/modules/_branding.scss */
   .page-template-contact-php .branding__bg {
     background: url(../images/branding--contact.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2656,7 +2657,7 @@ form {
   background-position: center;
 }
 
-/* line 174, ../sass/imports/modules/_branding.scss */
+/* line 175, ../sass/imports/modules/_branding.scss */
 .branding__logo {
   display: inline-block;
   width:  280px;
@@ -2672,7 +2673,7 @@ form {
   transition: transform 0 ease-out, opacity 0 linear;
 }
 @media (min-width: 48em) {
-  /* line 174, ../sass/imports/modules/_branding.scss */
+  /* line 175, ../sass/imports/modules/_branding.scss */
   .branding__logo {
     background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
     background-size: 100%;
@@ -2684,12 +2685,12 @@ form {
   background-size: 100%;
 }
 
-/* line 192, ../sass/imports/modules/_branding.scss */
+/* line 193, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 197, ../sass/imports/modules/_branding.scss */
+/* line 198, ../sass/imports/modules/_branding.scss */
 .down-arrow {
   display: block;
   position: relative;

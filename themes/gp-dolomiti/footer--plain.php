@@ -70,7 +70,9 @@
 				'nav'				: 'js/imports/NavController',
 				'translator'		: 'js/imports/Translator',
 				'hotelselection'	: 'js/imports/HotelSelection',
-				'collapse'			: 'js/imports/collapse'
+				'scrollcontroller'	: 'js/imports/ScrollController',
+				'collapse'			: 'js/imports/CollapsingController',
+				'fx'				: 'js/imports/fx'
 			},
 
 			shim:
@@ -80,6 +82,7 @@
 				}
 			}
 		});
+		
 		require(['<?php echo get_template_directory_uri(); ?>/js/common.js']);
 	</script>
 	

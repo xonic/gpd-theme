@@ -139,44 +139,92 @@
 		@include rem(margin-top, 1);
 	}
 
-	// .page form 
-	// {
-	// 	position:relative;
+//  ---------------------------------------------------------------------------
+//
+//  TICKET SELECTOR
+//
+//  ---------------------------------------------------------------------------
 
-	// 	&:before,
-	// 	&:after,
-	// 	> div
-	// 	{
-	// 		content:" ";
-	// 		position:absolute;
-	// 		top:0;
-	// 		left:0;
-	// 		width:100%;
-	// 		height:100%;
-	// 		background:$white;
-	// 		border:0 solid lighten($olive, 20%);
-	// 		@include rem(border-width, $borderThin);
-	// 		box-shadow:0 2px 3px rgba(0,0,0,.25);
-	// 	}
+	// Make form wrapper full width
+	// for ticket selector page
+	.page-template-ticket-selector-php .grid .form-wrapper
+	{
+		max-width:none;
+	}
 
-	// 	&:before
-	// 	{
-	// 		@include transform(translate3d(5px, -4px, 0) rotateZ(-0.3deg));
-	// 		z-index:1;
-	// 	}
+	// Ticket Selector table
+	.tkt-slctr-tbl
+	{
+		width: 100%;
+		border-bottom:1px solid $sandDark;
 
-	// 	&:after
-	// 	{
-	// 		@include transform(translate3d(-5px, -4px, 0) rotateZ(0.3deg));
-	// 		z-index:2;
-	// 	}
+		thead
+		{
+			display:none;
+		}
+	}
 
-	// 	> div
-	// 	{
-	// 		position:relative;
-	// 		@include rem(padding, $doubleSpace $doubleSpace 0);
-	// 		z-index:3;
-	// 	}
-	// }
+	// Show ticket description
+	.tckt-slctr-tkt-details-dv
+	{
+		display:block!important;
+	}
+
+	// Hide unneccessary elements
+	// and pending/expired tickets
+	.ticket-pending,
+	.ticket-sales-expired,
+	.display-tckt-slctr-tkt-details,
+	.tkt-slctr-tbl-wrap-dv > .lt-grey-text,
+	.tckt-slctr-tkt-details-sctn > h3,
+	.tckt-slctr-tkt-details-sctn > section,
+	.tckt-slctr-tkt-details-sctn > br,
+	.ticket-pending + .tckt-slctr-tkt-details-tr p,
+	.ticket-sales-expired + .tckt-slctr-tkt-details-tr p,
+	.tckt-slctr-tbl-td-price .smaller-text,
+	.tckt-slctr-tbl-td-price .currency-code
+	{
+		display:none;
+	}
+
+	// Style ticket table row
+	.tckt-slctr-tbl-tr
+	{
+		border-top:1px solid $sandDark;
+		td { @include rem(padding-top, $doubleSpace); vertical-align:top; }
+
+		&:first-child
+		{
+			border-top:0 none;
+			td { padding-top:0; }
+		}
+	}
+
+
+	// Style ticket description
+	.tckt-slctr-tkt-details-tr p
+	{
+		font-size:85%;
+		line-height:1.2;
+
+		@include at-breakpoint($large-width)
+		{
+			width:60%;
+		}
+
+		@include at-breakpoint($huge-width)
+		{
+			width:45%;
+		}
+	}
+
+ 	.ticket-selector-submit-btn
+ 	{
+ 		@extend .btn;
+ 		@extend .btn--primary;
+ 		@extend .btn--right-aligned;
+ 		float:right;
+ 		margin-bottom:0;
+ 	}
 
 

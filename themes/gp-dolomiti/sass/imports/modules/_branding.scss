@@ -33,6 +33,7 @@
 		text-align:center;
 		text-transform: uppercase;
 		@include rem(letter-spacing, -.2);
+		overflow:hidden;
 
 		@include at-breakpoint($huge-width)
 		{
