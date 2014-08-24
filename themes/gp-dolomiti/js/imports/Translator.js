@@ -40,8 +40,6 @@ define(["jquery"], function($)
 					required = false,
 					requiredEl = $('<em>').text('*');
 
-					console.log($(el).text());
-
 				if($el.text().indexOf('*') !== -1)
 				{
 					$el.text($el.text().substr(0, $el.text().indexOf('*')));

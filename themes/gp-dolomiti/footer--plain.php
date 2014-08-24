@@ -69,7 +69,6 @@
 				'selectivizr'		: 'js/imports/selectivizr',
 				'nav'				: 'js/imports/NavController',
 				'translator'		: 'js/imports/Translator',
-				'hotelselection'	: 'js/imports/HotelSelection',
 				'scrollcontroller'	: 'js/imports/ScrollController',
 				'collapse'			: 'js/imports/CollapsingController',
 				'fx'				: 'js/imports/fx'
