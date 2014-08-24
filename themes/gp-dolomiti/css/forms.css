@@ -2891,8 +2891,8 @@ form {
 /* line 474, ../sass/imports/modules/_event-forms.scss */
 .form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"],
 .form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"],
-.form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"] .section-title + .reg-page-form-field-wrap-pg,
-.form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"] .section-title + .reg-page-form-field-wrap-pg + .reg-page-form-field-wrap-pg {
+.form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"] [class^="espresso-question-group"] + .reg-page-form-field-wrap-pg,
+.form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"] [class^="espresso-question-group"] + .reg-page-form-field-wrap-pg + .reg-page-form-field-wrap-pg {
   display: block;
 }
 
