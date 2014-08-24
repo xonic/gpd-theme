@@ -14,15 +14,17 @@
 
 		@include rem(padding, $baseLineHeight - $borderThin $singleSpace);
 		@include rem(margin, 0 $singleSpace $doubleSpace 0);
-		border:0 none;
+		border:0 none !important;
 		border-radius:$btnBorderRadius;
 		background-color:$btnColorDark;
 		
 		// Set text properties
 		font-family:$sansFontFamily;
 		text-align:center;
-		color:$btnFontColor;
+		color:$btnFontColor !important;
 		@include rem(font-size, $btnFontSize);
+		text-transform:uppercase;
+		text-shadow:none;
 
 		// Set transition properties
 		@include transition(background-color, .2s);
@@ -101,54 +103,39 @@
 	.btn--primary
 	{
 		background:$btnPrimaryColorLight;
-		color:$white;
+		color:$white !important;
+		text-shadow:none;
 	}
 
 	.no-touch .btn--primary:hover,
 	.no-touch .btn--primary:focus
 	{
 		background-color:lighten($btnPrimaryColorLight, 8%);
-		color:$white;
+		color:$white !important;
 	}
 
 	.touch .btn--primary:active,
 	.no-touch .btn--primary:active
 	{
 		background-color:darken($btnPrimaryColorLight, 3%);
-		color:$white;
+		color:$white !important;
 	}
 
 	.btn--success
 	{
-		border-color:$btnSuccessBorderColor;
-		
-		// No gradient fallback
+		border:0 none;
 		background:$btnSuccessColorLight;
-		@include gradient-vertical($btnSuccessColorLight, $btnSuccessColorDark);
-
 		color:$btnSuccessFontColor;
 
 		&:hover
 		{
-			// Make it look more like a beveled button
-			@include gradient-vertical(lighten($btnSuccessColorLight, 2%), darken($btnSuccessColorDark, 2%));
-
-			// Give shadow and highlight depths to the button
-			box-shadow:0 1px 3px rgba(0,0,0,.2),						// outer color glow
-					   inset 0 1px 0 rgba(255,255,255,.2);				// inner white top highlight
-
-			// Add some depth to the text
-			text-shadow:0 1px 1px rgba(255,255,255,.5);
-
-			// Override a:hover font color change
+			background:lighten($btnSuccessColorLight, 7%);
 			color:$btnSuccessFontColor;
 		}
 
 		&:active
 		{
-			// Give the button a slight pressed effect
-			@include gradient-vertical($btnSuccessColorDark, $btnSuccessColorLight);
-			box-shadow:	inset 0 1px 3px rgba(0,0,0,.1);					// inner dark shadow
+			background:darken($btnSuccessColorLight, 5%);
 		}
 	}
 

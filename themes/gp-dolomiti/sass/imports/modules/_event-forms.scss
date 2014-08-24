@@ -139,6 +139,20 @@
 		@include rem(margin-top, 1);
 	}
 
+	// Language containers
+	.de, .en, .it, .fr
+	{
+		display:none;
+	}
+
+	[lang="de-DE"] .de,
+	[lang="en-US"] .en,
+	[lang="en-GB"] .en,
+	[lang="it-IT"] .it,
+	[lang="fr-FR"] .fr
+	{
+		display:block;
+	}
 
 
 //  ---------------------------------------------------------------------------
@@ -191,15 +205,6 @@
 		display:none;
 	}
 
-	[lang="de-DE"] .tckt-slctr-tkt-details-sctn .de,
-	[lang="en-US"] .tckt-slctr-tkt-details-sctn .en,
-	[lang="en-GB"] .tckt-slctr-tkt-details-sctn .en,
-	[lang="it-IT"] .tckt-slctr-tkt-details-sctn .it,
-	[lang="fr-FR"] .tckt-slctr-tkt-details-sctn .fr
-	{
-		display:block;
-	}
-
 	.ticket-pending + .tckt-slctr-tkt-details-tr,
 	.ticket-sales-expired + .tckt-slctr-tkt-details-tr
 	{
@@ -224,8 +229,9 @@
 	.tckt-slctr-tkt-details-sctn > div
 	{
 		@include rem(margin-bottom, $doubleSpace);
-		font-size:75%;
-		line-height:1.2;
+		font-size:85%;
+		line-height:1.4;
+		color:$gray;
 
 		@include at-breakpoint($large-width)
 		{
@@ -258,54 +264,335 @@
 
 
 	// Hide unneccessary stuff
-	.spco-steps-big-hdr
+	.spco-steps-big-hdr,
+	.spco-steps-pg,
+	.big-event-title-hdr,
+	.spco-ticket-info-dv,
+	#spco-auto-copy-attendee-pg
 	{
 		display:none;
 	}
 
-	.form-wrapper // needed for specificty override
+	// Specificity wars
+	.grid
 	{
-		// Wizard
-		#spco-steps-display-dv
+		.form-wrapper // needed for specificty override
 		{
-			border-top:1px solid $sandDark;
-			border-bottom:1px solid $sandDark;
-
-			// Step number
-			.spco-step-big-nmbr
+			// Required form field asterisk
+			.espresso-form-input-lbl em
 			{
-				font-family:$sansFontFamily;
-				@include rem(font-size, 4.2);
+				color:$red !important;
 			}
 
-			// Active step number color
-			.active-step .spco-step-big-nmbr
+			// Wizard
+			#spco-steps-display-dv
 			{
-				color:$primaryAccent;
+				@include rem(margin-bottom, $doubleSpace * 2);
+				border-top:1px solid $sandDark;
+				border-bottom:1px solid $sandDark;
+
+				// Step number
+				.spco-step-big-nmbr
+				{
+					font-family:$sansFontFamily;
+					@include rem(font-size, 4.2);
+				}
+
+				// Active step number color
+				.active-step .spco-step-big-nmbr
+				{
+					color:$primaryAccent;
+				}
+
+				// Step title
+				.spco-steps-display-hdr
+				{
+					margin:0;
+					font-family:$serifFontFamily;
+				}
+
+				// Override arrow & inactive step color
+				.spco-step-arrow-dv,
+				.inactive-step .spco-step-big-nmbr,
+				.inactive-step .spco-steps-display-hdr
+				{
+					color:$grayLight;
+				}
+
+				.spco-step-arrow-dv
+				{
+					@include rem(padding, 2.5 0, !important);
+				}
 			}
 
-			// Step title
-			.spco-steps-display-hdr
+			// Step headings
+			.spco-step-title-hdr
+			{
+				@include rem(margin, 0 0 $singleSpace, !important);
+				border-bottom:0 none;
+			}
+
+			// form fieldset
+			.spco-attendee-wrap-fs
 			{
 				margin:0;
-				font-family:$serifFontFamily;
+				padding:0;
+				border:0 none;
+
+				legend { display:none; }
 			}
 
-			// Override arrow & inactive step color
-			.spco-step-arrow-dv,
-			.inactive-step .spco-step-big-nmbr,
-			.inactive-step .spco-steps-display-hdr
+			// Specificity fights
+			#single-page-checkout
 			{
-				color:$grayLight;
+				// Question group wrapper
+				.espresso-question-group-wrap
+				{
+					@include rem(padding, $doubleSpace);
+
+					&:first-child
+					{
+						padding-top:0;
+					}
+				}
+
+				// Question group title
+				.espresso-question-group-title-h5.section-title
+				{
+					margin-top:0;
+					@include rem(font-size, 2.2);
+					font-weight:400;
+				}
+
+				.spco-next-step-btn
+				{
+					@extend .btn;
+					@extend .btn--primary;
+					@extend .btn--right-aligned;
+				}
+
+				// Inline form field error messages
+				.required-text
+				{
+					float:right;
+					font-size: .8em;
+					font-weight: 400;
+					color:$red !important;
+				}
+
+				.has-value,
+				.needs-value
+				{
+					box-shadow:none;
+				}
+
+				.has-value:focus,
+				.needs-value:focus
+				{
+					@include box-shadow(inset 0 1px 2px $errorShadowColor);
+				}
+
+				.requires-value
+				{
+					border:1px solid $red !important;
+				}
+
+				// Payment options
+				#reg-page-totals-hdr,
+				#spco-payment-info-table thead
+				{
+					display:none;
+				}
+
+				.spco-payment-info-dv
+				{
+					margin:0;
+				}
+
+				#spco-payment-info-table
+				{
+					width:100%;
+
+					tr:first-child
+					{
+						td
+						{
+							@include rem(padding-bottom, $singleSpace);
+						}
+
+						.jst-rght
+						{
+							display:none;
+						}
+					}
+
+					#reg-page-grand-total-dv
+					{
+						border-top:1px solid $grayVeryLight;
+
+						td:first-child
+						{
+							@include rem(padding-top, $singleSpace);
+						}
+					}
+				}
+
+				#spco-payment-info-table td 
+				{
+					display:block;
+				}
+
+				// Other payments link
+				#reg-page-select-other-gateway-lnk
+				{
+					margin:0;
+					color:$grayLight;
+					border:0 none;
+
+					&:hover
+					{
+						color:$primaryAccent;
+					}
+				}
+
+				// Hide the hotel selectors
+				[id^="hotel"],
+				[id^="hotel"] .reg-page-form-field-wrap-pg
+				{
+					display:none;
+				}
+			}
+		}
+	}
+
+	// Show the corresponding hotel selector if 
+	// corresponding ticket has been selected
+	.form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"],
+	.form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"],
+	.form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"] .section-title + .reg-page-form-field-wrap-pg,
+	.form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"] .section-title + .reg-page-form-field-wrap-pg + .reg-page-form-field-wrap-pg
+	{
+		display:block;
+	}
+
+	// Add a fake 'required form field' asterisk
+	.form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"] .section-title + .reg-page-form-field-wrap-pg,
+	.form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"] .section-title + .reg-page-form-field-wrap-pg + .reg-page-form-field-wrap-pg
+	{
+		label:after
+		{
+			content:" *";
+			color:$red;
+		}
+	}
+
+	// Specificity wars
+	.grid
+	{
+		#espresso-notices,
+		#espresso-ajax-notices 
+		{
+			.close-espresso-notice
+			{
+				border:0 none;
+			}
+		}
+
+		#espresso-notices-success, 
+		#espresso-ajax-notices-success
+		{
+			border:2px solid $green;
+		}
+		
+		#espresso-notices-error, 
+		#espresso-ajax-notices-error
+		{
+			border:2px solid $red;
+		}
+	}
+
+
+
+//  ---------------------------------------------------------------------------
+//
+//  THANK YOU PAGE
+//
+//  ---------------------------------------------------------------------------
+
+	
+
+	// Specificity wars
+	.success 
+	{
+		.grid
+		{
+			// Message box
+			.ee-attention
+			{
+				@include rem(margin, 0 0 $doubleSpace);
+				@include rem(padding, $doubleSpace);
+				background:$greenVeryLight;
+				border-color:$green;
+
+				.extra-padding-sides
+				{
+					padding:0;
+
+					.bigger-text { display:none; }
+				}
 			}
 
-			.spco-step-arrow-dv
+			// Those ugly buttons
+			.ee-button
 			{
-				@include rem(padding, 2.5 0, !important);
+				@extend .btn;
+				@extend .btn--success;
+				@extend .btn--right-aligned;
+				margin-bottom:0;
+				line-height:1.4;
+			}
+
+			// Headings
+			.ee-registration-details-h3
+			{
+				@include rem(margin-bottom, $singleSpace);
+				@include rem(font-size, 3.2);
+				@include rem(line-height, 3.3);
+			}
+
+			// Registration Details
+			// Transaction Details
+			.ee-registration-details-dv,
+			#espresso-thank-you-page-ajax-transaction-dv,
+			#espresso-thank-you-page-ajax-payment-dv
+			{
+				@include rem(margin-bottom, $doubleSpace * 2);
+				@include rem(padding, $doubleSpace $doubleSpace 0);
+				border:1px solid $sandDark;
+				
+				h2, h3, h5
+				{
+					@include rem(font-size, 2.6);
+					@include rem(line-height, 2.8);
+				}
+			}
+
+			// Success tables
+			.ee-table
+			{
+				width:100%;
+
+				th { text-align:left; }
+			}
+
+			#espresso-thank-you-page-transaction-details-dv tr:nth-child(3) .smaller-text a 
+			{
+				display:none;
 			}
 		}
 	}
 	
+
 
 
 

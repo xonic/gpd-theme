@@ -41,7 +41,7 @@
 //  ---------------------------------------------------------------------------
 
 	$green:					#bfe05a;
-	$greenVeryLight:		desaturate(lighten($green, 36%), 3%);
+	$greenVeryLight:		desaturate(lighten($green, 30%), 8%);
 	
 	$red:					#cc4632;
 	$redLight:				desaturate(lighten($red, 25%), 3%);
@@ -97,7 +97,7 @@
 	$htmlFontSize:          62.5%;	
 	$htmlLineHeight:        1;
 	$baseLineHeight:		1.2;
-	$bodyFontSize:          1.8;
+	$bodyFontSize:          1.7;
 	$bodyLineHeight:        $baseLineHeight * 2;
 
 	$baseLineHeight--medium:		1.4;
@@ -264,7 +264,7 @@
 		
 	// Generic button		
 	$btnColorLight:						$white;
-	$btnColorDark:						darken($btnColorLight, 2%);
+	$btnColorDark:						darken($btnColorLight, 8%);
 	$btnFontColor:						$textColor;
 	$btnBorderColor:      				$grayVeryLight;
 

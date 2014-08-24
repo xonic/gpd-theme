@@ -72,20 +72,20 @@
 	//  = MEDIUM
 	//  ---------------------------------------------------------------------------
 
-		@include at-breakpoint($medium-width $medium-cols)
-		{
-			@include setType($bodyFontSize--medium, $bodyLineHeight--medium);
-		}
+	// 	@include at-breakpoint($medium-width $medium-cols)
+	// 	{
+	// 		@include setType($bodyFontSize--medium, $bodyLineHeight--medium);
+	// 	}
 
 
 
-	//  = LARGE
-	//  ---------------------------------------------------------------------------
+	// //  = LARGE
+	// //  ---------------------------------------------------------------------------
 
-		@include at-breakpoint($bodyLarge)
-		{
-			@include setType($bodyFontSize--large, $bodyLineHeight--large);
-		}
+	// 	@include at-breakpoint($bodyLarge)
+	// 	{
+	// 		@include setType($bodyFontSize--large, $bodyLineHeight--large);
+	// 	}
 
 
 

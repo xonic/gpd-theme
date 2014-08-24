@@ -34,11 +34,13 @@ define(["jquery"], function($)
 		{
 			var that = this;
 
-			$.each($(".js-translate"), function(i, el)
+			$.each($(".espresso-question-group-wrap label, .espresso-question-group-wrap .section-title"), function(i, el)
 			{
 				var $el = $(el),
 					required = false,
 					requiredEl = $('<em>').text('*');
+
+					console.log($(el).text());
 
 				if($el.text().indexOf('*') !== -1)
 				{
