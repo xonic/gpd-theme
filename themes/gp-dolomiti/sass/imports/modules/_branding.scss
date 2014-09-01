@@ -28,11 +28,23 @@
 		@include at-breakpoint($huge-width)
 		{
 			float:left;
-			@include rem(margin, $doubleSpace);
+			@include rem(margin, $doubleSpace 0 $doubleSpace $doubleSpace);
 			@include rem(width, 18);
 			@include rem(height, 4);
 			background:url(../images/gpd-logo--wide.svg) top center no-repeat transparent;
 			background-size:100%;
+		}
+	}
+
+	.header--alt
+	{
+		@include at-breakpoint($huge-width no-mq)
+		{
+			.logo--wide
+			{
+				background:url(../images/gpd-logo--wide--alt.svg) top center no-repeat transparent;
+				background-size:100%;
+			}
 		}
 	}
 
@@ -97,6 +109,8 @@
 
 	.branding__tagline-container
 	{
+		margin:0;
+
 		@include at-breakpoint($huge-width)
 		{
 			position:relative;
@@ -126,6 +140,21 @@
 		@include rem(font-size, 2.1);
 		line-height: 1;
 		@include rem(letter-spacing, .9);
+		color:darken($sandDark, 45%);
+
+		@include at-breakpoint($huge-width no-mq)
+		{
+			@include rem(font-size, 3);
+			line-height:1.2;
+		}
+	}
+
+	.branding__tagline 
+	{
+		@include at-breakpoint($huge-width no-mq)
+		{
+			@include rem(font-size, 6);
+		}
 	}
 
 	.page-template-timetable-php .branding__bg

@@ -6,10 +6,6 @@
 //
 //  ---------------------------------------------------------------------------
 
-	// Add a minor breakpoint to 
-	// allow for all menu items to fit
-	$navLarge:48em;
-
 	.top-bar
 	{
 		@include at-breakpoint($huge-width no-mq)
@@ -22,6 +18,11 @@
 		}
 	}
 
+	.header--alt .top-bar
+	{
+		@include background(linear-gradient(rgba($white, .7), rgba($white, 0)));
+	}
+
 	.flyout
 	{
 		background:$blackSand;
@@ -30,13 +31,29 @@
 		a
 		{
 			border:0 none;
-			color:$white;
+			color:rgba($white, .85);
 		}
 
 		@include at-breakpoint($huge-width no-mq)
 		{
 			height:auto!important;
 			background:transparent;
+		}
+	}
+
+	.header--alt .flyout
+	{
+		@include at-breakpoint($huge-width no-mq)
+		{
+			a
+			{
+				color:rgba($blackSand, .6);
+			}
+
+			.current-menu-item a
+			{
+				color:$blackSand;
+			}
 		}
 	}
 
@@ -49,7 +66,7 @@
 			position:absolute;
 			top:0;
 			@include rem(right, $doubleSpace);
-			@include rem(left, 24);
+			@include rem(left, 22);
 			z-index:1001;
 		}
 	}
@@ -125,8 +142,7 @@
 			@include rem(margin, $singleSpace 0 0);	
 		}
 
-		// font-weight:$lightFontWeight;
-		.menu-hauptmenue-container
+		.menu-hauptmenu-container
 		{
 			@include transform(scale3d(.8, .8, .8) translate3d(0, 25px, 0));
 			@include transition(transform .3s ease, opacity .3s linear);
@@ -139,17 +155,7 @@
 
 			a 
 			{
-				color:rgba($white, .8);
-			}
-
-			.menu-item--primary a
-			{
-				color:rgba($primaryAccent, .75);
-			}
-
-			.menu-item--primary.current-menu-item a
-			{
-				color:$primaryAccent;
+				color:rgba($white, .7);
 			}
 
 			.current-menu-item a
@@ -205,7 +211,9 @@
 		{
 			@include at-breakpoint($huge-width no-mq)
 			{
-				float:right;
+				position:absolute;
+				top:0;
+				right:0;
 				@include rem(margin-top, .6);
 				padding:0;
 
@@ -233,28 +241,62 @@
 	.touch .nav-main .menu a:active
 	{
 		color:$white;
-	}
-
-	.touch .nav-main .menu a:active
-	{
 		background:$primaryAccent;
+
+		@include at-breakpoint($huge-width no-mq)
+		{
+			color:$white;
+			background:transparent;
+		}
 	}
 
-	.no-touch .nav-main .menu .menu-item--primary a:hover,
-	.touch .nav-main .menu .menu-item--primary a:active
+	.no-touch .nav-main .nav-main__cta a:hover,
+	.touch .nav-main .nav-main__cta a:active
 	{
-		color:$primaryAccent;
+		@include at-breakpoint($huge-width no-mq)
+		{
+			color:$white;
+			background:$primaryAccent;
+		}
 	}
 
-	.touch .nav-main .menu .menu-item--primary a:active,
-	.touch .nav-main .menu .nav-main__cta a:active,
-	.no-touch .nav-main .menu .nav-main__cta a:hover
+	.no-touch .header--alt .flyout__inner,
+	.touch .header--alt .flyout__inner
 	{
-		background:$primaryAccent;
-		color:$white;
+
+		@include at-breakpoint($huge-width no-mq)
+		{
+			a { color:rgba($blackSand, .6); }
+			.current-menu-item a { color:$blackSand; }
+			a:hover,
+			a:active
+			{
+				color:$blackSand;
+			}
+
+			.nav-main__cta
+			{
+				@include at-breakpoint($huge-width no-mq)
+				{
+					a 
+					{
+						background:$primaryAccent;
+						background:rgba($primaryAccent, .7);
+						color:$white;
+						
+						&:hover
+						{
+							background:$primaryAccent;
+							color:$white;
+						}
+					}
+
+				}
+			}
+		}
 	}
 
-	.collapsible--is-expanded .nav-main .menu-hauptmenue-container
+	.collapsible--is-expanded .nav-main .menu-hauptmenu-container
 	{
 		@include transform(scale3d(1,1,1) translate3d(0,0,0));
 		opacity:1;

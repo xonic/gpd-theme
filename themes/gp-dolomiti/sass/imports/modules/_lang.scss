@@ -3,10 +3,6 @@
 //  Defines the styling for lang switcher
 //
 //  ---------------------------------------------------------------------------
-	
-	// Add minor breakpoint to match
-	// the minor breakpoint of nav-main.scss
-	$langLarge:48em;
 
 	.lang
 	{
@@ -23,15 +19,14 @@
 
 		@include at-breakpoint($huge-width no-mq)
 		{
-			display:none;
 			float:none;
 			position:absolute;
-			@include rem(top, $touchSize);
-			right:0;
+			@include rem(top, 3.6);
+			@include rem(right, 12);
 			z-index:901;
-			@include rem(padding, 0 $r-grid-padding);
-			background:rgba($white,.5);
-			border-radius:0 0 4px 4px;
+			// @include rem(padding, 0 $r-grid-padding);
+			// background:rgba($white,.5);
+			// border-radius:0 0 4px 4px;
 			@include rem(line-height, 2.6);
 		}
 	}
@@ -43,7 +38,7 @@
 
 		a 
 		{ 
-			color:$grayLight;
+			color:rgba($white, .7);
 
 			&:hover
 			{
@@ -58,19 +53,19 @@
 	{
 		a 
 		{
-			color:rgba($textColor, .6);
+			color:rgba($white, .6);
 			border:0 none;
 		}
 
 		a:hover
 		{
 			background:transparent;
-			color:$textColor;
+			color:$white;
 		}
 
 		&.active a
 		{
-			color:$textColor;
+			color:$white;
 			cursor:default;
 		}
 
@@ -78,10 +73,33 @@
 		{
 			content:" | ";
 			color:darken($white, 10%);
+
+			@include at-breakpoint($huge-width no-mq)
+			{
+				content:" ";
+				@include rem(margin-left, .5);
+			}
 		}
 
 		&:last-child:after
 		{
 			content:none;
+		}
+	}
+
+	.header--alt
+	{
+		[class^="lang-"]
+		{
+			a 
+			{
+				color:rgba($blackSand, .6);
+			}
+
+			a:hover,
+			&.active a
+			{
+				color:$blackSand;
+			}
 		}
 	}

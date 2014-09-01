@@ -2245,7 +2245,7 @@ form {
     background-image: url(../images/routes/routes--320--2x.jpg);
   }
 }
-/* line 12, ../sass/imports/modules/_lang.scss */
+/* line 8, ../sass/imports/modules/_lang.scss */
 .lang {
   font-size:  14px;
   font-size:  1.4rem;
@@ -2255,89 +2255,104 @@ form {
   letter-spacing: 0;
   text-align: center;
 }
-/* line 20, ../sass/imports/modules/_lang.scss */
+/* line 16, ../sass/imports/modules/_lang.scss */
 .lang ul {
   margin: 0;
 }
 @media (min-width: 64em) {
-  /* line 12, ../sass/imports/modules/_lang.scss */
+  /* line 8, ../sass/imports/modules/_lang.scss */
   .lang {
-    display: none;
     float: none;
     position: absolute;
-    top:  48px;
-    top:  4.8rem;
-    right: 0;
+    top:  36px;
+    top:  3.6rem;
+    right:  120px;
+    right:  12rem;
     z-index: 901;
-    padding:  0 10px;
-    padding:  0 1rem;
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 0 0 4px 4px;
     line-height:  26px;
     line-height:  2.6rem;
   }
 }
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .lang {
-  display: none;
   float: none;
   position: absolute;
-  top:  48px;
-  top:  4.8rem;
-  right: 0;
+  top:  36px;
+  top:  3.6rem;
+  right:  120px;
+  right:  12rem;
   z-index: 901;
-  padding:  0 10px;
-  padding:  0 1rem;
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 0 0 4px 4px;
   line-height:  26px;
   line-height:  2.6rem;
 }
 
-/* line 41, ../sass/imports/modules/_lang.scss */
+/* line 36, ../sass/imports/modules/_lang.scss */
 #ie7 .lang,
 #ie8 .lang {
   background: #332e24;
 }
-/* line 45, ../sass/imports/modules/_lang.scss */
+/* line 40, ../sass/imports/modules/_lang.scss */
 #ie7 .lang a,
 #ie8 .lang a {
-  color: #b8b8b8;
+  color: rgba(255, 255, 255, 0.7);
 }
-/* line 49, ../sass/imports/modules/_lang.scss */
+/* line 44, ../sass/imports/modules/_lang.scss */
 #ie7 .lang a:hover,
 #ie8 .lang a:hover {
   color: white;
 }
-/* line 54, ../sass/imports/modules/_lang.scss */
+/* line 49, ../sass/imports/modules/_lang.scss */
 #ie7 .lang .active a,
 #ie8 .lang .active a {
   color: white;
 }
 
-/* line 60, ../sass/imports/modules/_lang.scss */
+/* line 55, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a {
-  color: rgba(76, 69, 53, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   border: 0 none;
 }
-/* line 66, ../sass/imports/modules/_lang.scss */
+/* line 61, ../sass/imports/modules/_lang.scss */
 [class^="lang-"] a:hover {
   background: transparent;
-  color: #4c4535;
+  color: white;
 }
-/* line 72, ../sass/imports/modules/_lang.scss */
+/* line 67, ../sass/imports/modules/_lang.scss */
 [class^="lang-"].active a {
-  color: #4c4535;
+  color: white;
   cursor: default;
 }
-/* line 78, ../sass/imports/modules/_lang.scss */
+/* line 73, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:after {
   content: " | ";
   color: #e6e6e6;
 }
-/* line 84, ../sass/imports/modules/_lang.scss */
+@media (min-width: 64em) {
+  /* line 73, ../sass/imports/modules/_lang.scss */
+  [class^="lang-"]:after {
+    content: " ";
+    margin-left:  5px;
+    margin-left:  0.5rem;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq [class^="lang-"]:after {
+  content: " ";
+  margin-left:  5px;
+  margin-left:  0.5rem;
+}
+/* line 85, ../sass/imports/modules/_lang.scss */
 [class^="lang-"]:last-child:after {
   content: none;
+}
+
+/* line 95, ../sass/imports/modules/_lang.scss */
+.header--alt [class^="lang-"] a {
+  color: rgba(51, 46, 36, 0.6);
+}
+/* line 101, ../sass/imports/modules/_lang.scss */
+.header--alt [class^="lang-"] a:hover, .header--alt [class^="lang-"].active a {
+  color: #332e24;
 }
 
 /* line 7, ../sass/imports/modules/_branding.scss */
@@ -2373,8 +2388,8 @@ form {
   /* line 27, ../sass/imports/modules/_branding.scss */
   .logo--wide {
     float: left;
-    margin:  24px;
-    margin:  2.4rem;
+    margin:  24px 0 24px 24px;
+    margin:  2.4rem 0 2.4rem 2.4rem;
     width:  180px;
     width:  18rem;
     height:  40px;
@@ -2384,7 +2399,20 @@ form {
   }
 }
 
-/* line 40, ../sass/imports/modules/_branding.scss */
+@media (min-width: 64em) {
+  /* line 44, ../sass/imports/modules/_branding.scss */
+  .header--alt .logo--wide {
+    background: url(../images/gpd-logo--wide--alt.svg) top center no-repeat transparent;
+    background-size: 100%;
+  }
+}
+/* line 44, ../sass/imports/modules/_branding.scss */
+.no-mq .header--alt .logo--wide {
+  background: url(../images/gpd-logo--wide--alt.svg) top center no-repeat transparent;
+  background-size: 100%;
+}
+
+/* line 52, ../sass/imports/modules/_branding.scss */
 .branding {
   padding:  24px 0;
   padding:  2.4rem 0;
@@ -2396,7 +2424,7 @@ form {
   overflow: hidden;
 }
 @media (min-width: 64em) {
-  /* line 40, ../sass/imports/modules/_branding.scss */
+  /* line 52, ../sass/imports/modules/_branding.scss */
   .branding {
     position: relative;
     padding: 0;
@@ -2407,7 +2435,7 @@ form {
   }
 }
 
-/* line 66, ../sass/imports/modules/_branding.scss */
+/* line 78, ../sass/imports/modules/_branding.scss */
 .touch .branding a,
 .touch .branding a:hover,
 .touch .branding a:active,
@@ -2418,7 +2446,7 @@ form {
 }
 
 @media (min-width: 64em) {
-  /* line 73, ../sass/imports/modules/_branding.scss */
+  /* line 85, ../sass/imports/modules/_branding.scss */
   .branding__bg {
     position: absolute;
     top: 0;
@@ -2432,7 +2460,7 @@ form {
 }
 
 @media (min-width: 64em) {
-  /* line 88, ../sass/imports/modules/_branding.scss */
+  /* line 100, ../sass/imports/modules/_branding.scss */
   .branding__wrapper {
     position: absolute;
     top: 40%;
@@ -2441,13 +2469,17 @@ form {
   }
 }
 
+/* line 111, ../sass/imports/modules/_branding.scss */
+.branding__tagline-container {
+  margin: 0;
+}
 @media (min-width: 64em) {
-  /* line 99, ../sass/imports/modules/_branding.scss */
+  /* line 111, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container {
     position: relative;
     display: inline-block;
   }
-  /* line 106, ../sass/imports/modules/_branding.scss */
+  /* line 120, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container:before {
     content: " ";
     position: absolute;
@@ -2465,13 +2497,13 @@ form {
     background: -o-radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
     background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
   }
-  /* line 117, ../sass/imports/modules/_branding.scss */
+  /* line 131, ../sass/imports/modules/_branding.scss */
   .branding__tagline-container > div {
     position: relative;
   }
 }
 
-/* line 124, ../sass/imports/modules/_branding.scss */
+/* line 138, ../sass/imports/modules/_branding.scss */
 .branding__subtagline {
   padding-left:  14px;
   padding-left:  1.4rem;
@@ -2480,10 +2512,38 @@ form {
   line-height: 1;
   letter-spacing:  9px;
   letter-spacing:  0.9rem;
+  color: #676038;
+}
+@media (min-width: 64em) {
+  /* line 138, ../sass/imports/modules/_branding.scss */
+  .branding__subtagline {
+    font-size:  30px;
+    font-size:  3rem;
+    line-height: 1.2;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .branding__subtagline {
+  font-size:  30px;
+  font-size:  3rem;
+  line-height: 1.2;
+}
+
+@media (min-width: 64em) {
+  /* line 153, ../sass/imports/modules/_branding.scss */
+  .branding__tagline {
+    font-size:  60px;
+    font-size:  6rem;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .branding__tagline {
+  font-size:  60px;
+  font-size:  6rem;
 }
 
 @media (min-width: 48em) {
-  /* line 132, ../sass/imports/modules/_branding.scss */
+  /* line 161, ../sass/imports/modules/_branding.scss */
   .page-template-timetable-php .branding__bg {
     background: url(../images/branding--timetable.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2498,7 +2558,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 142, ../sass/imports/modules/_branding.scss */
+  /* line 171, ../sass/imports/modules/_branding.scss */
   .page-template-packages-php .branding__bg {
     background: url(../images/branding--packages.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2513,7 +2573,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 152, ../sass/imports/modules/_branding.scss */
+  /* line 181, ../sass/imports/modules/_branding.scss */
   .page-template-regulations-php .branding__bg {
     background: url(../images/branding--regulations.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2528,7 +2588,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 162, ../sass/imports/modules/_branding.scss */
+  /* line 191, ../sass/imports/modules/_branding.scss */
   .page-template-contact-php .branding__bg {
     background: url(../images/branding--contact.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2543,7 +2603,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 172, ../sass/imports/modules/_branding.scss */
+  /* line 201, ../sass/imports/modules/_branding.scss */
   .page-template-ticket-selector-php .branding__bg {
     background: url(../images/branding--registration.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2558,7 +2618,7 @@ form {
 }
 
 @media (min-width: 48em) {
-  /* line 182, ../sass/imports/modules/_branding.scss */
+  /* line 211, ../sass/imports/modules/_branding.scss */
   .page-template-register-success-php .branding__bg {
     background: url(../images/branding--thank-you.jpg) top center no-repeat transparent;
     background-size: 105%;
@@ -2572,7 +2632,7 @@ form {
   background-position: center;
 }
 
-/* line 205, ../sass/imports/modules/_branding.scss */
+/* line 234, ../sass/imports/modules/_branding.scss */
 .branding__logo {
   display: inline-block;
   width:  280px;
@@ -2588,7 +2648,7 @@ form {
   transition: transform 0 ease-out, opacity 0 linear;
 }
 @media (min-width: 48em) {
-  /* line 205, ../sass/imports/modules/_branding.scss */
+  /* line 234, ../sass/imports/modules/_branding.scss */
   .branding__logo {
     background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
     background-size: 100%;
@@ -2600,12 +2660,12 @@ form {
   background-size: 100%;
 }
 
-/* line 223, ../sass/imports/modules/_branding.scss */
+/* line 252, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 228, ../sass/imports/modules/_branding.scss */
+/* line 257, ../sass/imports/modules/_branding.scss */
 .down-arrow {
   display: block;
   position: relative;

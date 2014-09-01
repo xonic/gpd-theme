@@ -85,7 +85,7 @@
 		?>
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body <? $currentPage == 'timetable' ? body_class('header--alt') : body_class(); ?>>
 		<div class="top-bar">
 			<a href="<? echo get_home_url(); ?>" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
 				<div class="logo logo--wide">
