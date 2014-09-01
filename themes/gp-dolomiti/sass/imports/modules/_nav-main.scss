@@ -120,6 +120,11 @@
 
 	.nav-main 
 	{
+		@include at-breakpoint($huge-width no-mq)
+		{
+			@include rem(margin, $singleSpace 0 0);	
+		}
+
 		// font-weight:$lightFontWeight;
 		.menu-hauptmenue-container
 		{

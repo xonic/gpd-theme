@@ -900,7 +900,19 @@ object {
   transform: rotateZ(0) scale3d(1, 1, 1);
 }
 
-/* line 125, ../sass/imports/modules/_nav-main.scss */
+@media (min-width: 64em) {
+  /* line 122, ../sass/imports/modules/_nav-main.scss */
+  .nav-main {
+    margin:  12px 0 0;
+    margin:  1.2rem 0 0;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .nav-main {
+  margin:  12px 0 0;
+  margin:  1.2rem 0 0;
+}
+/* line 130, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container {
   -webkit-transform: scale3d(0.8, 0.8, 0.8) translate3d(0, 25px, 0);
   -moz-transform: scale3d(0.8, 0.8, 0.8) translate3d(0, 25px, 0);
@@ -913,28 +925,28 @@ object {
   transition: transform 0.3s ease, opacity 0.3s linear;
   opacity: 0;
 }
-/* line 131, ../sass/imports/modules/_nav-main.scss */
+/* line 136, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container ul {
   margin: 0;
 }
-/* line 136, ../sass/imports/modules/_nav-main.scss */
+/* line 141, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container a {
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 141, ../sass/imports/modules/_nav-main.scss */
+/* line 146, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .menu-item--primary a {
   color: rgba(254, 170, 0, 0.75);
 }
-/* line 146, ../sass/imports/modules/_nav-main.scss */
+/* line 151, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .menu-item--primary.current-menu-item a {
   color: #feaa00;
 }
-/* line 151, ../sass/imports/modules/_nav-main.scss */
+/* line 156, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .current-menu-item a {
   color: white;
 }
 @media (min-width: 64em) {
-  /* line 125, ../sass/imports/modules/_nav-main.scss */
+  /* line 130, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-hauptmenue-container {
     margin:  12px 0 0;
     margin:  1.2rem 0 0;
@@ -955,11 +967,11 @@ object {
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
 @media (min-width: 64em) {
-  /* line 164, ../sass/imports/modules/_nav-main.scss */
+  /* line 169, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item {
     display: inline;
   }
-  /* line 170, ../sass/imports/modules/_nav-main.scss */
+  /* line 175, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item:first-child {
     display: none;
   }
@@ -968,11 +980,11 @@ object {
 .no-mq .nav-main .menu-item {
   display: inline;
 }
-/* line 170, ../sass/imports/modules/_nav-main.scss */
+/* line 175, ../sass/imports/modules/_nav-main.scss */
 .no-mq .nav-main .menu-item:first-child {
   display: none;
 }
-/* line 177, ../sass/imports/modules/_nav-main.scss */
+/* line 182, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-item a {
   display: block;
   margin-left: -0.58824em;
@@ -990,7 +1002,7 @@ object {
   text-align: center;
 }
 @media (min-width: 64em) {
-  /* line 177, ../sass/imports/modules/_nav-main.scss */
+  /* line 182, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item a {
     display: inline-block;
     margin-right: 0;
@@ -1014,14 +1026,14 @@ object {
   text-transform: capitalize;
 }
 @media (min-width: 64em) {
-  /* line 200, ../sass/imports/modules/_nav-main.scss */
+  /* line 205, ../sass/imports/modules/_nav-main.scss */
   .nav-main .nav-main__cta {
     float: right;
     margin-top:  6px;
     margin-top:  0.6rem;
     padding: 0;
   }
-  /* line 208, ../sass/imports/modules/_nav-main.scss */
+  /* line 213, ../sass/imports/modules/_nav-main.scss */
   .nav-main .nav-main__cta a {
     padding:  0 12px;
     padding:  0 1.2rem;
@@ -1031,7 +1043,7 @@ object {
     color: white;
     line-height: 2;
   }
-  /* line 217, ../sass/imports/modules/_nav-main.scss */
+  /* line 222, ../sass/imports/modules/_nav-main.scss */
   .nav-main .nav-main__cta a:hover {
     background: #feaa00;
     color: white;
@@ -1044,7 +1056,7 @@ object {
   margin-top:  0.6rem;
   padding: 0;
 }
-/* line 208, ../sass/imports/modules/_nav-main.scss */
+/* line 213, ../sass/imports/modules/_nav-main.scss */
 .no-mq .nav-main .nav-main__cta a {
   padding:  0 12px;
   padding:  0 1.2rem;
@@ -1054,30 +1066,30 @@ object {
   color: white;
   line-height: 2;
 }
-/* line 217, ../sass/imports/modules/_nav-main.scss */
+/* line 222, ../sass/imports/modules/_nav-main.scss */
 .no-mq .nav-main .nav-main__cta a:hover {
   background: #feaa00;
   color: white;
 }
 
-/* line 229, ../sass/imports/modules/_nav-main.scss */
+/* line 234, ../sass/imports/modules/_nav-main.scss */
 .no-touch .nav-main .menu a:hover,
 .touch .nav-main .menu a:active {
   color: white;
 }
 
-/* line 234, ../sass/imports/modules/_nav-main.scss */
+/* line 239, ../sass/imports/modules/_nav-main.scss */
 .touch .nav-main .menu a:active {
   background: #feaa00;
 }
 
-/* line 240, ../sass/imports/modules/_nav-main.scss */
+/* line 245, ../sass/imports/modules/_nav-main.scss */
 .no-touch .nav-main .menu .menu-item--primary a:hover,
 .touch .nav-main .menu .menu-item--primary a:active {
   color: #feaa00;
 }
 
-/* line 247, ../sass/imports/modules/_nav-main.scss */
+/* line 252, ../sass/imports/modules/_nav-main.scss */
 .touch .nav-main .menu .menu-item--primary a:active,
 .touch .nav-main .menu .nav-main__cta a:active,
 .no-touch .nav-main .menu .nav-main__cta a:hover {
@@ -1085,7 +1097,7 @@ object {
   color: white;
 }
 
-/* line 253, ../sass/imports/modules/_nav-main.scss */
+/* line 258, ../sass/imports/modules/_nav-main.scss */
 .collapsible--is-expanded .nav-main .menu-hauptmenue-container {
   -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   -moz-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -1160,7 +1172,7 @@ object {
 }
 
 /* line 90, ../sass/imports/modules/_button.scss */
-.btn--right-aligned, .ticket-selector-submit-btn, .grid .form-wrapper #single-page-checkout .spco-next-step-btn, .success .grid .ee-button {
+.btn--right-aligned, .ticket-selector-submit-btn, .success .grid .ee-button {
   margin-right: 0;
 }
 
@@ -2988,7 +3000,37 @@ form {
   background-position: center;
 }
 
-/* line 185, ../sass/imports/modules/_branding.scss */
+@media (min-width: 48em) {
+  /* line 172, ../sass/imports/modules/_branding.scss */
+  .page-template-ticket-selector-php .branding__bg {
+    background: url(../images/branding--registration.jpg) top center no-repeat transparent;
+    background-size: 105%;
+    background-position: center;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .page-template-ticket-selector-php .branding__bg {
+  background: url(../images/branding--registration.jpg) top center no-repeat transparent;
+  background-size: 105%;
+  background-position: center;
+}
+
+@media (min-width: 48em) {
+  /* line 182, ../sass/imports/modules/_branding.scss */
+  .page-template-register-success-php .branding__bg {
+    background: url(../images/branding--thank-you.jpg) top center no-repeat transparent;
+    background-size: 105%;
+    background-position: center;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .page-template-register-success-php .branding__bg {
+  background: url(../images/branding--thank-you.jpg) top center no-repeat transparent;
+  background-size: 105%;
+  background-position: center;
+}
+
+/* line 205, ../sass/imports/modules/_branding.scss */
 .branding__logo {
   display: inline-block;
   width:  280px;
@@ -3004,7 +3046,7 @@ form {
   transition: transform 0 ease-out, opacity 0 linear;
 }
 @media (min-width: 48em) {
-  /* line 185, ../sass/imports/modules/_branding.scss */
+  /* line 205, ../sass/imports/modules/_branding.scss */
   .branding__logo {
     background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
     background-size: 100%;
@@ -3016,12 +3058,12 @@ form {
   background-size: 100%;
 }
 
-/* line 203, ../sass/imports/modules/_branding.scss */
+/* line 223, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 208, ../sass/imports/modules/_branding.scss */
+/* line 228, ../sass/imports/modules/_branding.scss */
 .down-arrow {
   display: block;
   position: relative;
@@ -3304,150 +3346,160 @@ form {
   display: none;
 }
 
-/* line 283, ../sass/imports/modules/_event-forms.scss */
+/* line 277, ../sass/imports/modules/_event-forms.scss */
+#spco-registration-attendee_information-frm {
+  padding: 0;
+}
+
+/* line 288, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper .espresso-form-input-lbl em {
   color: #cc4632 !important;
 }
-/* line 289, ../sass/imports/modules/_event-forms.scss */
+/* line 294, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv {
   margin-bottom:  48px;
   margin-bottom:  4.8rem;
   border-top: 1px solid #d4cfb0;
   border-bottom: 1px solid #d4cfb0;
 }
-/* line 296, ../sass/imports/modules/_event-forms.scss */
+/* line 301, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv .spco-step-big-nmbr {
   font-family: "futura-pt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size:  42px;
   font-size:  4.2rem;
 }
-/* line 303, ../sass/imports/modules/_event-forms.scss */
+/* line 308, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv .active-step .spco-step-big-nmbr {
   color: #feaa00;
 }
-/* line 309, ../sass/imports/modules/_event-forms.scss */
+/* line 314, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv .spco-steps-display-hdr {
   margin: 0;
   font-family: "ff-meta-serif-web-pro", "Georgia", "Geneva", "Times New Roman", serif;
 }
-/* line 318, ../sass/imports/modules/_event-forms.scss */
+/* line 323, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv .spco-step-arrow-dv,
 .grid .form-wrapper #spco-steps-display-dv .inactive-step .spco-step-big-nmbr,
 .grid .form-wrapper #spco-steps-display-dv .inactive-step .spco-steps-display-hdr {
   color: #b8b8b8;
 }
-/* line 323, ../sass/imports/modules/_event-forms.scss */
+/* line 328, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv .spco-step-arrow-dv {
   padding:  25px 0 !important;
   padding:  2.5rem 0 !important;
 }
-/* line 330, ../sass/imports/modules/_event-forms.scss */
+/* line 335, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper .spco-step-title-hdr {
   margin:  0 0 12px !important;
   margin:  0 0 1.2rem !important;
   border-bottom: 0 none;
 }
-/* line 337, ../sass/imports/modules/_event-forms.scss */
+/* line 342, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper .spco-attendee-wrap-fs {
   margin: 0;
   padding: 0;
   border: 0 none;
 }
-/* line 342, ../sass/imports/modules/_event-forms.scss */
+/* line 347, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper .spco-attendee-wrap-fs legend {
   display: none;
 }
-/* line 350, ../sass/imports/modules/_event-forms.scss */
+/* line 355, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .espresso-question-group-wrap {
   padding:  24px;
   padding:  2.4rem;
 }
-/* line 354, ../sass/imports/modules/_event-forms.scss */
+/* line 359, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .espresso-question-group-wrap:first-child {
   padding-top: 0;
 }
-/* line 361, ../sass/imports/modules/_event-forms.scss */
+/* line 366, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .espresso-question-group-title-h5.section-title {
   margin-top: 0;
   font-size:  22px;
   font-size:  2.2rem;
   font-weight: 400;
 }
-/* line 376, ../sass/imports/modules/_event-forms.scss */
+/* line 373, ../sass/imports/modules/_event-forms.scss */
+.grid .form-wrapper #single-page-checkout .spco-next-step-btn {
+  margin-right:  24px;
+  margin-right:  2.4rem;
+}
+/* line 381, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .required-text {
   float: right;
   font-size: .8em;
   font-weight: 400;
   color: #cc4632 !important;
 }
-/* line 385, ../sass/imports/modules/_event-forms.scss */
+/* line 390, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .has-value,
 .grid .form-wrapper #single-page-checkout .needs-value {
   box-shadow: none;
 }
-/* line 391, ../sass/imports/modules/_event-forms.scss */
+/* line 396, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .has-value:focus,
 .grid .form-wrapper #single-page-checkout .needs-value:focus {
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
 }
-/* line 396, ../sass/imports/modules/_event-forms.scss */
+/* line 401, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .requires-value {
   border: 1px solid #cc4632 !important;
 }
-/* line 403, ../sass/imports/modules/_event-forms.scss */
+/* line 408, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #reg-page-totals-hdr,
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table thead {
   display: none;
 }
-/* line 408, ../sass/imports/modules/_event-forms.scss */
+/* line 413, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .spco-payment-info-dv {
   margin: 0;
 }
-/* line 413, ../sass/imports/modules/_event-forms.scss */
+/* line 418, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table {
   width: 100%;
 }
-/* line 419, ../sass/imports/modules/_event-forms.scss */
+/* line 424, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table tr:first-child td {
   padding-bottom:  12px;
   padding-bottom:  1.2rem;
 }
-/* line 424, ../sass/imports/modules/_event-forms.scss */
+/* line 429, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table tr:first-child .jst-rght {
   display: none;
 }
-/* line 430, ../sass/imports/modules/_event-forms.scss */
+/* line 435, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table #reg-page-grand-total-dv {
   border-top: 1px solid #dbdbdb;
 }
-/* line 434, ../sass/imports/modules/_event-forms.scss */
+/* line 439, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table #reg-page-grand-total-dv td:first-child {
   padding-top:  12px;
   padding-top:  1.2rem;
 }
-/* line 441, ../sass/imports/modules/_event-forms.scss */
+/* line 446, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table td {
   display: block;
 }
-/* line 447, ../sass/imports/modules/_event-forms.scss */
+/* line 452, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #reg-page-select-other-gateway-lnk {
   margin: 0;
   color: #b8b8b8;
   border: 0 none;
 }
-/* line 453, ../sass/imports/modules/_event-forms.scss */
+/* line 458, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #reg-page-select-other-gateway-lnk:hover {
   color: #feaa00;
 }
-/* line 461, ../sass/imports/modules/_event-forms.scss */
+/* line 466, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout [id^="hotel"],
 .grid .form-wrapper #single-page-checkout [id^="hotel"] .reg-page-form-field-wrap-pg {
   display: none;
 }
 
-/* line 474, ../sass/imports/modules/_event-forms.scss */
+/* line 479, ../sass/imports/modules/_event-forms.scss */
 .form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"],
 .form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"],
 .form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"] [class^="espresso-question-group"] + .reg-page-form-field-wrap-pg,
@@ -3455,30 +3507,30 @@ form {
   display: block;
 }
 
-/* line 483, ../sass/imports/modules/_event-forms.scss */
+/* line 488, ../sass/imports/modules/_event-forms.scss */
 .form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"] .section-title + .reg-page-form-field-wrap-pg label:after,
 .form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"] .section-title + .reg-page-form-field-wrap-pg + .reg-page-form-field-wrap-pg label:after {
   content: " *";
   color: #cc4632;
 }
 
-/* line 496, ../sass/imports/modules/_event-forms.scss */
+/* line 501, ../sass/imports/modules/_event-forms.scss */
 .grid #espresso-notices .close-espresso-notice,
 .grid #espresso-ajax-notices .close-espresso-notice {
   border: 0 none;
 }
-/* line 503, ../sass/imports/modules/_event-forms.scss */
+/* line 508, ../sass/imports/modules/_event-forms.scss */
 .grid #espresso-notices-success,
 .grid #espresso-ajax-notices-success {
   border: 2px solid #bfe05a;
 }
-/* line 509, ../sass/imports/modules/_event-forms.scss */
+/* line 514, ../sass/imports/modules/_event-forms.scss */
 .grid #espresso-notices-error,
 .grid #espresso-ajax-notices-error {
   border: 2px solid #cc4632;
 }
 
-/* line 531, ../sass/imports/modules/_event-forms.scss */
+/* line 536, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-attention {
   margin:  0 0 24px;
   margin:  0 0 2.4rem;
@@ -3487,20 +3539,20 @@ form {
   background: #f0f6dd;
   border-color: #bfe05a;
 }
-/* line 538, ../sass/imports/modules/_event-forms.scss */
+/* line 543, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-attention .extra-padding-sides {
   padding: 0;
 }
-/* line 541, ../sass/imports/modules/_event-forms.scss */
+/* line 546, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-attention .extra-padding-sides .bigger-text {
   display: none;
 }
-/* line 547, ../sass/imports/modules/_event-forms.scss */
+/* line 552, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-button {
   margin-bottom: 0;
   line-height: 1.4;
 }
-/* line 557, ../sass/imports/modules/_event-forms.scss */
+/* line 562, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-registration-details-h3 {
   margin-bottom:  12px;
   margin-bottom:  1.2rem;
@@ -3509,7 +3561,7 @@ form {
   line-height:  33px;
   line-height:  3.3rem;
 }
-/* line 568, ../sass/imports/modules/_event-forms.scss */
+/* line 573, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-registration-details-dv,
 .success .grid #espresso-thank-you-page-ajax-transaction-dv,
 .success .grid #espresso-thank-you-page-ajax-payment-dv {
@@ -3519,7 +3571,7 @@ form {
   padding:  2.4rem 2.4rem 0;
   border: 1px solid #d4cfb0;
 }
-/* line 574, ../sass/imports/modules/_event-forms.scss */
+/* line 579, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-registration-details-dv h2, .success .grid .ee-registration-details-dv h3, .success .grid .ee-registration-details-dv h5,
 .success .grid #espresso-thank-you-page-ajax-transaction-dv h2,
 .success .grid #espresso-thank-you-page-ajax-transaction-dv h3,
@@ -3532,15 +3584,15 @@ form {
   line-height:  28px;
   line-height:  2.8rem;
 }
-/* line 582, ../sass/imports/modules/_event-forms.scss */
+/* line 587, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-table {
   width: 100%;
 }
-/* line 585, ../sass/imports/modules/_event-forms.scss */
+/* line 590, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-table th {
   text-align: left;
 }
-/* line 589, ../sass/imports/modules/_event-forms.scss */
+/* line 594, ../sass/imports/modules/_event-forms.scss */
 .success .grid #espresso-thank-you-page-transaction-details-dv tr:nth-child(3) .smaller-text a {
   display: none;
 }

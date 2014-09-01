@@ -168,6 +168,26 @@
 		}
 	}
 
+	.page-template-ticket-selector-php .branding__bg
+	{
+		@include at-breakpoint(48em no-mq)
+		{
+			background:url(../images/branding--registration.jpg) top center no-repeat transparent;
+			background-size:105%;
+			background-position:center;
+		}
+	}
+
+	.page-template-register-success-php .branding__bg
+	{
+		@include at-breakpoint(48em no-mq)
+		{
+			background:url(../images/branding--thank-you.jpg) top center no-repeat transparent;
+			background-size:105%;
+			background-position:center;
+		}
+	}
+
 	// .page-template-default .branding__bg
 	// {
 	// 	@include at-breakpoint($bodyLarge)

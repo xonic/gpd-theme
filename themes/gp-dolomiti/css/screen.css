@@ -2542,7 +2542,37 @@ form {
   background-position: center;
 }
 
-/* line 185, ../sass/imports/modules/_branding.scss */
+@media (min-width: 48em) {
+  /* line 172, ../sass/imports/modules/_branding.scss */
+  .page-template-ticket-selector-php .branding__bg {
+    background: url(../images/branding--registration.jpg) top center no-repeat transparent;
+    background-size: 105%;
+    background-position: center;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .page-template-ticket-selector-php .branding__bg {
+  background: url(../images/branding--registration.jpg) top center no-repeat transparent;
+  background-size: 105%;
+  background-position: center;
+}
+
+@media (min-width: 48em) {
+  /* line 182, ../sass/imports/modules/_branding.scss */
+  .page-template-register-success-php .branding__bg {
+    background: url(../images/branding--thank-you.jpg) top center no-repeat transparent;
+    background-size: 105%;
+    background-position: center;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .page-template-register-success-php .branding__bg {
+  background: url(../images/branding--thank-you.jpg) top center no-repeat transparent;
+  background-size: 105%;
+  background-position: center;
+}
+
+/* line 205, ../sass/imports/modules/_branding.scss */
 .branding__logo {
   display: inline-block;
   width:  280px;
@@ -2558,7 +2588,7 @@ form {
   transition: transform 0 ease-out, opacity 0 linear;
 }
 @media (min-width: 48em) {
-  /* line 185, ../sass/imports/modules/_branding.scss */
+  /* line 205, ../sass/imports/modules/_branding.scss */
   .branding__logo {
     background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
     background-size: 100%;
@@ -2570,12 +2600,12 @@ form {
   background-size: 100%;
 }
 
-/* line 203, ../sass/imports/modules/_branding.scss */
+/* line 223, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 208, ../sass/imports/modules/_branding.scss */
+/* line 228, ../sass/imports/modules/_branding.scss */
 .down-arrow {
   display: block;
   position: relative;

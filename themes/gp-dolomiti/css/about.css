@@ -900,7 +900,19 @@ object {
   transform: rotateZ(0) scale3d(1, 1, 1);
 }
 
-/* line 125, ../sass/imports/modules/_nav-main.scss */
+@media (min-width: 64em) {
+  /* line 122, ../sass/imports/modules/_nav-main.scss */
+  .nav-main {
+    margin:  12px 0 0;
+    margin:  1.2rem 0 0;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .nav-main {
+  margin:  12px 0 0;
+  margin:  1.2rem 0 0;
+}
+/* line 130, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container {
   -webkit-transform: scale3d(0.8, 0.8, 0.8) translate3d(0, 25px, 0);
   -moz-transform: scale3d(0.8, 0.8, 0.8) translate3d(0, 25px, 0);
@@ -913,28 +925,28 @@ object {
   transition: transform 0.3s ease, opacity 0.3s linear;
   opacity: 0;
 }
-/* line 131, ../sass/imports/modules/_nav-main.scss */
+/* line 136, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container ul {
   margin: 0;
 }
-/* line 136, ../sass/imports/modules/_nav-main.scss */
+/* line 141, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container a {
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 141, ../sass/imports/modules/_nav-main.scss */
+/* line 146, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .menu-item--primary a {
   color: rgba(254, 170, 0, 0.75);
 }
-/* line 146, ../sass/imports/modules/_nav-main.scss */
+/* line 151, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .menu-item--primary.current-menu-item a {
   color: #feaa00;
 }
-/* line 151, ../sass/imports/modules/_nav-main.scss */
+/* line 156, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-hauptmenue-container .current-menu-item a {
   color: white;
 }
 @media (min-width: 64em) {
-  /* line 125, ../sass/imports/modules/_nav-main.scss */
+  /* line 130, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-hauptmenue-container {
     margin:  12px 0 0;
     margin:  1.2rem 0 0;
@@ -955,11 +967,11 @@ object {
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
 }
 @media (min-width: 64em) {
-  /* line 164, ../sass/imports/modules/_nav-main.scss */
+  /* line 169, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item {
     display: inline;
   }
-  /* line 170, ../sass/imports/modules/_nav-main.scss */
+  /* line 175, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item:first-child {
     display: none;
   }
@@ -968,11 +980,11 @@ object {
 .no-mq .nav-main .menu-item {
   display: inline;
 }
-/* line 170, ../sass/imports/modules/_nav-main.scss */
+/* line 175, ../sass/imports/modules/_nav-main.scss */
 .no-mq .nav-main .menu-item:first-child {
   display: none;
 }
-/* line 177, ../sass/imports/modules/_nav-main.scss */
+/* line 182, ../sass/imports/modules/_nav-main.scss */
 .nav-main .menu-item a {
   display: block;
   margin-left: -0.58824em;
@@ -990,7 +1002,7 @@ object {
   text-align: center;
 }
 @media (min-width: 64em) {
-  /* line 177, ../sass/imports/modules/_nav-main.scss */
+  /* line 182, ../sass/imports/modules/_nav-main.scss */
   .nav-main .menu-item a {
     display: inline-block;
     margin-right: 0;
@@ -1014,14 +1026,14 @@ object {
   text-transform: capitalize;
 }
 @media (min-width: 64em) {
-  /* line 200, ../sass/imports/modules/_nav-main.scss */
+  /* line 205, ../sass/imports/modules/_nav-main.scss */
   .nav-main .nav-main__cta {
     float: right;
     margin-top:  6px;
     margin-top:  0.6rem;
     padding: 0;
   }
-  /* line 208, ../sass/imports/modules/_nav-main.scss */
+  /* line 213, ../sass/imports/modules/_nav-main.scss */
   .nav-main .nav-main__cta a {
     padding:  0 12px;
     padding:  0 1.2rem;
@@ -1031,7 +1043,7 @@ object {
     color: white;
     line-height: 2;
   }
-  /* line 217, ../sass/imports/modules/_nav-main.scss */
+  /* line 222, ../sass/imports/modules/_nav-main.scss */
   .nav-main .nav-main__cta a:hover {
     background: #feaa00;
     color: white;
@@ -1044,7 +1056,7 @@ object {
   margin-top:  0.6rem;
   padding: 0;
 }
-/* line 208, ../sass/imports/modules/_nav-main.scss */
+/* line 213, ../sass/imports/modules/_nav-main.scss */
 .no-mq .nav-main .nav-main__cta a {
   padding:  0 12px;
   padding:  0 1.2rem;
@@ -1054,30 +1066,30 @@ object {
   color: white;
   line-height: 2;
 }
-/* line 217, ../sass/imports/modules/_nav-main.scss */
+/* line 222, ../sass/imports/modules/_nav-main.scss */
 .no-mq .nav-main .nav-main__cta a:hover {
   background: #feaa00;
   color: white;
 }
 
-/* line 229, ../sass/imports/modules/_nav-main.scss */
+/* line 234, ../sass/imports/modules/_nav-main.scss */
 .no-touch .nav-main .menu a:hover,
 .touch .nav-main .menu a:active {
   color: white;
 }
 
-/* line 234, ../sass/imports/modules/_nav-main.scss */
+/* line 239, ../sass/imports/modules/_nav-main.scss */
 .touch .nav-main .menu a:active {
   background: #feaa00;
 }
 
-/* line 240, ../sass/imports/modules/_nav-main.scss */
+/* line 245, ../sass/imports/modules/_nav-main.scss */
 .no-touch .nav-main .menu .menu-item--primary a:hover,
 .touch .nav-main .menu .menu-item--primary a:active {
   color: #feaa00;
 }
 
-/* line 247, ../sass/imports/modules/_nav-main.scss */
+/* line 252, ../sass/imports/modules/_nav-main.scss */
 .touch .nav-main .menu .menu-item--primary a:active,
 .touch .nav-main .menu .nav-main__cta a:active,
 .no-touch .nav-main .menu .nav-main__cta a:hover {
@@ -1085,7 +1097,7 @@ object {
   color: white;
 }
 
-/* line 253, ../sass/imports/modules/_nav-main.scss */
+/* line 258, ../sass/imports/modules/_nav-main.scss */
 .collapsible--is-expanded .nav-main .menu-hauptmenue-container {
   -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   -moz-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -1883,7 +1895,37 @@ object {
   background-position: center;
 }
 
-/* line 185, ../sass/imports/modules/_branding.scss */
+@media (min-width: 48em) {
+  /* line 172, ../sass/imports/modules/_branding.scss */
+  .page-template-ticket-selector-php .branding__bg {
+    background: url(../images/branding--registration.jpg) top center no-repeat transparent;
+    background-size: 105%;
+    background-position: center;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .page-template-ticket-selector-php .branding__bg {
+  background: url(../images/branding--registration.jpg) top center no-repeat transparent;
+  background-size: 105%;
+  background-position: center;
+}
+
+@media (min-width: 48em) {
+  /* line 182, ../sass/imports/modules/_branding.scss */
+  .page-template-register-success-php .branding__bg {
+    background: url(../images/branding--thank-you.jpg) top center no-repeat transparent;
+    background-size: 105%;
+    background-position: center;
+  }
+}
+/* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
+.no-mq .page-template-register-success-php .branding__bg {
+  background: url(../images/branding--thank-you.jpg) top center no-repeat transparent;
+  background-size: 105%;
+  background-position: center;
+}
+
+/* line 205, ../sass/imports/modules/_branding.scss */
 .branding__logo {
   display: inline-block;
   width:  280px;
@@ -1899,7 +1941,7 @@ object {
   transition: transform 0 ease-out, opacity 0 linear;
 }
 @media (min-width: 48em) {
-  /* line 185, ../sass/imports/modules/_branding.scss */
+  /* line 205, ../sass/imports/modules/_branding.scss */
   .branding__logo {
     background: url(../images/gpd-logo-mountains-white.svg) top left no-repeat transparent;
     background-size: 100%;
@@ -1911,12 +1953,12 @@ object {
   background-size: 100%;
 }
 
-/* line 203, ../sass/imports/modules/_branding.scss */
+/* line 223, ../sass/imports/modules/_branding.scss */
 #ie8 .branding__logo {
   background: url(../images/gpd-logo--ie.png) top left no-repeat transparent;
 }
 
-/* line 208, ../sass/imports/modules/_branding.scss */
+/* line 228, ../sass/imports/modules/_branding.scss */
 .down-arrow {
   display: block;
   position: relative;

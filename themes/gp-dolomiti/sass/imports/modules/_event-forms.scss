@@ -273,6 +273,11 @@
 		display:none;
 	}
 
+	#spco-registration-attendee_information-frm
+	{
+		padding:0;
+	}
+
 	// Specificity wars
 	.grid
 	{
@@ -368,7 +373,7 @@
 				{
 					@extend .btn;
 					@extend .btn--primary;
-					@extend .btn--right-aligned;
+					@include rem(margin-right, $doubleSpace);
 				}
 
 				// Inline form field error messages
