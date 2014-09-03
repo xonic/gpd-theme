@@ -118,46 +118,10 @@ get_header(); ?>
 							<tr>
 								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
-									<? _e("pre__jaufen", "gp-dolomiti"); ?>
+									<? _e("pre__gampen", "gp-dolomiti"); ?>
 								</td>
 								<td class="route__altitude">
-									<? _e("pre__jaufen__altitude", "gp-dolomiti"); ?>
-								</td>
-							</tr>
-							<tr>
-								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
-								<td class="route__location">
-									<? _e("pre__sterzing", "gp-dolomiti"); ?>
-								</td>
-								<td class="route__altitude">
-									<? _e("pre__sterzing__altitude", "gp-dolomiti"); ?>
-								</td>
-							</tr>
-							<tr>
-								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
-								<td class="route__location">
-									<? _e("pre__penser", "gp-dolomiti"); ?>
-								</td>
-								<td class="route__altitude">
-									<? _e("pre__penser__altitude", "gp-dolomiti"); ?>
-								</td>
-							</tr>
-							<tr>
-								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
-								<td class="route__location">
-									<? _e("pre__bozen", "gp-dolomiti"); ?>
-								</td>
-								<td class="route__altitude">
-									<? _e("pre__bozen__altitude", "gp-dolomiti"); ?>
-								</td>
-							</tr>
-							<tr>
-								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
-								<td class="route__location">
-									<? _e("pre__mendel", "gp-dolomiti"); ?>
-								</td>
-								<td class="route__altitude">
-									<? _e("pre__mendel__altitude", "gp-dolomiti"); ?>
+									<? _e("pre__gampen__altitude", "gp-dolomiti"); ?>
 								</td>
 							</tr>
 							<tr>
@@ -172,10 +136,46 @@ get_header(); ?>
 							<tr>
 								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
 								<td class="route__location">
-									<? _e("pre__gampen", "gp-dolomiti"); ?>
+									<? _e("pre__mendel", "gp-dolomiti"); ?>
 								</td>
 								<td class="route__altitude">
-									<? _e("pre__gampen__altitude", "gp-dolomiti"); ?>
+									<? _e("pre__mendel__altitude", "gp-dolomiti"); ?>
+								</td>
+							</tr>
+							<tr>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
+								<td class="route__location">
+									<? _e("pre__bozen", "gp-dolomiti"); ?>
+								</td>
+								<td class="route__altitude">
+									<? _e("pre__bozen__altitude", "gp-dolomiti"); ?>
+								</td>
+							</tr>
+							<tr>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
+								<td class="route__location">
+									<? _e("pre__penser", "gp-dolomiti"); ?>
+								</td>
+								<td class="route__altitude">
+									<? _e("pre__penser__altitude", "gp-dolomiti"); ?>
+								</td>
+							</tr>
+							<tr>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
+								<td class="route__location">
+									<? _e("pre__sterzing", "gp-dolomiti"); ?>
+								</td>
+								<td class="route__altitude">
+									<? _e("pre__sterzing__altitude", "gp-dolomiti"); ?>
+								</td>
+							</tr>
+							<tr>
+								<td class="route__icon"><i class="fa fa-map-marker"></i></td>
+								<td class="route__location">
+									<? _e("pre__jaufen", "gp-dolomiti"); ?>
+								</td>
+								<td class="route__altitude">
+									<? _e("pre__jaufen__altitude", "gp-dolomiti"); ?>
 								</td>
 							</tr>
 							<tr>
