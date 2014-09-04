@@ -2172,9 +2172,10 @@ object {
   margin-bottom:  48px;
   margin-bottom:  4.8rem;
 }
-@media (min-width: 48em) {
+@media (min-width: 64em) {
   /* line 45, ../sass/imports/modules/_packages.scss */
   .l-package__description {
+    width: 70%;
     margin-bottom:  72px;
     margin-bottom:  7.2rem;
     width: 66.10169%;
@@ -2184,6 +2185,7 @@ object {
 }
 /* line 91, ../../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/_media.scss */
 .no-mq .l-package__description {
+  width: 70%;
   margin-bottom:  72px;
   margin-bottom:  7.2rem;
   width: 66.10169%;
@@ -2192,14 +2194,14 @@ object {
   display: inline;
 }
 
-/* line 58, ../sass/imports/modules/_packages.scss */
+/* line 59, ../sass/imports/modules/_packages.scss */
 .l-package__summary i {
   margin-bottom:  24px;
   margin-bottom:  2.4rem;
   color: #b0a76e;
 }
 @media (min-width: 69.41176em) {
-  /* line 56, ../sass/imports/modules/_packages.scss */
+  /* line 57, ../sass/imports/modules/_packages.scss */
   .l-package__summary {
     width: 66.10169%;
     float: left;
@@ -2216,7 +2218,7 @@ object {
   margin-left: 16.94915%;
 }
 
-/* line 71, ../sass/imports/modules/_packages.scss */
+/* line 72, ../sass/imports/modules/_packages.scss */
 .package__summary {
   margin-bottom:  48px;
   margin-bottom:  4.8rem;
@@ -2231,21 +2233,21 @@ object {
   font-size:  18px;
   font-size:  1.8rem;
 }
-/* line 82, ../sass/imports/modules/_packages.scss */
+/* line 83, ../sass/imports/modules/_packages.scss */
 .package__summary li {
   line-height:  34px;
   line-height:  3.4rem;
   clear: both;
 }
 @media (min-width: 37.5em) {
-  /* line 82, ../sass/imports/modules/_packages.scss */
+  /* line 83, ../sass/imports/modules/_packages.scss */
   .package__summary li {
     clear: none;
     width: 47.36842%;
     float: left;
     margin-right: 5.26316%;
   }
-  /* line 92, ../sass/imports/modules/_packages.scss */
+  /* line 93, ../sass/imports/modules/_packages.scss */
   .package__summary li:nth-child(2n+1) {
     float: right;
     margin-right: 0;
@@ -2259,7 +2261,7 @@ object {
   margin-right: 5.26316%;
   display: inline;
 }
-/* line 92, ../sass/imports/modules/_packages.scss */
+/* line 93, ../sass/imports/modules/_packages.scss */
 .no-mq .package__summary li:nth-child(2n+1) {
   float: right;
   margin-right: 0;
@@ -2268,14 +2270,14 @@ object {
 }
 
 @media (min-width: 64em) {
-  /* line 100, ../sass/imports/modules/_packages.scss */
+  /* line 101, ../sass/imports/modules/_packages.scss */
   .l-package__action {
     clear: right;
     width: 23.72881%;
     float: right;
     margin-right: 0;
   }
-  /* line 107, ../sass/imports/modules/_packages.scss */
+  /* line 108, ../sass/imports/modules/_packages.scss */
   .l-package__action .btn, .l-package__action .btn-group .btn-group__btn, .btn-group .l-package__action .btn-group__btn, .l-package__action .btn-dropdown .btn-dropdown__toggle, .btn-dropdown .l-package__action .btn-dropdown__toggle {
     float: right;
     width: 100%;
@@ -2290,7 +2292,7 @@ object {
   *margin-left: -1.17647em;
   display: inline;
 }
-/* line 107, ../sass/imports/modules/_packages.scss */
+/* line 108, ../sass/imports/modules/_packages.scss */
 .no-mq .l-package__action .btn, .no-mq .l-package__action .btn-group .btn-group__btn, .btn-group .no-mq .l-package__action .btn-group__btn, .no-mq .l-package__action .btn-dropdown .btn-dropdown__toggle, .btn-dropdown .no-mq .l-package__action .btn-dropdown__toggle {
   float: right;
   width: 100%;

@@ -45,8 +45,9 @@
 	{
 		@include rem(margin-bottom, $doubleSpace * 2);
 
-		@include at-breakpoint($minorBreakpoint no-mq)
+		@include at-breakpoint($huge-width no-mq)
 		{
+			width:70%;
 			@include rem(margin-bottom, $doubleSpace * 3);
 			@include span-columns(8, $huge-cols);
 		}
