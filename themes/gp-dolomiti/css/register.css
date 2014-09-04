@@ -644,7 +644,7 @@ dt {
 
 /* line 247, ../sass/imports/base/_typography.scss */
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6, .subsection__title, .subsection__heading {
+.h1, .h2, .h3, .h4, .h5, .h6, .subsection__title, .page-template-packages-php .subsection__heading, .subsection__heading {
   font-family: "futura-pt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 200;
   color: #332e24;
@@ -655,7 +655,7 @@ h1, h2, h3, h4, h5, h6,
 }
 /* line 255, ../sass/imports/base/_typography.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
-.h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, .subsection__title small, .subsection__heading small {
+.h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, .subsection__title small, .page-template-packages-php .subsection__heading small, .subsection__heading small {
   display: block;
   font-family: "ff-meta-serif-web-pro", "Georgia", "Geneva", "Times New Roman", serif;
   font-size: 60%;
@@ -671,7 +671,7 @@ h1, .h1 {
 }
 
 /* line 275, ../sass/imports/base/_typography.scss */
-h2, .h2, .subsection__title, .subsection__heading {
+h2, .h2, .subsection__title, .page-template-packages-php .subsection__heading {
   font-size:  32px;
   font-size:  3.2rem;
   line-height:  33px;
@@ -679,7 +679,7 @@ h2, .h2, .subsection__title, .subsection__heading {
 }
 
 /* line 286, ../sass/imports/base/_typography.scss */
-h3, .h3 {
+h3, .h3, .subsection__heading {
   font-size:  26px;
   font-size:  2.6rem;
   line-height:  28px;
@@ -1588,16 +1588,20 @@ object {
 .subsection__heading {
   margin-bottom:  12px;
   margin-bottom:  1.2rem;
-  text-align: center;
 }
 
-/* line 81, ../sass/imports/modules/_sections.scss */
+/* line 80, ../sass/imports/modules/_sections.scss */
 .subsection__detail {
   float: right;
   margin-right:  12px;
   margin-right:  1.2rem;
   font-size:  18px;
   font-size:  1.8rem;
+}
+
+/* line 89, ../sass/imports/modules/_sections.scss */
+.page-template-packages-php .subsection__heading {
+  text-align: center;
 }
 
 /* line 17, ../sass/imports/modules/_info.scss */

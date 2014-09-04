@@ -68,9 +68,8 @@
 	// multiple headings
 	.subsection__heading
 	{
-		@extend %h2;
+		@extend %h3;
 		@include rem(margin-bottom, $singleSpace);
-		text-align:center;
 	}
 
 	// If the subsection contains a
@@ -82,6 +81,15 @@
 		float:right;
 		@include rem(margin-right, $singleSpace);
 		@include rem(font-size, 1.8);
+	}
+
+	.page-template-packages-php
+	{
+		.subsection__heading
+		{
+			@extend %h2;
+			text-align:center;
+		}
 	}
 
 
