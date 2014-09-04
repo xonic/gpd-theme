@@ -18,7 +18,6 @@
 
 	.section__title
 	{
-		text-align:center;
 		@include rem(letter-spacing, -.15);
 	}
 
@@ -29,6 +28,18 @@
 		@include rem(border-top-width, $borderMedium);
 		@include rem(border-bottom-width, $borderMedium);
 		text-transform:uppercase;
+	}
+
+	.section__title,
+	.section__subtitle
+	{
+		text-align:center;
+	}
+
+	.section__subtitle
+	{
+		@include rem(margin, $doubleSpace * 2 0);
+		clear:both;
 	}
 
 
@@ -44,20 +55,7 @@
 	.subsection
 	{
 		@extend .cf;
-
-		// padding-bottom equals margin-bottom - $doubleSpace
-		// since children usually have margin-bottom $doubleSpace
-		@include rem(padding-bottom, $doubleSpace);
-		@include rem(margin-bottom, $doubleSpace * 2);
-
-		border-bottom:0 solid $sandDark;
-		@include rem(border-bottom-width, $borderMedium);
-
-		&:last-child
-		{
-			padding-bottom:0;
-			border-bottom:0 none;
-		}
+		@include rem(margin-bottom, $doubleSpace * 4);
 	}
 
 	// Each subsection has one title
@@ -70,8 +68,9 @@
 	// multiple headings
 	.subsection__heading
 	{
-		@extend %h3;
+		@extend %h2;
 		@include rem(margin-bottom, $singleSpace);
+		text-align:center;
 	}
 
 	// If the subsection contains a

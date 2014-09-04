@@ -11,7 +11,7 @@
 
 	.l-feature
 	{
-		@include rem(margin-bottom, $doubleSpace);
+		@include rem(margin-bottom, $doubleSpace * 2);
 
 		@include at-breakpoint($large-width)
 		{
@@ -20,17 +20,6 @@
 
 			&:nth-child(2n + 1) { clear:both; }
 		}
-
-		// @include at-breakpoint($huge-width no-mq)
-		// {
-
-		// 	&:nth-child(2n + 1) { clear:none; }
-		// 	@include remove-nth-omega(2n, $context:$huge-cols);
-
-		// 	@include span-columns(4, $huge-cols);
-		// 	@include nth-omega(3n);
-		// 	&:nth-child(3n + 1) { clear:both; }
-		// }
 	}
 
 	.feature
@@ -40,10 +29,21 @@
 		@include rem(border-width, $borderMedium);
 	}
 
-	.feature__title,
-	.feature__img
+	.feature__text--monstrous
 	{
-		text-align:center;
+		width:50%;
+		font-family:$sansFontFamily;
+		@include rem(font-size, 14.4);
+		line-height:1;
+		text-align:right;
+	}
+
+	.feature__title
+	{
+		@include rem(margin, $doubleSpace 0 $singleSpace / 2);
+		font-family:$sansFontFamily;
+		@include rem(font-size, 2.4);
+		font-weight:$lightFontWeight;
 	}
 
 	.feature__img
@@ -51,7 +51,7 @@
 		@include rem(margin-bottom, $singleSpace);
 		height:5em;
 		line-height:5em;
-		color:$olive;
+		color:darken($sandDark, 10%);
 	}
 
 	.feature__icon-text

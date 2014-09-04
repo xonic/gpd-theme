@@ -139,6 +139,12 @@
 		}
 	}
 
+	.btn--register
+	{
+		@include rem(padding, $doubleSpace $singleSpace * 3);
+		@include rem(font-size, $doubleSpace);
+	}
+
 //  = BUTTON GROUP
 //  ---------------------------------------------------------------------------	
 

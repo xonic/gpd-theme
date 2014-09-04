@@ -649,7 +649,7 @@ h1, .h1 {
 }
 
 /* line 275, ../sass/imports/base/_typography.scss */
-h2, .h2, .subsection__title {
+h2, .h2, .subsection__title, .subsection__heading {
   font-size:  32px;
   font-size:  3.2rem;
   line-height:  33px;
@@ -657,7 +657,7 @@ h2, .h2, .subsection__title {
 }
 
 /* line 286, ../sass/imports/base/_typography.scss */
-h3, .h3, fieldset legend, .subsection__heading {
+h3, .h3, fieldset legend {
   font-size:  26px;
   font-size:  2.6rem;
   line-height:  28px;
@@ -679,7 +679,12 @@ h4, .h4 {
   }
 }
 
-/* line 318, ../sass/imports/base/_typography.scss */
+/* line 314, ../sass/imports/base/_typography.scss */
+.text--centered {
+  text-align: center;
+}
+
+/* line 324, ../sass/imports/base/_typography.scss */
 code {
   padding: 0 1px;
   background: whitesmoke;
@@ -814,13 +819,21 @@ object {
   background: #b7dc45;
 }
 
-/* line 148, ../sass/imports/modules/_button.scss */
+/* line 143, ../sass/imports/modules/_button.scss */
+.btn--register {
+  padding:  24px 36px;
+  padding:  2.4rem 3.6rem;
+  font-size:  24px;
+  font-size:  2.4rem;
+}
+
+/* line 154, ../sass/imports/modules/_button.scss */
 .btn-group .btn-group__btn {
   border-radius: 0;
   margin-right: 0;
   float: left;
 }
-/* line 155, ../sass/imports/modules/_button.scss */
+/* line 161, ../sass/imports/modules/_button.scss */
 .btn-group .btn-group__btn:first-child {
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
@@ -830,7 +843,7 @@ object {
   border-bottom-left-radius: 5px;
   border-right-width: 0;
 }
-/* line 161, ../sass/imports/modules/_button.scss */
+/* line 167, ../sass/imports/modules/_button.scss */
 .btn-group .btn-group__btn:last-child {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -843,12 +856,12 @@ object {
   border-left-width: 0;
 }
 
-/* line 173, ../sass/imports/modules/_button.scss */
+/* line 179, ../sass/imports/modules/_button.scss */
 .btn-dropdown {
   position: relative;
   display: inline-block;
 }
-/* line 185, ../sass/imports/modules/_button.scss */
+/* line 191, ../sass/imports/modules/_button.scss */
 .btn-dropdown .btn-dropdown__menu {
   display: none;
   position: absolute;
@@ -867,7 +880,7 @@ object {
   box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
   list-style: none;
 }
-/* line 205, ../sass/imports/modules/_button.scss */
+/* line 211, ../sass/imports/modules/_button.scss */
 .btn-dropdown .btn-dropdown__menu a {
   display: block;
   cursor: pointer;
@@ -875,16 +888,16 @@ object {
   padding:  0 1.2rem;
 }
 
-/* line 215, ../sass/imports/modules/_button.scss */
+/* line 221, ../sass/imports/modules/_button.scss */
 .open {
   *z-index: 1000;
 }
-/* line 219, ../sass/imports/modules/_button.scss */
+/* line 225, ../sass/imports/modules/_button.scss */
 .open > .btn-dropdown__menu {
   display: block;
 }
 
-/* line 230, ../sass/imports/modules/_button.scss */
+/* line 236, ../sass/imports/modules/_button.scss */
 .btn--newsletter {
   min-height: 0;
   margin:  0 0 48px;
@@ -912,7 +925,7 @@ object {
   -o-transition: all 0.05s linear;
   transition: all 0.05s linear;
 }
-/* line 251, ../sass/imports/modules/_button.scss */
+/* line 257, ../sass/imports/modules/_button.scss */
 .btn--newsletter:hover, .btn--newsletter:focus {
   background-color: #febb33;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fec757), color-stop(100%, #febe3d));
@@ -924,7 +937,7 @@ object {
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 5px #7e5501, 0 0 15px 5px rgba(254, 187, 51, 0.2), 0 5px 0 2px rgba(0, 0, 0, 0.8), 0 10px 20px 3px rgba(0, 0, 0, 0.3);
   color: white;
 }
-/* line 265, ../sass/imports/modules/_button.scss */
+/* line 271, ../sass/imports/modules/_button.scss */
 .btn--newsletter:active {
   background-color: #febb33;
   margin:  5px 0 43px 0;
@@ -938,13 +951,13 @@ object {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8);
 }
 
-/* line 275, ../sass/imports/modules/_button.scss */
+/* line 281, ../sass/imports/modules/_button.scss */
 .no-touch .btn--newsletter:hover {
   color: white;
   text-shadow: 0 1px 1px rgba(76, 69, 53, 0.8);
 }
 
-/* line 281, ../sass/imports/modules/_button.scss */
+/* line 287, ../sass/imports/modules/_button.scss */
 .touch .btn--newsletter:active {
   margin:  5px 0 43px;
   margin:  0.5rem 0 4.3rem;
@@ -958,7 +971,7 @@ object {
   text-shadow: 0 1px 1px rgba(76, 69, 53, 0.8);
 }
 
-/* line 292, ../sass/imports/modules/_button.scss */
+/* line 298, ../sass/imports/modules/_button.scss */
 .btn--disabled,
 .touch .btn--disabled,
 .no-touch .btn--disabled {
@@ -968,7 +981,7 @@ object {
   color: #b8b8b8;
   text-shadow: none;
 }
-/* line 302, ../sass/imports/modules/_button.scss */
+/* line 308, ../sass/imports/modules/_button.scss */
 .btn--disabled:hover, .btn--disabled:active, .btn--disabled:focus,
 .touch .btn--disabled:hover,
 .touch .btn--disabled:active,
@@ -983,7 +996,7 @@ object {
   cursor: not-allowed;
 }
 
-/* line 313, ../sass/imports/modules/_button.scss */
+/* line 319, ../sass/imports/modules/_button.scss */
 .secondary-action {
   display: inline-block;
   margin:  0 0 48px 12px;
@@ -2097,12 +2110,11 @@ form {
 
 /* line 20, ../sass/imports/modules/_sections.scss */
 .section__title {
-  text-align: center;
   letter-spacing:  -1.5px;
   letter-spacing:  -0.15rem;
 }
 
-/* line 26, ../sass/imports/modules/_sections.scss */
+/* line 25, ../sass/imports/modules/_sections.scss */
 .section__title--emphasized {
   margin:  24px 0 48px;
   margin:  2.4rem 0 4.8rem;
@@ -2114,29 +2126,33 @@ form {
   text-transform: uppercase;
 }
 
-/* line 45, ../sass/imports/modules/_sections.scss */
-.subsection {
-  padding-bottom:  24px;
-  padding-bottom:  2.4rem;
-  margin-bottom:  48px;
-  margin-bottom:  4.8rem;
-  border-bottom: 0 solid #d4cfb0;
-  border-bottom-width:  2px;
-  border-bottom-width:  0.2rem;
-}
-/* line 57, ../sass/imports/modules/_sections.scss */
-.subsection:last-child {
-  padding-bottom: 0;
-  border-bottom: 0 none;
+/* line 35, ../sass/imports/modules/_sections.scss */
+.section__title,
+.section__subtitle {
+  text-align: center;
 }
 
-/* line 72, ../sass/imports/modules/_sections.scss */
+/* line 40, ../sass/imports/modules/_sections.scss */
+.section__subtitle {
+  margin:  48px 0;
+  margin:  4.8rem 0;
+  clear: both;
+}
+
+/* line 56, ../sass/imports/modules/_sections.scss */
+.subsection {
+  margin-bottom:  96px;
+  margin-bottom:  9.6rem;
+}
+
+/* line 70, ../sass/imports/modules/_sections.scss */
 .subsection__heading {
   margin-bottom:  12px;
   margin-bottom:  1.2rem;
+  text-align: center;
 }
 
-/* line 82, ../sass/imports/modules/_sections.scss */
+/* line 81, ../sass/imports/modules/_sections.scss */
 .subsection__detail {
   float: right;
   margin-right:  12px;

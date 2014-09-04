@@ -54,28 +54,51 @@
 
 	.l-package__summary
 	{
-		display:none;
-
-		@include at-breakpoint($minorBreakpoint no-mq)
+		i 
 		{
-			display:block;
-			@include span-columns(3 omega, $huge-cols);
+			@include rem(margin-bottom, $doubleSpace);
+			color:darken($sandDark, 20%);
+		}
 
-			i { color:$primaryAccent; }
+		@include at-breakpoint($huge-cols no-mq)
+		{
+			@include span-columns(8, $huge-cols);
+			@include push(2, $huge-cols);
 		}
 	}
 
 	.package__summary 
 	{
-		@include rem(padding, $singleSpace);
+		@include rem(margin-bottom, $doubleSpace *2);
+		@include rem(padding, $doubleSpace);
+		padding-bottom:0;
 		background:$sandLight;
 		border:0 solid $sandDark;
 		@include rem(border-width, $borderThin);
+		font-family:$headingsFontFamily;
+		@include rem(font-size, 1.8);
+
+		li 
+		{
+			@include rem(line-height, 3.4);
+			clear:both;
+
+			@include at-breakpoint($large-width no-mq)
+			{
+				clear:none;
+				@include span-columns(2, 4);
+			
+				&:nth-child(2n+1)
+				{
+					@include omega;
+				}
+			}
+		}
 	}
 
 	.l-package__action
 	{
-		@include at-breakpoint($minorBreakpoint no-mq)
+		@include at-breakpoint($huge-width no-mq)
 		{
 			clear:right;
 			@include span-columns(3 omega, $huge-cols);
