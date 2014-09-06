@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v1.1.0 | MIT License | git.io/normalize */
 /*! normalize.css v1.1.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
 /* line 20, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
@@ -2472,13 +2473,32 @@ object {
   }
 }
 
-/* line 248, ../sass/imports/modules/_event-forms.scss */
+/* line 251, ../sass/imports/modules/_event-forms.scss */
+.ee-ticket-early-bird-premium .tckt-slctr-tbl-td-price:before {
+  content: "€4,250.00";
+  margin-right:  15px;
+  margin-right:  1.5rem;
+  text-decoration: line-through;
+  color: #949494;
+}
+
+/* line 263, ../sass/imports/modules/_event-forms.scss */
+.ee-ticket-early-bird-premium-details .msg {
+  margin-bottom:  6px;
+  margin-bottom:  0.6rem;
+}
+/* line 266, ../sass/imports/modules/_event-forms.scss */
+.ee-ticket-early-bird-premium-details .msg strong {
+  font-size: 115%;
+}
+
+/* line 271, ../sass/imports/modules/_event-forms.scss */
 .ticket-selector-submit-btn {
   float: right;
   margin-bottom: 0;
 }
 
-/* line 272, ../sass/imports/modules/_event-forms.scss */
+/* line 295, ../sass/imports/modules/_event-forms.scss */
 .spco-steps-big-hdr,
 .spco-steps-pg,
 .big-event-title-hdr,
@@ -2487,160 +2507,160 @@ object {
   display: none;
 }
 
-/* line 277, ../sass/imports/modules/_event-forms.scss */
+/* line 300, ../sass/imports/modules/_event-forms.scss */
 #spco-registration-attendee_information-frm {
   padding: 0;
 }
 
-/* line 288, ../sass/imports/modules/_event-forms.scss */
+/* line 311, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper .espresso-form-input-lbl em {
   color: #cc4632 !important;
 }
-/* line 294, ../sass/imports/modules/_event-forms.scss */
+/* line 317, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv {
   margin-bottom:  48px;
   margin-bottom:  4.8rem;
   border-top: 1px solid #d4cfb0;
   border-bottom: 1px solid #d4cfb0;
 }
-/* line 301, ../sass/imports/modules/_event-forms.scss */
+/* line 324, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv .spco-step-big-nmbr {
   font-family: "futura-pt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size:  42px;
   font-size:  4.2rem;
 }
-/* line 308, ../sass/imports/modules/_event-forms.scss */
+/* line 331, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv .active-step .spco-step-big-nmbr {
   color: #feaa00;
 }
-/* line 314, ../sass/imports/modules/_event-forms.scss */
+/* line 337, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv .spco-steps-display-hdr {
   margin: 0;
   font-family: "ff-meta-serif-web-pro", "Georgia", "Geneva", "Times New Roman", serif;
 }
-/* line 323, ../sass/imports/modules/_event-forms.scss */
+/* line 346, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv .spco-step-arrow-dv,
 .grid .form-wrapper #spco-steps-display-dv .inactive-step .spco-step-big-nmbr,
 .grid .form-wrapper #spco-steps-display-dv .inactive-step .spco-steps-display-hdr {
   color: #b8b8b8;
 }
-/* line 328, ../sass/imports/modules/_event-forms.scss */
+/* line 351, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #spco-steps-display-dv .spco-step-arrow-dv {
   padding:  25px 0 !important;
   padding:  2.5rem 0 !important;
 }
-/* line 335, ../sass/imports/modules/_event-forms.scss */
+/* line 358, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper .spco-step-title-hdr {
   margin:  0 0 12px !important;
   margin:  0 0 1.2rem !important;
   border-bottom: 0 none;
 }
-/* line 342, ../sass/imports/modules/_event-forms.scss */
+/* line 365, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper .spco-attendee-wrap-fs {
   margin: 0;
   padding: 0;
   border: 0 none;
 }
-/* line 347, ../sass/imports/modules/_event-forms.scss */
+/* line 370, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper .spco-attendee-wrap-fs legend {
   display: none;
 }
-/* line 355, ../sass/imports/modules/_event-forms.scss */
+/* line 378, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .espresso-question-group-wrap {
   padding:  24px;
   padding:  2.4rem;
 }
-/* line 359, ../sass/imports/modules/_event-forms.scss */
+/* line 382, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .espresso-question-group-wrap:first-child {
   padding-top: 0;
 }
-/* line 366, ../sass/imports/modules/_event-forms.scss */
+/* line 389, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .espresso-question-group-title-h5.section-title {
   margin-top: 0;
   font-size:  22px;
   font-size:  2.2rem;
   font-weight: 400;
 }
-/* line 373, ../sass/imports/modules/_event-forms.scss */
+/* line 396, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .spco-next-step-btn {
   margin-right:  24px;
   margin-right:  2.4rem;
 }
-/* line 381, ../sass/imports/modules/_event-forms.scss */
+/* line 404, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .required-text {
   float: right;
   font-size: .8em;
   font-weight: 400;
   color: #cc4632 !important;
 }
-/* line 390, ../sass/imports/modules/_event-forms.scss */
+/* line 413, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .has-value,
 .grid .form-wrapper #single-page-checkout .needs-value {
   box-shadow: none;
 }
-/* line 396, ../sass/imports/modules/_event-forms.scss */
+/* line 419, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .has-value:focus,
 .grid .form-wrapper #single-page-checkout .needs-value:focus {
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
 }
-/* line 401, ../sass/imports/modules/_event-forms.scss */
+/* line 424, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .requires-value {
   border: 1px solid #cc4632 !important;
 }
-/* line 408, ../sass/imports/modules/_event-forms.scss */
+/* line 431, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #reg-page-totals-hdr,
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table thead {
   display: none;
 }
-/* line 413, ../sass/imports/modules/_event-forms.scss */
+/* line 436, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout .spco-payment-info-dv {
   margin: 0;
 }
-/* line 418, ../sass/imports/modules/_event-forms.scss */
+/* line 441, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table {
   width: 100%;
 }
-/* line 424, ../sass/imports/modules/_event-forms.scss */
+/* line 447, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table tr:first-child td {
   padding-bottom:  12px;
   padding-bottom:  1.2rem;
 }
-/* line 429, ../sass/imports/modules/_event-forms.scss */
+/* line 452, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table tr:first-child .jst-rght {
   display: none;
 }
-/* line 435, ../sass/imports/modules/_event-forms.scss */
+/* line 458, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table #reg-page-grand-total-dv {
   border-top: 1px solid #dbdbdb;
 }
-/* line 439, ../sass/imports/modules/_event-forms.scss */
+/* line 462, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table #reg-page-grand-total-dv td:first-child {
   padding-top:  12px;
   padding-top:  1.2rem;
 }
-/* line 446, ../sass/imports/modules/_event-forms.scss */
+/* line 469, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #spco-payment-info-table td {
   display: block;
 }
-/* line 452, ../sass/imports/modules/_event-forms.scss */
+/* line 475, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #reg-page-select-other-gateway-lnk {
   margin: 0;
   color: #b8b8b8;
   border: 0 none;
 }
-/* line 458, ../sass/imports/modules/_event-forms.scss */
+/* line 481, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout #reg-page-select-other-gateway-lnk:hover {
   color: #feaa00;
 }
-/* line 466, ../sass/imports/modules/_event-forms.scss */
+/* line 489, ../sass/imports/modules/_event-forms.scss */
 .grid .form-wrapper #single-page-checkout [id^="hotel"],
 .grid .form-wrapper #single-page-checkout [id^="hotel"] .reg-page-form-field-wrap-pg {
   display: none;
 }
 
-/* line 479, ../sass/imports/modules/_event-forms.scss */
+/* line 502, ../sass/imports/modules/_event-forms.scss */
 .form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"],
 .form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"],
 .form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"] [class^="espresso-question-group"] + .reg-page-form-field-wrap-pg,
@@ -2648,30 +2668,30 @@ object {
   display: block;
 }
 
-/* line 488, ../sass/imports/modules/_event-forms.scss */
+/* line 511, ../sass/imports/modules/_event-forms.scss */
 .form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"] .section-title + .reg-page-form-field-wrap-pg label:after,
 .form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"] .section-title + .reg-page-form-field-wrap-pg + .reg-page-form-field-wrap-pg label:after {
   content: " *";
   color: #cc4632;
 }
 
-/* line 501, ../sass/imports/modules/_event-forms.scss */
+/* line 524, ../sass/imports/modules/_event-forms.scss */
 .grid #espresso-notices .close-espresso-notice,
 .grid #espresso-ajax-notices .close-espresso-notice {
   border: 0 none;
 }
-/* line 508, ../sass/imports/modules/_event-forms.scss */
+/* line 531, ../sass/imports/modules/_event-forms.scss */
 .grid #espresso-notices-success,
 .grid #espresso-ajax-notices-success {
   border: 2px solid #bfe05a;
 }
-/* line 514, ../sass/imports/modules/_event-forms.scss */
+/* line 537, ../sass/imports/modules/_event-forms.scss */
 .grid #espresso-notices-error,
 .grid #espresso-ajax-notices-error {
   border: 2px solid #cc4632;
 }
 
-/* line 536, ../sass/imports/modules/_event-forms.scss */
+/* line 559, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-attention {
   margin:  0 0 24px;
   margin:  0 0 2.4rem;
@@ -2680,20 +2700,20 @@ object {
   background: #f0f6dd;
   border-color: #bfe05a;
 }
-/* line 543, ../sass/imports/modules/_event-forms.scss */
+/* line 566, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-attention .extra-padding-sides {
   padding: 0;
 }
-/* line 546, ../sass/imports/modules/_event-forms.scss */
+/* line 569, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-attention .extra-padding-sides .bigger-text {
   display: none;
 }
-/* line 552, ../sass/imports/modules/_event-forms.scss */
+/* line 575, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-button {
   margin-bottom: 0;
   line-height: 1.4;
 }
-/* line 562, ../sass/imports/modules/_event-forms.scss */
+/* line 585, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-registration-details-h3 {
   margin-bottom:  12px;
   margin-bottom:  1.2rem;
@@ -2702,7 +2722,7 @@ object {
   line-height:  33px;
   line-height:  3.3rem;
 }
-/* line 573, ../sass/imports/modules/_event-forms.scss */
+/* line 596, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-registration-details-dv,
 .success .grid #espresso-thank-you-page-ajax-transaction-dv,
 .success .grid #espresso-thank-you-page-ajax-payment-dv {
@@ -2712,7 +2732,7 @@ object {
   padding:  2.4rem 2.4rem 0;
   border: 1px solid #d4cfb0;
 }
-/* line 579, ../sass/imports/modules/_event-forms.scss */
+/* line 602, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-registration-details-dv h2, .success .grid .ee-registration-details-dv h3, .success .grid .ee-registration-details-dv h5,
 .success .grid #espresso-thank-you-page-ajax-transaction-dv h2,
 .success .grid #espresso-thank-you-page-ajax-transaction-dv h3,
@@ -2725,15 +2745,15 @@ object {
   line-height:  28px;
   line-height:  2.8rem;
 }
-/* line 587, ../sass/imports/modules/_event-forms.scss */
+/* line 610, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-table {
   width: 100%;
 }
-/* line 590, ../sass/imports/modules/_event-forms.scss */
+/* line 613, ../sass/imports/modules/_event-forms.scss */
 .success .grid .ee-table th {
   text-align: left;
 }
-/* line 594, ../sass/imports/modules/_event-forms.scss */
+/* line 617, ../sass/imports/modules/_event-forms.scss */
 .success .grid #espresso-thank-you-page-transaction-details-dv tr:nth-child(3) .smaller-text a {
   display: none;
 }

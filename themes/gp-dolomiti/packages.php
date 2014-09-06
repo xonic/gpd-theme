@@ -74,7 +74,7 @@ get_header(); ?>
 
 			<div class="text--centered">
 				<a class="package__action btn btn--primary btn--register" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en<!--:--><!--:de-->/register/?lang=de<!--:--><!--:it-->/register/?lang=it<!--:--><!--:fr-->/register/?lang=fr<!--:-->'); ?>"><? _e("<!--:en-->Register Premium Now<!--:--><!--:de-->Jetzt Premium anmelden<!--:--><!--:it-->Vai alla registrazione Premium<!--:--><!--:fr-->Inscrivez-vous maintenant<!--:-->"); ?></a>
-				<div class="text--small"><? _e("<!--:en-->Premium hotels<!--:--><!--:de-->Premium Hotels<!--:--><!--:it-->Alberghi Premium<!--:--><!--:fr-->Hôtel Premium<!--:-->"); ?>: <a href="http://hoteltermemerano.com" title="Hotel Terme">Hotel Terme Merano</a>, <a href="http://meranerhof.it" title="Meranerhof">Meranerhof</a>
+				<div class="text--small"><? _e("<!--:en-->Premium hotels<!--:--><!--:de-->Premium Hotels<!--:--><!--:it-->Alberghi Premium<!--:--><!--:fr-->Hôtel Premium<!--:-->"); ?>: <a href="http://hoteltermemerano.com" title="Hotel Terme">Hotel Terme Merano</a>, <a href="http://meranerhof.it" title="Meranerhof">Meranerhof</a></div>
 			</div>
 
 		</section>

@@ -244,6 +244,29 @@
 		}
 	}
 
+	.ee-ticket-early-bird-premium 
+	{
+		// Early bird promo price
+		.tckt-slctr-tbl-td-price:before
+		{
+			content:"€4,250.00";
+			@include rem(margin-right, 1.5);
+			text-decoration:line-through;
+			color:$gray;
+		}
+	}
+
+	.ee-ticket-early-bird-premium-details
+	{
+		// Early bird promo
+		.msg
+		{
+			@include rem(margin-bottom, $singleSpace / 2);
+
+			strong { font-size:115%; }
+		}
+	}
+
  	.ticket-selector-submit-btn
  	{
  		@extend .btn;
