@@ -157,6 +157,21 @@
 
 
 
+//  = MESSAGE VARIATIONS
+//  ---------------------------------------------------------------------------
+
+	.msg--spacious
+	{
+		@include rem(padding, $doubleSpace);
+	}
+
+	.msg--no-bd
+	{
+		.msg__title { margin-bottom: 0; }
+	}
+
+
+
 
 
 

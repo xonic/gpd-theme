@@ -2991,6 +2991,17 @@ object {
   color: #822517;
 }
 
+/* line 164, ../sass/imports/modules/_msg.scss */
+.msg--spacious {
+  padding:  24px;
+  padding:  2.4rem;
+}
+
+/* line 170, ../sass/imports/modules/_msg.scss */
+.msg--no-bd .msg__title {
+  margin-bottom: 0;
+}
+
 /* line 17, ../sass/imports/modules/_newsletter.scss */
 .newsletter {
   padding-top:  24px;

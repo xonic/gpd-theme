@@ -261,9 +261,18 @@
 		// Early bird promo
 		.msg
 		{
-			@include rem(margin-bottom, $singleSpace / 2);
-
 			strong { font-size:115%; }
+		}
+	}
+
+	.table
+	{
+		width:100%;
+
+		.table__head
+		{
+			display:block;
+			text-align:left;
 		}
 	}
 
