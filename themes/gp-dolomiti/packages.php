@@ -25,7 +25,7 @@ get_header(); ?>
 				<? _e("<!--:en-->Packages<!--:--><!--:de-->Pakete<!--:--><!--:it-->Pacchetti Partecipazione<!--:--><!--:fr-->Forfaits<!--:-->"); ?>
 			</h1>
 
-			<h2 class="section__subtitle">Alle Pakete gelten für</h2>
+			<h2 class="section__subtitle"><? _e("<!--:en-->All packages are valid for<!--:--><!--:de-->Alle Pakete gelten für<!--:--><!--:it-->Tutti i pacchetti valgono per<!--:--><!--:fr-->Tous les forfaits sont valables pour<!--:-->"); ?></h2>
 
 			<div class="l-feature">
 
@@ -34,7 +34,7 @@ get_header(); ?>
 					<div class="media__img feature__text--monstrous">1</div>
 
 					<div class="media__bd">
-						<div class="feature__title">Fahrzeug</div>
+						<div class="feature__title"><? _e("<!--:en-->vehicle<!--:--><!--:de-->Fahrzeug<!--:--><!--:it-->veicolo<!--:--><!--:fr-->voiture<!--:-->"); ?></div>
 						<div class="feature__img"><i class="fa fa-car fa-4x"></i></div>
 					</div>
 
@@ -49,7 +49,7 @@ get_header(); ?>
 					<div class="media__img feature__text--monstrous">2</div>
 
 					<div class="media__bd">
-						<div class="feature__title">Personen</div>
+						<div class="feature__title"><? _e("<!--:en-->persons<!--:--><!--:de-->Personen<!--:--><!--:it-->persone<!--:--><!--:fr-->personnes<!--:-->"); ?></div>
 						<div class="feature__img"><i class="fa fa-user fa-4x"></i></div>
 					</div>
 
@@ -57,7 +57,7 @@ get_header(); ?>
 
 			</div>
 
-			<h2 class="section__subtitle">sie beinhalten</h2>
+			<h2 class="section__subtitle"><? _e("<!--:en-->they include<!--:--><!--:de-->sie beinhalten<!--:--><!--:it-->contengono<!--:--><!--:fr-->ils comprennent<!--:-->"); ?></h2>
 
 			<div class="l-package__summary">
 				<ul class="package__summary cf">
@@ -70,10 +70,11 @@ get_header(); ?>
 				</ul>
 			</div>
 
-			<h2 class="section__subtitle">und unterscheiden sich in den Hotels</h2>
+			<h2 class="section__subtitle"><? _e("<!--:en-->and offer different hotels<!--:--><!--:de-->und bieten unterschiedliche Hotels<!--:--><!--:it-->ed offrono alberghi differenti<!--:--><!--:fr-->et divers hôtels<!--:-->"); ?></h2>
 
 			<div class="text--centered">
 				<a class="package__action btn btn--primary btn--register" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en<!--:--><!--:de-->/register/?lang=de<!--:--><!--:it-->/register/?lang=it<!--:--><!--:fr-->/register/?lang=fr<!--:-->'); ?>"><? _e("<!--:en-->Register Premium Now<!--:--><!--:de-->Jetzt Premium anmelden<!--:--><!--:it-->Vai alla registrazione Premium<!--:--><!--:fr-->Inscrivez-vous maintenant<!--:-->"); ?></a>
+				<div class="text--small"><? _e("<!--:en-->Premium hotels<!--:--><!--:de-->Premium Hotels<!--:--><!--:it-->Alberghi Premium<!--:--><!--:fr-->Hôtel Premium<!--:-->"); ?>: <a href="http://hoteltermemerano.com" title="Hotel Terme">Hotel Terme Merano</a>, <a href="http://meranerhof.it" title="Meranerhof">Meranerhof</a>
 			</div>
 
 		</section>
