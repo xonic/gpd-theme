@@ -110,6 +110,7 @@
 	.branding__tagline-container
 	{
 		margin:0;
+		text-shadow:0 1px 0 rgba($white, .8);
 
 		@include at-breakpoint($huge-width)
 		{
@@ -121,10 +122,10 @@
 				content:" ";
 				position:absolute;
 				@include rem(top, -15);
-				@include rem(right, -15);
+				@include rem(right, -45);
 				@include rem(bottom, -15);
-				@include rem(left, -15);
-				@include background(radial-gradient(rgba(255,255,255,.8), rgba(255,255,255, 0) 70%));
+				@include rem(left, -45);
+				@include background(radial-gradient(rgba(255,255,255,.8), rgba(255,255,255, 0.3) 40%, rgba(255,255,255, 0) 70%));
 			}
 
 			> div
