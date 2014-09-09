@@ -10,7 +10,7 @@
 	{
 		display:block;
 		background-image:url(../images/hotels.jpg);
-		background-size:1800% 100%;
+		background-size:2400% 100%;
 	}
 
 	#ie7 .hotel-img,
@@ -204,6 +204,72 @@
 	#ie8 .hotel-img--18
 	{
 		background-position:$ieBackgroundPosX * 17 0;
+	}
+
+	.hotel-img--19
+	{
+		background-position:-1800% 0;
+	}
+
+	#ie7 .hotel-img--19,
+	#ie8 .hotel-img--19
+	{
+		background-position:$ieBackgroundPosX * 18 0;
+	}
+
+	.hotel-img--20
+	{
+		background-position:-1900% 0;
+	}
+
+	#ie7 .hotel-img--20,
+	#ie8 .hotel-img--20
+	{
+		background-position:$ieBackgroundPosX * 19 0;
+	}
+
+	.hotel-img--21
+	{
+		background-position:-2000% 0;
+	}
+
+	#ie7 .hotel-img--21,
+	#ie8 .hotel-img--21
+	{
+		background-position:$ieBackgroundPosX * 20 0;
+	}
+
+	.hotel-img--22
+	{
+		background-position:-2100% 0;
+	}
+
+	#ie7 .hotel-img--22,
+	#ie8 .hotel-img--22
+	{
+		background-position:$ieBackgroundPosX * 21 0;
+	}
+
+	.hotel-img--23
+	{
+		background-position:-2200% 0;
+	}
+
+	#ie7 .hotel-img--23,
+	#ie8 .hotel-img--23
+	{
+		background-position:$ieBackgroundPosX * 22 0;
+	}
+
+	.hotel-img--24
+	{
+		background-position:-2300% 0;
+	}
+
+	#ie7 .hotel-img--24,
+	#ie8 .hotel-img--24
+	{
+		background-position:$ieBackgroundPosX * 23 0;
 	}
 
 

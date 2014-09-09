@@ -73,8 +73,97 @@ get_header(); ?>
 			<h2 class="section__subtitle"><? _e("<!--:en-->and offer different hotels<!--:--><!--:de-->und bieten unterschiedliche Hotels<!--:--><!--:it-->ed offrono alberghi differenti<!--:--><!--:fr-->et divers hôtels<!--:-->"); ?></h2>
 
 			<div class="text--centered">
+				<a class="package__action btn btn--primary btn--register" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en<!--:--><!--:de-->/register/?lang=de<!--:--><!--:it-->/register/?lang=it<!--:--><!--:fr-->/register/?lang=fr<!--:-->'); ?>"><? _e("<!--:en-->Register Now<!--:--><!--:de-->Jetzt anmelden<!--:--><!--:it-->Vai alla registrazione<!--:--><!--:fr-->Inscrivez-vous maintenant<!--:-->"); ?></a>
+			</div>
+
+		</section>
+
+		<h1 class="section__title section__title--emphasized">
+			<? _e("<!--:en-->Premium Hotels<!--:--><!--:de-->Premium Hotels<!--:--><!--:it-->Alberghi Premium<!--:--><!--:fr-->Premium Hotel<!--:-->"); ?>
+		</h1>
+
+		<section class="subsection">
+
+			<h2 class="subsection__heading"><a href="http://hoteltermemerano.com" title="<? _e("<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--><!--:it-->Mostra la pagina dell' albergo<!--:--><!--:fr-->Voir l'hôtel<!--:-->"); ?>">Hotel Therme</a></h2>
+
+			<section class="slider slider--row-fixed">
+				<ul class="slider__slides slider__slides--contains-3">
+					<li class="slider__slide">
+						<div class="polaroid">
+							<div class="tile">
+								<div class="tile__helper"></div>
+								<div class="tile__content hotel-img hotel-img--19"></div>
+							</div>
+						</div>
+					</li>
+					<li class="slider__slide">
+						<div class="polaroid">
+							<div class="tile">
+								<div class="tile__helper"></div>
+								<div class="tile__content hotel-img hotel-img--20"></div>
+							</div>
+						</div>
+					</li>
+					<li class="slider__slide">
+						<div class="polaroid">
+							<div class="tile">
+								<div class="tile__helper"></div>
+								<div class="tile__content hotel-img hotel-img--21"></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</section>
+
+			<div id="ottmangut-description" class="collapse-bd" data-collapse-group="ottmangut">
+				<div class="collapse-inner">
+					<p class="package__description space-lover">
+						<? _e("package__therme__description", "gp-dolomiti"); ?>
+					</p>
+				</div>
+			</div>
+
+			<h2 class="subsection__heading"><a href="http://meranerhof.it" title="<? _e("<!--:en-->View Hotel Page<!--:--><!--:de-->Seite des Hotels ansehen<!--:--><!--:it-->Mostra la pagina dell' albergo<!--:--><!--:fr-->Voir l'hôtel<!--:-->"); ?>">Hotel Meranerhof</a></h2>
+
+			<section class="slider slider--row-fixed">
+				<ul class="slider__slides slider__slides--contains-3">
+					<li class="slider__slide">
+						<div class="polaroid">
+							<div class="tile">
+								<div class="tile__helper"></div>
+								<div class="tile__content hotel-img hotel-img--22"></div>
+							</div>
+						</div>
+					</li>
+					<li class="slider__slide">
+						<div class="polaroid">
+							<div class="tile">
+								<div class="tile__helper"></div>
+								<div class="tile__content hotel-img hotel-img--23"></div>
+							</div>
+						</div>
+					</li>
+					<li class="slider__slide">
+						<div class="polaroid">
+							<div class="tile">
+								<div class="tile__helper"></div>
+								<div class="tile__content hotel-img hotel-img--24"></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</section>
+
+			<div id="rubein-description" class="collapse-bd" data-collapse-group="rubein">
+				<div class="collapse-inner">
+					<p class="package__description space-lover">
+						<? _e("package__meranerhof__description", "gp-dolomiti"); ?>
+					</p>
+				</div>
+			</div>
+
+			<div class="text--centered">
 				<a class="package__action btn btn--primary btn--register" href="<? echo get_site_url(); _e('<!--:en-->/register/?lang=en<!--:--><!--:de-->/register/?lang=de<!--:--><!--:it-->/register/?lang=it<!--:--><!--:fr-->/register/?lang=fr<!--:-->'); ?>"><? _e("<!--:en-->Register Premium Now<!--:--><!--:de-->Jetzt Premium anmelden<!--:--><!--:it-->Vai alla registrazione Premium<!--:--><!--:fr-->Inscrivez-vous maintenant<!--:-->"); ?></a>
-				<div class="text--small"><? _e("<!--:en-->Premium hotels<!--:--><!--:de-->Premium Hotels<!--:--><!--:it-->Alberghi Premium<!--:--><!--:fr-->Hôtel Premium<!--:-->"); ?>: <a href="http://hoteltermemerano.com" title="Hotel Terme">Hotel Terme Merano</a>, <a href="http://meranerhof.it" title="Meranerhof">Meranerhof</a></div>
 			</div>
 
 		</section>

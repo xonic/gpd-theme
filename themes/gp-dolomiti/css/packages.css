@@ -1921,7 +1921,7 @@ object {
 .hotel-img {
   display: block;
   background-image: url(../images/hotels.jpg);
-  background-size: 1800% 100%;
+  background-size: 2400% 100%;
 }
 
 /* line 18, ../sass/imports/modules/_hotel-img.scss */
@@ -2115,6 +2115,72 @@ object {
 #ie7 .hotel-img--18,
 #ie8 .hotel-img--18 {
   background-position: -3111px 0;
+}
+
+/* line 210, ../sass/imports/modules/_hotel-img.scss */
+.hotel-img--19 {
+  background-position: -1800% 0;
+}
+
+/* line 216, ../sass/imports/modules/_hotel-img.scss */
+#ie7 .hotel-img--19,
+#ie8 .hotel-img--19 {
+  background-position: -3294px 0;
+}
+
+/* line 221, ../sass/imports/modules/_hotel-img.scss */
+.hotel-img--20 {
+  background-position: -1900% 0;
+}
+
+/* line 227, ../sass/imports/modules/_hotel-img.scss */
+#ie7 .hotel-img--20,
+#ie8 .hotel-img--20 {
+  background-position: -3477px 0;
+}
+
+/* line 232, ../sass/imports/modules/_hotel-img.scss */
+.hotel-img--21 {
+  background-position: -2000% 0;
+}
+
+/* line 238, ../sass/imports/modules/_hotel-img.scss */
+#ie7 .hotel-img--21,
+#ie8 .hotel-img--21 {
+  background-position: -3660px 0;
+}
+
+/* line 243, ../sass/imports/modules/_hotel-img.scss */
+.hotel-img--22 {
+  background-position: -2100% 0;
+}
+
+/* line 249, ../sass/imports/modules/_hotel-img.scss */
+#ie7 .hotel-img--22,
+#ie8 .hotel-img--22 {
+  background-position: -3843px 0;
+}
+
+/* line 254, ../sass/imports/modules/_hotel-img.scss */
+.hotel-img--23 {
+  background-position: -2200% 0;
+}
+
+/* line 260, ../sass/imports/modules/_hotel-img.scss */
+#ie7 .hotel-img--23,
+#ie8 .hotel-img--23 {
+  background-position: -4026px 0;
+}
+
+/* line 265, ../sass/imports/modules/_hotel-img.scss */
+.hotel-img--24 {
+  background-position: -2300% 0;
+}
+
+/* line 271, ../sass/imports/modules/_hotel-img.scss */
+#ie7 .hotel-img--24,
+#ie8 .hotel-img--24 {
+  background-position: -4209px 0;
 }
 
 /* line 10, ../sass/imports/modules/_packages.scss */
