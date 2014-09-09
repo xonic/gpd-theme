@@ -144,8 +144,8 @@
 
 		.menu-hauptmenu-container
 		{
-			@include transform(scale3d(.8, .8, .8) translate3d(0, 25px, 0));
-			@include transition(transform .3s ease, opacity .3s linear);
+			@include transform(scale3d(1.2, 1.2, 1.2) translate3d(0, -25px, 0));
+			@include transition(transform .3s ease, opacity .2s linear);
 			opacity:0;
 
 			ul

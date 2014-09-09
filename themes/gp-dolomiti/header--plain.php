@@ -33,7 +33,7 @@
 <?php echo '<!-- ' . get_the_ID() . ' -->'; ?>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
-		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimal-ui" />
 		<title><?php
 			/*
 			 * Print the <title> tag based on what is being viewed.
