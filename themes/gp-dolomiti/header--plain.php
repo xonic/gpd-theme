@@ -31,6 +31,10 @@
 <?php echo '<!-- ' . $currentPage . ' -->'; ?>
 <!-- page ID -->
 <?php echo '<!-- ' . get_the_ID() . ' -->'; ?>
+<!-- blog info url -->
+<?php echo '<!-- ' . get_bloginfo('url') . ' -->'; ?>
+<!-- site url -->
+<?php echo '<!-- ' . get_site_url() . ' -->'; ?>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimal-ui" />
@@ -85,7 +89,7 @@
 		?>
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body <?php body_class(); ?> data-site-url="<? echo get_site_url(); ?>" data-lang-url="<? echo get_bloginfo('url'); ?>">
 		<div class="content">
 			<header class="logo" role="banner">
 				<h1 class="a11y">Gran Premio Dolomiti &middot; classic cars &amp; fine dining</h1>

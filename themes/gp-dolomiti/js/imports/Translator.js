@@ -22,6 +22,7 @@ define(["jquery"], function($)
 		{
 			this.currentLang = $('html').attr("lang");
 			this.translate();
+			this.fixForms();
 		},
 
 		translate: function()
@@ -48,8 +49,36 @@ define(["jquery"], function($)
 				}
 
 			});
+		},
+
+		getBaseURL: function()
+		{
+			return $("body").data("base-url");
+		},
+
+		getLangURL: function()
+		{
+			return $("body").data("lang-url");
+		},
+
+		fixNonTranslatedURL: function($el, attribute)
+		{
+			if($el.length > 0)
+			{
+				console.log("before: " + $el.attr(attribute));
+				$el.attr(attribute, $el.attr(attribute).replace(this.getBaseURL(), this.getLangURL()));
+				console.log("after: " + $el.attr(attribute));
+			}
+		},
+
+		fixForms: function()
+		{
+			this.fixNonTranslatedURL($("form"), "action");
 		}
 	};
 
 	return Translator;
 });
+
+// http://localhost:8888/gp-dolomiti-new/veranstaltungen/gpd2015/?ee=process_ticket_selections
+// http://localhost:8888/gp-dolomiti-new/registration/?ee=_register&step=process_payment_options

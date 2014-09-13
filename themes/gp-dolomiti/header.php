@@ -31,6 +31,10 @@
 <?php echo '<!-- ' . $currentPage . ' -->'; ?>
 <!-- page ID -->
 <?php echo '<!-- ' . get_the_ID() . ' -->'; ?>
+<!-- blog info url -->
+<?php echo '<!-- ' . get_bloginfo('url') . ' -->'; ?>
+<!-- site url -->
+<?php echo '<!-- ' . get_site_url() . ' -->'; ?>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimal-ui" />
@@ -85,7 +89,7 @@
 		?>
 	</head>
 
-	<body <? $currentPage == 'timetable' ? body_class('header--alt') : body_class(); ?>>
+	<body <? $currentPage == 'timetable' ? body_class('header--alt') : body_class(); ?> data-base-url="<? echo get_site_url(); ?>" data-lang-url="<? echo get_bloginfo('url'); ?>">
 		<div class="top-bar">
 			<a href="<? echo get_home_url(); ?>" title="<? _e('<!--:en-->Back to<!--:--><!--:de-->Zurück zu<!--:--><!--:it-->Ritorna a<!--:--><!--:fr-->Retour à<!--:-->'); ?> Gran Premio Dolomiti">
 				<div class="logo logo--wide">
