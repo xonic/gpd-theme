@@ -23,6 +23,7 @@ define(["jquery"], function($)
 			this.currentLang = $('html').attr("lang");
 			this.translate();
 			this.fixForms();
+			$("body").addClass($('.spco-ticket-info-dv > table > tbody > tr:nth-child(2) > td:first-child').clone().children().remove().end().text().toLowerCase());
 		},
 
 		translate: function()

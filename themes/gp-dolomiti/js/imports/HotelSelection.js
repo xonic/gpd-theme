@@ -27,23 +27,7 @@ define(["jquery"], function($)
 
 		init: function()
 		{
-			this.$packageSelect = $("[name='price_option']");
-			this.$hotelGroup = $(".js-hotel-group");
-			this.$hotelDropdowns = $("[class*='js-hotel-suite-']");
-
-			// Quit if there is no package dropdown
-			if(this.$packageSelect.length === 0) return;
-
-			// Check if there is a pre-selected package
-			// passed as URL parameter and set as selected
-			var packageParam = this.getURLParameter("package");
-			if(packageParam)
-			{
-				this.$packageSelect.find("[value*='" + packageParam + "']").attr("selected", true);
-			}
-
-			this.onchange();
-			this.listen();
+			
 		},
 
 		listen: function()

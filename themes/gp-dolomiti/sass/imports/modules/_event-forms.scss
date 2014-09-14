@@ -493,7 +493,6 @@
 				}
 
 				// Hide the hotel selectors
-				[id^="hotel"],
 				[id^="hotel"] .reg-page-form-field-wrap-pg
 				{
 					display:none;
@@ -504,10 +503,9 @@
 
 	// Show the corresponding hotel selector if 
 	// corresponding ticket has been selected
-	.form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"],
-	.form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"],
-	.form-wrapper #single-page-checkout [class*="platinum"] [id^="hotel"] [class^="espresso-question-group"] + .reg-page-form-field-wrap-pg,
-	.form-wrapper #single-page-checkout [class*="superior"] [id^="hotel"] [class^="espresso-question-group"] + .reg-page-form-field-wrap-pg + .reg-page-form-field-wrap-pg
+	.premium  .grid .form-wrapper #single-page-checkout [id^="hotel"] .reg-page-form-field-wrap-pg:nth-child(2),
+	.platinum .grid .form-wrapper #single-page-checkout [id^="hotel"] .reg-page-form-field-wrap-pg:nth-child(3),
+	.superior .grid .form-wrapper #single-page-checkout [id^="hotel"] .reg-page-form-field-wrap-pg:nth-child(4)
 	{
 		display:block;
 	}
@@ -626,9 +624,15 @@
 			.ee-table + .small-text.jst-rght,
 			.ee-registration-details-dv .smaller-text.grey-text,
 			#espresso-thank-you-page-transaction-details-dv tr:nth-child(3) .smaller-text a,
-			#espresso-thank-you-page-ajax-content-dv
+			.section-title,
+			.payment_type_title
 			{
 				display:none;
+			}
+
+			.highlight
+			{
+				font-weight:bold;
 			}
 		}
 	}
