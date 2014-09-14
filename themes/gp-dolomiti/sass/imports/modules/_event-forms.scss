@@ -622,7 +622,11 @@
 				th { text-align:left; }
 			}
 
-			#espresso-thank-you-page-transaction-details-dv tr:nth-child(3) .smaller-text a 
+			.ee-table .small-text,
+			.ee-table + .small-text.jst-rght,
+			.ee-registration-details-dv .smaller-text.grey-text,
+			#espresso-thank-you-page-transaction-details-dv tr:nth-child(3) .smaller-text a,
+			#espresso-thank-you-page-ajax-content-dv
 			{
 				display:none;
 			}

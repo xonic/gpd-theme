@@ -3811,8 +3811,12 @@ form {
 .success .grid .ee-table th {
   text-align: left;
 }
-/* line 626, ../sass/imports/modules/_event-forms.scss */
-.success .grid #espresso-thank-you-page-transaction-details-dv tr:nth-child(3) .smaller-text a {
+/* line 630, ../sass/imports/modules/_event-forms.scss */
+.success .grid .ee-table .small-text,
+.success .grid .ee-table + .small-text.jst-rght,
+.success .grid .ee-registration-details-dv .smaller-text.grey-text,
+.success .grid #espresso-thank-you-page-transaction-details-dv tr:nth-child(3) .smaller-text a,
+.success .grid #espresso-thank-you-page-ajax-content-dv {
   display: none;
 }
 
