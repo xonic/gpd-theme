@@ -19,13 +19,13 @@
 						<? _e("pre__newsletter__subtitle", "gp-dolomiti"); ?>
 					</h2>
 					<?
-						if(qtrans_getLanguage() == "en") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Subscribe to our newsletter</a>'; }
+						if(qtrans_getLanguage() == "en") { echo '<a class="btn btn--huge btn--primary" href="http://eepurl.com/xOMaz">Subscribe to our newsletter</a>'; }
 
-						if(qtrans_getLanguage() == "fr") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Abonner à la newsletter</a>'; }
+						if(qtrans_getLanguage() == "fr") { echo '<a class="btn btn--huge btn--primary" href="http://eepurl.com/xOMaz">Abonner à la newsletter</a>'; }
 
-						if(qtrans_getLanguage() == "de") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Zum Newsletter anmelden</a>'; }
+						if(qtrans_getLanguage() == "de") { echo '<a class="btn btn--huge btn--primary" href="http://eepurl.com/xOMaz">Zum Newsletter anmelden</a>'; }
 
-						if(qtrans_getLanguage() == "it") { echo '<a class="btn btn--huge btn--newsletter" href="http://eepurl.com/xOMaz">Iscriversi alla newsletter</a>'; }
+						if(qtrans_getLanguage() == "it") { echo '<a class="btn btn--huge btn--primary" href="http://eepurl.com/xOMaz">Iscriversi alla newsletter</a>'; }
 
 					?>
 				</div>

@@ -26,13 +26,13 @@
 		<div class='contact-form'>
 			<?
 				// TODO: change ids to match those on http://granpremiodolomiti.com
-				if(qtrans_getLanguage() == "en") { echo do_shortcode( '[contact-form-7 id="8" title="contact-EN"]' ); }
+				if(qtrans_getLanguage() == "en") { echo do_shortcode( '[contact-form-7 id="11" title="contact-EN"]' ); }
 
-				if(qtrans_getLanguage() == "fr") { echo do_shortcode( '[contact-form-7 id="8" title="contact-FR"]' ); }
+				if(qtrans_getLanguage() == "fr") { echo do_shortcode( '[contact-form-7 id="14" title="contact-FR"]' ); }
 
-				if(qtrans_getLanguage() == "de") { echo do_shortcode( '[contact-form-7 id="8" title="contact-DE"]' ); }
+				if(qtrans_getLanguage() == "de") { echo do_shortcode( '[contact-form-7 id="12" title="contact-DE"]' ); }
 
-				if(qtrans_getLanguage() == "it") { echo do_shortcode( '[contact-form-7 id="8" title="contact-IT"]' ); }
+				if(qtrans_getLanguage() == "it") { echo do_shortcode( '[contact-form-7 id="13" title="contact-IT"]' ); }
 			?>
 		</div>
 	</div>

@@ -6,6 +6,8 @@
 	
 	.grid
 	{
+		.ui-widget { font-family:$serifFontFamily; }
+		
 		label.error 
 		{
 			color:$red;
@@ -482,14 +484,15 @@
 				// Other payments link
 				#reg-page-select-other-gateway-lnk
 				{
-					margin:0;
-					color:$grayLight;
-					border:0 none;
+					display:none;
+					// margin:0;
+					// color:$grayLight;
+					// border:0 none;
 
-					&:hover
-					{
-						color:$primaryAccent;
-					}
+					// &:hover
+					// {
+					// 	color:$primaryAccent;
+					// }
 				}
 
 				// Hide the hotel selectors

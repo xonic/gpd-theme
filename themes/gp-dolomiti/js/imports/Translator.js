@@ -66,9 +66,9 @@ define(["jquery"], function($)
 		{
 			if($el.length > 0)
 			{
-				console.log("before: " + $el.attr(attribute));
+				// console.log("before: " + $el.attr(attribute));
 				$el.attr(attribute, $el.attr(attribute).replace(this.getBaseURL(), this.getLangURL()));
-				console.log("after: " + $el.attr(attribute));
+				// console.log("after: " + $el.attr(attribute));
 			}
 		},
 
