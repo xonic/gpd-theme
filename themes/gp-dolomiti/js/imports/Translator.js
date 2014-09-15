@@ -24,6 +24,26 @@ define(["jquery"], function($)
 			this.translate();
 			this.fixForms();
 			$("body").addClass($('.spco-ticket-info-dv > table > tbody > tr:nth-child(2) > td:first-child').clone().children().remove().end().text().toLowerCase());
+
+            if($("body").data("site-url"))
+            {
+               var $inputSiteUrl = $("<input>").attr(
+               {
+                   "type":"hidden",
+                   "id":"spco-site-url",
+                   "name":"spco-site-url",
+                   "value":$("body").data("site-url")
+               }),
+                   $inputLangUrl = $("<input>").attr(
+               {
+                   "type":"hidden",
+                   "id":"spco-lang-url",
+                   "name":"spco-lang-url",
+                   "value":$("body").data("lang-url")
+               });
+
+               $("#spco-registration-payment_options-frm").prepend($inputLangUrl, $inputSiteUrl);
+            }
 		},
 
 		translate: function()
