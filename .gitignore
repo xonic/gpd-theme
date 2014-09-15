@@ -2,7 +2,7 @@
 *-build/
 *.sass-cache/
 plugins/
-!plugins/event-espresso-core-reg
+!plugins/event-espresso-core-reg/
 upgrade/
 uploads/*
 !uploads/espresso/
