@@ -1,5 +1,6 @@
 <h2 class="section-heading display-box-heading">
-	<?php _e('Payment Overview', 'event_espresso'); ?>
+	<?php $GLOBALS['locale'] = $_POST['locale'];
+    _e('Payment Overview', 'event_espresso'); ?>
 </h2>
 <?php  do_action( 'AHEE__thank_you_page_payment_details_template__after_heading' ); ?>
 

@@ -1,5 +1,11 @@
-<h3><?php _e('Transaction Details', 'event_espresso'); ?></h3>
-<?php  do_action( 'AHEE__thank_you_page_transaction_details_template__after_heading' ); ?>
+<h3><?php
+    $GLOBALS['locale'] = $_POST['locale'];
+    $GLOBALS['current_lang'] = 'it';
+    _e('Transaction Details', 'event_espresso'); ?></h3>
+
+<?php
+    do_action( 'AHEE__thank_you_page_transaction_details_template__after_heading' );
+?>
 
 <div id="espresso-thank-you-page-transaction-details-dv">
 	<table class='ee-table'>

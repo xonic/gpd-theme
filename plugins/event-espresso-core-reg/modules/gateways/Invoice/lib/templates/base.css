@@ -8,6 +8,9 @@ ul, ul li, p, div, ol {margin:0;padding:0;list-style:none;}
 
 
 .print_button_div{
+    /* INSERT TOM START */
+    display:none;
+    /* INSERT TOM END   */
 	margin: 0 12pt;
 	width:660px;
 	padding: 10px;

@@ -361,6 +361,17 @@ class EES_Espresso_Thank_You  extends EES_Shortcode {
 				);
 				return $response;
 			}
+            // -------------- INSERT TOM START --------------
+            $current_lang = $data['espresso_thank_you_page']['current_lang'];
+            $GLOBALS['locale'] = $current_lang;
+            $GLOBALS['q_config']['language'] = explode("-", $current_lang)[0];
+//
+//            //unset($GLOBALS['l10n']);
+//            load_plugin_textdomain('event-espresso', false, 'event-espresso-core-reg/languages');
+
+
+            // -------------- INSERT TOM END ----------------
+
 			// kk heartbeat has our data
 			$response['espresso_thank_you_page'] = array();
 			// set defs, instantiate the thank you page class, and get the ball rolling

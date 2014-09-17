@@ -16,17 +16,17 @@ jQuery(document).ready(function($) {
 	}
 
 	var eeThnx = {
-
 		// set current TXN's status
 		prev_txn_status: '',
 		// data object sent from the server
 		data: [],
-		// JSON array  of data to be sent to the server when polling
+	    // JSON array  of data to be sent to the server when polling
 		return : {
 			'e_reg_url_link' : eei18n.e_reg_url_link,
 			'initial_access' : eei18n.initial_access,
 			'txn_status' : this.prev_txn_status,
-			'get_payments_since' : 0
+			'get_payments_since' : 0,
+            'current_lang':$("html").attr("lang")
 		},
 		// ajax loading animation
 		spinner: '',

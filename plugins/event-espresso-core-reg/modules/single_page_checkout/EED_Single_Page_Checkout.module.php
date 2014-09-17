@@ -1691,7 +1691,6 @@ class EED_Single_Page_Checkout  extends EED_Module {
 				$response = EE_Registry::instance()->load_model( 'Gateways' )->process_payment_start( $this->_cart->get_grand_total(), $this->_transaction );
 
                 // --------- INSERT TOM START ---------
-                $tmp =  $GLOBALS['current_lang'];
                 $siteUrl = $_POST['spco-site-url'];
                 $langUrl = $_POST['spco-lang-url'];
                 $newURL = str_replace($siteUrl, $langUrl, $response['forward_url']);
