@@ -9,7 +9,7 @@
  * @since GP Dolomiti 1.0
  */
 ?>
-			
+
 			<section class="newsletter section--dark">
 				<div class="grid">
 					<h1 class="section__title section__title--emphasized">
@@ -30,7 +30,7 @@
 					?>
 				</div>
 			</section>
-		
+
 			<footer class="impressum section">
 				<div class="grid">
 
@@ -44,7 +44,7 @@
 
 						<div class="l-organizer">
 							<div class="polaroid">
-								<img src="<? echo get_template_directory_uri() . '/images/veteran.jpg' ?>" alt="Veteran Car Team Logo">
+								<img src="<? echo get_template_directory_uri() . '/images/veteran-asi.jpg' ?>" alt="Veteran Car Team Logo">
 							</div>
 						</div>
 
@@ -113,7 +113,7 @@
 		// 	require(['<? echo $jsDir . $currentPage . ".js" ?>']);
 		// });
 	</script>
-	
+
 
 <?php wp_footer(); ?>
 

@@ -10,7 +10,7 @@
  */
 ?>
 
-		
+
 			<footer class="impressum section">
 				<div class="grid">
 
@@ -24,7 +24,7 @@
 
 						<div class="l-organizer">
 							<div class="polaroid">
-								<img src="<? echo get_template_directory_uri() . '/images/veteran.jpg' ?>" alt="Veteran Car Team Logo">
+								<img src="<? echo get_template_directory_uri() . '/images/veteran-asi.jpg' ?>" alt="Veteran Car Team Logo">
 							</div>
 						</div>
 
@@ -81,10 +81,10 @@
 				}
 			}
 		});
-		
+
 		require(['<?php echo get_template_directory_uri(); ?>/js/common.js']);
 	</script>
-	
+
 
 <?php wp_footer(); ?>
 
