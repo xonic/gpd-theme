@@ -22,7 +22,7 @@
 			float:none;
 			position:absolute;
 			@include rem(top, 3.6);
-			@include rem(right, 15.4);
+			@include rem(right, 19.4);
 			z-index:901;
 			// @include rem(padding, 0 $r-grid-padding);
 			// background:rgba($white,.5);
@@ -32,12 +32,12 @@
 	}
 
 	#ie7 .lang,
-	#ie8 .lang 
+	#ie8 .lang
 	{
 		background:$blackSand;
 
-		a 
-		{ 
+		a
+		{
 			color:rgba($white, .7);
 
 			&:hover
@@ -51,7 +51,7 @@
 
 	[class^="lang-"]
 	{
-		a 
+		a
 		{
 			color:rgba($white, .6);
 			border:0 none;
@@ -91,7 +91,7 @@
 	{
 		[class^="lang-"]
 		{
-			a 
+			a
 			{
 				color:rgba($blackSand, .6);
 			}

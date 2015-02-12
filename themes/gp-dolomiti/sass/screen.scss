@@ -7,7 +7,7 @@
 
 //  = IMPORTS
 //  ---------------------------------------------------------------------------
-	
+
 	// Reset
 	@import "normalize";
 
@@ -15,7 +15,7 @@
 	@import "compass";
 
 	// Susy grid framework
-	@import "susy";
+	@import "susyone";
 
 	// Variables & mixins
 	@import "imports/mixins";
@@ -30,14 +30,16 @@
 	@import "imports/patterns/media";
 	@import "imports/patterns/global-states";
 	@import "imports/patterns/style";
+	@import "imports/patterns/clearfix";
 	// @import "imports/patterns/font-awesome";
-	
+
 
 	// Basic settings & vertical rhythm
 	@import "imports/base/typography";
 	@import "imports/base/images";
 
 	// Modules
+	@import "imports/modules/box";
 	@import "imports/modules/collapsible";
 	@import "imports/modules/button";
 	@import "imports/modules/forms";
@@ -50,4 +52,3 @@
 	@import "imports/modules/newsletter";
 	@import "imports/modules/impressum";
 	@import "imports/modules/organizer";
-
