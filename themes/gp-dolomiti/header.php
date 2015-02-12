@@ -116,7 +116,7 @@
 						<? if($currentPage === 'register-success') { ?>
 							<div class="branding__tagline"><? _e('<!--:en-->Thank You!<!--:--><!--:de-->Vielen Dank!<!--:--><!--:it-->Grazie mille!<!--:--><!--:fr-->Merci beaucoup!<!--:-->'); ?></div>
 						<? } else { ?>
-							<div class="branding__subtagline"><? _e('<!--:en-->South Tyrolean<!--:--><!--:de-->Südtirols neue<!--:--><!--:it-->La nuova<!--:--><!--:fr-->Le nouveau<!--:-->'); ?></div>
+							<div class="branding__subtagline"><? _e('<!--:en-->South Tyrolean<!--:--><!--:de-->Südtirols neue<!--:--><!--:it-->Il nuovo<!--:--><!--:fr-->Le nouveau<!--:-->'); ?></div>
 							<div class="branding__tagline"><? _e('<!--:en-->Oldtimer Rallye<!--:--><!--:de-->Oldtimer Rallye<!--:--><!--:it-->Oldtimer Rallye<!--:--><!--:fr-->Oldtimer Rallye<!--:-->'); ?></div>
 						<? } ?>
 					</h1>
