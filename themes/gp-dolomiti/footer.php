@@ -44,7 +44,7 @@
 
 						<div class="l-organizer">
 							<div class="polaroid">
-								<img src="<? echo get_template_directory_uri() . '/images/veteran-asi.jpg' ?>" alt="Veteran Car Team Logo">
+								<img src="<? echo get_template_directory_uri() . '/images/veteran-asi.png' ?>" alt="Veteran Car Team Logo">
 							</div>
 						</div>
 
